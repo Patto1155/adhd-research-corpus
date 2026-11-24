@@ -1,0 +1,48 @@
+# Why can't I plan, remember what I was doing, or just get started?
+
+> **Short answer:** These are executive functions: the mental skills for holding information in mind, stopping an action, switching tasks and planning. On average, people with ADHD score lower on tests of these skills, by a medium amount. But many people with ADHD score normally on tests and still struggle badly in daily life, because lab tests and everyday life measure different things. Executive difficulties are a common part of ADHD, not the whole of it.
+
+## What the evidence shows
+
+**Medium average differences on executive tests.** A meta-analysis of 83 studies (about 3,700 people with ADHD and 3,000 without, mostly children) found weaker average performance across executive tasks [1]. Effect sizes were *d* = 0.46 to 0.69, meaning the two groups' scores still overlap by roughly 73–82%. <!-- CHECK: overlap computed by writer as OVL = 2Φ(−d/2): 0.46 → 81.8%, 0.69 → 73.0%. --> The clearest differences were in:
+
+- **response inhibition**: stopping an action that has already started;
+- **vigilance**: keeping attention on a dull task;
+- **working memory**: holding and using information over a few seconds, like a phone number while you dial it;
+- **planning**: organising steps towards a goal.
+
+These differences held in clinic and community samples, and were not explained by IQ, school achievement or other conditions [1].
+
+**Adults show similar-sized differences, not only on executive tasks.** A meta-analysis of 13 studies in adults found medium effects for verbal fluency (*d* = 0.62), inhibition (*d* = 0.64 and 0.89) and set shifting (*d* = 0.65) [2]. Adults with ADHD also differed by similar amounts on *non*-executive measures, such as consistency of responding (*d* = 0.57) and speed of naming colours (*d* = 0.62). The authors concluded that adult difficulties are not confined to executive function [2].
+
+**Weaknesses are "neither necessary nor sufficient".** Because the effects are medium rather than large, and because many people with ADHD perform normally, the authors of the large meta-analysis concluded that executive weaknesses do not cause all ADHD [1]. See [why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md).
+
+**Tests and daily life barely agree.** A review of 20 studies compared lab tests of executive function with questionnaires about executive problems in everyday life [3]. Only 24% of 286 correlations were statistically significant, and the median correlation was 0.19, which is weak. The authors concluded the two measure different things: tests capture how efficiently you process information in a quiet, structured room with an examiner prompting you, while ratings capture how you pursue goals in messy real settings [3]. This is one reason people with ADHD can "test fine" yet struggle with bills, deadlines and housework.
+
+**Genetic risk for ADHD is linked to executive performance.** In the largest genetic study, common-variant risk for ADHD was associated with weaker complex thinking, such as verbal reasoning, and with a range of executive functions including attention [4]. This links the genetics to the thinking differences, at population level.
+
+## What is uncertain or debated
+
+- **Which comes first.** It is unclear whether executive difficulties cause the other symptoms, are one route among several, or are a shared consequence of something more basic, such as variable attention or motivation.
+- **Motivation and effort matter.** Test performance in ADHD can shift with reward and interest, which complicates the idea of a fixed "deficit". See [time, waiting and rewards](time-waiting-and-rewards.md).
+- **Specificity.** Executive weaknesses are also found in many other conditions, including depression, anxiety and autism, so they do not identify ADHD.
+- **Children's data applied to adults.** Most studies are in children. The adult meta-analysis is older and smaller (13 studies) [2].
+- **"Executive dysfunction" in popular use** often describes a feeling of being unable to start a task. That experience is common in ADHD, but it is not what the lab tests above measure, and it has not been studied as a defined construct.
+
+## What this means for you
+
+If you struggle to start, organise and finish, that is consistent with what ADHD research finds on average, and it is not a character flaw or a lack of effort. If a neuropsychological test came back normal, that does not mean your difficulties are imagined; the tests and real life measure different things. It also means that test scores alone cannot confirm or exclude ADHD.
+
+## Related pages
+
+- [Why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
+- [Attention, regulation and hyperfocus](attention-regulation-and-hyperfocus.md)
+- [Time, waiting and rewards](time-waiting-and-rewards.md)
+- [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
+
+## Sources
+
+1. Willcutt EG, Doyle AE, Nigg JT, et al. Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. *Biological Psychiatry*. 2005;57(11):1336–1346. PMID 15950006. — **Evidence: Strong**: meta-analysis of 83 studies, mostly children.
+2. Boonstra AM, Oosterlaan J, Sergeant JA, Buitelaar JK. Executive functioning in adult ADHD: a meta-analytic review. *Psychological Medicine*. 2005;35(8):1097–1108. — **Evidence: Moderate**: meta-analysis of 13 adult studies.
+3. Toplak ME, West RF, Stanovich KE. Practitioner review: do performance-based measures and ratings of executive function assess the same construct? *Journal of Child Psychology and Psychiatry*. 2013;54(2):131–143. DOI 10.1111/jcpp.12001. — **Evidence: Moderate**: review of 20 studies. <!-- CHECK: volume, issue and pages from memory; DOI seen on an index listing. -->
+4. Demontis D, Walters GB, Athanasiadis G, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. *Nature Genetics*. 2023;55:198–208. DOI 10.1038/s41588-022-01285-8. — **Evidence: Strong**: GWAS meta-analysis.
