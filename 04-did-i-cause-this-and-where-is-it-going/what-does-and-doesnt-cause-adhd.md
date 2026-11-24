@@ -16,7 +16,7 @@ A **sibling comparison** (or sibling-control design) gets around much of this. I
 
 **Paracetamol in pregnancy: no link once families are accounted for.** Among 2.48 million Swedish children, 2.87% of those exposed to paracetamol before birth had an ADHD diagnosis by age 10, against 2.46% of those not exposed [3]. In sibling comparisons the hazard ratio was 0.98, meaning no difference [3]. A 2025 umbrella review in the *BMJ* found that earlier reviews reporting a link were of low to critically low quality [4]. A 2026 meta-analysis using only sibling-comparison studies found no association (odds ratio 0.95) [5]. In September 2025, US health authorities announced label changes for paracetamol citing a possible link, and these later reviews were published in response. <!-- CHECK: current status of the US label change; not confirmed this session -->
 
-**Parenting: the arrow often runs from child to parent.** Adoption studies can separate a parent's genes from their parenting, because adopted children do not share their adoptive parents' genes. In one, the birth mother's ADHD symptoms predicted the child's early impulsivity, which predicted harsher parenting by the adoptive mother, which then predicted the child's later ADHD symptoms [6]. In other words, a child's ADHD traits can draw out harsher parenting. Parenting still matters a great deal for how a child gets on, which is covered on [parenting and what helps](../07-for-parents-and-partners/parenting-and-what-helps.md).
+**Parenting: the arrow often runs from child to parent.** Adoption studies can separate a parent's genes from their parenting, because adopted children do not share their adoptive parents' genes. In one, the birth mother's ADHD symptoms predicted the child's early impulsivity, which predicted harsher parenting by the adoptive mother, which then predicted the child's later ADHD symptoms [6]. In other words, a child's ADHD traits can draw out harsher parenting. Parenting still matters a great deal for how a child gets on, which is covered on [parenting and what helps](../07-family-work-and-other-people/parenting-and-what-helps.md).
 
 **Sugar: no effect in blinded trials.** A 1995 meta-analysis of double-blind trials, in which neither children nor observers knew who had sugar, found no effect on behaviour or thinking [7]. <!-- CHECK: that all included trials were double-blind; search confirmed the conclusion, not the inclusion criteria --> The authors said a small effect, or an effect in a small subgroup, could not be ruled out [7]. Parents' expectations seem to shape what they see.
 
@@ -39,7 +39,7 @@ The evidence does not support the idea that a parent caused ADHD through how the
 
 - [Genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
 - [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
-- [Parenting and what helps](../07-for-parents-and-partners/parenting-and-what-helps.md)
+- [Parenting and what helps](../07-family-work-and-other-people/parenting-and-what-helps.md)
 - [Pregnancy and breastfeeding](../06-treatment-what-works/pregnancy-and-breastfeeding.md)
 
 ## Sources

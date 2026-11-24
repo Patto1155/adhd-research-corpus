@@ -31,7 +31,7 @@ If your emotions run hot and settle slowly, research on average supports that th
 
 - [Anxiety and depression](../05-what-often-comes-with-it/anxiety-and-depression.md)
 - [Will medication change me?](../06-treatment-what-works/will-medication-change-me.md)
-- [When your partner has ADHD](../07-for-parents-and-partners/when-your-partner-has-adhd.md)
+- [When your partner has ADHD](../07-family-work-and-other-people/when-your-partner-has-adhd.md)
 - [Myths and corrections](../08-reading-this-well/myths-and-corrections.md)
 
 ## Sources

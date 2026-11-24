@@ -29,7 +29,7 @@ A plain-language guide to the science of ADHD: genes, brain, chemistry, thinking
 | I was diagnosed as an adult. Was I a "real" case? | [Diagnosed as an adult](01-is-this-real/diagnosed-as-an-adult.md) |
 | Is medication changing my brain? | [Dopamine, noradrenaline and myths](02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md) |
 | Is medication safe in pregnancy or while breastfeeding? | [Pregnancy and breastfeeding](06-treatment-what-works/pregnancy-and-breastfeeding.md) |
-| My child or partner has ADHD. Where do I start? | [For parents and partners](07-for-parents-and-partners/README.md) |
+| My child or partner has ADHD. Where do I start? | [For parents and partners](07-family-work-and-other-people/README.md) |
 | I've heard a claim and want to know if it's true. | [Myths and corrections](08-reading-this-well/myths-and-corrections.md) |
 
 **If you are in crisis or thinking about suicide,** crisis lines for Australia, the UK, Ireland, the US, Canada, New Zealand and elsewhere are at the top of [not medical advice](08-reading-this-well/not-medical-advice.md).
@@ -42,7 +42,7 @@ A plain-language guide to the science of ADHD: genes, brain, chemistry, thinking
 4. [Did I cause this, and where is it going?](04-did-i-cause-this-and-where-is-it-going/README.md) Causes, how ADHD changes over life, hormones, and the hard statistics.
 5. [What often comes with it](05-what-often-comes-with-it/README.md) Anxiety, depression, autism, substance use, physical health, and lookalike conditions.
 6. [Treatment: what works](06-treatment-what-works/README.md) How medicines work, how well, their risks, and therapy and other approaches.
-7. [For parents and partners](07-for-parents-and-partners/README.md) ADHD in children and teenagers, children and medication, parenting, and partners.
+7. [For parents and partners](07-family-work-and-other-people/README.md) ADHD in children and teenagers, children and medication, parenting, and partners.
 8. [Reading this well](08-reading-this-well/README.md) How to read the evidence, myths, sources, the glossary, and what this corpus cannot do.
 
 ## How the pages work
