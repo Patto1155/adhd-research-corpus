@@ -35,7 +35,7 @@ The best evidence says the usual effect on emotions is steadier rather than dull
 
 ## Sources
 
-1. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *Eur Psychiatry*. 2017. — **Evidence: Moderate**, 9 trials. <!-- CHECK: journal, volume and DOI not confirmed (see same entry on how-well-medication-works.md) -->
+1. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *Eur Psychiatry*. 2017;44:198–207. DOI 10.1016/j.eurpsy.2017.05.021. PMID 28646732. — **Evidence: Moderate**, 9 trials.
 2. Pozzi M, et al. Adverse drug events related to mood and emotion in paediatric patients treated for ADHD: a meta-analysis. *J Affect Disord*. 2018;238:161–78. PMID 29883938. — **Evidence: Moderate**, 45 trials in children; authors note incomplete adverse-event reporting.
 3. Stuckelman ZD, et al. Risk of irritability with psychostimulant treatment in children with ADHD: a meta-analysis. *J Clin Psychiatry*. 2017;78(6):e648–55. — **Evidence: Moderate**, 32 trials, 3,664 children.
 4. Emotional dysregulation and stimulant medication in adult ADHD. *J Psychiatry Neurosci*. 2024. PMID 39122408. PMC11318975. — **Evidence: Limited**, single laboratory study. <!-- CHECK: first author not captured -->5. Singh I. Not robots: children's perspectives on authenticity, moral agency and stimulant drug treatments. *J Med Ethics*. 2013;39(6). — **Evidence: Limited**, qualitative interviews, 151 families, self-selected. <!-- CHECK: year (2012 report vs 2013 article) and page numbers -->

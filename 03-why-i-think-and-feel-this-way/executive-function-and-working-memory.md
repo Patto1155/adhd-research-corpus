@@ -42,7 +42,7 @@ If you struggle to start, organise and finish, that is consistent with what ADHD
 
 ## Sources
 
-1. Willcutt EG, et al. Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. *Biological Psychiatry*. 2005. PMID 15950006. — **Evidence: Strong**: meta-analysis of 83 studies, mostly children.
-2. Boonstra AM, Oosterlaan J, Sergeant JA, Buitelaar JK. Executive functioning in adult ADHD: a meta-analytic review. *Psychological Medicine*. 2005;35(8):1097–1108. — **Evidence: Moderate**: meta-analysis of 13 adult studies.
-3. Toplak ME, West RF, Stanovich KE. Practitioner review: do performance-based measures and ratings of executive function assess the same construct? *Journal of Child Psychology and Psychiatry*. 2013;54(2):131–143. DOI 10.1111/jcpp.12001. — **Evidence: Moderate**: review of 20 studies. <!-- CHECK: volume, issue and pages from memory; DOI seen on an index listing. -->
+1. Willcutt EG, et al. Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. *Biological Psychiatry*. 2005;57(11):1336–46. DOI 10.1016/j.biopsych.2005.02.006. PMID 15950006. — **Evidence: Strong**: meta-analysis of 83 studies, mostly children.
+2. Boonstra AM, et al. Executive functioning in adult ADHD: a meta-analytic review. *Psychological Medicine*. 2005;35(8):1097–108. DOI 10.1017/S003329170500499X. — **Evidence: Moderate**: meta-analysis of 13 adult studies.
+3. Toplak ME, et al. Practitioner review: do performance-based measures and ratings of executive function assess the same construct? *Journal of Child Psychology and Psychiatry*. 2013. DOI 10.1111/jcpp.12001. — **Evidence: Moderate**: review of 20 studies.
 4. Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. *Nature Genetics*. 2023. DOI 10.1038/s41588-022-01285-8. — **Evidence: Strong**: GWAS meta-analysis.

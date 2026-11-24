@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Boys are diagnosed more often in childhood.** In a meta-analysis of 86 child and adolescent studies, ADHD was more common in boys than girls [1]. A checked figure for the size of the ratio was not found, so none is quoted here. In adulthood the difference between sexes is smaller; the Dunedin birth cohort, for example, found adult ADHD roughly balanced between men and women [2]. <!-- CHECK: "gender balanced" adult prevalence is recalled from the Moffitt 2015 abstract; round-2 search confirmed the 6% "predominantly male" childhood figure but did not return the adult sentence -->
+**Boys are diagnosed more often in childhood.** In a meta-analysis of 86 child and adolescent studies, ADHD was more common in boys than girls [1]. A checked figure for the size of the ratio was not found, so none is quoted here. In adulthood the difference between sexes is smaller; the Dunedin birth cohort, for example, found adult ADHD roughly balanced between men and women [2].
 
 **Girls and women are diagnosed later.** In Stockholm County, among 85,330 people with ADHD, females were diagnosed about four years later than males on average [3]. Females also had more psychiatric diagnoses and more contact with health services *before* their ADHD diagnosis, which suggests they were seeking help for something but the ADHD was not recognised [3]. In a nationwide Danish cohort, new ADHD diagnoses peaked at age 8 in boys and at age 17 in girls [4].
 
