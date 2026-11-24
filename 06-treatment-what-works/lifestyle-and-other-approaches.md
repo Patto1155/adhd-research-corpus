@@ -1,28 +1,37 @@
-# Do neurofeedback, diet, supplements or exercise help ADHD?
+# Neurofeedback, diet, supplements, exercise: do they help ADHD?
 
-> **Short answer:** Most of these approaches look helpful when the people rating the results know who received them, and most of the apparent benefit shrinks or disappears when raters do not know. Neurofeedback shows essentially no effect on blinded symptom ratings. Omega-3 supplements and restriction diets show small effects at best, mostly in children. Exercise has modest, mostly short-term effects on attention and thinking, mainly in children. None has evidence comparable to medication or CBT.
+> **Short answer:** Mostly not on blinded measures: most look helpful when raters know who received them, and the benefit shrinks or disappears when raters do not. Neurofeedback shows essentially no blinded effect; omega-3 and restriction diets show small effects at best, mostly in children. Exercise has modest, mostly short-term effects, mainly in children. None matches the evidence for medication or CBT.
 
 ## Why blinding is the key question
 
 **The rater can create the result.** In a drug trial, a placebo pill hides who is getting the real treatment. For neurofeedback, special diets or exercise programs, the participant and their family nearly always know. If parents have invested time and money in a treatment, their ratings tend to improve whatever the treatment does.
 
-**Researchers therefore split the ratings.** A landmark 2013 meta-analysis compared ratings from people "most proximal" to treatment (usually parents, unblinded) with ratings from "probably blinded" assessors, such as teachers unaware of the treatment or observers [1]. With unblinded ratings, every dietary and psychological treatment looked effective. With probably blinded ratings, only free fatty acid supplements (SMD 0.16, a very small effect) and removal of artificial food colours (SMD 0.42, in children selected for suspected food sensitivity) remained statistically significant [1]. These findings are in children.
+**Researchers therefore split the ratings.** A landmark 2013 meta-analysis compared ratings from people "most proximal" to treatment (usually parents, unblinded) with ratings from "probably blinded" assessors, such as teachers unaware of the treatment or observers [1]. With unblinded ratings, every dietary and psychological treatment looked effective.
+
+With probably blinded ratings, only free fatty acid supplements (SMD 0.16, a very small effect) and removal of artificial food colours (SMD 0.42, in children selected for suspected food sensitivity) remained statistically significant [1]. These findings are in children.
 
 ## What the evidence shows
 
-**Neurofeedback: no meaningful effect when raters are blinded.** Neurofeedback trains people to change their own brain-wave patterns using real-time feedback from scalp sensors. A 2025 meta-analysis of 38 randomised trials (2,472 participants) found probably blinded ratings of ADHD symptoms showed no improvement (SMD 0.04, effectively zero; 20 trials) [2]. A small effect (SMD 0.21) appeared only in nine trials using well-established standard protocols [2]. The authors concluded that trials with probably blinded outcomes do not support neurofeedback as a stand-alone treatment for ADHD [2]. An earlier 2016 meta-analysis of 13 trials reached the same overall conclusion: effects were not significant on probably blinded ratings or against active or sham controls [3]. Neurofeedback is often expensive and time-consuming, so this result is directly relevant to readers weighing it.
+**Neurofeedback: no meaningful effect when raters are blinded.** Neurofeedback trains people to change their own brain-wave patterns using real-time feedback from scalp sensors. A 2025 meta-analysis of 38 randomised trials (2,472 participants) found probably blinded ratings of ADHD symptoms showed no improvement (SMD 0.04, effectively zero; 20 trials) [2]. A small effect (SMD 0.21) appeared only in nine trials using well-established standard protocols [2].
 
-**Omega-3 and other fatty acids: small or none.** An older meta-analysis of 10 trials (699 children) found omega-3 supplements had a small effect on children's ADHD symptoms (SMD 0.31), with higher doses of one fatty acid, EPA, linked to larger effects [4]. A 2023 Cochrane review of 37 trials found high-certainty evidence that fatty-acid supplements made no difference to parent-rated total symptoms compared with placebo over the medium term (SMD −0.08, 16 trials) [5]; a smaller, low-certainty analysis of three trials suggested some children may respond [5].
+The authors concluded that trials with probably blinded outcomes do not support neurofeedback as a stand-alone treatment for ADHD [2]. An earlier 2016 meta-analysis of 13 trials reached the same overall conclusion: effects were not significant on probably blinded ratings or against active or sham controls [3]. Neurofeedback is often expensive and time-consuming, so this result is directly relevant to readers weighing it.
 
-**Restriction diets and food colours: small effects in selected children.** Restriction diets (removing many foods, then reintroducing them) showed an average effect of about 0.29 in children [6]. For synthetic food colours, the parent-rated effect was small (about 0.18) and shrank to about 0.12 after adjusting for publication bias (the tendency for positive studies to be published more often); it was not reliable when teachers or observers did the rating [6]. The authors estimated that around 8% of children with ADHD may have symptoms related to synthetic food colours; that is an estimate for a subgroup of children with ADHD, not for children in general [6]. Sugar as a cause is covered on [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
+**Omega-3 and other fatty acids: small or no effect.** An older meta-analysis of 10 trials (699 children) found omega-3 supplements had a small effect on children's ADHD symptoms (SMD 0.31), with higher doses of one fatty acid, EPA, linked to larger effects [4]. A 2023 Cochrane review of 37 trials found high-certainty evidence that fatty-acid supplements made no difference to parent-rated total symptoms compared with placebo over the medium term (SMD −0.08, 16 trials) [5]. A smaller, low-certainty analysis of three trials suggested some children may respond [5].
+
+**Restriction diets and food colours: small effects in selected children.** Restriction diets (removing many foods, then reintroducing them) showed an average effect of about 0.29 in children [6]. For synthetic food colours, the parent-rated effect was small (about 0.18) and shrank to about 0.12 after adjusting for publication bias (the tendency for positive studies to be published more often); it was not reliable when teachers or observers did the rating [6].
+
+The authors estimated that around 8% of children with ADHD may have symptoms related to synthetic food colours; that is an estimate for a subgroup of children with ADHD, not for children in general [6]. Sugar as a cause is covered on [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
 
 **Exercise: modest, short-term, mostly in children.** In children, a 2015 meta-analysis of a small number of small trials reported moderate to large effects of aerobic exercise on attention, hyperactivity and impulsivity, and on executive function [7]. In adults, a 2024 systematic review, published as a conference abstract, found single bouts of exercise may have a small positive effect on thinking skills, with low certainty of evidence [8]. Exercise has other well-established health benefits; the question here is only whether it treats ADHD.
 
-**Mindfulness: small to moderate, larger against weak comparisons.** In a meta-analysis of 10 small studies in children and adults, mindfulness had small-to-moderate effects, most clearly on inattention [9]. The BMJ umbrella review found large effects of mindfulness in adults, but with low certainty [10]. The same review found large effects for acupuncture and CBT in children and adolescents, also at low certainty [10].
+**Mindfulness: small to moderate effects, at low certainty.** In a meta-analysis of 10 small studies in children and adults, mindfulness had small-to-moderate effects, most clearly on inattention [9]. The BMJ umbrella review found large effects of mindfulness in adults, but with low certainty [10]. The same review found large effects for acupuncture and CBT in children and adolescents, also at low certainty [10].
 
 ## What is uncertain or debated
 
-Many of these trials are small, short and run by groups who developed or promote the treatment. Adult data are scarce for almost everything on this page apart from neurofeedback and mindfulness. Blinded raters such as teachers see children in a different setting from parents, so a gap between ratings could sometimes reflect a real effect at home that teachers miss; this possibility is debated but untested in most trials. A treatment that improves sleep, fitness or mood can still be worth having for those reasons even if it does not reduce ADHD symptoms.
+- **Trial quality.** Many of these trials are small, short and run by groups who developed or promote the treatment.
+- **Adults.** Adult data are scarce for almost everything on this page apart from neurofeedback and mindfulness.
+- **What a gap between raters means.** Blinded raters such as teachers see children in a different setting from parents, so a gap between ratings could sometimes reflect a real effect at home that teachers miss. This possibility is debated but untested in most trials.
+- **Other benefits.** A treatment that improves sleep, fitness or mood can still be worth having for those reasons even if it does not reduce ADHD symptoms.
 
 ## What this means for you
 
@@ -30,10 +39,11 @@ When a product or program reports dramatic improvement, the useful question is w
 
 ## Related pages
 
-- [Therapy and skills](therapy-and-skills.md)
-- [How well medication works](how-well-medication-works.md)
+- [Therapy, coaching and skills training: do they work for ADHD?](therapy-and-skills.md)
+- [How well does ADHD medication work?](how-well-medication-works.md)
 - [Sleep and the body clock](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
-- [Myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [ADHD myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
 
@@ -47,3 +57,6 @@ When a product or program reports dramatic improvement, the useful question is w
 8. Hanbury-Brown C, et al. Exercise in adults with attention-deficit/hyperactivity disorder: a systematic review. *J Clin Exerc Physiol*. 2024 (conference abstract supplement). DOI 10.31189/2165-7629-13-s2.387. — **Evidence: Limited**, low certainty; conference abstract.
 9. Cairncross M, et al. The effectiveness of mindfulness-based therapies for ADHD: a meta-analytic review. *J Atten Disord*. 2020;24(5):627–43 (online 2016). DOI 10.1177/1087054715625301. — **Evidence: Limited to moderate**, 10 small studies.
 10. Gosling CJ, et al. Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making. *BMJ*. 2025;391:e085875. PMID 41297970. — **Evidence: Strong**, umbrella review.
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

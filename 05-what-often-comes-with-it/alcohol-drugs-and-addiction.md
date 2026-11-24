@@ -1,24 +1,28 @@
-# Does ADHD make addiction more likely, and do ADHD medicines make it worse?
+# Addiction and ADHD: is risk higher, and do medicines raise it?
 
-> **Short answer:** Yes, on average people with ADHD are more likely to smoke, to have problems with alcohol and to develop other substance use disorders, and about one in four people in addiction treatment has ADHD. Large studies do not find that prescribed ADHD medication raises this risk. Studies that compare the same people on and off medication find fewer substance-related problems during medicated periods. Misuse of prescription stimulants, and passing them to others, is a real and separate problem.
+> **Short answer:** Yes, on average people with ADHD are more likely to smoke and to develop alcohol and other substance problems. Large studies do not find that prescribed ADHD medication raises this risk, and medicated periods show fewer substance-related problems. Misuse of prescription stimulants, and passing them to others, is a real and separate problem.
 
 ## What the evidence shows
 
-**Children with ADHD are more likely to go on to smoke and drink heavily.** A meta-analysis of long-term follow-up studies found that children with ADHD had about 2.4 times the odds of later nicotine use (odds ratio 2.36) by middle adolescence and about 1.35 times the odds of an alcohol use disorder by young adulthood [1]. These two results held up best in checks; the result for other drugs depended heavily on a single study [1]. The figures come from children followed into adolescence and adulthood.
+**Children with ADHD are more likely to go on to smoke and drink heavily.** A meta-analysis of long-term follow-up studies found that children with ADHD had about 2.4 times the odds of later nicotine use (odds ratio 2.36) by middle adolescence, and about 1.35 times the odds of an alcohol use disorder by young adulthood [1]. These two results held up best in checks; the result for other drugs depended heavily on a single study [1]. The figures come from children followed into adolescence and adulthood.
 
 **In adults, substance use disorders are several times more common.** A 2023 review of large studies (more than 10,000 people each) found adults with ADHD had about 4.6 times the odds of a substance use disorder compared with adults without ADHD [2]. Substance use disorders were more common in men, as they are in the general population [2]. A pooled absolute lifetime risk was not reported in the sources checked for this page, so it is not possible to say here what share of adults with ADHD develop one.
 
-**ADHD is common among people in addiction treatment.** Across studies of people being treated for a substance use disorder, about 23% had ADHD [3]. Because ADHD can be hard to assess during heavy substance use or withdrawal, specialist assessment is usually needed in this group.
+**About one in four people in addiction treatment has ADHD.** Across studies of people being treated for a substance use disorder, about 23% had ADHD [3]. Because ADHD can be hard to assess during heavy substance use or withdrawal, specialist assessment is usually needed in this group.
 
-**Medication taken as prescribed has not been found to raise later addiction risk.** A 2013 meta-analysis of 15 long-term studies found that children treated with stimulants were no more and no less likely to develop substance problems later than those who were not [4]. A Swedish registry study found that people prescribed stimulants in 2006 had a 31% lower rate of substance-related hospital visits, crime or death in 2009 [5].
+**Prescribed medication has not been found to raise later addiction risk.** A 2013 meta-analysis of 15 long-term studies found that children treated with stimulants were no more and no less likely to develop substance problems later than those who were not [4]. A Swedish registry study found that people prescribed stimulants in 2006 had a 31% lower rate of substance-related hospital visits, crime or death in 2009 [5].
 
-**Within the same person, medicated months had fewer substance-related problems.** In US insurance data on nearly 3 million adolescents and adults with ADHD, the odds of a substance-related event, such as an emergency department visit, were 35% lower for men and 31% lower for women in months on medication than in months off it [6]. Two years later, the reduction was 19% for men and 14% for women [6]. A 2025 Swedish study comparing people who did and did not start medication found a 15% lower rate of substance misuse over two years [7]. Comparing a person with themselves removes fixed differences between people, such as genes and upbringing, though not things that change over time. The authors of [6] warned that this does not show ADHD medication treats substance problems. The design is explained on [what registries show](../06-treatment-what-works/what-registries-show.md).
+**Within the same person, medicated months had fewer substance-related problems.** In US insurance data on nearly 3 million adolescents and adults with ADHD, the odds of a substance-related event, such as an emergency department visit, were 35% lower for men and 31% lower for women in months on medication than in months off it [6]. Two years later, the reduction was 19% for men and 14% for women [6]. A 2025 Swedish study comparing people who did and did not start medication found a 15% lower rate of substance misuse over two years [7].
 
-**Misuse and diversion are real.** A systematic review of 111 studies, mostly of college students, found that between 2% and 59% of people in different samples reported using prescription stimulants not as prescribed, and that reported rates of diversion (giving or selling prescribed stimulants to someone else) ranged from under 1% to 80% [8]. The ranges are wide because samples and questions differed. Most non-medical use was linked to no or minor medical effects, but serious harm, including death, has occurred, especially when tablets were crushed and snorted or injected rather than swallowed [8]. There was little evidence that stimulants improve grades in people without ADHD [8].
+Comparing a person with themselves removes fixed differences between people, such as genes and upbringing, though not things that change over time. The authors of [6] warned that this does not show ADHD medication treats substance problems. The design is explained on [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
+
+**Misuse and diversion of prescribed stimulants are real.** A systematic review of 111 studies, mostly of college students, found that between 2% and 59% of people in different samples reported using prescription stimulants not as prescribed [8]. Reported rates of diversion (giving or selling prescribed stimulants to someone else) ranged from under 1% to 80% [8]. The ranges are wide because samples and questions differed.
+
+Most non-medical use was linked to no or minor medical effects, but serious harm, including death, has occurred, especially when tablets were crushed and snorted or injected rather than swallowed [8]. There was little evidence that stimulants improve grades in people without ADHD [8].
 
 ## What is uncertain or debated
 
-- **Why the link exists.** Shared genetic influences, impulsivity, difficulty waiting for rewards, school exclusion and social factors probably all contribute. Genetic overlap with other conditions is described on [genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md). The popular idea that people with ADHD "self-medicate" is a hypothesis; no good test of it was found for this page.
+- **Why the link exists.** Shared genetic influences, impulsivity, difficulty waiting for rewards, school exclusion and social factors probably all contribute. The popular idea that people with ADHD "self-medicate" is a hypothesis; no good test of it was found for this page. Genetic overlap with other conditions is described on [genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md).
 - **Registry findings are observational.** Within-person comparisons are strong designs, but something else that changes at the same time as starting medication, such as a new job, more support, or a period of stability, could explain part of the difference.
 - **People with a current substance use disorder** are often excluded from medication trials, so evidence on treating ADHD in this group is thinner. This is specialist territory.
 - **Cannabis** is widely used by adults with ADHD, but a cannabis-specific pooled figure was not found in the sources checked.
@@ -27,14 +31,15 @@
 
 Having ADHD raises the average risk of problems with nicotine, alcohol and other drugs, and that is worth knowing about. The large studies do not support the fear that prescribed ADHD medication starts people down a path to addiction; if anything, medicated periods are associated with fewer substance problems. Decisions about medication, including when someone also has a substance use problem, are for you and a prescriber.
 
-If substance use is putting you at risk right now, the [not medical advice](../08-reading-this-well/not-medical-advice.md) page lists places to get help.
+If substance use is putting you at risk right now, places to get help are listed on the [not medical advice](../08-reading-this-well/not-medical-advice.md) page.
 
 ## Related pages
 
-- [What registries show](../06-treatment-what-works/what-registries-show.md)
-- [Medication safety](../06-treatment-what-works/medication-safety.md)
+- [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
+- [Is ADHD medication safe? Heart, growth, psychosis and misuse](../06-treatment-what-works/medication-safety.md)
 - [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
-- [Anxiety and depression](anxiety-and-depression.md)
+- [Anxiety and depression with ADHD: why are they so common?](anxiety-and-depression.md)
+- [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
 
@@ -46,3 +51,6 @@ If substance use is putting you at risk right now, the [not medical advice](../0
 6. Quinn PD, et al. ADHD medication and substance-related problems. *Am J Psychiatry*. 2017. PMID 28659039. — **Evidence: Strong**, within-person design in about 3 million people; observational.
 7. Zhang L, et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. *BMJ*. 2025;390:e083658. DOI 10.1136/bmj-2024-083658. — **Evidence: Moderate**, target-trial emulation in 148,581 people.
 8. Faraone SV, et al. Systematic review: nonmedical use of prescription stimulants: risk factors, outcomes, and risk reduction strategies. *J Am Acad Child Adolesc Psychiatry*. 2020. DOI 10.1016/j.jaac.2019.06.012. PMID 31326580. — **Evidence: Moderate**, systematic review of 111 studies, mostly student samples and self-report.
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

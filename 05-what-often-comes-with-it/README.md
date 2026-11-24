@@ -1,9 +1,11 @@
-# What often comes with it
+# What else often comes with ADHD?
 
-This folder answers which other conditions often occur alongside ADHD, why, and how they can be told apart from it.
+Which other conditions often occur alongside ADHD, why, and how they are told apart from it.
 
-- [Anxiety and depression](anxiety-and-depression.md): how much more common they are with ADHD, the genetic evidence that ADHD raises later depression risk, and why symptoms overlap.
-- [Autism and ADHD](autism-and-adhd.md): how often the two occur together, why both can now be diagnosed, and what they share.
-- [Alcohol, drugs and addiction](alcohol-drugs-and-addiction.md): the raised risk of substance problems, whether prescribed medication changes it, and stimulant misuse.
-- [Physical health](physical-health.md): links with sleep disorders, obesity, diabetes, blood pressure, injuries and other physical conditions.
-- [Is it ADHD or something else?](is-it-adhd-or-something-else.md): conditions that resemble or accompany ADHD, and why that overlap calls for a full assessment rather than a checklist.
+- [Anxiety and depression with ADHD: why are they so common?](anxiety-and-depression.md): how much more common, shared genes, overlapping symptoms.
+- [Autism and ADHD: can you have both?](autism-and-adhd.md): how often they co-occur, why both can be diagnosed.
+- [Addiction and ADHD: is risk higher, and do medicines raise it?](alcohol-drugs-and-addiction.md): substance risk, prescribed medication, stimulant misuse.
+- [Physical health problems and ADHD: is there a link?](physical-health.md): sleep, obesity, diabetes, blood pressure, injuries and more.
+- [Is it ADHD, or could it be something else?](is-it-adhd-or-something-else.md): lookalike conditions, and why assessment beats a checklist.
+
+[Back to all worries](../README.md#find-your-worry)

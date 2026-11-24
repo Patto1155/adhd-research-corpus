@@ -1,13 +1,13 @@
-# Which popular claims about ADHD are wrong, or only half right?
+# ADHD myths: which popular claims are wrong or half right?
 
-> **Short answer:** Many common claims about ADHD take a real finding and stretch it: a small group difference becomes "the ADHD brain", a modelled estimate becomes a fact about life expectancy, a doctor's term becomes a diagnosis. Others are simply not supported. This page lists the claims readers meet most often, what the evidence actually supports, and where to read the detail. The numbers live on the linked pages.
+> **Short answer:** Many popular claims about ADHD stretch a real finding too far, and some are simply unsupported. A small group difference becomes "the ADHD brain"; a modelled estimate becomes a fact about life expectancy. Each claim below has a short correction and a link to the page that holds the numbers.
 
-## The claims
+This page mentions claims about early death and dementia. The short answer above is the main point.
 
-### About whether ADHD is real
+## About whether ADHD is real
 
 **"ADHD is a fad, or overdiagnosed."**
-Partly true, depending on where you look. When the same diagnostic methods are used, the share of children with ADHD has not risen over three decades. Diagnoses have risen, and there is evidence of milder cases being included and of the youngest children in a class being diagnosed more often. Some places, such as English primary care, still diagnose fewer adults than expected. The fairest summary is rising recognition, plus real noise in how diagnosis happens.
+Partly true, depending on where you look. When the same diagnostic methods are used, the share of children with ADHD has not risen over three decades, though diagnoses have, and there is evidence of milder cases being included and of the youngest children in a class being diagnosed more often. Some places, such as English primary care, still diagnose fewer adults than expected, so the fairest summary is rising recognition plus real noise in how diagnosis happens.
 → [More diagnoses than ever](../01-is-this-real/more-diagnoses-than-ever.md)
 
 **"Everyone's a little bit ADHD."**
@@ -26,7 +26,7 @@ Screening questionnaires flag people who may need assessment; they cannot diagno
 Neither is settled. Some studies found many adults with ADHD had no childhood diagnosis; closer re-checking found most of these had earlier symptoms that were missed, or another explanation. Whether ADHD can truly begin in adulthood is still open, and that question does not decide whether an adult's difficulties are real.
 → [Diagnosed as an adult](../01-is-this-real/diagnosed-as-an-adult.md)
 
-### About the brain
+## About the brain
 
 **"ADHD is a dopamine deficiency."**
 Dopamine and noradrenaline systems are involved, and ADHD medicines act on them. Brain-scan studies of dopamine give inconsistent results, there is no test of a "dopamine level", and genetics points to many pathways. "Low dopamine" is a simplification, not an established cause.
@@ -41,13 +41,13 @@ Group differences in brain size are very small, and people with and without ADHD
 → [Brain structure and development](../02-whats-happening-in-my-brain/brain-structure-and-development.md)
 
 **"If a stimulant helps you focus, you must have ADHD."**
-Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. In small experiments from 1978 and 1980, a single dose of dextroamphetamine reduced activity and improved vigilance in boys without ADHD, and acted similarly in boys with ADHD and in adult men [5][6].
+Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. In a small 1980 double-blind study, a single dose of dextroamphetamine reduced activity and improved vigilance in boys without ADHD, and acted similarly in boys with ADHD and in adult men [5].
 → [How ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md)
 
-### About thinking and feeling
+## About thinking and feeling
 
 **"Rejection sensitive dysphoria is a core ADHD symptom."**
-Strong emotional reactions are common in ADHD and well documented. "Rejection sensitive dysphoria" is a term from clinical practice; it is not in any diagnostic manual and has very little research behind it. The experience it names is real for many people. Whether it is part of ADHD itself is unknown.
+Strong emotional reactions are common in ADHD and well documented. "Rejection sensitive dysphoria" (RSD) is a term from clinical practice that is not in any diagnostic manual, and no validated questionnaire and no systematic review of RSD in ADHD was found (a 2026 scoping review covers RSD in autistic adults). The experience it names is real for many people, but whether it is part of ADHD itself is unknown.
 → [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
 
 **"Hyperfocus is the ADHD superpower."**
@@ -58,31 +58,31 @@ Many people with ADHD describe periods of intense absorption, but the research i
 On average, people with ADHD judge and estimate time less accurately, and the differences are real at group level. "Blindness" is a metaphor; it overstates how large the differences are.
 → [Time, waiting and rewards](../03-why-i-think-and-feel-this-way/time-waiting-and-rewards.md)
 
-### About causes
+## About causes
 
 **"Bad parenting causes ADHD."**
-Twin studies find almost no effect of the shared family environment on whether someone has ADHD. Parenting can shape how things go, not whether ADHD is there.
+On current evidence, parenting style does not appear to cause ADHD, which arises mostly from many small inherited genetic differences. Adoption research suggests the arrow often runs the other way: a child's ADHD traits can draw out harsher parenting. Parenting can shape how things go, not whether ADHD is there.
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
 **"Sugar, screens, paracetamol or smoking in pregnancy cause ADHD."**
 Double-blind trials have not found that sugar changes children's behaviour [1]. The links with paracetamol and smoking in pregnancy largely disappear when siblings are compared, which points to shared family factors. Screens are linked with ADHD symptoms, but which causes which is unclear.
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
-### About the future
+## About the future
 
 **"People with ADHD die 13 years earlier."**
 This figure is a model-based estimate from one group of 158 children, mostly boys, from Milwaukee in the United States, put through a life-expectancy calculator [2]. It is not a count of deaths. Studies of actual deaths among diagnosed adults find a smaller and still uncertain gap, much of it from accidents and other risks that can change.
 → [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 
 **"ADHD causes dementia."**
-Several large studies of health records, from Israel and Sweden among others, find that people with ADHD are diagnosed with dementia more often later in life. The link is much weaker than headlines suggest: in the largest study it weakened considerably once other psychiatric conditions were taken into account, and a systematic review found the studies too varied to combine. Early dementia can also be mistaken for late-appearing ADHD. None of this shows that ADHD causes dementia.
+Several large studies of health records, from Israel and Sweden among others, find that people with ADHD are diagnosed with dementia more often later in life. The link is much weaker than headlines suggest: in the largest study it weakened considerably once other psychiatric conditions were taken into account, a systematic review found the studies too varied to combine, and early dementia can be mistaken for late-appearing ADHD. None of this shows that ADHD causes dementia.
 → [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 
 **"ADHD always gets worse at menopause."**
-Many women report this, and hormone effects are plausible, but there is almost no research on it yet.
+Many women report this, and hormone effects are plausible, but research on menopause itself has only just begun. Two 2025 surveys compared women with and without ADHD in midlife and reached different answers, and neither followed the same women through the transition.
 → [Hormones, cycles and menopause](../04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
 
-### About treatment
+## About treatment
 
 **"Stimulants lead to addiction."**
 Studies that compare people with themselves on and off medication find fewer substance-related problems during medicated periods. Misuse and passing medicine to others are real, separate problems.
@@ -101,12 +101,14 @@ When symptom ratings are made by people who do not know who got the treatment, n
 → [Lifestyle and other approaches](../06-treatment-what-works/lifestyle-and-other-approaches.md)
 
 **"Either ADHD is a disorder, or it's just a difference (neurodiversity)."**
-These views are not mutually exclusive. Some researchers argue for combining a neurodiversity view with clinical care, because diagnosis and treatment help many people. This corpus presents the evidence without choosing between them.
+These views are not mutually exclusive. Some researchers argue for combining a neurodiversity view with clinical care, because diagnosis and treatment help many people [4]. These pages present the evidence without choosing between them.
 → [What ADHD is](../01-is-this-real/what-adhd-is.md)
 
 ## What is uncertain or debated
 
-Several corrections above are themselves provisional. Overdiagnosis, adult onset, and how much to trust the medication evidence are live debates among researchers, and the linked pages give both sides. A claim being unsupported means the evidence was not found, not that it has been disproved; rejection sensitivity and menopause are areas where good research may change the picture.
+Several corrections above are themselves provisional. Overdiagnosis, adult onset, and how much to trust the medication evidence are live debates among researchers, and the linked pages give both sides.
+
+A claim being unsupported means the evidence was not found, not that it has been disproved. Rejection sensitivity and menopause are areas where good research may change the picture.
 
 ## What this means for you
 
@@ -114,17 +116,20 @@ If a claim has worried or reassured you, the linked page gives the numbers, who 
 
 ## Related pages
 
-- [How to read the evidence](how-to-read-the-evidence.md)
+- [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
 - [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
-- [Sources and guidelines](sources-and-guidelines.md)
+- [Where does the information on these pages come from?](sources-and-guidelines.md)
+- [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
 
 This page summarises; each linked page carries its own sources. Key sources for claims not given in full elsewhere:
 
 1. Wolraich ML, et al. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies from 16 reports; a small effect, or an effect in some children, could not be ruled out.
-2. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one clinical cohort of 158 children, mostly boys; no deaths counted. <!-- CHECK: volume, pages and DOI not found; journal and year from the author's own summaries only -->
-3. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading. <!-- CHECK: DOI/PMID not seen in search -->
-4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Moderate**, expert commentary.
-5. Rapoport JL, et al. Dextroamphetamine: cognitive and behavioral effects in normal prepubertal boys. *Science*. 1978;199(4328):560–3. DOI 10.1126/science.341313. — **Evidence: Limited**, single small experiment, one dose, boys only; abstract not read.
-6. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract. <!-- CHECK: DOI/PMID not seen in search -->
+2. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one clinical cohort of 158 children, mostly boys; no deaths counted. Journal and year are as given in the author's own summaries; volume, pages and DOI were not found.
+3. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading.
+4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited**, expert commentary.
+5. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract.
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

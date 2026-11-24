@@ -1,8 +1,13 @@
 # Did I cause this, and where is it going?
 
-This folder answers where ADHD comes from, how it changes across a lifetime, and what the frightening statistics about it actually mean.
+These pages cover where ADHD comes from, how it changes across a lifetime, and what the frightening statistics actually mean.
 
-- [What does and doesn't cause ADHD](what-does-and-doesnt-cause-adhd.md): genes, smoking and paracetamol in pregnancy, parenting, sugar, screens and preterm birth, and how sibling comparisons separate causes from coincidences.
-- [How ADHD changes over life](how-adhd-changes-over-life.md): how many children still have ADHD as adults, why symptoms often come and go, older adults, and the adult-onset debate.
-- [Hormones, cycles and menopause](hormones-cycles-and-menopause.md): what is known about the menstrual cycle, pregnancy and menopause, and exactly how little research there is.
-- [The hard statistics in context](the-hard-statistics-in-context.md): mortality, life expectancy, accidents, suicide and dementia, with absolute risks, where each figure came from, and which risks can change.
+- [What causes ADHD, and is it my fault or my parents'?](what-does-and-doesnt-cause-adhd.md): genes, pregnancy exposures, parenting, sugar, screens and preterm birth.
+- [ADHD over a lifetime: will it get better or worse as I age?](how-adhd-changes-over-life.md): persistence into adulthood, symptoms that come and go, adult onset.
+- [Do periods, pregnancy and menopause make ADHD worse?](hormones-cycles-and-menopause.md): the cycle, after birth and menopause, and how little research exists.
+- [Will ADHD shorten my life? The hard statistics in context](the-hard-statistics-in-context.md): death rates, life expectancy, accidents, suicide and dementia, with absolute risks.
+
+[Back to all worries](../README.md#find-your-worry)
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

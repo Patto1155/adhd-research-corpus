@@ -1,12 +1,14 @@
 # Is ADHD genetic, and will my children have it?
 
-> **Short answer:** ADHD is one of the most strongly inherited conditions in psychiatry. Twin studies put its heritability at about 74%, which means most of the *variation* in ADHD traits across a population is linked to genetic differences between people. It is caused by thousands of common genetic variants, each with a tiny effect, plus non-inherited factors. There is no single "ADHD gene" and no genetic test. Children of a parent with ADHD have a raised chance of ADHD, not a certainty.
+> **Short answer:** ADHD is among the most strongly inherited psychiatric conditions, and children of a parent with ADHD have a raised chance, not a certainty. Twin studies put heritability at about 74%: most of the *variation* in ADHD across a population links to genetic differences. Thousands of tiny-effect variants contribute; there is no "ADHD gene" and no genetic test.
 
 ## What the evidence shows
 
-**Twin studies: heritability of about 74%.** Heritability is the share of the differences between people in a population that is linked to genetic differences between them. Averaged across 37 twin studies, the heritability of ADHD or of its symptoms is about 74% [1]. The same review found that the environment family members share (the same home, parenting style or income) explains little of the variation [1]. A heritability of 74% does *not* mean that 74% of one person's ADHD comes from genes, and it does not mean ADHD is fixed or untouched by environment. It describes a population, not a person. [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md) explains this in more detail.
+**Twin studies: heritability of about 74%.** Heritability is the share of the differences between people in a population that is linked to genetic differences between them. Averaged across 37 twin studies, the heritability of ADHD or of its symptoms is about 74% [1].
 
-**Adult ADHD is just as heritable when it is measured well.** Early studies that asked adults to rate their own symptoms gave much lower heritability estimates. A Swedish national register study of twins used clinical diagnoses instead. Heritability was 0.88 overall and 0.72 in adults, and the authors concluded that the earlier low adult figures were mostly an artefact of self-rating [2].
+**Heritability describes a population, not a person.** A heritability of 74% does *not* mean that 74% of one person's ADHD comes from genes, and it does not mean ADHD is fixed or untouched by environment. ADHD is caused by thousands of common genetic variants, each with a tiny effect, plus non-inherited factors. [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md) explains heritability in more detail.
+
+**Adult ADHD is just as heritable when it is measured well.** Early studies that asked adults to rate their own symptoms gave much lower heritability estimates. A Swedish national register study of twins used clinical diagnoses instead: heritability was 0.88 overall and 0.72 in adults [2]. The authors concluded that the earlier low adult figures were mostly an artefact of self-rating [2].
 
 **Family risk rises with how closely related you are.** A Swedish register study followed 1,656,943 people born between 1985 and 2006 [3]. Compared with the relatives of people without ADHD, the chance of an ADHD diagnosis (measured as a hazard ratio, roughly "how many times more often, at any given time") was:
 
@@ -20,13 +22,17 @@
 | Full cousin | 2.24 |
 | Half cousin | 1.47 |
 
-The pattern tracks shared genes, with a small extra contribution from shared environment. ADHD that persisted into adulthood showed stronger family clustering: the hazard ratio for full siblings was 11.49 when the relative's ADHD continued past age 18, and 4.68 when it was diagnosed only in childhood [3]. These are relative figures: they say how much more often, not how many people. The abstract does not give absolute risks, and no checked absolute figure for how many siblings are diagnosed was found for this page, so none is given here. A raised relative risk is not a certainty. No checked figure was found specifically for children of an affected *parent* (rather than a sibling).
+The pattern tracks shared genes. ADHD that persisted into adulthood showed stronger family clustering: the hazard ratio for full siblings was 11.49 when the relative's ADHD continued past age 18, and 4.68 when it was diagnosed only in childhood [3].
 
-**Many genes, each with a tiny effect.** The largest genome-wide association study (GWAS: a scan of the whole genome comparing people with and without a condition) included 38,691 people with ADHD and 186,843 without. It found 27 regions of the genome and 76 candidate genes linked to ADHD [4]. These genes are expressed particularly during early brain development, and the risk is enriched in several types of brain cell, including midbrain dopamine neurons [4]. An estimated 84–98% of the variants that influence ADHD also influence other psychiatric conditions [4], which helps explain why ADHD so often comes with anxiety, depression or autism. About a third of ADHD's heritability is thought to come from this polygenic component of many common variants [1].
+**These are relative figures, not how many people.** The abstract does not give absolute risks, and no checked absolute figure for how many siblings are diagnosed was found for this page, so none is given here. A raised relative risk is not a certainty, and no checked figure was found specifically for children of an affected *parent* (rather than a sibling).
+
+**Many genes, each with a tiny effect.** The largest genome-wide association study (GWAS: a scan of the whole genome comparing people with and without a condition) included 38,691 people with ADHD and 186,843 without. It found 27 regions of the genome and 76 candidate genes linked to ADHD [4]. These genes are expressed particularly during early brain development, and the risk is enriched in several types of brain cell, including midbrain dopamine neurons [4].
+
+**Most of these variants are shared with other conditions.** An estimated 84–98% of the variants that influence ADHD also influence other psychiatric conditions [4], which helps explain why ADHD so often comes with anxiety, depression or autism. About a third of ADHD's heritability is thought to come from this polygenic component of many common variants [1].
 
 **Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 controls (0.156 vs 0.075 per person) [5]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
 
-**The old "dopamine genes" have small effects.** Before GWAS, research focused on single candidate genes such as the dopamine transporter gene (DAT1, also called SLC6A3) and the dopamine D4 receptor gene (DRD4). A 2009 meta-analysis found associations for these and several other genes, with significant variation between studies [6]. A checked figure for the size of each association was not found for this page. These genes are not tests and do not explain ADHD on their own.
+**The old "dopamine genes" have small effects.** Before GWAS, research focused on single candidate genes such as the dopamine transporter gene (DAT1, also called SLC6A3) and the dopamine D4 receptor gene (DRD4). A 2009 meta-analysis found associations for these and several other genes, with significant variation between studies [6]. A checked figure for the size of each association was not found for this page, and these genes are not tests and do not explain ADHD on their own.
 
 ## What is uncertain or debated
 
@@ -37,14 +43,17 @@ The pattern tracks shared genes, with a small extra contribution from shared env
 
 ## What this means for you
 
-If you have ADHD, there is a reasonable chance a close relative does too, and your children have a higher chance than average. Most of the genetic risk is spread thinly across thousands of common variants that everyone carries in some combination, so ADHD sits at one end of a range of traits found throughout the population. No genetic test can predict it, and heritability says nothing about blame. The evidence on pregnancy exposures and parenting is on [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
+If you have ADHD, there is a reasonable chance a close relative does too, and your children have a higher chance than average. Most of the genetic risk is spread thinly across thousands of common variants that everyone carries in some combination, so ADHD sits at one end of a range of traits found throughout the population.
+
+No genetic test can predict ADHD, and heritability says nothing about blame. The evidence on pregnancy exposures and parenting is in [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
 
 ## Related pages
 
 - [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
-- [Dopamine, noradrenaline and the myths](dopamine-noradrenaline-and-myths.md)
-- [Why no two ADHD brains are alike](why-no-two-adhd-brains-are-alike.md)
+- [Is ADHD caused by low dopamine?](dopamine-noradrenaline-and-myths.md)
+- [Why is my ADHD so different from someone else's?](why-no-two-adhd-brains-are-alike.md)
 - [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
 
@@ -54,3 +63,6 @@ If you have ADHD, there is a reasonable chance a close relative does too, and yo
 4. Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. *Nature Genetics*. 2023. DOI 10.1038/s41588-022-01285-8. — **Evidence: Strong**: GWAS meta-analysis, 38,691 cases and 186,843 controls.
 5. Williams NM, et al. Rare chromosomal deletions and duplications in attention-deficit hyperactivity disorder: a genome-wide analysis. *Lancet*. 2010. DOI 10.1016/S0140-6736(10)61109-9. PMID 20888040. — **Evidence: Moderate**: 366 cases and 1,047 controls, Icelandic replication of a 16p13.11 finding.
 6. Gizer IR, et al. Candidate gene studies of ADHD: a meta-analytic review. *Human Genetics*. 2009. DOI 10.1007/s00439-009-0694-x. PMID 19506906. — **Evidence: Moderate**: meta-analysis of candidate-gene studies, with high heterogeneity.
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

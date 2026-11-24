@@ -1,6 +1,10 @@
-# What do the technical terms on these pages mean?
+# ADHD terms explained: what do the technical words mean?
 
-> **Short answer:** This is an alphabetical list of the terms you will meet across the corpus, each explained in one to three sentences. Pages define a term the first time they use it; this list is for when you have forgotten or want to check. For the ideas behind effect sizes, heritability and risk, see [how to read the evidence](how-to-read-the-evidence.md), which explains them with worked examples.
+> **Short answer:** This is an A to Z list of the technical terms used on these pages, each explained in one to three sentences. Pages define a term the first time they use it; this list is for when you have forgotten or want to check.
+
+For the ideas behind effect sizes, heritability and risk, with worked examples, see [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
+
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w)
 
 ## A
 
@@ -178,7 +182,7 @@
 
 **Rejection sensitivity.** A tendency to expect, notice and react strongly to rejection. It is studied in psychology across many conditions.
 
-**Rejection sensitive dysphoria (RSD).** A term from clinical practice for intense emotional pain after perceived rejection. It is not a recognised diagnosis and has little research behind it.
+**Rejection sensitive dysphoria (RSD).** A term from clinical practice for intense emotional pain after perceived rejection. It is not a recognised diagnosis, and no validated questionnaire and no systematic review of RSD in ADHD was found.
 
 **Relative age effect.** The finding that the youngest children in a school year are diagnosed with ADHD more often than the oldest.
 
@@ -230,6 +234,10 @@
 
 ## Related pages
 
-- [How to read the evidence](how-to-read-the-evidence.md)
-- [Myths and corrections](myths-and-corrections.md)
-- [Sources and guidelines](sources-and-guidelines.md)
+- [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
+- [ADHD myths: which popular claims are wrong or half right?](myths-and-corrections.md)
+- [Where does the information on these pages come from?](sources-and-guidelines.md)
+- [Back to all worries](../README.md#find-your-worry)
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)
