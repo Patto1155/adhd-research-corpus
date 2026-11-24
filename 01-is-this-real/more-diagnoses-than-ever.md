@@ -1,6 +1,6 @@
 # Why are ADHD diagnoses rising, and is it a fad?
 
-> **Short answer:** The share of children meeting ADHD criteria has not risen in three decades; diagnoses have, especially in adults and women since about 2020. Some is catching up on people who were missed; England's recorded rates are still below expected levels. Some is noise: the youngest children in a school year are diagnosed more often, and milder cases are being added.
+> **Short answer:** Studies over three decades found no rise in the share of children meeting ADHD criteria; diagnoses have risen, and press releases on an England study say especially since 2020, with recorded rates still below expected levels. Some reflects people once missed. Some is noise: the youngest in a class are diagnosed more often, and milder cases seem to be added.
 
 ## What the evidence shows
 
@@ -10,7 +10,7 @@
 
 **New diagnoses climbed steeply after 2020.** The England study shows the rise [2], but its yearly rates circulate only in press coverage, so they are not quoted here. The rise has been most marked in adults and women.
 
-**Relative age shows the process is noisy.** In US states where children start school if they turn five by 1 September, children born in August (the youngest in the class) were diagnosed at 85.1 per 10,000, against 63.6 per 10,000 for September-born children (the oldest) [3]. By our calculation from those published rates, that is about 34% higher in relative terms, or an extra 21 to 22 diagnoses per 10,000 children (about 0.2 percentage points) in absolute terms.
+**Relative age shows the process is noisy.** In US states where children start school if they turn five by 1 September, children born in August (the youngest in the class) were diagnosed at 85.1 per 10,000, against 63.6 per 10,000 for September-born children (the oldest) [3]. By our calculation from those published rates, that is about 34% higher in relative terms, or an extra 21 to 22 diagnoses per 10,000 children (about 0.2 percentage points) in absolute terms. The two rates were seen only in a secondary summary of the paper; the treatment figures in the paper's abstract are consistent with them.
 
 **The age gap points to immaturity, not to ADHD being unreal.** No such gap appeared in states with other cut-off dates, or for asthma or diabetes [3]. This suggests ordinary immaturity is sometimes read as ADHD in younger children. It does not show that ADHD is unreal.
 
@@ -50,7 +50,7 @@ If you are sceptical of the trend, the stable prevalence data are the best answe
 
 1. Polanczyk GV, et al. ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis. *International Journal of Epidemiology*. 2014. DOI 10.1093/ije/dyt261. — **Evidence: Strong**, worldwide meta-regression of community surveys.
 2. John A, et al. Attention-deficit/hyperactivity disorder in children and adults in England, 2000–2025: recorded prevalence and diagnostic trends in a population-based observational study using routinely collected primary care data. *Lancet Regional Health – Europe*. 2026. DOI 10.1016/j.lanepe.2026.101740. — **Evidence: Moderate**, GP-coded records (CPRD Aurum, 42 million patients for trends); coding may miss diagnoses. The 1.19% and 0.05% figures rest on the authors' institutions' press releases (King's College London, Anna Freud) and consistent press coverage; the abstract itself could not be reached, so these two figures have not been seen in the paper. Title confirmed from the Oxford University repository record.
-3. Layton TJ, et al. Attention deficit–hyperactivity disorder and month of school enrollment. *New England Journal of Medicine*. 2018. DOI 10.1056/NEJMoa1806828. — **Evidence: Strong**, natural experiment in about 407,000 insured US children.
+3. Layton TJ, et al. Attention deficit–hyperactivity disorder and month of school enrollment. *New England Journal of Medicine*. 2018. DOI 10.1056/NEJMoa1806828. — **Evidence: Moderate** as used here: a strong natural-experiment design in about 407,000 insured US children, but the two diagnosis rates quoted (85.1 and 63.6 per 10,000) were seen only in a secondary summary; the abstract's treatment figures are consistent with them.
 4. Kazda L, et al. Overdiagnosis of attention-deficit/hyperactivity disorder in children and adolescents: a systematic scoping review. *JAMA Network Open*. 2021. DOI 10.1001/jamanetworkopen.2021.5335. — **Evidence: Moderate**, scoping review of 334 studies; conclusion contested by some clinicians.
 
 ---

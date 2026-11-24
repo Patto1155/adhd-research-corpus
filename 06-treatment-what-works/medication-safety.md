@@ -1,12 +1,12 @@
 # Is ADHD medication safe? Heart, growth, psychosis and misuse
 
-> **Short answer:** Serious harms are uncommon, and common side effects (poorer appetite, trouble sleeping, small rises in blood pressure and heart rate) are usually mild. Long-term use is linked to modestly higher risk of high blood pressure and arterial disease, and slightly shorter adult height after years of childhood use. High-dose amphetamine carries a raised but still low absolute risk of psychosis.
+> **Short answer:** Serious harms are uncommon. Long-term use goes with higher odds of high blood pressure and arterial disease, of unknown absolute size. One follow-up linked consistent childhood use with about 2.5 cm less adult height; another found no difference. About 2 in 1,000 young people starting amphetamine developed psychosis; odds were higher at high doses, with no absolute figure found.
 
 This page discusses heart disease, psychosis and other serious-harm statistics. The short answer above is the main point.
 
 ## What the evidence shows
 
-**Common side effects are frequent and usually mild.** The Cochrane review of methylphenidate in children found higher rates of sleep problems and reduced appetite than placebo [1]. Its later versions (2023, and the December 2025 update) report that methylphenidate may increase non-serious adverse events such as sleep problems and decreased appetite [2]. In the 2025 update, non-serious adverse events were about 23% more common with methylphenidate than with placebo (risk ratio 1.23, 35 trials) [2].
+**Common side effects are frequent and mostly non-serious.** The Cochrane review of methylphenidate in children found higher rates of sleep problems and reduced appetite than placebo [1]. Its later versions (2023, and the December 2025 update) report that methylphenidate may increase non-serious adverse events such as sleep problems and decreased appetite [2]. In the 2025 update, non-serious adverse events were about 23% more common with methylphenidate than with placebo (risk ratio 1.23, 35 trials) [2].
 
 **No clear difference was found in serious adverse events.** The later Cochrane versions found no clear difference in serious adverse events between methylphenidate and placebo (risk ratio 0.80, with a wide range from 0.39 to 1.67, from 26 trials and 3,673 participants; this figure is from the 2025 update) [2]. The review authors rate this evidence very low certainty; why is explained on [How well does ADHD medication work?](how-well-medication-works.md)
 
@@ -26,7 +26,9 @@ Because the study is observational, people who stay on medication may differ in 
 
 **Psychosis is rare, and the signal is concentrated in amphetamines.** Among 13- to 25-year-olds in US insurance data starting a stimulant, new psychosis treated with an antipsychotic occurred in about 1 in 660 people overall: 0.10% of those starting methylphenidate and 0.21% of those starting amphetamine [7].
 
-A later case-control study of 16- to 35-year-olds admitted to one US psychiatric hospital found past-month prescription amphetamine use was associated with 2.7 times the odds of a first episode of psychosis or mania, rising to about 5.3 times at doses above 30 mg dextroamphetamine-equivalent; methylphenidate was not associated [8]. That study compared hospitalised patients with other patients, which can exaggerate associations. The dose threshold is that study's finding rather than a safety limit.
+A later case-control study of 16- to 35-year-olds admitted to one US psychiatric hospital found past-month prescription amphetamine use was associated with 2.7 times the odds of a first episode of psychosis or mania, rising to about 5.3 times at doses above 30 mg dextroamphetamine-equivalent; methylphenidate was not associated [8]. That study compared hospitalised patients with other patients, which can exaggerate associations. The dose threshold is that study's finding rather than a safety limit, and no absolute risk for high doses was found.
+
+If you or someone close to you has new, frightening changes in thinking or mood, there are urgent contacts on [if you need help now](../08-reading-this-well/not-medical-advice.md#if-you-need-help-now).
 
 **Misuse and diversion are real, separate problems.** Using someone else's stimulant, or one's own in ways not prescribed, is common in some groups. A systematic review of 111 studies found reported rates of non-medical use from 2% to 59% and of diversion (giving or selling) from under 1% to 80%, with most studies in college students and definitions varying widely [9]. A 2015 meta-analysis estimated about 17% of college students had misused stimulants, mainly for study [10].
 
@@ -54,8 +56,8 @@ Decisions about starting, changing or stopping medication belong in that convers
 
 ## Sources
 
-1. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database Syst Rev*. 2015. CD009885.pub2. PMID 26599576. — **Evidence: Strong** for common side effects.
-2. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database Syst Rev*. 2023 (CD009885.pub3, PMID 36971690) and 2025, Issue 12 (CD009885.pub4, DOI 10.1002/14651858.CD009885.pub4, PMID 41342306). — **Evidence: Moderate**, 26 trials for serious adverse events; rated very low certainty by authors. Serious and non-serious adverse event figures confirmed from the 2025 (pub4) abstract.
+1. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database Syst Rev*. 2015. CD009885.pub2. PMID 26599576. — **Evidence: Contested**, the effect size is consistent across reviews while its certainty rating is disputed.
+2. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database Syst Rev*. 2023 (CD009885.pub3, PMID 36971690) and 2025, Issue 12 (CD009885.pub4, DOI 10.1002/14651858.CD009885.pub4, PMID 41342306). — **Evidence: Contested**, the effect size is consistent across reviews while its certainty rating is disputed; 26 trials for serious adverse events, rated very low certainty by authors. Serious and non-serious adverse event figures confirmed from the 2025 (pub4) abstract.
 3. Farhat LC, et al. Comparative cardiovascular safety of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. *Lancet Psychiatry*. 2025;12(5):355–65. DOI 10.1016/S2215-0366(25)00062-8. PMID 40203844. — **Evidence: Moderate**, 102 short-term trials (median about 7 weeks); very low certainty for several adult estimates.
 4. Zhang L, et al. Attention-deficit/hyperactivity disorder medications and long-term risk of cardiovascular diseases. *JAMA Psychiatry*. 2024;81(2):178–87 (online November 2023). DOI 10.1001/jamapsychiatry.2023.4294. PMC10851097. — **Evidence: Moderate**, Swedish nested case-control, observational.
 5. Carucci S, et al. Long term methylphenidate exposure and growth in children and adolescents with ADHD: a systematic review and meta-analysis. *Neurosci Biobehav Rev*. 2021;120:509–25. DOI 10.1016/j.neubiorev.2020.09.031. — **Evidence: Moderate**, 18 observational studies.

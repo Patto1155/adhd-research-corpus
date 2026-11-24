@@ -18,7 +18,7 @@ The World Health Organization's ICD-11 also allows autism and ADHD to be diagnos
 
 Genome-wide studies also find that most ADHD-linked variants are shared with other conditions, including autism; see [genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md).
 
-**Some traits look alike for different reasons.** Difficulty paying attention in conversation, being overwhelmed by noise, social difficulties and intense focus on a topic can appear in both. In autism, inattention may come from sensory overload or from a topic not engaging the person; in ADHD it may come from difficulty holding attention at all.
+**Some traits look alike for different reasons.** Difficulty paying attention in conversation, being overwhelmed by noise, social difficulties and intense focus on a topic can appear in both. A common clinical description, not checked against a source for this page, is that in autism inattention may come from sensory overload or from a topic not engaging the person, while in ADHD it may come from difficulty holding attention at all.
 
 A careful assessment looks at whether ADHD-like traits are better explained by autism, or the reverse, and whether both are present. A review of the overlap concluded that the two share features but are distinct enough to warrant separate diagnoses [1].
 
@@ -32,7 +32,7 @@ A careful assessment looks at whether ADHD-like traits are better explained by a
 
 ## What this means for you
 
-If you have one diagnosis and recognise traits of the other, that is common and is a reasonable thing to raise at an assessment. Overlapping traits are also why an online checklist cannot tell the two apart. Many people find that understanding both helps explain experiences that neither diagnosis covered alone.
+If you have one diagnosis and recognise traits of the other, that is common and is a reasonable thing to raise at an assessment. Overlapping traits are also why an online checklist cannot tell the two apart. Some people find that understanding both helps explain experiences that neither diagnosis covered alone.
 
 ## Related pages
 

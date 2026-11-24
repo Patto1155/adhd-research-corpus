@@ -6,7 +6,7 @@
 
 **Relief and burden often arrive together.** A 2022 synthesis of 7 qualitative studies of adults diagnosed in adulthood found two main themes: ADHD as part of identity, and ADHD as a diagnosis [1]. Its subthemes included identity before and after diagnosis, an "unnecessary struggle" in the years before, and the diagnosis as both a revelation and a burden [1]. The authors concluded that delayed diagnosis caused avoidable suffering [1].
 
-**Many people rework how they see their past.** After diagnosis, many adults in these studies go on to rework how they understand their past and themselves.
+**Some people rework how they see their past.** In the synthesis above, identity before and after diagnosis was one of the recurring subthemes in adults' accounts [1]. How many people go through this was not measured.
 
 **A larger review exists, but its findings could not be checked.** A 2026 systematic review synthesised qualitative studies of adults who received an ADHD diagnosis in adulthood [2]. Its abstract could not be reached for this page, and the themes reported for it so far come only from magazine summaries, so they are not given here as its findings.
 
@@ -14,7 +14,7 @@
 
 **Doubt is reported, but has barely been studied directly.** The "am I making this up?" feeling appears in the Swedish interviews [3] and in broader reviews of adults' experience [4]. No study found for this page focused on self-doubt after diagnosis.
 
-**Some doubt may come from outside the person.** In a German study, the stereotype adults with ADHD most often perceived in the public was doubt that ADHD is a genuine disorder. That study is covered in [stigma and telling people](../07-family-work-and-other-people/stigma-and-telling-people.md).
+**Some doubt may come from outside the person.** In a German study of 104 adults with ADHD, the stereotype they most often perceived in the public was doubt that ADHD is a genuine disorder [11]. That study is covered in [stigma and telling people](../07-family-work-and-other-people/stigma-and-telling-people.md).
 
 **Identifying strongly with ADHD is not, on average, linked to better or worse mental health.** In a UK survey of 319 adults with ADHD, 77% preferred person-first wording ("person with ADHD"), and those who identified more strongly with ADHD were more likely to prefer identity-first wording ("ADHDer") and to take medication [5]. Contrary to the authors' prediction, strength of identification was not linked to self-esteem, anxiety or depression [5]. The survey was a single snapshot, so it cannot show cause and effect.
 
@@ -44,7 +44,7 @@
 
 ## What this means for you
 
-Feeling relieved, regretting lost years and doubting all in the same week is what adults describe in these studies, not a sign that something is wrong with the diagnosis or with you. Doubt about whether ADHD is "real" is also something the wider public expresses, and some of what feels like inner doubt may be absorbed from it.
+Feeling relieved, regretting lost years and doubting all in the same week is what adults describe in these studies, not a sign that something is wrong with the diagnosis or with you. Doubt about whether ADHD is "real" is also the attitude adults with ADHD most often notice in others, and some of what feels like inner doubt may be absorbed from it.
 
 How you come to describe ADHD to yourself, as a condition, a difference or both, is your own decision; the research describes the options without ranking them. If the grief becomes heavy or does not lift, [not medical advice](../08-reading-this-well/not-medical-advice.md) lists where to get support.
 
@@ -64,10 +64,11 @@ How you come to describe ADHD to yourself, as a condition, a difference or both,
 4. Ginapp CM, et al. The lived experiences of adults with attention-deficit/hyperactivity disorder: a rapid review of qualitative evidence. *Frontiers in Psychiatry*. 2022;13:949321. DOI 10.3389/fpsyt.2022.949321. — **Evidence: Moderate**, rapid review of 35 qualitative studies.
 5. Cooper, et al. Understanding ADHD identity and preferred terminology for adults with ADHD in the UK: associations with medication use, well-being and mental health. *British Journal of Psychiatry*. 2026. DOI 10.1192/bjp.2026.10652. — **Evidence: Limited**, cross-sectional survey of 319 adults. Journal confirmed from university repository records.
 6. Sedgwick JA, et al. The positive aspects of attention deficit hyperactivity disorder: a qualitative investigation of successful adults with ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*. 2019;11(3). DOI 10.1007/s12402-018-0277-6. — **Evidence: Limited**, 6 men from one London clinic.
-7. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited**, expert commentary.
+7. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited, expert commentary**.
 8. Urquhart, et al. "The refusal to fit into boxes": interview findings on ADHD and neurodiversity. *Canadian Journal of Disability Studies*. 2025;14(4). DOI 10.15353/cjds.v14i4.1300. — **Evidence: Limited**, single interview study; sample size and country not captured.
 9. Dew RE, et al. ADHD, religiosity, and psychiatric comorbidity in adolescence and adulthood. *Journal of Attention Disorders*. 2022;26(2):307–18. DOI 10.1177/1087054720972803. — **Evidence: Moderate**, >8,000 people across four waves of the US Add Health study; observational.
 10. Novis-Deutsch N, et al. Religiosity as a moderator of ADHD-related antisocial behaviour and emotional distress among secular, religious and Ultra-Orthodox Jews in Israel. *International Journal of Social Psychiatry*. 2022;68(4):773–82. DOI 10.1177/00207640211005501. — **Evidence: Limited**, cross-sectional survey of 806 adults.
+11. Masuch TV, et al. Internalized stigma, anticipated discrimination and perceived public stigma in adults with ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*. 2019;11:211–20. DOI 10.1007/s12402-018-0274-9. PMID 30341693. — **Evidence: Limited**, cross-sectional, 104 adults from clinics and self-help groups.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

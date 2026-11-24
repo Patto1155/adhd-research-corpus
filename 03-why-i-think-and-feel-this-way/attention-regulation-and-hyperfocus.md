@@ -1,6 +1,6 @@
 # ADHD and hyperfocus: why can I focus for hours on some things?
 
-> **Short answer:** ADHD is better described as difficulty *regulating* attention than as having too little of it. On average, attention in ADHD is more variable, holding on interesting or rewarding tasks and slipping on dull ones. Intense focus ("hyperfocus") is widely reported, but its research is small, recent and questionnaire-based, and it is not unique to ADHD.
+> **Short answer:** Research suggests ADHD involves difficulty *regulating* attention more than having too little of it. On average, attention in ADHD is more variable from moment to moment, and it slips most on long, unrewarding tasks. Intense focus ("hyperfocus") is widely reported, but its research is small, recent and questionnaire-based, and it is not unique to ADHD.
 
 ## What the evidence shows
 
@@ -10,7 +10,7 @@
 
 **Vigilance is one of the clearer test weaknesses.** In the large executive-function meta-analysis, vigilance, meaning keeping attention on a long, unrewarding task, was among the most consistent differences [2]. This is the kind of attention a boring form or a long meeting demands. More is on [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md)
 
-**Interest and reward change performance.** People with ADHD tend to discount delayed rewards more steeply and may find waiting aversive. This fits attention holding on immediately rewarding tasks and failing on tasks whose pay-off is distant. It is also why "you can focus when you want to" is a misunderstanding: what changes is the task, not the willingness. See [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
+**Interest and reward change performance.** People with ADHD tend to discount delayed rewards more steeply and may find waiting aversive. This fits attention holding on immediately rewarding tasks and failing on tasks whose pay-off is distant. This page's reading, which no study here tested directly, is that "you can focus when you want to" misses this: what changes is the task, not the willingness. See [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
 
 **Hyperfocus research is a questionnaire literature.** Hyperfocus means intense, absorbed concentration in which a person loses awareness of time and surroundings and finds it hard to stop. A 2019 study developed an Adult Hyperfocus Questionnaire and tested it online in a pilot sample (*n* = 251) and a replication sample (*n* = 372) of adults with and without ADHD [3]. People with more ADHD symptoms reported hyperfocus more often, in each of the three settings asked about, which included hobbies and screen time [3].
 

@@ -1,6 +1,6 @@
 # Why is my ADHD so different from someone else's?
 
-> **Short answer:** Because ADHD is not one fault in one place: many combinations of genes, brain development and thinking styles can lead to the same symptoms. No single brain difference or test weakness is found in everyone with ADHD, and many people with ADHD score normally on lab tests. Two people can share a diagnosis and have quite different underlying profiles.
+> **Short answer:** Because ADHD does not seem to be one fault in one place: different combinations of genes, brain development and thinking styles appear to lead to similar symptoms. No single brain difference or test weakness is found in everyone with ADHD, and some score normally on lab tests. Two people can share a diagnosis and have quite different underlying profiles.
 
 ## What the evidence shows
 

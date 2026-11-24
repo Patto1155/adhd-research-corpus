@@ -1,10 +1,10 @@
 # Will ADHD medication change my personality or make me a zombie?
 
-> **Short answer:** On average, no: ADHD medication makes emotional swings smaller, not flatter. Some people do feel dulled, flat or "not themselves", and in children's trials methylphenidate was linked to more apathy and less talking. How often this happens in adults is unknown, because no study found for this page measured it.
+> **Short answer:** On average, ADHD medication makes emotional swings smaller; whether some people also feel flatter, and how many, has not been measured in adults. Some people do describe feeling dulled or "not themselves", and in children's trials methylphenidate was linked to more apathy and less talking. Long-term personality change has not been studied.
 
 ## What the evidence shows
 
-**Emotional swings usually get smaller.** In adults, stimulants and atomoxetine reduced emotional lability (rapid, intense shifts of mood) compared with placebo, with a standardised mean difference of about 0.41 [1]. That is a small-to-moderate effect, roughly half the size of the effect on core ADHD symptoms in the same trials. The pattern most people show in trials is fewer outbursts and quicker recovery, rather than less feeling.
+**Emotional swings get smaller on average.** In adults, stimulants and atomoxetine reduced emotional lability (rapid, intense shifts of mood) compared with placebo, with a standardised mean difference (SMD, how far apart two group averages are, in units of how spread out people's scores are) of about 0.41 [1]. That is a small-to-moderate effect, roughly half the size of the effect on core ADHD symptoms in the same trials. It is an average across groups, and the trials measured mood swings, not blunting, so they cannot show whether some people also felt less.
 
 The background on emotion and ADHD is on [emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md).
 
@@ -34,7 +34,7 @@ These are small, self-selected samples. They describe the range of experience; t
 
 ## What this means for you
 
-The best evidence says the usual effect on emotions is steadier rather than duller, but it also says some people are affected and nobody knows how many. If you notice a change in yourself that worries you, that is worth describing in detail to the prescriber, who can weigh it against the benefit you are getting. Decisions about changing treatment are made with them.
+The best evidence says that on average emotions become steadier; it does not show whether some people also become duller, and nobody knows how many are affected. If you notice a change in yourself that worries you, that is worth describing in detail to the prescriber, who can weigh it against the benefit you are getting. Decisions about changing treatment are made with them.
 
 ## Related pages
 

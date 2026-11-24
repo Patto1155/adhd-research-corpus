@@ -1,6 +1,6 @@
 # ADHD, work and study: does treatment or support help?
 
-> **Short answer:** On average, adults with ADHD earn less, spend more time unemployed and are less likely to finish university, though many do well. Registry studies find slightly lower unemployment during medicated periods, but the effect is small and observational. Evidence on workplace and university adjustments is thin, and extra exam time has little evidence of helping students with ADHD specifically.
+> **Short answer:** Possibly a little, but it is barely tested. Registry studies find slightly less long-term unemployment during medicated periods, a small observational link; workplace adjustments are almost untested, and exam adjustments show little benefit specific to ADHD. On average, adults with ADHD earn less and are less likely to finish university, though many do well.
 
 ## What the evidence shows
 
@@ -12,26 +12,21 @@ People with ADHD were also much more likely to receive a disability pension (odd
 
 These were children referred to a clinic in the 1980s and 1990s, so the findings may not apply to adults diagnosed later.
 
-**Lower grades and more dropout at university.** A US study followed 201 college students with ADHD and 205 without for four years [3]. Students with ADHD had lower grade averages, a moderate-sized difference (Hedges' *g* of −0.46 and −0.63 in the two comparisons the abstract reports) [3]. Among students with ADHD not taking medication, 49% were still enrolled after eight semesters, against 59% of the comparison group [3].
+**Lower grades and more dropout at university.** A US study followed 201 college students with ADHD and 205 without for four years [3]. Students with ADHD had lower grade averages, a moderate-sized difference (Hedges' *g*, a measure of how far apart two group averages are in units of how spread out people's scores are, of −0.46 and −0.63 in the two comparisons the abstract reports) [3]. Among students with ADHD not taking medication, 49% were still enrolled after eight semesters, against 59% of the comparison group [3].
 
 **Job changes.** Adults with ADHD are often described as changing jobs more often. No peer-reviewed study giving a reliable figure for this was found for this page.
 
 **Medication and work: a small registry signal.** In a Swedish study of 12,875 working-age adults with ADHD, long-term unemployment (90 or more days a year) was about 11% less common during periods when people were taking ADHD medication than when the same people were not (relative risk 0.89) [4]. The abstract gives no absolute rates, so how many people this represents could not be stated.
 
-Both Swedish medication-and-work studies (the second is in the collapsed section below) compared each person with themselves, which removes fixed differences between people but not changes over time. The home page for this kind of evidence is [what registries show](../06-treatment-what-works/what-registries-show.md).
+**The link was not found for everyone or every medicine.** In a separate analysis of medication use over the previous two years, the association was clear in women (0.82) but not in men (0.96, not statistically clear) [4]. A second Swedish study of 221,714 people found lower sickness absence or disability pension only during atomoxetine use (hazard ratio 0.89), not with stimulants [5].
 
-<details>
-<summary>More from the two Swedish medication studies: women, men and atomoxetine (1 min)</summary>
-
-In a separate analysis of medication use over the previous two years, the association was clear in women (0.82) but not in men (0.96, not statistically clear) [4]. A second Swedish study of 221,714 people found lower sickness absence or disability pension only during atomoxetine use (hazard ratio 0.89), not with stimulants [5].
-
-</details>
+Both Swedish medication-and-work studies compared each person with themselves, which removes fixed differences between people but not changes over time. The home page for this kind of evidence is [what registries show](../06-treatment-what-works/what-registries-show.md).
 
 **Medication and study: a small effect in one registry study.** In Sweden, 930 people with ADHD scored on average 4.8 points higher on the university entrance test (scale 1 to 200) when taking it during a medicated period than during an unmedicated one [6]. An accompanying editorial questioned whether that is practically meaningful [6].
 
 Randomised trials of adult ADHD medication measure symptoms over weeks or months, not careers or degrees; decisions about medication are for you and a prescriber. More is on [how well medication works](../06-treatment-what-works/how-well-medication-works.md).
 
-**Exam adjustments: little evidence of a specific benefit.** A 2021 systematic review of educational accommodations for children and teenagers with ADHD found that most showed no benefit specific to students with ADHD, with reading aloud the exception [7]. An earlier systematic review concluded that preliminary evidence suggests extra time, the most common adjustment, does not give students with ADHD a boost beyond what it gives other students, and may do more harm than good [10]. These studies are in school-age students and are being applied here to university.
+**Exam adjustments: little evidence of a specific benefit.** A 2021 systematic review of educational accommodations for children and teenagers with ADHD found that most showed no benefit specific to students with ADHD, with reading aloud the exception [7]. An earlier systematic review of students with behavioural difficulties, a wider group than ADHD alone, reported evidence, which its authors call preliminary, that extra time, the most common adjustment, gives students with ADHD no boost beyond what it gives other students and may do more harm than good [10]. Both reviews are of school-age students, so applying them to university is an extrapolation.
 
 **Workplace adjustments: almost untested.** A 2022 systematic review of interventions to support adults with ADHD at work found very little research on workplace interventions, and noted that most studies tested medication, which is hard to translate into workplace practice [8].
 
@@ -51,7 +46,7 @@ A 2024 review of 79 studies on employment experiences concluded that people with
 
 The figures describe averages over thousands of people, many of whom are doing well; they do not predict your income or whether you will finish a course.
 
-They do suggest that difficulties at work or study are common, recognised, and partly shaped by things outside you, such as support and job fit. If you are weighing medication partly for work or study, the registry evidence suggests a modest average association, not a guarantee, and that is a conversation to have with a prescriber.
+They do suggest that difficulties at work or study are common, recognised, and partly shaped by things outside you, such as support and job fit. If you are weighing medication partly for work or study, the registry evidence suggests a small average association, not a guarantee, and that is a conversation to have with a prescriber.
 
 ## Related pages
 

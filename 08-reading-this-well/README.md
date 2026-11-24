@@ -9,3 +9,6 @@ What the numbers on these pages mean, where the evidence comes from, and what th
 - [ADHD terms explained: what do the technical words mean?](glossary.md): technical terms used across these pages, A to Z.
 
 [Back to all worries](../README.md#find-your-worry)
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

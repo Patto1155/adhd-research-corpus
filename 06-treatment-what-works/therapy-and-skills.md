@@ -1,10 +1,10 @@
 # Therapy, coaching and skills training: do they work for ADHD?
 
-> **Short answer:** Some do, modestly: CBT adapted for ADHD has the best evidence among talking treatments for adults, with moderate-certainty benefit against waiting lists. Its edge over other therapies is unclear, and in a 2025 analysis it beat controls only on clinician ratings. Parent training improves parenting and children's behaviour; coaching and psychoeducation have thin evidence.
+> **Short answer:** Some do, modestly: CBT adapted for ADHD has the best evidence among talking treatments for adults, with moderate-certainty, short-term benefit against waiting lists, but in a 2025 analysis it beat controls only on clinician ratings. Parent training improves parenting and children's behaviour, not core ADHD symptoms on blinded ratings. Coaching and psychoeducation have thin evidence.
 
 ## What the evidence shows
 
-**CBT in adults: moderate evidence against waiting lists.** A Cochrane review of 14 trials and about 700 adults found cognitive behavioural therapy (CBT) reduced self-reported ADHD symptoms compared with a waiting list (SMD 0.84, from 5 trials and 251 people, moderate certainty) [1]. The authors judged the benefit to be short term. Compared with other active therapies such as supportive therapy, there was no clear advantage (low certainty) [1].
+**CBT in adults: moderate evidence against waiting lists.** A Cochrane review of 14 trials and about 700 adults found cognitive behavioural therapy (CBT) reduced self-reported ADHD symptoms compared with a waiting list, with a standardised mean difference (SMD, how far apart two group averages are, in units of how spread out people's scores are; by convention 0.8 is large) of 0.84, from 5 trials and 251 people, at moderate certainty [1]. The authors judged the benefit to be short term. Compared with other active therapies such as supportive therapy, there was no clear advantage (low certainty) [1].
 
 The 2025 BMJ umbrella review rated adult CBT among the few ADHD treatments with at least moderate-certainty evidence [2]. CBT for ADHD usually focuses on practical skills such as planning, organisation and managing procrastination, alongside unhelpful thinking patterns.
 

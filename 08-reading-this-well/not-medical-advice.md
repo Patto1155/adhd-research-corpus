@@ -75,13 +75,13 @@ Seek help urgently, using the contacts above, if you are thinking about suicide 
 
 ## A note on suicide and hard statistics
 
-Some pages discuss suicide, self-harm and mortality, because readers ask about them and because accurate numbers are less frightening than rumours. They follow safe-messaging practice: no detail about methods, absolute numbers alongside relative ones, and a link back here.
+Some pages discuss suicide, self-harm and mortality, because readers ask about them and because accurate numbers are less frightening than rumours. They follow safe-messaging practice: no detail about methods, absolute numbers alongside relative ones wherever they were found, and a link back here.
 
 If reading them is hard, it is fine to stop and come back later, or to read them with someone.
 
 ## Who wrote this and how
 
-These pages were drafted with AI assistance, and separate AI checkers then tested the claims against the abstracts and index records of the cited sources, not their full texts. They are not written by or for a clinical service, and no clinician has reviewed them. Errors can remain; the full account is in [where the information on these pages comes from](sources-and-guidelines.md#how-these-pages-were-written).
+These pages were drafted with AI assistance, and separate AI checkers then tested the claims against the abstracts and index records of the cited sources, almost never their full texts. They are not written by or for a clinical service, and no clinician has reviewed them. Errors can remain; the full account is in [where the information on these pages comes from](sources-and-guidelines.md#how-these-pages-were-written).
 
 If you find an error, please open an issue on GitHub, as the [contributing guide](../.github/CONTRIBUTING.md) describes.
 

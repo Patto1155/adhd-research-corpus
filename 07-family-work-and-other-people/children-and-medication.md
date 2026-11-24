@@ -1,6 +1,6 @@
 # ADHD medication for children: is it safe and worthwhile?
 
-> **Short answer:** In short-term trials, ADHD medicines reduce children's symptoms more than any other treatment, with medium-to-large effects. In the largest long-term trial, that advantage faded by three years once families chose their own treatment, and long-term use is linked with about 1–3 cm less adult height on average. In preschool children, effects are smaller.
+> **Short answer:** In short-term trials, ADHD medicines reduce children's symptoms with medium-to-large effects, and in one large trial more than behavioural treatment. In that trial, the advantage faded by three years once families chose their own treatment. One follow-up linked consistent childhood use with about 2.5 cm less adult height; another cohort found no difference. Effects are smaller in preschool children.
 
 ## What the evidence shows
 
@@ -19,7 +19,9 @@ Combined treatment was not clearly better than medication alone on core symptoms
 
 Teenagers no longer taking medication at eight years were, as a group, doing about as well as those still on it [4]. Because treatment was no longer randomised, these follow-ups cannot show whether medication works long term; children who did worse may have been more likely to stay on it.
 
-**Growth: a small average reduction in height.** At about age 25, MTA participants who had taken medication consistently or inconsistently through childhood were about 2.6 cm shorter than those who had taken little or none (2.55 cm, compared with the "negligible use" subgroup) [5]. Compared with classmates without ADHD, the ADHD group as a whole was about 1.3 cm shorter as adults [5]. The same comparison found no lower adult symptom severity in the consistently medicated group [5].
+**Growth: slower during treatment; the effect on adult height is unsettled.** At about age 25, MTA participants who had taken medication consistently or inconsistently through childhood were about 2.5 cm shorter than those who had taken little or none (2.55 cm, compared with the "negligible use" subgroup) [5]. Compared with classmates without ADHD, the ADHD group as a whole was about 1.3 cm shorter as adults; that compares ADHD with no ADHD, not medication with none [5]. The same comparison found no lower adult symptom severity in the consistently medicated group [5].
+
+Not every study finds a difference in adult height. A US birth-cohort study of 340 children with ADHD and 680 without found that neither ADHD nor stimulant treatment was associated with a difference in final adult height, though treated boys had their growth spurt slightly later [11].
 
 A meta-analysis of 18 studies (4,868 children) of methylphenidate taken for more than six months found small reductions in height and weight scores [6]. The standardised effect sizes were 0.27 and 0.33, meaning about a quarter to a third of the normal spread of heights and weights among children, which the authors judged of possibly minimal clinical impact [6].
 
@@ -64,9 +66,10 @@ Whether to use medication, and starting, pausing or stopping it, is a decision f
 5. Swanson JM, et al. Young adult outcomes in the follow-up of the Multimodal Treatment Study of Attention-Deficit/Hyperactivity Disorder: symptom persistence, source discrepancy, and height suppression. *Journal of Child Psychology and Psychiatry*. 2017. DOI 10.1111/jcpp.12684. PMID 28295312. — **Evidence: Moderate**, observational follow-up of an RCT; figures confirmed from abstract.
 6. Carucci S, et al. Long term methylphenidate exposure and growth in children and adolescents with ADHD: a systematic review and meta-analysis. *Neuroscience & Biobehavioral Reviews*. 2021. DOI 10.1016/j.neubiorev.2020.09.031. — **Evidence: Moderate**, 18 studies (4,868 children), mostly observational.
 7. Greenhill L, et al. Efficacy and safety of immediate-release methylphenidate treatment for preschoolers with ADHD. *Journal of the American Academy of Child and Adolescent Psychiatry*. 2006. DOI 10.1097/01.chi.0000235077.32661.61. — **Evidence: Moderate**, single RCT (PATS) in children aged 3 to 5.5.
-8. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline NG87 (recommendations and rationale). 2018, updated 2019. nice.org.uk/guidance/ng87. — **Evidence: Strong**, national guideline. The second-opinion wording was confirmed from clinical reference sites that reproduce the recommendation; nice.org.uk could not be fetched.
-9. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database of Systematic Reviews*. 2023, CD009885.pub3; updated December 2025 (pub4, PMID 41342306). — **Evidence: Strong** for effect size; review authors rate certainty very low.
+8. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline NG87 (recommendations and rationale). 2018, updated 2019. nice.org.uk/guidance/ng87. — **Evidence: Guideline**, national guideline. The second-opinion wording was confirmed from clinical reference sites that reproduce the recommendation; nice.org.uk could not be fetched.
+9. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database of Systematic Reviews*. 2023, CD009885.pub3; updated December 2025 (pub4, PMID 41342306). — **Evidence: Contested**, the effect size is consistent across reviews while its certainty rating is disputed; review authors rate certainty very low.
 10. Swanson, et al. Stimulant-related reductions of growth rates in the PATS. *Journal of the American Academy of Child and Adolescent Psychiatry*. 2006;45(11):1304–13. — **Evidence: Limited**, growth measured in 140 children in one trial, compared with expected growth; no untreated comparison group.
+11. Harstad EB, et al. ADHD, stimulant treatment, and growth: a longitudinal study. *Pediatrics*. 2014. PMID 25180281. — **Evidence: Moderate**, population birth cohort (Rochester, Minnesota), adult height available for a subset.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

@@ -23,8 +23,8 @@
 - **Lab seconds versus real-life hours.** Most timing studies measure intervals of seconds. Whether the same differences explain losing an afternoon, or chronic lateness, has not been directly shown.
 - **Timing or attention?** Poor timing may partly reflect lapses of attention during the task rather than a separate "clock" problem. The reproduction findings above suggest both play a part [1].
 - **Specificity.** Steep delay discounting is also found in addiction and some other conditions, so it is not unique to ADHD.
-- **"Time blindness"** is a metaphor from clinical writing, not a research term. It describes the experience usefully, but the evidence supports "less accurate and more variable", not "blind".
-- **Individual differences.** These are group-level effects. Many people with ADHD time intervals as well as anyone.
+- **"Time blindness"** is a popular metaphor, not a research term. It describes the experience usefully, but the evidence supports "less accurate and more variable", not "blind".
+- **Individual differences.** These are group-level effects, and the groups overlap, so some people with ADHD time intervals as well as anyone.
 
 ## What this means for you
 

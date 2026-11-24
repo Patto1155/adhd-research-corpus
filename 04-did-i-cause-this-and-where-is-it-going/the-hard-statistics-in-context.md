@@ -1,6 +1,6 @@
 # Will ADHD shorten my life? The hard statistics in context
 
-> **Short answer:** On average, people diagnosed with ADHD die younger than people without it, but any one person's yearly risk is small. Most extra deaths come from accidents, injury, suicide and co-occurring conditions; several of these risks can change. The "13 years" figure is a calculator estimate, not a count of deaths; studies that counted deaths find a smaller, uncertain gap.
+> **Short answer:** On average, people diagnosed with ADHD die younger. In young Danes, about 6 in 10,000 with ADHD died each year, against 2 without; accidents were the commonest cause. The "13 years" figure is a calculator estimate. A UK study that counted deaths found life expectancy 7 to 9 years shorter in diagnosed adults, probably more than for everyone with ADHD.
 
 This page discusses death, including suicide, and the short answer above is the main point. It is fine to stop reading and come back later. If you are struggling or thinking about ending your life, contacts that are open now are on [not medical advice and where to get help](../08-reading-this-well/not-medical-advice.md).
 
@@ -34,9 +34,9 @@ In US insurance data on 2.3 million people with ADHD, crash-related emergency vi
 
 **Injuries in children: about 1.5 times the odds.** Children and teenagers with ADHD had about 1.5 times the odds of unintentional injury [8]. No absolute injury rate was given in the abstracts checked.
 
-**Suicide risk is raised, and it is still uncommon.** A 2019 meta-analysis found suicide attempts were about 2.4 times as likely in people with ADHD (44 datasets) [9]. For suicide deaths the odds ratio was 6.7, but this came from only four datasets, with a very wide range of uncertainty (3.24 to 17.39) [9]. An absolute lifetime figure was not found in the sources checked for this page.
+**Suicide risk is raised, and it is still uncommon.** A 2019 meta-analysis found suicide attempts were about 2.4 times as likely in people with ADHD (44 datasets) [9]. For suicide deaths the odds ratio was 6.7, but this came from only four datasets, with a very wide range of uncertainty (3.24 to 17.39) [9]. Absolute figures for suicide attempts or suicide deaths in people with ADHD were not found in the sources checked for this page.
 
-Suicide risk is strongly tied to depression, substance use and crises, which can be treated, and help works. If this paragraph is about you or someone close to you, the crisis contacts on [not medical advice and where to get help](../08-reading-this-well/not-medical-advice.md) are there for exactly this.
+If this paragraph is about you or someone close to you, the crisis contacts on [not medical advice and where to get help](../08-reading-this-well/not-medical-advice.md) are there for exactly this.
 
 **Dementia: a real registry link, much weaker than headlines suggest.** In an Israeli health-insurance cohort of 109,218 people born 1933–52, dementia was diagnosed in 13.2% of the 730 people with adult ADHD and 7.0% of those without, over up to 17 years (adjusted hazard ratio 2.77) [10]. No clear increase was seen in those prescribed stimulants [10].
 
@@ -51,7 +51,7 @@ For the "13 years" estimate, according to the lead author's own account, the res
 
 </details>
 
-## Which risks can change
+### Which risks can change
 
 Several findings point to modifiable risks rather than fixed fate. The Danish excess shrank by about half once co-occurring conduct and substance use disorders were removed [1]. The UK authors attribute the gap to unmet support and treatment needs and to modifiable risk factors, and call for action on them [4].
 
@@ -66,7 +66,7 @@ Suicidal behaviour was also less frequent after starting medication (14.5 agains
 - **Dementia direction.** Memory and attention problems that first appear late in life can be early dementia mislabelled as ADHD. The Israeli study found some evidence of this reverse direction, described as mild [10].
 - **Dementia in families.** Some of the Swedish link also runs in families: parents of people with ADHD had a higher dementia risk, though the researchers note the absolute risk was low: only 0.17% of the parents were diagnosed with dementia [15].
 - **Time and place.** The data come from Denmark, Sweden, the UK, the US and Israel, mostly from particular decades. Health care and diagnosis rates differ.
-- **Medication findings** rest on few studies. The 2026 meta-analysis linked medication with 25% lower mortality, but from only 3 of its 19 studies [2].
+- **Medication findings** rest on few studies. The 2026 meta-analysis found a lower death rate in people taking medication, but this rested on only 3 of its 19 studies, and the size of that estimate was seen only in press coverage, so it is not quoted here [2]. Observational findings like this cannot show that medication itself reduces deaths.
 
 ## What this means for you
 

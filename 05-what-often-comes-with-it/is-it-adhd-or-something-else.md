@@ -1,6 +1,6 @@
 # Is it ADHD, or could it be something else?
 
-> **Short answer:** It could be either, or both: poor concentration, restlessness, forgetfulness and impulsivity are not unique to ADHD. Anxiety, depression, sleep problems, trauma, autism, bipolar disorder, substance use and some medical conditions such as thyroid problems can cause them, and often occur alongside ADHD. That is why diagnosis rests on a full assessment of your history, not a checklist.
+> **Short answer:** It could be either, or both: poor concentration, restlessness, forgetfulness and impulsivity are not unique to ADHD. Anxiety, depression, sleep problems, trauma, autism, bipolar disorder, substance use and some medical conditions such as thyroid problems can cause them, and several often occur alongside ADHD. That is why diagnosis rests on a full assessment of your history, not a checklist.
 
 ## Why the overlap matters
 
@@ -16,7 +16,7 @@ This page is not a guide for ruling ADHD in or out yourself. It describes what c
 
 Details are on [Anxiety and depression with ADHD: why are they so common?](anxiety-and-depression.md)
 
-**Sleep problems can look exactly like ADHD.** In a randomised trial of 464 children aged 5 to 9 with obstructive sleep apnoea (breathing repeatedly interrupted during sleep), surgery to remove the tonsils and adenoids improved behaviour as rated by caregivers and teachers, and improved quality of life [3]. Scores on formal tests of attention and executive function did not improve [3]. This shows that a sleep disorder can produce ADHD-like behaviour that improves when sleep is treated.
+**Sleep problems can produce ADHD-like behaviour.** In a randomised trial of 464 children aged 5 to 9 with obstructive sleep apnoea (breathing repeatedly interrupted during sleep), surgery to remove the tonsils and adenoids improved behaviour as rated by caregivers and teachers, and improved quality of life [3]. Scores on formal tests of attention and executive function did not improve [3]. This shows that a sleep disorder can produce ADHD-like behaviour that improves when sleep is treated.
 
 That trial was in children; how often sleep disorders are mistaken for ADHD in adults is less clear. Sleep differences are also part of ADHD itself; see [sleep and the body clock](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md).
 
@@ -55,7 +55,7 @@ If you recognise yourself in ADHD descriptions, that is a reasonable starting po
 
 ## Sources
 
-1. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th edition, text revision (DSM-5-TR). 2022. — **Evidence: Strong** as the diagnostic standard (consensus criteria, not an evidence review).
+1. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th edition, text revision (DSM-5-TR). 2022. — **Evidence: Consensus definition**, the diagnostic standard (consensus criteria, not an evidence review).
 2. Hartman CA, et al. Anxiety, mood, and substance use disorders in adult men and women with and without attention-deficit/hyperactivity disorder: a substantive and methodological overview. *Neurosci Biobehav Rev*. 2023;151:105209. DOI 10.1016/j.neubiorev.2023.105209. — **Evidence: Strong**, meta-analysis of large studies.
 3. Marcus CL, et al. A randomized trial of adenotonsillectomy for childhood sleep apnea. *N Engl J Med*. 2013. PMID 23692173. — **Evidence: Strong** for children with sleep apnoea, one large randomised trial (CHAT); not a study of ADHD.
 4. Spencer AE, et al. Examining the association between posttraumatic stress disorder and attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. *J Clin Psychiatry*. 2016. PMID 26114394. — **Evidence: Moderate**, meta-analysis of 22 studies.

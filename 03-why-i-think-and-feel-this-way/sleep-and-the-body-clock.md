@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Children with ADHD have more sleep problems.** A meta-analysis of 16 studies (722 children with ADHD and 638 without) found children with ADHD had more bedtime resistance, more trouble falling asleep and more night waking, as reported by parents [1]. On objective measures, they took longer to fall asleep on actigraphy (a wrist-worn movement sensor) and had more breathing pauses during sleep (a higher apnoea–hypopnoea index) [1]. Later studies of unmedicated children using overnight sleep recordings have been less consistent.
+**Children with ADHD have more sleep problems.** A meta-analysis of 16 studies (722 children with ADHD and 638 without) found children with ADHD had more bedtime resistance, more trouble falling asleep and more night waking, as reported by parents [1]. On objective measures, they took longer to fall asleep on actigraphy (a wrist-worn movement sensor) and had more breathing pauses during sleep (a higher apnoea–hypopnoea index) [1].
 
 **Adults with ADHD report worse sleep on almost every measure.** The first meta-analysis of sleep in adults pooled 13 studies [2]. Adults with ADHD differed on 7 of 9 self-reported sleep measures, including daytime sleepiness. On actigraphy they took longer to fall asleep and slept less efficiently, meaning more time awake in bed, but total sleep time did not differ [2].
 
@@ -43,7 +43,7 @@ If you lie awake for a long time and feel most alert late at night, that fits a 
 2. Díaz-Román A, Mitchell R, Cortese S. Sleep in adults with ADHD: systematic review and meta-analysis of subjective and objective studies. *Neuroscience and Biobehavioral Reviews*. 2018;89:61–71. DOI 10.1016/j.neubiorev.2018.02.014. — **Evidence: Moderate**: meta-analysis of 13 studies.
 3. Coogan AN, et al. A systematic review of circadian function, chronotype and chronotherapy in attention deficit hyperactivity disorder. *ADHD Attention Deficit and Hyperactivity Disorders*. 2017. — **Evidence: Moderate**: systematic review of 62 studies, few treatment trials.
 4. Van Veen MM, et al. Delayed circadian rhythm in adults with attention-deficit/hyperactivity disorder and chronic sleep-onset insomnia. *Biological Psychiatry*. 2010;67(11):1091–6. DOI 10.1016/j.biopsych.2009.12.032. PMID 20163790. — **Evidence: Limited**: single small study.
-5. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database of Systematic Reviews*. 2015. PMID 26599576. — **Evidence: Strong** for common side effects: Cochrane review of randomised trials.
+5. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database of Systematic Reviews*. 2015. PMID 26599576. — **Evidence: Contested**, the effect size is consistent across reviews while its certainty rating is disputed; cited here for common side effects, from randomised trials.
 6. National Institute for Health and Care Excellence. 2021 exceptional surveillance of attention deficit hyperactivity disorder: diagnosis and management (NICE guideline NG87). 2021. nice.org.uk/guidance/ng87. — **Evidence: Guideline surveillance**; decided not to update the guideline on melatonin.
 
 ---

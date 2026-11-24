@@ -1,6 +1,6 @@
 # Addiction and ADHD: is risk higher, and do medicines raise it?
 
-> **Short answer:** Yes, on average people with ADHD are more likely to smoke and to develop alcohol and other substance problems. Large studies do not find that prescribed ADHD medication raises this risk, and medicated periods show fewer substance-related problems. Misuse of prescription stimulants, and passing them to others, is a real and separate problem.
+> **Short answer:** Yes, on average people with ADHD are more likely to smoke and to develop alcohol and other substance problems. Large studies have not found that prescribed ADHD medication raises this risk, and in observational studies medicated periods had fewer substance-related problems. Misuse of prescription stimulants, and passing them to others, is a real and separate problem.
 
 ## What the evidence shows
 

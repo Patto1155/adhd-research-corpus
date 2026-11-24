@@ -93,7 +93,7 @@ Major reviews, Cochrane included, find similar short-term benefits. They disagre
 → [How well medication works](../06-treatment-what-works/how-well-medication-works.md)
 
 **"Medication turns you into a zombie" / "It changes who you are."**
-On average, emotional ups and downs become smaller on medication, not flatter. Some people report feeling flat, but no good data on how often this happens were found.
+On average, emotional ups and downs become smaller on medication. Whether some people also feel flatter, and how many, has not been measured in adults; some people do report it, and children's trials found more apathy with methylphenidate.
 → [Will medication change me?](../06-treatment-what-works/will-medication-change-me.md)
 
 **"Neurofeedback, brain training or supplements fix ADHD."**
@@ -128,7 +128,7 @@ This page summarises; each linked page carries its own sources. Key sources for 
 1. Wolraich ML, et al. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies from 16 reports; a small effect, or an effect in some children, could not be ruled out.
 2. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one clinical cohort of 158 children, mostly boys; no deaths counted. Journal and year are as given in the author's own summaries; volume, pages and DOI were not found.
 3. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading.
-4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited**, expert commentary.
+4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited, expert commentary**, an argued viewpoint rather than a study.
 5. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract.
 
 ---

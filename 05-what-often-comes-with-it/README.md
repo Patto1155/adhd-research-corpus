@@ -9,3 +9,6 @@ Which other conditions often occur alongside ADHD, why, and how they are told ap
 - [Is it ADHD, or could it be something else?](is-it-adhd-or-something-else.md): lookalike conditions, and why assessment beats a checklist.
 
 [Back to all worries](../README.md#find-your-worry)
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

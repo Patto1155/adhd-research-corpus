@@ -1,6 +1,6 @@
 # What causes ADHD, and is it my fault or my parents'?
 
-> **Short answer:** Parenting style, sugar and paracetamol in pregnancy do not appear to cause ADHD; it arises mostly from many small inherited genetic differences acting together. Some non-inherited factors are only partly understood, and the smoking-in-pregnancy link largely disappears when siblings are compared. Very early birth is a consistent risk factor; screens are linked, but which causes which is unknown.
+> **Short answer:** Parenting style, sugar and paracetamol in pregnancy do not appear to cause ADHD. Most of the difference between people tracks inherited genes, and most other factors are not yet identified; the smoking-in-pregnancy link largely disappears when siblings are compared. Very early birth is consistently linked to ADHD, and screens are linked too, but in neither case is cause established.
 
 ## What the evidence shows
 

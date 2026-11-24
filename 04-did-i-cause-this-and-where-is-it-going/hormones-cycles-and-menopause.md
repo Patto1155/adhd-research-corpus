@@ -21,6 +21,8 @@
 
 **Those survey figures may overestimate.** The study had no comparison group of women without ADHD, PMDD symptoms were recalled rather than tracked day by day, and postnatal symptoms were asked about years later [2].
 
+If low mood after a birth, or at any other time, is weighing on you now, there are contacts on [where to get help now](../08-reading-this-well/not-medical-advice.md#if-you-need-help-now).
+
 **An Icelandic study found more perimenopausal symptoms with ADHD.** In a population study of about 5,400 women, the 535 who screened positive for ADHD symptoms reported more perimenopausal symptoms than the rest (an average score of 18 against 13), and the gap was largest in women aged 35 to 39, suggesting symptoms may start earlier [4]. ADHD was measured with a short six-question screener rather than a diagnosis, and everything was self-reported.
 
 **A UK survey found the opposite on the main question.** In 656 women aged 45 to 60, those with a formal ADHD diagnosis did not report worse menopausal symptoms than women without one [6]. Across the whole sample, though, women with more ADHD traits did report more menopausal complaints, especially with sleep, concentration and mood [6]. The UK survey excluded women using hormone therapy.

@@ -1,6 +1,6 @@
 # Is ADHD caused by low dopamine?
 
-> **Short answer:** Not in any simple sense: dopamine and noradrenaline, two chemical messengers in the brain, are clearly involved in ADHD, and ADHD medicines increase their signalling. But dopamine imaging gives inconsistent results, genetics points to many other pathways, and no test measures a "dopamine level". A medicine helping does not show that low dopamine caused the problem.
+> **Short answer:** Not in any simple sense: dopamine and noradrenaline, two chemical messengers in the brain, seem to be involved in ADHD, and most ADHD medicines increase their signalling. But dopamine imaging gives inconsistent results, genetics points to many other pathways, and no test measures a "dopamine level". A medicine helping does not show that low dopamine caused the problem.
 
 ## What the evidence shows
 
@@ -12,7 +12,7 @@
 
 **ADHD medicines raise dopamine and noradrenaline signalling in the prefrontal cortex.** Stimulants such as methylphenidate and amphetamine, and the non-stimulant atomoxetine, increase the action of dopamine and noradrenaline (also called norepinephrine) in the prefrontal cortex, the front part of the brain involved in planning and attention [4]. Much of this mechanism comes from animal studies. These chemicals work on an "inverted U": moderate levels help prefrontal function, and both too little and too much impair it [4].
 
-**Several effective medicines act mainly on noradrenaline, not dopamine.** How the medicines work is covered in [how ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md).
+**Several effective medicines act mainly on noradrenaline, not dopamine.** The non-stimulant atomoxetine mainly blocks the transporter that clears noradrenaline away, and guanfacine and clonidine stimulate a noradrenaline receptor (the alpha-2A adrenoceptor) in the prefrontal cortex [4]. How the medicines work is covered in [how ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md).
 
 **Both chemicals tune whole circuits, not a single spot.** A review of the neurochemistry described dopamine and noradrenaline as modulating circuits that link the frontal cortex, the striatum (deep structures involved in movement and reward) and the cerebellum. It concluded that the precise way the drugs produce their benefit "remains to be fully specified" [5].
 
@@ -22,7 +22,7 @@
 
 **A good response to a stimulant cannot confirm a diagnosis.** Because people without ADHD respond in similar ways, a response on its own cannot show that ADHD is present.
 
-## Why "the drug works on dopamine" does not prove "the cause is low dopamine"
+### Why "the drug works on dopamine" does not prove "the cause is low dopamine"
 
 A treatment can work without reversing the cause. Paracetamol eases a headache, but a headache is not a paracetamol deficiency; reading glasses correct focus without the cause being a shortage of glass.
 

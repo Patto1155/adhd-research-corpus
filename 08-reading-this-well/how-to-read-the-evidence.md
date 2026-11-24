@@ -79,7 +79,7 @@ Within-person designs compare the same people with themselves during periods on 
 
 A rating is blinded when the person scoring symptoms does not know who received the treatment. Parents who know their child is on a new diet tend to rate improvement.
 
-**Example: diets and therapy in children.** A review of child trials found that diets and psychological treatments all looked effective on unblinded ratings. With probably-blinded raters, only fatty acid supplements (SMD 0.16, a small effect) and food-colour exclusion in selected children stayed significant [11]. Whenever a page reports a non-drug treatment, check whether the raters were blinded.
+**Example: diets and therapy in children.** A review of child trials found that diets and psychological treatments all looked effective on unblinded ratings. With probably-blinded raters, only fatty acid supplements (SMD 0.16, a very small effect) and food-colour exclusion in selected children stayed significant [11]. Whenever a page reports a non-drug treatment, check whether the raters were blinded.
 
 <details>
 <summary>A second example: neurofeedback (under 1 min)</summary>
@@ -90,12 +90,14 @@ Neurofeedback showed essentially no effect on blinded ratings (SMD 0.04) [12].
 
 ### The evidence labels used on every page
 
-Each source on every page carries one label:
+Each source on every page carries a label. Research studies and reviews get one of four grades:
 
 - **Strong:** large, well-designed studies or meta-analyses that agree. Unlikely to be overturned.
 - **Moderate:** consistent findings, but fewer studies, observational designs or known limits. Could shift.
 - **Limited:** small, few or self-report studies. Treat as a lead, not a conclusion.
 - **Contested:** good-quality sources disagree, or experts dispute how to read the same data.
+
+Sources that are not research studies are labelled by what they are: **Guideline**, **Consensus definition** (a diagnostic manual such as DSM-5-TR), **Expert consensus**, **Expert commentary** or **Regulatory notice**, and a few entries use a close variant, such as a guideline surveillance report, or say a source was not assessed. A grade may be given as a range, such as "Limited to moderate", where a source is strong for one question and weaker for another; the note after the label says which.
 
 A meta-analysis pools many studies; a systematic review searches for all relevant studies by a stated method. Neither guarantees quality: a meta-analysis of small, unblinded trials is still small and unblinded.
 
@@ -126,8 +128,8 @@ No group statistic on these pages can tell you about your own brain, genes or fu
 3. Faraone SV, et al. Genetics of attention deficit hyperactivity disorder. *Mol Psychiatry*. 2019;24(4):562–575. PMID 29892054. — **Evidence: Strong**, review of 37 twin studies.
 4. Larsson H, et al. The heritability of clinically diagnosed attention deficit hyperactivity disorder across the lifespan. *Psychol Med*. 2014;44(10):2223–9. PMID 24107258. — **Evidence: Strong**, Swedish twins with register diagnoses; the adult subsample was 37,714 twins.
 5. Demontis D, et al. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. *Nat Genet*. 2019;51(1):63–75. — **Evidence: Strong**, 20,183 cases and 35,191 controls. The "about 22%" figure is as described by the same group's 2023 paper; the exact value in the 2019 paper was not seen.
-6. Dalsgaard S, et al. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. *Lancet*. 2015;385(9983):2190–6. PMID 25726514. — **Evidence: Moderate**, 1.92 million Danes, 32,061 with ADHD; observational. Rates and rate ratio confirmed from abstract.
-7. Layton TJ, et al. Attention deficit–hyperactivity disorder and month of school enrollment. *N Engl J Med*. 2018;379(22):2122–30. PMC6322209. — **Evidence: Strong**, natural experiment, 407,846 children. The diagnosis rates of 85.1 and 63.6 per 10,000 come from a secondary summary; the treatment-rate difference in the abstract (12.5 per 10,000) matches that summary's treatment rates.
+6. Dalsgaard S, et al. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. *Lancet*. 2015;385(9983):2190–6. PMID 25726514. — **Evidence: Strong**, 1.92 million Danes, 32,061 with ADHD; observational. Rates and rate ratio confirmed from abstract.
+7. Layton TJ, et al. Attention deficit–hyperactivity disorder and month of school enrollment. *N Engl J Med*. 2018;379(22):2122–30. PMC6322209. — **Evidence: Strong** design, natural experiment, 407,846 children; the rates quoted here carry less weight than the design. The diagnosis rates of 85.1 and 63.6 per 10,000 come from a secondary summary; the treatment-rate difference in the abstract (12.5 per 10,000) matches that summary's treatment rates.
 8. Skoglund C, et al. Familial confounding of the association between maternal smoking during pregnancy and ADHD in offspring. *J Child Psychol Psychiatry*. 2014;55(1):61–8. PMID 25359172. — **Evidence: Strong**, sibling-control design, 813,030 Swedish children; hazard ratios confirmed from abstract records.
 9. Ahlqvist VH, et al. Acetaminophen use during pregnancy and children's risk of autism, ADHD, and intellectual disability. *JAMA*. 2024. PMC11004836. — **Evidence: Strong**, 2.48 million children with sibling comparison; hazard ratios confirmed from abstract.
 10. Lichtenstein P, et al. Medication for attention deficit–hyperactivity disorder and criminality. *N Engl J Med*. 2012;367:2006–14. — **Evidence: Strong** design, observational; 32% and 41% reductions confirmed from abstract.

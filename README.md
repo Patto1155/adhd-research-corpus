@@ -75,5 +75,5 @@ Research on spirituality and ADHD is very thin, which is why Meaning is short; [
 
 - Each page starts with a short answer, then what the evidence shows, what is uncertain, and numbered sources, each labelled by strength. Technical words are in the [glossary](08-reading-this-well/glossary.md).
 - This is information, not medical advice. The pages cannot diagnose you or tell you what to do about treatment; [what these pages can and cannot do](08-reading-this-well/not-medical-advice.md) explains.
-- [How these pages were made](08-reading-this-well/sources-and-guidelines.md): drafted by AI from published research, then fact-checked by separate AI checkers against abstracts and index records, not full texts. The owner is not a clinician, and no clinician has reviewed them. Last reviewed November 2026.
+- [How these pages were made](08-reading-this-well/sources-and-guidelines.md): drafted by AI from published research, then fact-checked by separate AI checkers against abstracts and index records, almost never full texts. The owner is not a clinician, and no clinician has reviewed them. Last reviewed November 2026.
 - Found an error? Open an issue in this repository. [CONTRIBUTING](.github/CONTRIBUTING.md) says what to include.

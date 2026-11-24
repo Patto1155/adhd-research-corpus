@@ -1,6 +1,6 @@
 # Does ADHD mean my brain is damaged or "three years behind"?
 
-> **Short answer:** No: ADHD does not involve brain damage, and the small average differences found in children mostly disappear by adulthood. Across thousands of scans, a few structures are very slightly smaller in children with ADHD; the groups overlap by more than 90%. "Three years behind" comes from one cortical measure in one group of children, and no scan can diagnose ADHD.
+> **Short answer:** No: large scan studies find small average differences, not damage, and those in children were not seen in adults. Across thousands of scans, a few structures are very slightly smaller in children with ADHD; the groups overlap by more than 90%. "Three years behind" comes from one cortical measure in one group of children, and no scan can diagnose ADHD.
 
 ## What the evidence shows
 

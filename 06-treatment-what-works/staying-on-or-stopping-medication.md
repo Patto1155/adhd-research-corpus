@@ -1,6 +1,6 @@
 # Stopping ADHD medication: do benefits fade, and is it for life?
 
-> **Short answer:** ADHD medicines work while taken and do not cure, so symptoms return for many people who stop, but not for all. In one trial in children treated for over two years, most did not clearly worsen on placebo; guidelines recommend regular review. Without high-certainty evidence beyond about a year, neither "forever" nor "it stops working" is supported.
+> **Short answer:** ADHD medicines do not cure, so symptoms return for many who stop. In one trial, children treated for over two years worsened about two and a half times as often on placebo (40% v 16%), though most did not clearly worsen; in an adult trial, 75% v 9% relapsed. Stopping is a decision to make with a prescriber.
 
 ## What the evidence shows
 

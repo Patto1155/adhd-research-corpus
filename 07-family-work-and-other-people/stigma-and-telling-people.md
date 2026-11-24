@@ -1,6 +1,6 @@
 # ADHD stigma and shame: should I tell people?
 
-> **Short answer:** Negative public attitudes towards ADHD are common, and the one adults with ADHD notice most is doubt that it is real. Many expect to be treated worse if others find out, and self-stigma goes with lower self-esteem and more distress. Research on telling people is small and cannot predict whether disclosing will go well for you.
+> **Short answer:** Research cannot tell you whether to tell people, or how it will go. It shows that negative attitudes are common, that the stigma adults with ADHD notice most is doubt that it is real, and that many expect to be treated worse if others know. In one written-scenario experiment, disclosing in advance softened readers' reactions.
 
 ## What the evidence shows
 
@@ -36,7 +36,7 @@ A small 2026 survey of young adults aged 18 to 29 looked at how they decide whom
 
 If you feel ashamed, the research suggests that much of that feeling has roots outside you: in common public beliefs that ADHD is not real or is worse than it is, and in an expectation of being judged that most adults with ADHD in one study shared. That does not make the feeling go away, but it changes what it is evidence of.
 
-Whether to tell an employer, friend or family member is your decision. The research suggests it tends to go better where people feel safe to speak up, and it cannot predict any one conversation. What the law protects depends on your country, which these pages do not cover.
+Whether to tell an employer, friend or family member is your decision. The research suggests people disclose more where they feel safe to speak up, and one survey linked early disclosure with feeling they were thriving; it cannot predict any one conversation. What the law protects depends on your country, which these pages do not cover.
 
 ## Related pages
 

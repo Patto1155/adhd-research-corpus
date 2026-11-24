@@ -1,6 +1,6 @@
 # Executive function and ADHD: why can't I plan or get started?
 
-> **Short answer:** On average, people with ADHD score lower on executive function tests (holding information in mind, stopping an action, switching tasks, planning) by a medium amount. But many score normally and still struggle badly in daily life, because lab tests and everyday life measure different things. Executive difficulties are a common part of ADHD, not the whole of it.
+> **Short answer:** On average, people with ADHD score lower on executive function tests (holding information in mind, stopping an action, switching tasks, planning) by a medium amount. Some score normally yet still struggle in daily life, partly because lab tests and everyday ratings measure different things. Executive difficulties are a common part of ADHD, not the whole of it.
 
 ## What the evidence shows
 
@@ -15,7 +15,7 @@ These differences held in clinic and community samples, and were not explained b
 
 **Adults show similar-sized differences, not only on executive tasks.** A meta-analysis of 13 studies in adults found medium effects for verbal fluency (*d* = 0.62), inhibition (*d* = 0.64 and 0.89) and set shifting (*d* = 0.65) [2]. Adults with ADHD also differed by similar amounts on *non*-executive measures, such as consistency of responding (*d* = 0.57) and speed of naming colours (*d* = 0.62). The authors concluded that adult difficulties are not confined to executive function [2].
 
-**Weaknesses are "neither necessary nor sufficient".** The effects are medium rather than large, and many people with ADHD perform normally. So the authors of the large meta-analysis concluded that executive weaknesses do not cause all ADHD [1]. More is on [why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md).
+**Weaknesses are "neither necessary nor sufficient".** The effects are medium rather than large, and not everyone with ADHD performs poorly on these tests; a checked figure for how many do was not found. So the authors of the large meta-analysis concluded that executive weaknesses do not cause all ADHD [1]. More is on [why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md).
 
 **Tests and daily life barely agree.** A review of 20 studies compared lab tests of executive function with questionnaires about executive problems in everyday life [3]. Only 24% of 286 correlations were statistically significant, and the median correlation was 0.19, which is weak [3].
 

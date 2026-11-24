@@ -1,6 +1,6 @@
 # ADHD over a lifetime: will it get better or worse as I age?
 
-> **Short answer:** On average, ADHD symptoms ease with age, but most people diagnosed in childhood still have some symptoms as adults. For many, symptoms come and go, often tracking life demands, and how many "grow out of it" depends on how recovery is defined. People over 65 are barely studied, and whether ADHD can begin in adulthood is debated.
+> **Short answer:** On average, ADHD symptoms ease with age, but most people diagnosed in childhood still have some symptoms as adults. Many move in and out of the diagnosis (studies disagree how many), and "growing out of it" depends on how recovery is defined. People over 65 are barely studied, and whether ADHD can begin in adulthood is debated.
 
 ## What the evidence shows
 
@@ -8,9 +8,11 @@
 
 These studies began with children, so the figures describe adults who were diagnosed young.
 
-**For most people the course fluctuates.** The MTA study followed 558 children with ADHD from about age 10 to about age 25, assessing them eight times [2]. Only 9.1% recovered and stayed recovered, and 10.8% had steady, persistent ADHD throughout. The large majority, 63.8%, moved between periods of remission and recurrence [2].
+**In one large US cohort, most people's course fluctuated; three other cohorts found less.** The MTA study followed 558 children with ADHD from about age 10 to about age 25, assessing them eight times [2]. Only 9.1% recovered and stayed recovered, and 10.8% had steady, persistent ADHD throughout. The large majority, 63.8%, moved between periods of remission and recurrence [2].
 
 About 30% reached full remission at some point, but 60% of those saw symptoms return later. About 90% still had some symptoms into young adulthood, a figure the study team has reported from the same cohort [2]. The idea that half of children simply outgrow ADHD does not fit these data.
+
+**Other cohorts found fluctuation less often.** A study of three other US cohorts (more than 10,000 young people), counting a course as fluctuating after two or more switches in and out of diagnosis, found it in 17–29% of young people with ADHD, never the largest group [7]. How common the in-and-out pattern is therefore remains debated.
 
 **Adult prevalence falls with age.** A global analysis estimated that 2.58% of adults have ADHD that began in childhood, and 6.76% have adult ADHD symptoms whatever their history [3]. For childhood-onset ADHD, the estimate fell from 5.1% at ages 18–24 to 0.8% over 60 [3].
 
@@ -54,6 +56,7 @@ At group level, ADHD tends to ease with age, and a stretch of good months or yea
 4. Dobrosavljevic M, et al. Prevalence of attention-deficit/hyperactivity disorder in older adults: a systematic review and meta-analysis. *Neurosci Biobehav Rev*. 2020. PMID 32798966. — **Evidence: Moderate**, meta-analysis of 20 studies with varied methods.
 5. Moffitt TE, et al. Is adult ADHD a childhood-onset neurodevelopmental disorder? Evidence from a four-decade longitudinal cohort study. *Am J Psychiatry*. 2015;172(10):967–77. DOI 10.1176/appi.ajp.2015.14101266. — **Evidence: Moderate**, one birth cohort, small adult-ADHD group.
 6. Sibley MH, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. *Am J Psychiatry*. 2018. PMC5814300. — **Evidence: Moderate**, single cohort with repeated assessment.
+7. Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. *EClinicalMedicine*. 2023;60:102021. PMID 37333663. — **Evidence: Moderate**, three US cohorts (ABCD, NCR, NKI-Rockland), more than 10,000 young people; fluctuating defined as two or more switches in and out of diagnosis.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

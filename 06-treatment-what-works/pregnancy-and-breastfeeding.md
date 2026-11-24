@@ -1,6 +1,6 @@
 # Pregnancy, breastfeeding and ADHD medication: is it safe?
 
-> **Short answer:** Large registry studies are broadly reassuring about stimulants in pregnancy, though two small signals remain under study. Accounting for the mother's own ADHD and circumstances, there is no overall rise in birth defects, miscarriage or later neurodevelopmental conditions; the signals concern heart defects (methylphenidate) and pre-eclampsia. Breastfeeding data are limited but suggest little methylphenidate reaches the baby.
+> **Short answer:** Large registry studies are broadly reassuring about stimulants in pregnancy, though two small signals remain under study. Accounting for the mother's own ADHD and circumstances, studies found no overall rise in birth defects, miscarriage or later neurodevelopmental conditions; the signals concern heart defects (methylphenidate) and pre-eclampsia. Breastfeeding data are limited but suggest little methylphenidate reaches the baby.
 
 This page discusses birth defects and pregnancy complications. The short answer above is the main point.
 

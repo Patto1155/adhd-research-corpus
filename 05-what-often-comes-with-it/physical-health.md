@@ -1,6 +1,6 @@
 # Physical health problems and ADHD: is there a link?
 
-> **Short answer:** Yes, on average: in a Swedish study, adults with ADHD had higher rates of 34 of 35 physical conditions studied. Much of the overlap seemed to come from shared genes rather than ADHD directly causing illness. Most increases are modest, and some are linked to things that can change, such as smoking, alcohol, sleep and activity.
+> **Short answer:** Yes, on average: in a Swedish study, adults with ADHD had higher rates of 34 of 35 physical conditions studied, and much of the overlap seemed to come from genes that influence both. Absolute rates were mostly not available, and whether changing habits such as smoking, sleep or activity lowers the risk has barely been tested.
 
 ## What the evidence shows
 
@@ -29,7 +29,7 @@ Only about 2,000 of the 48,161 people with ADHD in the analysis were adults, so 
 
 ## What this means for you
 
-At group level, ADHD comes with somewhat higher rates of many physical conditions, and some of that overlap runs through habits and sleep that can change. Much of it also seems to reflect shared biology, which is no one's fault. These averages cannot predict an individual's health, but they are a reason for physical health to be part of ADHD care rather than an afterthought.
+At group level, ADHD comes with higher rates of many physical conditions, and some of that overlap may run through habits and sleep that can change, though few studies have tested this. Much of it also seems to reflect shared biology, which is no one's fault. These averages cannot predict an individual's health, but they are a reason for physical health to be part of ADHD care rather than an afterthought.
 
 ## Related pages
 

@@ -1,6 +1,6 @@
 # Diagnosed as an adult: how was my ADHD missed, and is it the same?
 
-> **Short answer:** Adult ADHD is recognised by international guidelines and under-diagnosed in many countries; childhood ADHD is often missed when symptoms are quiet. Whether every adult case began in childhood is debated: follow-up studies find most "late" cases began in adolescence or had earlier signs, and true adult onset is rare or unproven. The debate does not make adults' difficulties less real.
+> **Short answer:** A European expert consensus describes adult ADHD as often impairing and under-diagnosed; childhood ADHD can be missed when symptoms are quiet. Whether all adult cases began in childhood is debated: follow-up studies find most "late" cases began in adolescence or had earlier signs, and true adult onset is rare or unproven. The debate does not make adult difficulties less real.
 
 ## What the evidence shows
 

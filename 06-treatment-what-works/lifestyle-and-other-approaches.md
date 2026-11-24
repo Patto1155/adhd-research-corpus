@@ -1,6 +1,6 @@
 # Neurofeedback, diet, supplements, exercise: do they help ADHD?
 
-> **Short answer:** Mostly not on blinded measures: most look helpful when raters know who received them, and the benefit shrinks or disappears when raters do not. Neurofeedback shows essentially no blinded effect; omega-3 and restriction diets show small effects at best, mostly in children. Exercise has modest, mostly short-term effects, mainly in children. None matches the evidence for medication or CBT.
+> **Short answer:** Mostly not on blinded measures: most look helpful when raters know who received them, and the benefit shrinks or disappears when raters do not. Neurofeedback shows essentially no blinded effect; omega-3 and restriction diets show small effects at best, mostly in children. Exercise and mindfulness show larger effects only in small or low-certainty studies.
 
 ## Why blinding is the key question
 
@@ -8,7 +8,7 @@
 
 **Researchers therefore split the ratings.** A landmark 2013 meta-analysis compared ratings from people "most proximal" to treatment (usually parents, unblinded) with ratings from "probably blinded" assessors, such as teachers unaware of the treatment or observers [1]. With unblinded ratings, every dietary and psychological treatment looked effective.
 
-With probably blinded ratings, only free fatty acid supplements (SMD 0.16, a very small effect) and removal of artificial food colours (SMD 0.42, in children selected for suspected food sensitivity) remained statistically significant [1]. These findings are in children.
+With probably blinded ratings, only free fatty acid supplements (standardised mean difference, SMD, 0.16) and removal of artificial food colours (SMD 0.42, in children selected for suspected food sensitivity) remained statistically significant [1]. An SMD measures how far apart two group averages are, in units of how spread out people's scores are; by convention 0.2 is small, 0.5 medium and 0.8 large, so 0.16 is very small. These findings are in children.
 
 ## What the evidence shows
 
@@ -22,9 +22,9 @@ The authors concluded that trials with probably blinded outcomes do not support 
 
 The authors estimated that around 8% of children with ADHD may have symptoms related to synthetic food colours; that is an estimate for a subgroup of children with ADHD, not for children in general [6]. Sugar as a cause is covered on [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
 
-**Exercise: modest, short-term, mostly in children.** In children, a 2015 meta-analysis of a small number of small trials reported moderate to large effects of aerobic exercise on attention, hyperactivity and impulsivity, and on executive function [7]. In adults, a 2024 systematic review, published as a conference abstract, found single bouts of exercise may have a small positive effect on thinking skills, with low certainty of evidence [8]. Exercise has other well-established health benefits; the question here is only whether it treats ADHD.
+**Exercise: few and small trials, mostly in children.** In children, a 2015 meta-analysis of a small number of small trials reported moderate to large effects of aerobic exercise on attention, hyperactivity and impulsivity, and on executive function [7]. In adults, a 2024 systematic review, published as a conference abstract, found single bouts of exercise may have a small positive effect on thinking skills, with low certainty of evidence [8]. Exercise has other well-established health benefits; the question here is only whether it treats ADHD.
 
-**Mindfulness: small to moderate effects, at low certainty.** In a meta-analysis of 10 small studies in children and adults, mindfulness had small-to-moderate effects, most clearly on inattention [9]. The BMJ umbrella review found large effects of mindfulness in adults, but with low certainty [10]. The same review found large effects for acupuncture and CBT in children and adolescents, also at low certainty [10].
+**Mindfulness: small to moderate effects, at low certainty.** In a meta-analysis of 10 small studies in children and adults, mindfulness had small-to-moderate effects, most clearly on inattention [9]. The BMJ umbrella review found large effects of mindfulness in adults, but with low certainty [10]. The same review found large effects for acupuncture and CBT in children and adolescents, also at low certainty [10]; why these were rated low, for example because of few or unblinded trials, was not checked for this page.
 
 ## What is uncertain or debated
 

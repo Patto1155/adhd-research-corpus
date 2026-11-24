@@ -1,13 +1,13 @@
 # Where does the information on these pages come from?
 
-> **Short answer:** These pages lean mainly on consensus statements and national clinical guidelines, then systematic reviews, meta-analyses and very large registry and genetic studies. The anchor is the 2021 World Federation of ADHD consensus statement. Claims were checked against abstracts and index records found by web search, not full texts, and no clinician has reviewed the pages.
+> **Short answer:** These pages lean mainly on consensus statements and national clinical guidelines, then systematic reviews, meta-analyses and very large registry and genetic studies. The anchor is the 2021 World Federation of ADHD consensus statement. Claims were checked against abstracts and index records found by web search, almost never full texts, and no clinician has reviewed the pages.
 
 ## How these pages were written
 
 - **Who maintains them.** The pages are maintained by the owner of this GitHub repository, who is not a clinician.
 - **How they were drafted.** They were drafted with AI assistance. A first set of AI writers drafted each page from published sources, chosen as described further down this page.
-- **How they were checked.** Separate AI checkers then tested the claims against the cited sources, in two waves. Figures that could not be confirmed were removed.
-- **What the checking rested on.** Publisher and index sites, such as PubMed, doi.org, Crossref and Europe PMC, could not be opened directly. Confirmation rests on the abstracts and index records shown in web search results, not on full texts, tables or supplementary material.
+- **How they were checked.** Separate AI checkers then tested the claims against the cited sources, in two waves. Figures that could not be confirmed were either removed or kept with their origin, such as a press release or a secondary summary, stated in the text.
+- **What the checking rested on.** Publisher and index sites, such as PubMed, doi.org, Crossref and Europe PMC, could not be opened directly. Confirmation almost always rests on the abstracts and index records shown in web search results, not on full texts, tables or supplementary material.
 - **Who has not reviewed them.** No clinician has reviewed these pages.
 
 In practice, each cited paper was looked for in search results showing its bibliographic record (authors, title, journal, year, and usually a DOI or PubMed ID). Where part of a record could not be confirmed, it was removed or replaced with a short description in square brackets, and no DOI was constructed or guessed. Where a detail rested on memory, a secondary report or an unconfirmed identifier, checkers flagged it, and each flag was resolved by removing the detail or saying on the page where it came from.
@@ -47,8 +47,8 @@ Single small studies appear only where nothing better exists, and are labelled *
 1. **Prefer the highest level available.** Consensus statements and guidelines first, then systematic reviews and meta-analyses, then large registry or genetic studies, then individual trials and cohorts.
 2. **Prefer recent where it matters.** Treatment evidence moves faster than genetics, so treatment pages favour 2018–2025 reviews.
 3. **Report disagreement.** Where good sources conflict, pages give both positions rather than picking one.
-4. **One home per fact.** Each key number is given in full on one page and linked from elsewhere, so the pages do not carry several versions of the same figure.
-5. **Note funding where relevant.** Some registry studies were funded by drug manufacturers. This is stated where it applies, without implying the findings are wrong.
+4. **One home per fact.** Each key number is given in full, with its caveats, on one home page. Other pages may give the headline figure, matching the home page, and link to it for the detail.
+5. **Note funding where it was seen.** Some registry studies were funded by drug manufacturers. This is noted where it was seen, without implying the findings are wrong; funding was not reviewed study by study for every page.
 
 ## What is uncertain or debated
 
@@ -71,11 +71,11 @@ If you want to know what your clinician is likely working from, the guideline fo
 ## Sources
 
 1. Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. *Neurosci Biobehav Rev*. 2021;128:789–818. DOI 10.1016/j.neubiorev.2021.01.022. — **Evidence: Strong**, consensus limited to meta-analyses or studies with N > 2,000. Abstract records differ on the author count (79 or 80).
-2. Kooij JJS, et al. Updated European Consensus Statement on diagnosis and treatment of adult ADHD. *Eur Psychiatry*. 2019;56:14–34. DOI 10.1016/j.eurpsy.2018.11.001. PMID 30453134. — **Evidence: Moderate**, expert consensus of 63 experts.
-3. Young S, et al. Females with ADHD: an expert consensus statement taking a lifespan approach providing guidance for the identification and treatment of attention-deficit/hyperactivity disorder in girls and women. *BMC Psychiatry*. 2020;20:404. DOI 10.1186/s12888-020-02707-9. PMID 32787804. — **Evidence: Moderate**, expert consensus, not systematic.
-4. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management (NG87). Published March 2018, last updated September 2019, last reviewed July 2026. nice.org.uk/guidance/ng87. — **Evidence: Strong**, national guideline.
-5. Australian ADHD Professionals Association. Australian Evidence-Based Clinical Practice Guideline for Attention Deficit Hyperactivity Disorder. 2022. adhdguideline.aadpa.com.au. Journal summary: May T, et al. The Australian evidence-based clinical practice guideline for attention deficit hyperactivity disorder. *Aust N Z J Psychiatry*. 2023;57(8):1101–1116. DOI 10.1177/00048674231166329. PMC10363932. — **Evidence: Strong**, NHMRC-approved national guideline.
-6. Canadian ADHD Resource Alliance (CADDRA). Canadian ADHD Practice Guidelines, 4.1 edition. 2020. caddra.ca. — **Evidence: Moderate**, national guideline, now six years old.
+2. Kooij JJS, et al. Updated European Consensus Statement on diagnosis and treatment of adult ADHD. *Eur Psychiatry*. 2019;56:14–34. DOI 10.1016/j.eurpsy.2018.11.001. PMID 30453134. — **Evidence: Expert consensus**, 63 experts.
+3. Young S, et al. Females with ADHD: an expert consensus statement taking a lifespan approach providing guidance for the identification and treatment of attention-deficit/hyperactivity disorder in girls and women. *BMC Psychiatry*. 2020;20:404. DOI 10.1186/s12888-020-02707-9. PMID 32787804. — **Evidence: Expert consensus**, not a systematic review.
+4. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management (NG87). Published March 2018, last updated September 2019, last reviewed July 2026. nice.org.uk/guidance/ng87. — **Evidence: Guideline**, national guideline.
+5. Australian ADHD Professionals Association. Australian Evidence-Based Clinical Practice Guideline for Attention Deficit Hyperactivity Disorder. 2022. adhdguideline.aadpa.com.au. Journal summary: May T, et al. The Australian evidence-based clinical practice guideline for attention deficit hyperactivity disorder. *Aust N Z J Psychiatry*. 2023;57(8):1101–1116. DOI 10.1177/00048674231166329. PMC10363932. — **Evidence: Guideline**, NHMRC-approved national guideline.
+6. Canadian ADHD Resource Alliance (CADDRA). Canadian ADHD Practice Guidelines, 4.1 edition. 2020. caddra.ca. — **Evidence: Guideline**, national guideline, now six years old.
 7. American Professional Society of ADHD and Related Disorders. US Adult ADHD Guidelines (in development). apsard.org/Web/Guidelines; status reported in *Psychiatric Times*, 2026. — Not yet published; status confirmed by search on 24 November 2026.
 8. Gosling CJ, et al. Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making. *BMJ*. 2025;391:e085875. DOI 10.1136/bmj-2025-085875. PMID 41297970. — **Evidence: Strong**, umbrella review covering 221 treatment–comparison–outcome combinations.
 

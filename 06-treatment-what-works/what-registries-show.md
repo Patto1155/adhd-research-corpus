@@ -1,6 +1,6 @@
 # Real-life outcomes on ADHD medication: what do registries show?
 
-> **Short answer:** During medicated periods, the same people had substantially fewer criminal convictions, crash-related emergency visits, substance-related emergencies and injuries. This within-person design, using Swedish national records and US insurance data, is much stronger than comparing different people. It is still observational, so it suggests rather than proves that medication caused the difference.
+> **Short answer:** During medicated periods, the same people had roughly a third fewer criminal convictions, crash-related emergency visits and substance-related emergencies; injuries were also less common, but no checked size was found. Comparing people with themselves is much stronger than comparing different people, but it is still observational, so it suggests rather than proves that medication caused the difference.
 
 This page discusses suicide, death and accident statistics. The short answer above is the main point.
 
@@ -28,7 +28,7 @@ The authors concluded that medication was associated with lower risk at the time
 
 A broader 2020 meta-analysis of 21 studies (mostly young people and stimulants) found medication associated with a protective effect on accidents and injuries, mood disorders and academic outcomes in its pooled analyses [6]. Its pooled estimates were seen only in a secondary summary, not in the abstract, so they are not quoted here. The abstract does not list criminality among the outcomes where the pooled analyses showed a benefit.
 
-**Suicidal behaviour was not higher during treatment.** In 37,936 Swedish people with ADHD, the rate of suicide-related events was not higher during treatment; within-person it was slightly lower (hazard ratio 0.89 overall, range 0.79 to 1.00; 0.81 for stimulants) [7]. In another within-person study, months on medication were associated with lower odds of suicide attempts within the same people (odds ratio 0.61) [9].
+**Suicidal behaviour was not higher during treatment.** In 37,936 Swedish people with ADHD, the rate of suicide-related events was not higher during treatment; within-person it was slightly lower (hazard ratio 0.89 overall, range 0.79 to 1.00; 0.81 for stimulants) [7]. In another within-person study, months on medication were associated with lower odds of suicide attempts within the same people (odds ratio 0.61) [9]. These are relative figures only; absolute rates of suicidal behaviour on and off medication were not found for this page.
 
 **Suicide-attempt risk was already raised before treatment began.** A Hong Kong study of 25,629 young people prescribed methylphenidate found the rate of suicide attempts was already raised in the 90 days *before* treatment began, stayed raised in the first 90 days, and then returned to baseline; the authors did not find support for the medicine causing suicide attempts [3]. This is a warning against reading any rise around the start of treatment as caused by the medicine. Support options are listed on the [not medical advice](../08-reading-this-well/not-medical-advice.md) page.
 

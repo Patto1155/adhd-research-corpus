@@ -13,3 +13,6 @@ What ADHD treatments do, how well they work, what the safety data show, and what
 - [Neurofeedback, diet, supplements, exercise: do they help ADHD?](lifestyle-and-other-approaches.md): what is left once raters are blinded.
 
 [Back to all worries](../README.md#find-your-worry)
+
+---
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

@@ -1,6 +1,6 @@
 # Is ADHD genetic, and will my children have it?
 
-> **Short answer:** ADHD is among the most strongly inherited psychiatric conditions, and children of a parent with ADHD have a raised chance, not a certainty. Twin studies put heritability at about 74%: most of the *variation* in ADHD across a population links to genetic differences. Thousands of tiny-effect variants contribute; there is no "ADHD gene" and no genetic test.
+> **Short answer:** ADHD is strongly inherited: twin studies put heritability at about 74%, meaning most of the *variation* in ADHD across a population links to genetic differences. A child of a parent with ADHD probably has a raised chance, not a certainty; no figure specific to parents was found. Many tiny-effect variants contribute; there is no "ADHD gene" and no genetic test.
 
 ## What the evidence shows
 
@@ -8,7 +8,7 @@
 
 **Heritability describes a population, not a person.** A heritability of 74% does *not* mean that 74% of one person's ADHD comes from genes, and it does not mean ADHD is fixed or untouched by environment. ADHD is caused by thousands of common genetic variants, each with a tiny effect, plus non-inherited factors. [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md) explains heritability in more detail.
 
-**Adult ADHD is just as heritable when it is measured well.** Early studies that asked adults to rate their own symptoms gave much lower heritability estimates. A Swedish national register study of twins used clinical diagnoses instead: heritability was 0.88 overall and 0.72 in adults [2]. The authors concluded that the earlier low adult figures were mostly an artefact of self-rating [2].
+**Adult ADHD is still strongly heritable when it is measured well.** Early studies that asked adults to rate their own symptoms gave much lower heritability estimates. A Swedish national register study of twins used clinical diagnoses instead: heritability was 0.88 overall and 0.72 in adults: lower in adults, but far above the earlier self-rated estimates [2]. The authors concluded that the earlier low adult figures were mostly an artefact of self-rating [2].
 
 **Family risk rises with how closely related you are.** A Swedish register study followed 1,656,943 people born between 1985 and 2006 [3]. Compared with the relatives of people without ADHD, the chance of an ADHD diagnosis (measured as a hazard ratio, roughly "how many times more often, at any given time") was:
 

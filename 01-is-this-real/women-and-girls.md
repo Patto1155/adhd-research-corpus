@@ -2,7 +2,7 @@
 
 > **Short answer:** Registry studies show girls and women with ADHD are diagnosed years later than males on average. Expert consensus links this to how ADHD tends to show up, to others' expectations, to anxiety or depression being noticed first, and to compensation. On full clinical interviews, symptom severity looks similar across sexes; evidence on hormones is suggestive but thin.
 
-This page discusses death and accident statistics. The short answer above is the main point.
+One section below gives death statistics.
 
 ## What the evidence shows
 
@@ -14,7 +14,9 @@ This page discusses death and accident statistics. The short answer above is the
 
 **Experts point to several reasons for under-recognition.** An international expert consensus listed presentations with more inattention and less disruptive behaviour; gender stereotypes held by teachers, parents and clinicians; co-occurring anxiety, depression or eating problems being diagnosed instead; and girls' efforts to compensate or mask (hide difficulties to fit in) [6]. The consensus recommends a lifespan approach that considers female-specific issues [6]. These are expert conclusions, not measured effect sizes.
 
-**Excess risks are not smaller in women.** In a Danish nationwide cohort, after people with oppositional, conduct or substance use disorders were excluded, ADHD was linked with a higher death rate in girls and women (mortality rate ratio 2.85, 95% CI 1.56 to 4.71) than in boys and men (1.27, 0.89 to 1.76, an interval that includes no difference) [8]. Deaths in this young cohort were rare in absolute terms and mostly from accidents, and the female estimate rests on few deaths, hence its wide interval. The numbers, with absolute risks, are in [the hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md).
+**The raised death rate may be larger in women, though the estimate rests on few deaths.** In a Danish nationwide cohort, after people with oppositional, conduct or substance use disorders were excluded, ADHD was linked with a higher death rate in girls and women than in boys and men [8]. The mortality rate ratio (how many times higher the death rate was than in people without ADHD) was 2.85 for girls and women, with a 95% CI (the range the true figure probably lies in) of 1.56 to 4.71; for boys and men it was 1.27 (0.89 to 1.76, a range that includes no difference) [8].
+
+In absolute terms, across everyone in the study, people with ADHD died at a rate of 5.85 per 10,000 person-years (one person followed for one year), against 2.21 without ADHD [8]. Separate absolute rates for each sex were not found for this page. Deaths in this young cohort were mostly from accidents, and more is in [the hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md).
 
 ## What is uncertain or debated
 
@@ -46,7 +48,7 @@ If you are a woman diagnosed in adulthood after years of being treated for anxie
 4. Dalsgaard S, et al. Incidence rates and cumulative incidences of the full spectrum of diagnosed mental disorders in childhood and adolescence. *JAMA Psychiatry*. 2020. PMID 31746968. — **Evidence: Strong**, nationwide Danish birth cohort.
 5. Young S, et al. A systematic review and meta-analysis comparing the severity of core symptoms of attention-deficit hyperactivity disorder in females and males. *Psychological Medicine*. 2024. DOI 10.1017/S0033291724001600. PMID 39494848. — **Evidence: Moderate**, 52 studies, high heterogeneity.
 6. Young S, et al. [Expert consensus statement on identifying and treating ADHD in girls and women across the lifespan]. *BMC Psychiatry*. 2020. DOI 10.1186/s12888-020-02707-9. — **Evidence: Expert consensus**, not a systematic review.
-7. [Systematic review of sex hormones and ADHD symptoms in females]. *Journal of Attention Disorders*. 2025. PMID 40251875. — **Evidence: Limited**, 11 small studies. First author not identified.
+7. Osianlis E, et al. ADHD and sex hormones in females: a systematic review. *Journal of Attention Disorders*. 2025. DOI 10.1177/10870547251332319. PMID 40251875. — **Evidence: Limited**, systematic review of 11 mostly small studies.
 8. Dalsgaard S, et al. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. *The Lancet*. 2015. DOI 10.1016/S0140-6736(14)61684-6. PMID 25726514. — **Evidence: Strong**, nationwide Danish registry; sex-specific estimates rest on small numbers of deaths.
 
 ---

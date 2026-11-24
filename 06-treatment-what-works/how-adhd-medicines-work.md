@@ -1,6 +1,6 @@
 # How do ADHD medicines work?
 
-> **Short answer:** Most ADHD medicines increase signalling by two brain messengers, dopamine and noradrenaline, in circuits that handle attention, motivation and self-control. Stimulants act quickly and wear off within hours; non-stimulants work more slowly or act differently. How this becomes better everyday attention is only partly understood, and responding to a stimulant does not prove ADHD.
+> **Short answer:** Most ADHD medicines increase signalling by one or both of two brain messengers, dopamine and noradrenaline, in circuits that handle attention, motivation and self-control. Stimulants act quickly and wear off within hours; non-stimulants work more slowly or act differently. How this becomes better everyday attention is only partly understood, and responding to a stimulant does not prove ADHD.
 
 ## What the evidence shows
 

@@ -25,10 +25,10 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 - Every factual claim with a number has a numbered source on the same page.
 - A source is cited only if its record has been confirmed (first author, title, journal, year, and a DOI or PubMed ID). Never construct or guess a DOI: give one only if you have seen it in the source's index record or publisher page; if you only have a PubMed ID, give that.
 - Use this format: `First-author surname and initials, et al. Title. *Journal*. Year. DOI or PMID. — **Evidence: label**, short reason.`
-- Each source entry carries an evidence label (**Strong**, **Moderate**, **Limited** or **Contested**) and a few words on why.
+- Each research source carries an evidence grade (**Strong**, **Moderate**, **Limited** or **Contested**) and a few words on why. Guidelines, consensus statements and expert commentary are labelled by what they are.
 - If a number comes from memory, a secondary source, or an identifier you could not confirm, add `<!-- CHECK: what needs confirming -->` after it so reviewers can find it.
 - Where good sources disagree, report the disagreement rather than choosing one.
-- Each key fact has one home page: for example, heritability on `02-whats-happening-in-my-brain/genes-and-inheritance.md`, mortality on `04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md`, and medication effect sizes on `06-treatment-what-works/how-well-medication-works.md`. Change the number on its home page; other pages should link to it, not repeat it.
+- Each key fact has one home page: for example, heritability on `02-whats-happening-in-my-brain/genes-and-inheritance.md`, mortality on `04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md`, and medication effect sizes on `06-treatment-what-works/how-well-medication-works.md`. The full numbers and caveats live on the home page, and a change to a number is made there first. Other pages may state the headline figure, provided it matches the home page, and should link to the home page for the detail.
 
 ### Numbers
 
@@ -41,9 +41,9 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 
 - Plain language, roughly year-9 reading level, with each technical term defined where it first appears on a page.
 - Australian/British spelling.
-- Lead with the point; paragraphs of four sentences or fewer.
+- Lead with the point; paragraphs of three sentences or fewer.
 - Write to an intelligent adult. No cheerleading or "superpower" framing, no pathologising, and no telling readers how to feel.
-- Keep every page in the standard shape: short answer, evidence, what is uncertain, what it means for you, related pages, sources. The "uncertain" section is never removed.
+- Keep every content page in the standard shape: short answer, evidence, what is uncertain, what it means for you, related pages, sources. The "uncertain" section is never removed. Reference pages (the glossary, myths, sources, not-medical-advice and the folder READMEs) have their own shapes.
 
 ### Information, not advice
 

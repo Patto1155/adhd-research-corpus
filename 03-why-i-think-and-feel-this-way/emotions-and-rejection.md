@@ -1,6 +1,6 @@
 # Emotions and rejection in ADHD: why do they hit so hard?
 
-> **Short answer:** Difficulty regulating emotions is well documented in ADHD, in children and adults. Many people with ADHD describe "rejection sensitive dysphoria" (RSD), intense pain at perceived rejection, but neither main diagnostic manual includes it. No validated questionnaire and no systematic review of RSD in ADHD was found; the experience is real, but RSD as a named condition is not established.
+> **Short answer:** Difficulty regulating emotions is common in ADHD, documented in children and, in fewer, mostly self-report studies, in adults. Some people with ADHD describe "rejection sensitive dysphoria" (RSD), intense pain at perceived rejection, but neither main diagnostic manual includes it, and no validated measure of it was found. The experience is real; RSD as a named condition is not established.
 
 ## What the evidence shows
 
@@ -12,13 +12,13 @@
 
 **A systematic review supports the same picture.** A 2023 review of 22 studies in adults with a clinical ADHD diagnosis found they used unhelpful emotion-regulation strategies more often than people without ADHD [3]. Emotion dysregulation was linked to symptom severity, executive difficulties and other psychiatric conditions. The authors described the evidence as scarce and heterogeneous [3].
 
-**ADHD medicines reduce emotional lability, but less than core symptoms.** A meta-analysis of 9 placebo-controlled trials in adults found stimulants and atomoxetine reduced emotional lability by a moderate amount (SMD −0.41), about half the effect on core ADHD symptoms (SMD −0.8) [4]. The trials were not designed around emotional problems, and the authors called for studies that are [4]. Decisions about medication belong with a prescriber; more is on [how well medication works](../06-treatment-what-works/how-well-medication-works.md).
+**ADHD medicines reduce emotional lability, but less than core symptoms.** A meta-analysis of 9 placebo-controlled trials in adults found stimulants and atomoxetine reduced emotional lability by a moderate amount (SMD −0.41; a standardised mean difference, the gap between groups measured in units of how spread out people's scores are), about half the effect on core ADHD symptoms (SMD −0.8) [4]. The trials were not designed around emotional problems, and the authors called for studies that are [4]. Decisions about medication belong with a prescriber; more is on [how well medication works](../06-treatment-what-works/how-well-medication-works.md).
 
 **Rejection sensitivity has some early evidence.** Rejection sensitivity is an established psychology concept: a tendency to anxiously expect, readily perceive and react strongly to rejection. In young adolescents, more ADHD symptoms were linked to stronger brain responses to peer rejection in a computer game, higher self-reported rejection sensitivity, and weaker brain responses to acceptance [5]. A 2024 study of college students, published as a conference abstract, found ADHD symptom scores were associated with scores on an adult rejection sensitivity questionnaire [6].
 
 **Those studies measured rejection sensitivity, not RSD.** Both are single, correlational studies.
 
-**RSD as a named condition is not established.** RSD is not in the DSM-5-TR or ICD-11, the two main diagnostic systems, and the term came from clinical writing rather than research. A search for this page, covering work published up to late 2026, found no validated questionnaire for RSD and no systematic review of RSD in ADHD.
+**RSD as a named condition is not established.** RSD is not in the DSM-5-TR or ICD-11, the two main diagnostic systems; where the term first came from was not checked for this page. A search for this page, covering work published up to late 2026, found no validated questionnaire for RSD and no systematic review of RSD in ADHD.
 
 **The first studies using the term are small.** A 2026 qualitative study of five university students with ADHD described masking, withdrawal and physical sensations as common responses to rejection [7]. A 2026 scoping review of rejection sensitivity dysphoria in *autistic* adults noted that the term is rarely used in scientific research [8]. A 2025 qualitative study of neurodivergent adults pointed to environmental factors, such as other people's judgement and learned responses to past rejection [9]; none of these tests RSD as a distinct condition.
 

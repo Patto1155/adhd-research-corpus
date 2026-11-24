@@ -1,6 +1,6 @@
 # Anxiety and depression with ADHD: why are they so common?
 
-> **Short answer:** Adults with ADHD are about four to five times as likely to have an anxiety disorder or major depression, partly because of shared genes. Genetic studies suggest ADHD can raise later depression risk, and years of unrecognised difficulties probably add to it. The symptoms can look alike, and both can be present at once.
+> **Short answer:** Adults with ADHD have about four to five times the odds of an anxiety disorder or major depression, partly because of shared genes. One genetic study suggests ADHD can raise later depression risk, and years of unrecognised difficulties may add to it, though this has not been measured. The symptoms can look alike, and both can be present at once.
 
 ## What the evidence shows
 

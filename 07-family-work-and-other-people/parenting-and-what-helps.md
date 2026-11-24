@@ -1,6 +1,6 @@
 # Parent training and school support for ADHD: do they help?
 
-> **Short answer:** Yes, but for different things than many people expect. Parent training reliably improves parenting and reduces defiance and behaviour problems, even on blinded ratings, but its effect on core ADHD symptoms shrinks to little or nothing when blinded observers rate it. Classroom programmes reduce disruptive behaviour, with smaller effects on grades.
+> **Short answer:** Yes, but for different things than many people expect. On blinded ratings, parent training improves parenting and slightly reduces children's behaviour problems, though in preschool children only the parenting effect held; effects on core ADHD symptoms shrink to little or nothing. Classroom programmes bring small benefits on disruptive behaviour; effects on grades were not checked.
 
 ## What the evidence shows
 
@@ -12,7 +12,7 @@ On unblinded ratings, ADHD symptoms improved by SMD 0.35, along with parents' co
 
 **In preschool children the pattern is the same.** A meta-analysis of 16 studies (1,003 children aged 2.5 to 6) found moderate effects on parent-rated ADHD symptoms (Hedges' g about 0.51), conduct problems (0.40) and negative parenting (0.63), lasting 3 to 12 months [3]. On independent assessment, only the effect on negative parenting remained significant; there was no significant effect on independently assessed ADHD symptoms [3]. This evidence is why NICE recommends group parent training as the first-line treatment for children under 5, as described in [ADHD medication for children: is it safe and worthwhile?](children-and-medication.md)
 
-**Classroom programmes reduce disruptive behaviour.** A meta-analysis restricted to randomised trials (19 trials, 18,094 primary-school children) found small benefits of behavioural classroom programmes on disruptive and on-task behaviour, measured by teacher ratings and classroom observation [4]. These trials studied disruptive behaviour in general, many with whole-class programmes, so they are not specific to ADHD. Effects on academic results are generally smaller and less consistent than effects on behaviour.
+**Classroom programmes reduce disruptive behaviour.** A meta-analysis restricted to randomised trials (19 trials, 18,094 primary-school children) found small benefits of behavioural classroom programmes on disruptive and on-task behaviour, measured by teacher ratings and classroom observation [4]. These trials studied disruptive behaviour in general, many with whole-class programmes, so they are not specific to ADHD.
 
 <details>
 <summary>What the school reviews could and could not show (1 min)</summary>
@@ -39,7 +39,7 @@ A 2018 meta-analysis of 43 studies found that interventions for children's ADHD 
 
 ## What this means for you
 
-Parent training is offered because it reliably improves the day-to-day relationship and reduces conflict and defiance, which are often what make family life hardest. Being offered it is not a verdict on your parenting: it is not offered because parenting caused the ADHD, and the evidence on causes points elsewhere. It is less likely than medication to change core attention symptoms, and the two are often used together.
+Parent training is offered because, on average, it improves parenting and reduces children's conflict and defiance, which are often what make family life hardest. Being offered it is not a verdict on your parenting: it is not offered because parenting caused the ADHD, and the evidence on causes points elsewhere. It is less likely than medication to change core attention symptoms, and the two are often used together.
 
 The evidence on causes is on [what does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md).
 
