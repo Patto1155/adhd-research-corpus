@@ -10,7 +10,7 @@ Open an issue and include:
 2. **What is wrong**: a number that does not match the source, a citation that does not exist or points to the wrong paper, a claim stronger than the evidence, a broken link, or language that reads as advice.
 3. **Your evidence**: the source and, where you can, the exact figure or passage, with a DOI, PubMed ID or link.
 
-Errors in crisis contacts on [not medical advice](08-reading-this-well/not-medical-advice.md) are treated as the most urgent. Please say in the issue title that it concerns a crisis number.
+Errors in crisis contacts on [not medical advice](../08-reading-this-well/not-medical-advice.md) are treated as the most urgent. Please say in the issue title that it concerns a crisis number.
 
 ## Suggest a source
 
@@ -51,4 +51,4 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 - Never advise starting, stopping or changing medication; say once per relevant page that these are decisions to make with a prescriber.
 - No self-tests. Screening questionnaires may be described, not reproduced as a diagnostic quiz.
 - Report evidence on supplements, diets, apps and devices without telling readers what to buy.
-- Content on suicide, self-harm or mortality follows safe-messaging practice (no method detail) and links to [not medical advice](08-reading-this-well/not-medical-advice.md) for crisis contacts.
+- Content on suicide, self-harm or mortality follows safe-messaging practice (no method detail) and links to [not medical advice](../08-reading-this-well/not-medical-advice.md) for crisis contacts.

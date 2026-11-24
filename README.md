@@ -1,67 +1,79 @@
-# ADHD: what the research says
+# ADHD research, explained plainly
 
-A plain-language guide to the science of ADHD: genes, brain, chemistry, thinking and emotion, how it changes over life, and what treatment research shows. It is written for adults who have been diagnosed or think they might have ADHD, and for the parents and partners of people who do. Each page answers one question, gives the numbers with what they mean in practice, and says what is still unknown.
+Short, sourced pages on what research says about ADHD, for adults who have it or think they might, and for parents and partners. Each page gives the short answer first, then the evidence and what is still unknown. This is information, not medical advice.
 
 ## Find your worry
 
-| If you are asking… | Start here |
-|---|---|
-| Is my brain broken or damaged? | [Brain structure and development](02-whats-happening-in-my-brain/brain-structure-and-development.md) |
-| Is ADHD even real, or am I just lazy? | [What ADHD is](01-is-this-real/what-adhd-is.md) |
-| Isn't it just a fad? Why are diagnoses rising? | [More diagnoses than ever](01-is-this-real/more-diagnoses-than-ever.md) |
-| Did I, or my parents, cause this? | [What does and doesn't cause ADHD](04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md) |
-| Will medication change my personality or make me a zombie? | [Will medication change me?](06-treatment-what-works/will-medication-change-me.md) |
-| Will I get addicted? | [Alcohol, drugs and addiction](05-what-often-comes-with-it/alcohol-drugs-and-addiction.md) |
-| Is medication bad for my heart? | [Medication safety](06-treatment-what-works/medication-safety.md) |
-| Could medication make me psychotic? | [Medication safety](06-treatment-what-works/medication-safety.md) |
-| Will it get worse as I age? Will I get dementia? | [How ADHD changes over life](04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md) |
-| Am I going to die young? | [The hard statistics in context](04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md) |
-| Am I a danger on the road? | [What registries show](06-treatment-what-works/what-registries-show.md) |
-| Is it really ADHD, or anxiety, depression, autism, trauma or sleep? | [Is it ADHD or something else?](05-what-often-comes-with-it/is-it-adhd-or-something-else.md) |
-| I'm a woman diagnosed in midlife. Was I missed? | [Women and girls](01-is-this-real/women-and-girls.md) |
-| Will hormones or menopause make it worse? | [Hormones, cycles and menopause](04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md) |
-| Will my children have it? | [Genes and inheritance](02-whats-happening-in-my-brain/genes-and-inheritance.md) |
-| If I stop medication, do the benefits disappear? Do I have to take it forever? | [Staying on or stopping medication](06-treatment-what-works/staying-on-or-stopping-medication.md) |
-| Do non-drug treatments work, or am I failing by needing pills? | [Therapy and skills](06-treatment-what-works/therapy-and-skills.md) and [lifestyle and other approaches](06-treatment-what-works/lifestyle-and-other-approaches.md) |
-| Is my emotional intensity, or rejection pain, part of ADHD? | [Emotions and rejection](03-why-i-think-and-feel-this-way/emotions-and-rejection.md) |
-| Can I trust an online self-test or TikTok? | [How diagnosis works](01-is-this-real/how-diagnosis-works.md) |
-| Will a diagnosis affect my job, driving licence or insurance? | Rules differ by country and are outside this corpus. See [not medical advice](08-reading-this-well/not-medical-advice.md) and check local official sources. |
-| I was diagnosed as an adult. Was I a "real" case? | [Diagnosed as an adult](01-is-this-real/diagnosed-as-an-adult.md) |
-| Is medication changing my brain? | [Dopamine, noradrenaline and myths](02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md) |
-| Is medication safe in pregnancy or while breastfeeding? | [Pregnancy and breastfeeding](06-treatment-what-works/pregnancy-and-breastfeeding.md) |
-| My child or partner has ADHD. Where do I start? | [For parents and partners](07-family-work-and-other-people/README.md) |
-| I've heard a claim and want to know if it's true. | [Myths and corrections](08-reading-this-well/myths-and-corrections.md) |
+### [Is ADHD real?](01-is-this-real/README.md)
 
-**If you are in crisis or thinking about suicide,** crisis lines for Australia, the UK, Ireland, the US, Canada, New Zealand and elsewhere are at the top of [not medical advice](08-reading-this-well/not-medical-advice.md).
+- [Is ADHD real, or am I just lazy?](01-is-this-real/what-adhd-is.md)
+- [Can I trust an online ADHD test?](01-is-this-real/how-diagnosis-works.md)
+- [I was diagnosed as an adult. Is it the same ADHD?](01-is-this-real/diagnosed-as-an-adult.md)
+- [Was I missed because I'm a woman?](01-is-this-real/women-and-girls.md)
 
-## The eight folders
+### [What is different about my brain?](02-whats-happening-in-my-brain/README.md)
 
-1. [Is this real?](01-is-this-real/README.md) What ADHD is, how it is diagnosed, and why diagnoses are rising.
-2. [What's happening in my brain?](02-whats-happening-in-my-brain/README.md) Genes, brain structure, dopamine and noradrenaline, and why no two ADHD brains are alike.
-3. [Why I think and feel this way](03-why-i-think-and-feel-this-way/README.md) Executive function, time, attention, emotion and sleep.
-4. [Did I cause this, and where is it going?](04-did-i-cause-this-and-where-is-it-going/README.md) Causes, how ADHD changes over life, hormones, and the hard statistics.
-5. [What often comes with it](05-what-often-comes-with-it/README.md) Anxiety, depression, autism, substance use, physical health, and lookalike conditions.
-6. [Treatment: what works](06-treatment-what-works/README.md) How medicines work, how well, their risks, and therapy and other approaches.
-7. [For parents and partners](07-family-work-and-other-people/README.md) ADHD in children and teenagers, children and medication, parenting, and partners.
-8. [Reading this well](08-reading-this-well/README.md) How to read the evidence, myths, sources, the glossary, and what this corpus cannot do.
+- [Is my brain damaged, or "three years behind"?](02-whats-happening-in-my-brain/brain-structure-and-development.md)
+- [Is ADHD caused by low dopamine?](02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md)
+- [Will my children have ADHD?](02-whats-happening-in-my-brain/genes-and-inheritance.md)
 
-## How the pages work
+### [Why do I think and feel this way?](03-why-i-think-and-feel-this-way/README.md)
 
-Every page follows the same order: a **short answer** at the top, then what the evidence shows, what is uncertain or debated, what it means for you, related pages, and numbered sources. If you read only the short answer, you will have the main point.
+- [Why can't I get started, even on things I care about?](03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
+- [Why do I lose track of time and hate waiting?](03-why-i-think-and-feel-this-way/time-waiting-and-rewards.md)
+- [Why do emotions and rejection hit me so hard?](03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
+- [Why can I focus for hours on some things and not at all on others?](03-why-i-think-and-feel-this-way/attention-regulation-and-hyperfocus.md)
 
-Each source carries an evidence label:
+### [Did I cause this, and where is it going?](04-did-i-cause-this-and-where-is-it-going/README.md)
 
-- **Strong**: large, well-designed studies or meta-analyses that agree.
-- **Moderate**: consistent findings with fewer studies or design limits.
-- **Limited**: small, few or self-report studies; a lead, not a conclusion.
-- **Contested**: good-quality sources disagree.
+- [Did I, or my parents, cause my ADHD?](04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
+- [Will it get worse as I get older?](04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
+- [Does ADHD shorten life expectancy?](04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Do periods, pregnancy or menopause make it worse?](04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
 
-[How to read the evidence](08-reading-this-well/how-to-read-the-evidence.md) explains these labels, and what effect sizes, heritability and relative risk mean, with worked examples. Unfamiliar terms are in the [glossary](08-reading-this-well/glossary.md).
+### [What else often comes with ADHD?](05-what-often-comes-with-it/README.md)
 
-## This is information, not medical advice
+- [Is it really ADHD, or could it be anxiety, trauma or poor sleep?](05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [Why do I have anxiety or depression as well?](05-what-often-comes-with-it/anxiety-and-depression.md)
+- [Can I be autistic and have ADHD?](05-what-often-comes-with-it/autism-and-adhd.md)
+- [Am I more likely to get addicted, and does medication raise the risk?](05-what-often-comes-with-it/alcohol-drugs-and-addiction.md)
 
-These pages describe research findings about groups of people. They cannot diagnose you or tell you what treatment is right for you, and they never advise starting, stopping or changing medication; those are decisions to make with a clinician. [Not medical advice](08-reading-this-well/not-medical-advice.md) says this in full, including when to see someone.
+### [Which ADHD treatments work, and are they safe?](06-treatment-what-works/README.md)
 
-## How this was made
+- [Does ADHD medication actually work?](06-treatment-what-works/how-well-medication-works.md)
+- [Will medication change my personality?](06-treatment-what-works/will-medication-change-me.md)
+- [Is ADHD medication bad for my heart?](06-treatment-what-works/medication-safety.md)
+- [Will I have to take medication forever?](06-treatment-what-works/staying-on-or-stopping-medication.md)
 
-The corpus was drafted with AI assistance and checked against the cited sources. Errors may remain. Corrections and suggested sources are welcome through this repository's issues; see [CONTRIBUTING](CONTRIBUTING.md). How sources were chosen, and the limits on checking them, are set out in [sources and guidelines](08-reading-this-well/sources-and-guidelines.md).
+### [ADHD and other people: children, parents, partners, work, stigma](07-family-work-and-other-people/README.md)
+
+- [Is my child's ADHD my fault?](07-family-work-and-other-people/adhd-in-children-and-teenagers.md)
+- [Is ADHD medication safe for my child?](07-family-work-and-other-people/children-and-medication.md)
+- [My partner has ADHD. What does research say?](07-family-work-and-other-people/when-your-partner-has-adhd.md)
+- [Should I tell people I have ADHD?](07-family-work-and-other-people/stigma-and-telling-people.md)
+
+### [How should I read these pages?](08-reading-this-well/README.md)
+
+- [Is that ADHD claim I saw online true?](08-reading-this-well/myths-and-corrections.md)
+- [What does "twice the risk" actually mean?](08-reading-this-well/how-to-read-the-evidence.md)
+- Will a diagnosis affect my driving licence or insurance? Rules depend on where you live, and [these pages do not cover them](08-reading-this-well/not-medical-advice.md#what-these-pages-can-and-cannot-do).
+
+If you are struggling or thinking about suicide, crisis lines for several countries are at the top of [if you need help now](08-reading-this-well/not-medical-advice.md#if-you-need-help-now).
+
+## Browse by lens
+
+The folders follow the questions people ask. Here are the same pages grouped by part of life instead.
+
+- **Body:** [genes and brains](02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md), [how medicines work](06-treatment-what-works/how-adhd-medicines-work.md), [sleep](03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md), [physical health](05-what-often-comes-with-it/physical-health.md), [medication in pregnancy](06-treatment-what-works/pregnancy-and-breastfeeding.md)
+- **Mind:** [planning and memory](03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md), [emotions](03-why-i-think-and-feel-this-way/emotions-and-rejection.md), [anxiety and depression](05-what-often-comes-with-it/anxiety-and-depression.md), [therapy and coaching](06-treatment-what-works/therapy-and-skills.md), [diet, exercise and neurofeedback](06-treatment-what-works/lifestyle-and-other-approaches.md)
+- **World:** [parenting and school](07-family-work-and-other-people/parenting-and-what-helps.md), [partners](07-family-work-and-other-people/when-your-partner-has-adhd.md), [work and study](07-family-work-and-other-people/work-and-study.md), [stigma](07-family-work-and-other-people/stigma-and-telling-people.md), [rising diagnoses](01-is-this-real/more-diagnoses-than-ever.md)
+- **Meaning:** [life after a diagnosis](01-is-this-real/after-the-diagnosis.md), [disorder or difference](01-is-this-real/what-adhd-is.md), [being diagnosed later](01-is-this-real/diagnosed-as-an-adult.md)
+
+Research on spirituality and ADHD is very thin, which is why Meaning is short; [after the diagnosis](01-is-this-real/after-the-diagnosis.md) covers what there is.
+
+## About these pages
+
+- Each page starts with a short answer, then what the evidence shows, what is uncertain, and numbered sources, each labelled by strength. Technical words are in the [glossary](08-reading-this-well/glossary.md).
+- This is information, not medical advice. The pages cannot diagnose you or tell you what to do about treatment; [what these pages can and cannot do](08-reading-this-well/not-medical-advice.md) explains.
+- [How these pages were made](08-reading-this-well/sources-and-guidelines.md): drafted by AI from published research, then fact-checked by separate AI checkers against abstracts and index records, not full texts. The owner is not a clinician, and no clinician has reviewed them. Last reviewed November 2026.
+- Found an error? Open an issue in this repository. [CONTRIBUTING](.github/CONTRIBUTING.md) says what to include.
