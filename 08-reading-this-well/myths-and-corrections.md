@@ -19,7 +19,7 @@ Girls and women are diagnosed less often and later, and the gap between the sexe
 → [Women and girls](../01-is-this-real/women-and-girls.md)
 
 **"An online quiz or TikTok video told me I have it."**
-Screening questionnaires flag people who may need assessment; they cannot diagnose. A study of popular ADHD videos found about half were misleading.
+Screening questionnaires flag people who may need assessment; they cannot diagnose. A study of the 100 most popular ADHD videos on TikTok found about half (52) were misleading [3].
 → [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
 
 **"You can't get ADHD as an adult" / "Adult-onset ADHD is a separate condition."**
@@ -41,7 +41,7 @@ Group differences in brain size are very small, and people with and without ADHD
 → [Brain structure and development](../02-whats-happening-in-my-brain/brain-structure-and-development.md)
 
 **"If a stimulant helps you focus, you must have ADHD."**
-Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. <!-- CHECK: scoping report cites Rapoport 1978 Science from memory; needs a confirmed source -->
+Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. In small experiments from 1978 and 1980, a single dose of dextroamphetamine reduced activity and improved vigilance in boys without ADHD, and acted similarly in boys with ADHD and in adult men [5][6].
 → [How ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md)
 
 ### About thinking and feeling
@@ -65,17 +65,17 @@ Twin studies find almost no effect of the shared family environment on whether s
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
 **"Sugar, screens, paracetamol or smoking in pregnancy cause ADHD."**
-Controlled trials have not found that sugar changes children's behaviour. The links with paracetamol and smoking in pregnancy largely disappear when siblings are compared, which points to shared family factors. Screens are linked with ADHD symptoms, but which causes which is unclear.
+Double-blind trials have not found that sugar changes children's behaviour [1]. The links with paracetamol and smoking in pregnancy largely disappear when siblings are compared, which points to shared family factors. Screens are linked with ADHD symptoms, but which causes which is unclear.
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
 ### About the future
 
 **"People with ADHD die 13 years earlier."**
-This figure is a model-based estimate from one group of 158 boys from the United States, put through a life-expectancy calculator. It is not a count of deaths. Studies of actual deaths among diagnosed adults find a smaller and still uncertain gap, much of it from accidents and other risks that can change.
+This figure is a model-based estimate from one group of 158 children, mostly boys, from Milwaukee in the United States, put through a life-expectancy calculator [2]. It is not a count of deaths. Studies of actual deaths among diagnosed adults find a smaller and still uncertain gap, much of it from accidents and other risks that can change.
 → [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 
 **"ADHD causes dementia."**
-One observational study found a link, in a small group, and early dementia can be mistaken for ADHD. That is not evidence of cause.
+Several large studies of health records, from Israel and Sweden among others, find that people with ADHD are diagnosed with dementia more often later in life. The link is much weaker than headlines suggest: in the largest study it weakened considerably once other psychiatric conditions were taken into account, and a systematic review found the studies too varied to combine. Early dementia can also be mistaken for late-appearing ADHD. None of this shows that ADHD causes dementia.
 → [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 
 **"ADHD always gets worse at menopause."**
@@ -93,7 +93,7 @@ Major reviews, Cochrane included, find similar short-term benefits. They disagre
 → [How well medication works](../06-treatment-what-works/how-well-medication-works.md)
 
 **"Medication turns you into a zombie" / "It changes who you are."**
-Emotional ups and downs usually improve on medication. Some people report feeling flat, but no good data on how often this happens were found.
+On average, emotional ups and downs become smaller on medication, not flatter. Some people report feeling flat, but no good data on how often this happens were found.
 → [Will medication change me?](../06-treatment-what-works/will-medication-change-me.md)
 
 **"Neurofeedback, brain training or supplements fix ADHD."**
@@ -122,7 +122,9 @@ If a claim has worried or reassured you, the linked page gives the numbers, who 
 
 This page summarises; each linked page carries its own sources. Key sources for claims not given in full elsewhere:
 
-1. Wolraich ML, Wilson DB, White JW. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies; a small effect in a subgroup could not be ruled out. <!-- CHECK: co-authors and issue number from memory; study count varies across secondary sources -->
-2. Barkley RA, Fischer M. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one cohort of 158 children. <!-- CHECK: volume, pages and DOI not captured -->
-3. Yeung A, Ng E, Abi-Jaoude E. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of 100 videos. <!-- CHECK: title and "100 videos" from memory -->
-4. Sonuga-Barke E, Thapar A. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Moderate**, expert commentary. <!-- CHECK: title from memory -->
+1. Wolraich ML, et al. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies from 16 reports; a small effect, or an effect in some children, could not be ruled out.
+2. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one clinical cohort of 158 children, mostly boys; no deaths counted. <!-- CHECK: volume, pages and DOI not found; journal and year from the author's own summaries only -->
+3. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading. <!-- CHECK: DOI/PMID not seen in search -->
+4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Moderate**, expert commentary.
+5. Rapoport JL, et al. Dextroamphetamine: cognitive and behavioral effects in normal prepubertal boys. *Science*. 1978;199(4328):560–3. DOI 10.1126/science.341313. — **Evidence: Limited**, single small experiment, one dose, boys only; abstract not read.
+6. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract. <!-- CHECK: DOI/PMID not seen in search -->

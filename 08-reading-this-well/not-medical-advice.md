@@ -62,13 +62,13 @@ The corpus was drafted with AI assistance and checked against the cited sources.
 
 ## Sources
 
-Crisis contacts were confirmed by web search on 24 November 2026 against the services' own pages:
+Crisis contacts were checked twice by web search on 24 November 2026: once against the service's own pages and once against an official government or health-service page.
 
-1. Lifeline Australia. lifeline.org.au (13 11 14; text 0477 13 11 14; 000 for emergencies).
-2. Samaritans. samaritans.org (116 123, free in the UK and Ireland).
-3. NHS England. "NHS 111 offering crisis mental health support for the first time", 2024; england.nhs.uk.
-4. Pieta. pieta.ie (1800 247 247; text HELP to 51444).
-5. 988 Suicide & Crisis Lifeline (US). 988lifeline.org; SAMHSA 988 fact sheet.
-6. 9-8-8 Suicide Crisis Helpline (Canada). 988.ca; Public Health Agency of Canada announcement, November 2023.
-7. 1737 Need to talk? (New Zealand). 1737.org.nz.
-8. Find A Helpline. findahelpline.com.
+1. Lifeline Australia. lifeline.org.au (13 11 14; text 0477 13 11 14, 24/7; online chat). Also listed by healthdirect (healthdirect.gov.au, "Mental health helplines"), which gives 000 for immediate danger, and the Australian Government Department of Health announcement that the text service runs 24/7.
+2. Samaritans. samaritans.org (116 123, free from UK and Irish landlines and mobiles, 24 hours). Also listed by NHS (nhs.uk, "Where to get urgent help for mental health") and HSE Ireland (hse.ie).
+3. NHS England. "NHS 111 offering crisis mental health support for the first time", August 2024; england.nhs.uk. NHS (nhs.uk, "Where to get urgent help for mental health"): call 111 and select the mental health option.
+4. Pieta. pieta.ie (freephone 1800 247 247; text HELP to 51444, standard message rates). Also listed by HSE Ireland (hse.ie) and gov.ie.
+5. 988 Suicide & Crisis Lifeline (US). 988lifeline.org (call, text or chat, 24/7). Also SAMHSA (samhsa.gov/mental-health/988) and the FCC 988 consumer guide (fcc.gov).
+6. 9-8-8 Suicide Crisis Helpline (Canada). 988.ca (call or text, 24/7, English or French; text from mobiles only). Also Public Health Agency of Canada announcement, November 2023 (canada.ca).
+7. 1737 Need to talk? (New Zealand). 1737.org.nz (free call or text, 24/7). Also Health New Zealand (healthnz.govt.nz).
+8. Find A Helpline. findahelpline.com (its own pages describe helplines in more than 130 countries).

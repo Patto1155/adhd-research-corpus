@@ -23,7 +23,8 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 ### Sourcing
 
 - Every factual claim with a number has a numbered source on the same page.
-- A source is cited only if its record has been confirmed (authors, title, journal, year, and a DOI or PubMed ID). Never construct or guess a DOI; if you only have a PubMed ID, give that.
+- A source is cited only if its record has been confirmed (first author, title, journal, year, and a DOI or PubMed ID). Never construct or guess a DOI: give one only if you have seen it in the source's index record or publisher page; if you only have a PubMed ID, give that.
+- Use this format: `First-author surname and initials, et al. Title. *Journal*. Year. DOI or PMID. — **Evidence: label**, short reason.`
 - Each source entry carries an evidence label (**Strong**, **Moderate**, **Limited** or **Contested**) and a few words on why.
 - If a number comes from memory, a secondary source, or an identifier you could not confirm, add `<!-- CHECK: what needs confirming -->` after it so reviewers can find it.
 - Where good sources disagree, report the disagreement rather than choosing one.

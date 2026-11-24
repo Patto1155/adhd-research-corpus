@@ -220,7 +220,7 @@
 
 ## V
 
-**Viloxazine.** A newer non-stimulant medicine that acts mainly on noradrenaline. It is approved in some countries only. <!-- CHECK: viloxazine approval status by country (US approved; confirm others) -->
+**Viloxazine.** A newer non-stimulant medicine that acts mainly on noradrenaline. It has been approved for ADHD in the United States since 2021; no approval for ADHD in other countries was found when this was checked in November 2026.
 
 ## W
 
