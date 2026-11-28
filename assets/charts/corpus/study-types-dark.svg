@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Over half are meta-analyses or registry and cohort studies</title><desc id="d">Bar chart of 312 unique sources by study type: meta-analysis 92 (29%), registry, cohort or large dataset 83 (27%), other 76 (24%), systematic or umbrella review 31 (10%), guideline or consensus 16 (5%), trial 14 (4%). Study types were guessed from words in each citation.</desc>
+<rect x="0.5" y="0.5" width="719" height="349" rx="8" fill="#191919" stroke="#2e2e2e"/>
+<text x="24.0" y="38.0" font-size="18" font-weight="600" fill="#efefef" text-anchor="start">Over half are meta-analyses or registry and cohort studies</text>
+<text x="24.0" y="62.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">The 312 different sources, each counted once, by kind of study</text>
+<text x="242.0" y="108.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Meta-analysis</text>
+<path d="M254.0,92.0 h348.0 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-348.0 z" fill="#338ced"><title>Meta-analysis: 92</title></path>
+<text x="614.0" y="108.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">92  (29%)</text>
+<text x="242.0" y="146.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Registry, cohort or large dataset</text>
+<path d="M254.0,130.0 h313.6 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-313.6 z" fill="#338ced"><title>Registry, cohort or large dataset: 83</title></path>
+<text x="579.6" y="146.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">83  (27%)</text>
+<text x="242.0" y="184.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Systematic or umbrella review</text>
+<path d="M254.0,168.0 h114.6 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-114.6 z" fill="#338ced"><title>Systematic or umbrella review: 31</title></path>
+<text x="380.6" y="184.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">31  (10%)</text>
+<text x="242.0" y="222.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Guideline or consensus</text>
+<path d="M254.0,206.0 h57.2 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-57.2 z" fill="#338ced"><title>Guideline or consensus: 16</title></path>
+<text x="323.2" y="222.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">16  (5%)</text>
+<text x="242.0" y="260.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Trial</text>
+<path d="M254.0,244.0 h49.6 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-49.6 z" fill="#338ced"><title>Trial: 14</title></path>
+<text x="315.6" y="260.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">14  (4%)</text>
+<text x="242.0" y="298.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">Other</text>
+<path d="M254.0,282.0 h286.8 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-286.8 z" fill="#1b64be"><title>Other: 76</title></path>
+<text x="552.8" y="298.0" font-size="13" font-weight="500" fill="#efefef" text-anchor="start">76  (24%)</text>
+<line x1="254" x2="254" y1="86" y2="310" stroke="#474747"/>
+<text x="24.0" y="334.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Source: this site&#x27;s own source lists, generated 2026-11-28. Types are a keyword guess.</text>
+</svg>

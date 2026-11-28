@@ -19,6 +19,13 @@ These percentages are this page's own calculations from the standard formulas fo
 
 A 2025 analysis of 113 trials in 14,887 adults found that only stimulants and atomoxetine reduced core symptoms on *both* clinician and self-ratings, at around 12 weeks [2]. Clinician-rated SMDs were roughly 0.6 for stimulants and 0.5 for atomoxetine, and self-rated SMDs about 0.4 for both [2].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/06/medication-effect-sizes-dark.svg">
+  <img src="../assets/charts/06/medication-effect-sizes.svg" alt="Dot plot of standardised mean differences against placebo, mostly at around 12 weeks, with shaded bands for small, medium and large effects. Children and teenagers: amphetamines 1.02 and methylphenidate 0.78 (clinician-rated, network meta-analysis), methylphenidate 0.74 (teacher-rated, Cochrane). Adults: stimulants about 0.6 and atomoxetine about 0.5 (clinician-rated), both about 0.4 (self-rated), and 0.41 for emotional lability." width="720">
+</picture>
+
+*Short-term effect sizes for core symptoms from four reviews, with bands following the convention on [how to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md) (0.2 small, 0.5 medium, 0.8 large); they say nothing about quality of life or long-term benefit, and averages hide individual response.*
+
 **In adults, symptoms improved but quality of life did not.** The same 2025 adult analysis found that medicines were not efficacious on other relevant outcomes such as quality of life, and that longer-term effects had been little studied [2]. This is an uncomfortable finding, and it is reported here because it matters. It may mean that quality-of-life scales miss what changes, that trials are too short, or that symptom relief alone does not fix the practical and social consequences of ADHD.
 
 **Cochrane and a BMJ review rate the same evidence differently.** The Cochrane review of methylphenidate in children found a teacher-rated SMD of 0.74 (21 trials, 1,728 participants) in both its 2023 version and its December 2025 update [3]. This was translated to about 10.6 points on the ADHD Rating Scale (which the review describes as running from 0 to 72 points), and the 2025 update treats 6.6 points as the smallest clinically relevant difference [3]. Cochrane rated the certainty of its outcomes as *very low* [3].

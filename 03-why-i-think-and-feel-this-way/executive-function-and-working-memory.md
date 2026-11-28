@@ -19,6 +19,13 @@
 
 **Adults show similar-sized differences, not only on executive tasks.** A meta-analysis of 13 studies in adults found medium effects for verbal fluency (*d* = 0.62), inhibition (*d* = 0.64 and 0.89) and set shifting, meaning switching between tasks or rules (*d* = 0.65) [4]. Adults with ADHD also differed by similar amounts on *non*-executive measures, such as consistency of responding (*d* = 0.57) and speed of naming colours (*d* = 0.62), so adult difficulties are not confined to executive function [4]. A later meta-analysis of 38 adult studies found moderate working memory differences, and concluded that these persist into adulthood [5].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/03/executive-function-effect-sizes-dark.svg">
+  <img src="../assets/charts/03/executive-function-effect-sizes.svg" alt="Dot plot of effect sizes (d) for ADHD compared with people without ADHD, where further right means weaker average performance in the ADHD group. Mostly children and teenagers: executive tasks across 83 studies 0.46 to 0.69; visual–spatial working memory 0.85 and 1.06; verbal working memory 0.43 and 0.47. Adults, 13 studies: verbal fluency 0.62; inhibition 0.64 and 0.89; set shifting 0.65; and two non-executive measures, consistency of responding 0.57 and speed of naming colours 0.62. All are above the conventional small mark of 0.2." width="720">
+</picture>
+
+*Effect sizes from sources 1, 3 and 4 on this page; these are group averages from different sets of studies, and even the larger gaps leave the two groups' scores heavily overlapping.*
+
 **Weaknesses are "neither necessary nor sufficient".** The effects are medium rather than large, and not everyone with ADHD performs poorly on these tests, so the authors of the large meta-analysis concluded that executive weaknesses do not cause all ADHD [1]. A review by some of the same researchers argued that, because the two groups' scores overlap so much, only a subgroup of people with ADHD may have a true executive deficit [6]. More is on [why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md).
 
 **How many people with ADHD have an executive weakness is disputed.** Older estimates, summarised in a later study, put it at about a third to a half of children with ADHD [7]. That study of 136 children, which used several tests per skill and allowed for test unreliability, found 89% of children with ADHD were impaired on at least one of working memory (62%), inhibition (27%) or task-switching (38%) [7]. The second figure comes from one small sample, so the true share is uncertain and depends heavily on how "impaired" is defined.

@@ -10,6 +10,13 @@ This page discusses death, including suicide, and the short answer above is the 
 
 **Death rates: about twice as high, but small in absolute terms.** A Danish study of about 1.92 million people, including 32,061 with ADHD, found people with ADHD died at a rate of 5.85 per 10,000 person-years (one person followed for one year), against 2.21 for people without ADHD [1]. That is about 6 deaths against about 2 among 10,000 people in a year, a rate ratio of 2.07 after adjustment [1].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/04/deaths-per-10000-dark.svg">
+  <img src="../assets/charts/04/deaths-per-10000.svg" alt="Two grids of 10,000 dots, each standing for 10,000 people followed for one year in a Danish registry study. In the grid for people with ADHD about 6 dots are filled (5.85 deaths per 10,000 person-years); in the grid for people without ADHD about 2 are filled (2.21 per 10,000 person-years). Below, the relative figures: a rate ratio of 2.07 after adjustment, and 1.50 after removing people who also had oppositional defiant, conduct or substance use disorders." width="720">
+</picture>
+
+*Danish death rates with and without ADHD, shown out of 10,000 people a year; the cohort was aged 32 or under, so this mostly describes deaths in childhood and early adulthood. Support contacts are on [not medical advice](../08-reading-this-well/not-medical-advice.md).*
+
 Accidents were the most common cause: of 79 deaths with a known cause, 54 were from unnatural causes, 42 of them accidents [1]. The cohort was young (the oldest were 32 at the end of follow-up, a calculation from the birth years), so this mostly describes deaths in childhood and early adulthood.
 
 **Much of the Danish excess sits with other conditions.** When the researchers removed people who also had oppositional defiant disorder, conduct disorder or a substance use disorder, the rate ratio fell from 2.07 to 1.50 [1]. The excess was larger in people diagnosed as adults, and larger in girls and women than in boys and men [1].
@@ -27,6 +34,13 @@ The authors say the gap probably overstates the gap for everyone with ADHD, beca
 **The "13 years" figure is modelled, not measured.** It is a calculator estimate from a Milwaukee cohort of children diagnosed with hyperactivity in 1978–80, of whom 131 (with 71 controls) were reassessed at an average age of 27; no deaths were counted [5]. The paper's abstract gives an estimated 9.5 fewer years of healthy life and 8.4 fewer years of total life for the childhood group, and a 12.7-year reduction for those whose ADHD persisted into adulthood [5]. The lead author's summaries describe the persistent group's figures as 12.7 healthy and 11.1 total years; the 11.1 figure is not in the abstract.
 
 It is a clinical sample of mostly boys, more severe than ADHD in the community, and it measures risk factors, which can change.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/04/life-expectancy-counted-vs-modelled-dark.svg">
+  <img src="../assets/charts/04/life-expectancy-counted-vs-modelled.svg" alt="Horizontal bars of years of life expectancy lost. Counted from deaths in UK GP records of diagnosed adults: men 6.8 years (73.3 against 80.0) and women 8.6 years (75.2 against 83.8). Modelled with a life-expectancy calculator in the Milwaukee clinical cohort, with no deaths counted, shown as striped bars: 8.4 fewer years of total life for the whole childhood group, and a 12.7-year reduction for those whose ADHD persisted into adulthood." width="720">
+</picture>
+
+*Years of life lost as counted in the UK study and as predicted by a calculator in the Milwaukee cohort; both come from diagnosed or clinic groups, which are probably more severely affected than everyone with ADHD. Support contacts are on [not medical advice](../08-reading-this-well/not-medical-advice.md).*
 
 **Road crashes are moderately more common.** A meta-analysis of 16 studies found drivers with ADHD had about 1.36 times the crash risk, or 1.23 after accounting for how much people drive, with some evidence that the excess was larger in drivers who also had conduct problems [6].
 

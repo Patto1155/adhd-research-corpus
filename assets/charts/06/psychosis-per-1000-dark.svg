@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" width="720" height="500" role="img" aria-labelledby="title desc" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
+<title id="title">New psychosis after starting a stimulant was rare: about 2 in 1,000 with amphetamine</title>
+<desc id="desc">Two grids of 1,000 dots for 13- to 25-year-olds starting a stimulant in US insurance data. New psychosis treated with an antipsychotic occurred in 0.10% of those starting methylphenidate (1 dot in 1,000) and 0.21% of those starting amphetamine (just over 2 dots in 1,000); hazard ratio 1.65 for amphetamine; about 1 in 660 overall.</desc>
+<defs><pattern id="grid0" x="24.0" y="178.0" width="7.6" height="7.6" patternUnits="userSpaceOnUse"><g fill="#333333"><circle cx="3.80" cy="3.80" r="2.6"/></g></pattern><pattern id="grid1" x="392.0" y="178.0" width="7.6" height="7.6" patternUnits="userSpaceOnUse"><g fill="#333333"><circle cx="3.80" cy="3.80" r="2.6"/></g></pattern><clipPath id="pfrac1"><rect x="408.40" y="179.20" width="0.52" height="5.20"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="719" height="499" rx="8" fill="#191919" stroke="#303030" stroke-width="1"/>
+<text x="24.0" y="42.0" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">New psychosis after starting a stimulant was rare: about 2 in 1,000</text>
+<text x="24.0" y="65.4" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">with amphetamine</text>
+<text x="24.0" y="88.8" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">13- to 25-year-olds in US insurance data. Each grid is 1,000 people starting a medicine; a filled dot</text>
+<text x="24.0" y="108.4" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">is someone who developed new psychosis treated with an antipsychotic.</text>
+<text x="24.0" y="147.0" font-size="15" font-weight="650" fill="#efefef" text-anchor="start">Starting methylphenidate</text>
+<text x="24.0" y="167.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">0.10%</text>
+<rect x="24.0" y="178.0" width="304.0" height="190.0" fill="url(#grid0)"/>
+<path d="M25.20,181.80a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0" fill="#84b9f3"/>
+<text x="392.0" y="147.0" font-size="15" font-weight="650" fill="#efefef" text-anchor="start">Starting amphetamine</text>
+<text x="392.0" y="167.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">0.21%</text>
+<rect x="392.0" y="178.0" width="304.0" height="190.0" fill="url(#grid1)"/>
+<path d="M393.20,181.80a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0M400.80,181.80a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0" fill="#84b9f3"/>
+<circle cx="411.00" cy="181.80" r="2.6" fill="#84b9f3" clip-path="url(#pfrac1)"/>
+<text x="24.0" y="398.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">In relative terms: hazard ratio 1.65 for amphetamine compared with methylphenidate. About 1 in</text>
+<text x="24.0" y="417.6" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">660 people overall.</text>
+<line x1="24" x2="696" y1="437.2" y2="437.2" stroke="#303030" stroke-width="1"/>
+<text x="24.0" y="458.2" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Source: Moran et al., N Engl J Med 2019 [7]. Two US insurance cohorts, 221,846 people aged 13 to 25. Young</text>
+<text x="24.0" y="476.4" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">people only; may not apply to older adults.</text>
+</svg>

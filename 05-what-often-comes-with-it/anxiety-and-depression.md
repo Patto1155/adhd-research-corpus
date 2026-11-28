@@ -8,6 +8,13 @@
 
 **Whole-population records show how many people this means.** In Swedish registers covering 5.55 million adults aged 18 to 64, of whom 61,129 had diagnosed ADHD, 42% of adults with ADHD had a depression diagnosis recorded at some point in adulthood, against 4.7% of adults without ADHD (a prevalence ratio of about 9) [2]. For anxiety the figures were 45% against 4.9% [2]. These figures were adjusted for age and sex, and the links held at ages 50 to 64 [2].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/05/depression-anxiety-absolute-dark.svg">
+  <img src="../assets/charts/05/depression-anxiety-absolute.svg" alt="Paired horizontal bars from Swedish registers of 5.55 million adults aged 18 to 64. A depression diagnosis was recorded in 42% of adults with ADHD against 4.7% without; anxiety in 45% against 4.9%. Adjusted for age and sex." width="720">
+</picture>
+
+*Recorded depression and anxiety diagnoses in Swedish adults with and without diagnosed ADHD; health records miss milder or untreated conditions. If you are having thoughts of suicide, contacts are on [not medical advice](../08-reading-this-well/not-medical-advice.md).*
+
 These are diagnosed cases in health records, so milder or untreated conditions are missed, and people with ADHD who are in contact with services may be more often diagnosed with other conditions. The study was funded by public research grants; several authors reported payments from drug companies [2].
 
 **Childhood ADHD predicts later depression.** In a UK birth cohort (the Avon Longitudinal Study of Parents and Children), ADHD in childhood was linked with recurrent depression at 18 to 25 (odds ratio 1.35, about a third higher odds) [3].

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 472" width="720" height="472" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Time perception and preference for sooner rewards differ by a medium amount</title>
+<desc id="d">Dot plot: time-perception precision g = 0.66, accuracy g above 0.40, delay discounting d = 0.43, children's choice-impulsivity g = 0.47.</desc>
+<rect x="0.5" y="0.5" width="719" height="471" rx="8" fill="#191919" stroke="rgba(255,255,255,0.10)"/>
+<text x="24.0" y="34.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">Time perception and the pull of “now” differ</text>
+<text x="24.0" y="58.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">by a medium amount, on average</text>
+<text x="24.0" y="84.0" font-size="14" fill="#9c9c9c" text-anchor="start" font-weight="400">Effect size (d or g) for ADHD vs comparison groups, in standard deviations.</text>
+<text x="24.0" y="104.0" font-size="14" fill="#9c9c9c" text-anchor="start" font-weight="400">Further right = larger average difference.</text>
+<line x1="392.0" y1="140.0" x2="392.0" y2="374.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="454.0" y1="140.0" x2="454.0" y2="374.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="516.0" y1="140.0" x2="516.0" y2="374.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="578.0" y1="140.0" x2="578.0" y2="374.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="640.0" y1="140.0" x2="640.0" y2="374.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="392.0" y1="140.0" x2="392.0" y2="374.0" stroke="#474747" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="330.0" y1="140.0" x2="330.0" y2="374.0" stroke="#474747" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="330.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0</text>
+<text x="392.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.2</text>
+<text x="454.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.4</text>
+<text x="516.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.6</text>
+<text x="578.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.8</text>
+<text x="640.0" y="394.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">1.0</text>
+<text x="392.0" y="134.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">small</text>
+<text x="24.0" y="167.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">Time perception, young people (27 studies)</text>
+<text x="24.0" y="202.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Less precise</text>
+<line x1="330.0" y1="197.0" x2="534.6" y2="197.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="534.6" cy="197.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="546.6" y="202.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">g = 0.66</text>
+<text x="24.0" y="244.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Less accurate</text>
+<line x1="330.0" y1="239.0" x2="454.0" y2="239.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="454.0" cy="239.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<line x1="462.0" y1="239.0" x2="494.0" y2="239.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<path d="M488.0,234.0 L496.0,239.0 L488.0,244.0" fill="none" stroke="#338ced" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="504.0" y="244.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">g above 0.40</text>
+<text x="24.0" y="281.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">Preferring “now” over “later”</text>
+<text x="24.0" y="309.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Delay discounting, all ages</text>
+<text x="24.0" y="326.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">21 studies, 3,913 participants</text>
+<line x1="330.0" y1="311.0" x2="463.3" y2="311.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="463.3" cy="311.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="475.3" y="316.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">d = 0.43</text>
+<text x="24.0" y="351.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">“Now” choices, children and teens</text>
+<text x="24.0" y="368.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">26 studies, 4,320 young people</text>
+<line x1="330.0" y1="353.0" x2="475.7" y2="353.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="475.7" cy="353.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="487.7" y="358.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">g = 0.47</text>
+<text x="24.0" y="436.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">Sources: Zheng et al. 2022 (source 2), Jackson &amp; MacKillop 2016 (3), Patros et al. 2016 (4),</text>
+<text x="24.0" y="454.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">see this page. Even at g = 0.66 the groups overlap by about 74% (this page’s calculation).</text>
+</svg>

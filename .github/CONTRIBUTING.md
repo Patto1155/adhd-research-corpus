@@ -52,3 +52,27 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 - No self-tests. Screening questionnaires may be described, not reproduced as a diagnostic quiz.
 - Report evidence on supplements, diets, apps and devices without telling readers what to buy.
 - Content on suicide, self-harm or mortality follows safe-messaging practice (no method detail) and links to [not medical advice](../08-reading-this-well/not-medical-advice.md) for crisis contacts.
+
+## Charts
+
+Some pages carry charts. They follow one shared style so the site reads as one piece.
+
+- **Scripts are the source of truth.** Every chart is drawn by a Python script in `tools/charts/` that uses only the standard library. Edit the script and re-run it; never hand-edit an SVG. `python3 tools/charts/corpus.py` also refreshes the corpus charts and the generated numbers on [the evidence at a glance](../08-reading-this-well/the-evidence-at-a-glance.md) and the folder READMEs.
+- **Light and dark pair.** Each chart is saved as `name.svg` and `name-dark.svg`, with viewBox width 720, the font stack `system-ui, -apple-system, "Segoe UI", Roboto, sans-serif`, and no text smaller than 13px.
+- **Embed both**, with alt text and a caption:
+
+  ```html
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/folder/name-dark.svg">
+    <img src="../assets/charts/folder/name.svg" alt="What the chart shows, with every number in it" width="720">
+  </picture>
+
+  *One-line italic caption saying what to take from it.*
+  ```
+
+- **Numbers must match the page.** A chart shows only figures that the page text states and cites. If a number changes, change the page and the script together.
+- **Absolute risk first.** Where a chart shows risk, show the absolute figures (for example, per 1,000 people) before or instead of a relative risk.
+- **Say what it shows.** The title states the takeaway in plain words; bars and lines are labelled directly; a small source line names where the numbers came from.
+- **Alt text and caption are required.** Alt text gives the full numbers, so a screen-reader user loses nothing.
+- **Calm colours for hard topics.** Charts about mortality, suicide or other serious harms use calm blues and greys, never alarm reds, and follow the safe-messaging rules above.
+- **Colour is never the only cue.** Reuse the palette already in the `tools/charts/` scripts: blue (`#257de0` light, `#338ced` dark) for a single series, a light-to-dark blue ramp for evidence strength, neutral greys for text and gridlines. Pair colour with labels or a legend.

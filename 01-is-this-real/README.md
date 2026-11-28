@@ -9,7 +9,11 @@ How ADHD is defined and diagnosed, why diagnoses have risen, and what a diagnosi
 - [Why are girls and women with ADHD so often missed?](women-and-girls.md): later diagnosis, similar severity, masking, thin hormone evidence.
 - [Just diagnosed with ADHD: why do I feel relieved, sad and doubtful?](after-the-diagnosis.md): reactions to diagnosis, two ways of framing ADHD, faith.
 
-[Back to all worries](../README.md#find-your-worry)
+<!-- corpus:folder-stats -->
+**In this folder:** 6 pages · 51 sources · 69% labelled Strong or Moderate · 20% Limited. [Compare the folders](../08-reading-this-well/the-evidence-at-a-glance.md#how-strong-is-the-evidence-folder-by-folder)
+<!-- /corpus:folder-stats -->
+
+[Back to all worries](../README.md#find-your-worry) · Next: [02 What is different about my brain?](../02-whats-happening-in-my-brain/README.md)
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

@@ -7,7 +7,11 @@ These pages cover where ADHD comes from, how it changes across a lifetime, and w
 - [Do periods, pregnancy and menopause make ADHD worse?](hormones-cycles-and-menopause.md): the cycle, after birth and menopause, and how little research exists.
 - [Will ADHD shorten my life? The hard statistics in context](the-hard-statistics-in-context.md): death rates, life expectancy, accidents, suicide and dementia, with absolute risks.
 
-[Back to all worries](../README.md#find-your-worry)
+<!-- corpus:folder-stats -->
+**In this folder:** 4 pages · 40 sources · 68% labelled Strong or Moderate · 28% Limited. [Compare the folders](../08-reading-this-well/the-evidence-at-a-glance.md#how-strong-is-the-evidence-folder-by-folder)
+<!-- /corpus:folder-stats -->
+
+Previous: [03 Why do I think and feel this way?](../03-why-i-think-and-feel-this-way/README.md) · [Back to all worries](../README.md#find-your-worry) · Next: [05 What else often comes with ADHD?](../05-what-often-comes-with-it/README.md)
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

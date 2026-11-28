@@ -26,6 +26,13 @@ Because the study is observational, people who stay on medication may differ in 
 
 **Psychosis is rare, and the signal is concentrated in amphetamines.** Among 13- to 25-year-olds in US insurance data starting a stimulant, new psychosis treated with an antipsychotic occurred in about 1 in 660 people overall: 0.10% of those starting methylphenidate and 0.21% of those starting amphetamine (hazard ratio 1.65 for amphetamine) [7].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/06/psychosis-per-1000-dark.svg">
+  <img src="../assets/charts/06/psychosis-per-1000.svg" alt="Two grids of 1,000 dots for 13- to 25-year-olds starting a stimulant in US insurance data. New psychosis treated with an antipsychotic occurred in 0.10% of those starting methylphenidate (1 dot) and 0.21% of those starting amphetamine (just over 2 dots). Below: hazard ratio 1.65 for amphetamine, and about 1 in 660 people overall." width="720">
+</picture>
+
+*New psychosis in young people starting methylphenidate or amphetamine, shown out of 1,000; the data cover 13- to 25-year-olds in the US only, and no absolute figure for high doses was found.*
+
 A later case-control study of 16- to 35-year-olds admitted to one US psychiatric hospital found past-month prescription amphetamine use was associated with 2.7 times the odds of a first episode of psychosis or mania, rising to about 5.3 times at doses above 30 mg dextroamphetamine-equivalent; methylphenidate was not associated [8]. That study compared hospitalised patients with other patients, which can exaggerate associations. The dose threshold is that study's finding rather than a safety limit, and no absolute risk for high doses was found.
 
 If you or someone close to you has new, frightening changes in thinking or mood, there are urgent contacts on [if you need help now](../08-reading-this-well/not-medical-advice.md#if-you-need-help-now).

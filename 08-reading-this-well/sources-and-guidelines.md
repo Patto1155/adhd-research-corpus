@@ -43,6 +43,8 @@ Clinical guidelines tell clinicians what to do; consensus statements summarise w
 
 Single small studies appear only where nothing better exists, and are labelled **Limited**.
 
+To see the whole source base in charts (how strong the evidence is in each folder, what kinds of study it is, and how recent), go to [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
+
 ## How sources were chosen
 
 1. **Prefer the highest level available.** Consensus statements and guidelines first, then systematic reviews and meta-analyses, then large registry or genetic studies, then individual trials and cohorts.
@@ -64,6 +66,7 @@ If you want to know what your clinician is likely working from, the guideline fo
 ## Related pages
 
 - [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
+- [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
 - [Can these pages tell me what to do about my ADHD?](not-medical-advice.md)
 - [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
 - [How well medication works](../06-treatment-what-works/how-well-medication-works.md)

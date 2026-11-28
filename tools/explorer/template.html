@@ -1,0 +1,554 @@
+<title>ADHD Evidence Explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: a calm reading-room tool. Summary figures, one filter row, three small charts, then the full source list. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --ink: #17191c;
+  --ink-2: #5b6168;
+  --line: #e2e5e9;
+  --line-strong: #c7ccd2;
+  --accent: #1b64be;
+  --accent-wash: #e8f1fc;
+  --note-bg: #eef3f9;
+  --bar: #257de0;
+  --bar-soft: #84b9f3;
+  --grid: #e7e7e7;
+  --axis: #c2c2c2;
+  --ev-strong: #0f4a96;
+  --ev-moderate: #257de0;
+  --ev-limited: #84b9f3;
+  --ev-contested: #f47230;
+  --ev-guideline: #6a4ce2;
+  --ev-other: #a3a3a3;
+  --font: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1113; --surface: #181a1d; --ink: #eceef1; --ink-2: #9ca3ab;
+    --line: #2a2e33; --line-strong: #3d434a; --accent: #84b9f3; --accent-wash: #16263a; --note-bg: #16202b;
+    --bar: #338ced; --bar-soft: #1b64be; --grid: #303030; --axis: #474747;
+    --ev-strong: #9dc8f7; --ev-moderate: #519ced; --ev-limited: #1b64be;
+    --ev-contested: #e76624; --ev-guideline: #9887ef; --ev-other: #6b6b6b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1113; --surface: #181a1d; --ink: #eceef1; --ink-2: #9ca3ab;
+  --line: #2a2e33; --line-strong: #3d434a; --accent: #84b9f3; --accent-wash: #16263a; --note-bg: #16202b;
+  --bar: #338ced; --bar-soft: #1b64be; --grid: #303030; --axis: #474747;
+  --ev-strong: #9dc8f7; --ev-moderate: #519ced; --ev-limited: #1b64be;
+  --ev-contested: #e76624; --ev-guideline: #9887ef; --ev-other: #6b6b6b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 48px;
+}
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 28px; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+}
+h1, h2 { text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: clamp(1.75rem, 1.3rem + 2vw, 2.4rem); letter-spacing: -0.01em; }
+h2 { font-size: 1.1rem; }
+.eyebrow { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 6px; }
+.lede { max-width: 65ch; margin: 10px 0 0; color: var(--ink-2); font-size: 1.05rem; }
+.notice {
+  background: var(--note-bg); border-radius: var(--radius); padding: 14px 16px; max-width: 80ch; font-size: 0.95rem;
+}
+.notice strong { color: var(--ink); }
+
+/* summary figures */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
+.stat .label { font-size: 0.85rem; color: var(--ink-2); }
+.stat .value { font-size: 1.9rem; font-weight: 700; line-height: 1.15; margin-top: 2px; }
+.stat .sub { font-size: 0.8rem; color: var(--ink-2); }
+
+/* filters */
+.filters { display: grid; gap: 12px; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.field { display: grid; gap: 4px; min-width: 0; }
+.field label { font-size: 0.8rem; color: var(--ink-2); }
+.field.search { flex: 1 1 260px; }
+.field.sel { flex: 0 1 180px; }
+.field.yr { flex: 0 0 92px; }
+input[type="search"], input[type="number"], select {
+  font: inherit; font-size: 0.95rem; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; width: 100%; min-width: 0;
+}
+.toggles { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; font-size: 0.95rem; }
+.toggles label { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; }
+.toggles input { width: 18px; height: 18px; accent-color: var(--accent); }
+button.reset {
+  font: inherit; font-size: 0.9rem; background: transparent; color: var(--accent);
+  border: 1px solid var(--line-strong); border-radius: 8px; padding: 6px 12px; cursor: pointer;
+}
+button.reset:hover { background: var(--accent-wash); }
+.count { color: var(--ink-2); font-size: 0.95rem; margin-left: auto; }
+
+/* charts */
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; min-width: 0; }
+.card h2 { margin-bottom: 2px; }
+.card .hint { font-size: 0.85rem; color: var(--ink-2); margin: 0 0 10px; }
+.chart { width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.chart text { font-family: var(--font); font-size: 13px; fill: var(--ink); }
+.chart text.muted { fill: var(--ink-2); }
+.mark { cursor: pointer; }
+.mark:focus { outline: none; }
+.mark:focus-visible rect, .mark:focus-visible path { stroke: var(--ink); stroke-width: 2px; }
+.dim { opacity: 0.3; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; color: var(--ink-2); margin-top: 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 11px; height: 11px; border-radius: 3px; display: inline-block; flex: none; }
+.ev-Strong { fill: var(--ev-strong); background: var(--ev-strong); }
+.ev-Moderate { fill: var(--ev-moderate); background: var(--ev-moderate); }
+.ev-Limited { fill: var(--ev-limited); background: var(--ev-limited); }
+.ev-Contested { fill: var(--ev-contested); background: var(--ev-contested); }
+.ev-Guideline { fill: var(--ev-guideline); background: var(--ev-guideline); }
+.ev-Other { fill: var(--ev-other); background: var(--ev-other); }
+.fill-bar { fill: var(--bar); }
+.fill-soft { fill: var(--bar-soft); }
+.gridline { stroke: var(--grid); }
+.axisline { stroke: var(--axis); }
+.tip {
+  position: fixed; z-index: 20; pointer-events: none; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; font-size: 0.85rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12); max-width: 260px;
+}
+.tip b { display: block; }
+
+/* table */
+.list-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+th { font-size: 0.8rem; color: var(--ink-2); font-weight: 700; white-space: nowrap; position: sticky; top: 0; background: var(--surface); }
+th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+th button[aria-sort="ascending"]::after { content: " ↑"; }
+th button[aria-sort="descending"]::after { content: " ↓"; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.src-title { display: block; margin-top: 2px; }
+.src-meta { color: var(--ink-2); }
+.src-note { display: block; color: var(--ink-2); font-size: 0.85rem; margin-top: 4px; max-width: 70ch; }
+.pill { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.ids { display: flex; flex-direction: column; gap: 2px; white-space: nowrap; }
+.also { display: block; font-size: 0.8rem; color: var(--ink-2); }
+.more { display: flex; justify-content: center; padding: 14px; }
+.more button { font: inherit; background: var(--accent-wash); color: var(--accent); border: 0; border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+.empty { padding: 28px 16px; text-align: center; color: var(--ink-2); }
+footer { color: var(--ink-2); font-size: 0.88rem; max-width: 80ch; display: grid; gap: 8px; }
+footer p { margin: 0; }
+
+@media (max-width: 760px) {
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat .value { font-size: 1.5rem; }
+  .field.sel { flex: 1 1 140px; }
+  .field.yr { flex: 1 1 80px; }
+  .count { margin-left: 0; width: 100%; }
+  .table-wrap { overflow-x: visible; background: transparent; border: 0; }
+  table, tbody, tr, td { display: block; }
+  thead { display: none; }
+  tr { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 10px; padding: 12px 14px; display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; }
+  td { border: 0; padding: 0; min-width: 0; }
+  td.c-src { grid-column: 1 / -1; }
+  td.c-page { grid-column: 1 / -1; }
+  td.c-ids .ids { flex-direction: row; gap: 12px; flex-wrap: wrap; }
+  td.c-ids { grid-column: 1 / -1; }
+  td.c-year::before { content: "Year "; color: var(--ink-2); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .mark rect, .mark path { transition: opacity 120ms ease; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">ADHD research, explained plainly</p>
+    <h1>ADHD Evidence Explorer</h1>
+    <p class="lede">Every source cited on the site, in one searchable list. Filter by folder, evidence label, kind of study or year, and follow each source to its paper and to the page that cites it.</p>
+  </header>
+
+  <div class="notice" role="note">
+    <strong>Information, not medical advice.</strong> These pages and this list cannot diagnose you or tell you what to do about treatment. If you are struggling or thinking about suicide, crisis lines for several countries are on <a href="https://github.com/Patto1155/adhd-research-corpus/blob/draft/round-1/08-reading-this-well/not-medical-advice.md#if-you-need-help-now" target="_blank" rel="noopener">if you need help now</a>.
+  </div>
+
+  <section class="stats" aria-label="Summary of the sources shown">
+    <div class="stat"><div class="label">Source entries</div><div class="value" id="st-entries">0</div><div class="sub" id="st-entries-sub">across all pages</div></div>
+    <div class="stat"><div class="label">Different sources</div><div class="value" id="st-unique">0</div><div class="sub">each paper counted once</div></div>
+    <div class="stat"><div class="label">Strong or Moderate</div><div class="value" id="st-strong">0%</div><div class="sub">of the entries shown</div></div>
+    <div class="stat"><div class="label">Median year</div><div class="value" id="st-year">–</div><div class="sub" id="st-year-sub">half are newer</div></div>
+  </section>
+
+  <section class="filters" aria-label="Filters">
+    <div class="filter-row">
+      <div class="field search"><label for="f-q">Search authors, titles, journals, notes, DOIs</label><input id="f-q" type="search" placeholder="e.g. Faraone, sleep, registry" autocomplete="off"></div>
+      <div class="field sel"><label for="f-folder">Folder</label><select id="f-folder"></select></div>
+      <div class="field sel"><label for="f-ev">Evidence label</label><select id="f-ev"></select></div>
+      <div class="field sel"><label for="f-type">Kind of study</label><select id="f-type"></select></div>
+      <div class="field yr"><label for="f-from">From year</label><input id="f-from" type="number" inputmode="numeric"></div>
+      <div class="field yr"><label for="f-to">To year</label><input id="f-to" type="number" inputmode="numeric"></div>
+    </div>
+    <div class="toggles">
+      <label><input id="f-unique" type="checkbox"> Show each source once</label>
+      <button class="reset" id="f-reset" type="button">Clear filters</button>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+  </section>
+
+  <section class="charts" aria-label="Charts of the sources shown">
+    <div class="card">
+      <h2>Evidence by folder</h2>
+      <p class="hint">Entries by the label given on each page. Select a segment to filter.</p>
+      <div class="chart" id="ch-ev"></div>
+      <div class="legend" id="ev-legend"></div>
+    </div>
+    <div class="card">
+      <h2>Kinds of study</h2>
+      <p class="hint">A keyword guess from each citation. Select a bar to filter.</p>
+      <div class="chart" id="ch-type"></div>
+    </div>
+    <div class="card">
+      <h2>Publication years</h2>
+      <p class="hint">Darker columns are the newer half. Select a year to filter.</p>
+      <div class="chart" id="ch-year"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="list-h" style="display:grid; gap:12px">
+    <div class="list-head">
+      <h2 id="list-h">Sources</h2>
+      <span class="src-meta" style="font-size:.88rem">Links open the paper's record or the page on GitHub.</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th scope="col"><button type="button" data-sort="author">Source</button></th>
+          <th scope="col"><button type="button" data-sort="evidence">Evidence</button></th>
+          <th scope="col"><button type="button" data-sort="type">Kind</button></th>
+          <th scope="col"><button type="button" data-sort="year">Year</button></th>
+          <th scope="col"><button type="button" data-sort="page">Cited on</button></th>
+          <th scope="col">Record</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="empty" id="empty" hidden>No sources match these filters. Try clearing one.</div>
+    </div>
+    <div class="more" id="more" hidden><button type="button" id="more-btn">Show more</button></div>
+  </section>
+
+  <footer>
+    <p id="gen"></p>
+    <p>Evidence labels are as written on each page; in-between grades such as "Limited to moderate" count toward the lower grade. Kinds of study are guessed from words in each citation, so some are misfiled. A count of sources is not a measure of whether a page is right.</p>
+    <p>Sources were checked against abstracts and index records, rarely full texts, and no clinician has reviewed these pages. Read more in <a href="https://github.com/Patto1155/adhd-research-corpus/blob/draft/round-1/08-reading-this-well/the-evidence-at-a-glance.md" target="_blank" rel="noopener">the evidence at a glance</a> and <a href="https://github.com/Patto1155/adhd-research-corpus/blob/draft/round-1/08-reading-this-well/sources-and-guidelines.md" target="_blank" rel="noopener">how these pages were made</a>.</p>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script id="corpus-data" type="application/json">__CORPUS_DATA__</script>
+<script>
+(function () {
+  "use strict";
+  const RAW = JSON.parse(document.getElementById("corpus-data").textContent);
+  const BLOB = "https://github.com/Patto1155/adhd-research-corpus/blob/draft/round-1/";
+  const F = RAW.fields;
+  const pageBy = Object.fromEntries(RAW.pages.map(p => [p.path, p]));
+  const folderBy = Object.fromEntries(RAW.folders.map(f => [f.id, f]));
+  const EV = RAW.evidence_order;
+  const EVCLS = { "Strong": "Strong", "Moderate": "Moderate", "Limited": "Limited", "Contested": "Contested",
+    "Guideline or consensus": "Guideline", "Commentary or not graded": "Other" };
+  const TYPES = RAW.type_order;
+  const ALL = RAW.sources.map((row, i) => {
+    const s = {}; F.forEach((k, j) => s[k] = row[j]); s.i = i;
+    const p = pageBy[s.page] || { title: s.page, short: s.page };
+    s.pageTitle = p.title; s.pageShort = p.short;
+    s.hay = [s.first_author, s.title, s.journal, s.note, s.doi, s.pmid, s.pmc, p.title, s.evidence_label].join(" ").toLowerCase();
+    return s;
+  });
+  const pagesByKey = {};
+  ALL.forEach(s => { (pagesByKey[s.key] = pagesByKey[s.key] || []).push(s); });
+  const years = ALL.map(s => s.year).filter(Boolean);
+  const YMIN = Math.min(...years), YMAX = Math.max(...years);
+
+  const $ = id => document.getElementById(id);
+  const state = { q: "", folder: "", ev: "", type: "", from: "", to: "", unique: false, sort: "page", dir: 1, limit: 60 };
+
+  function opt(sel, items, allLabel) {
+    sel.innerHTML = `<option value="">${allLabel}</option>` + items.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join("");
+  }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+  opt($("f-folder"), RAW.folders.map(f => [f.id, `${f.id} ${f.short}`]), "All folders");
+  opt($("f-ev"), EV.map(e => [e, e]), "All labels");
+  opt($("f-type"), TYPES.map(t => [t, t]), "All kinds");
+  $("f-from").placeholder = YMIN; $("f-to").placeholder = YMAX;
+  $("f-from").min = $("f-to").min = YMIN; $("f-from").max = $("f-to").max = YMAX;
+  $("gen").textContent = `Data generated ${RAW.generated} from the site's own source lists: ${ALL.length} entries on ${RAW.pages.filter(p => p.n_sources).length} pages.`;
+
+  function filtered(skipArg) {
+    const skips = [].concat(skipArg || []);
+    const skip = k => skips.includes(k);
+    const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    const from = parseInt(state.from, 10), to = parseInt(state.to, 10);
+    let out = ALL.filter(s =>
+      (skip("folder") || !state.folder || s.folder === state.folder) &&
+      (skip("ev") || !state.ev || s.evidence === state.ev) &&
+      (skip("type") || !state.type || s.study_type === state.type) &&
+      (skip("year") || isNaN(from) || (s.year && s.year >= from)) &&
+      (skip("year") || isNaN(to) || (s.year && s.year <= to)) &&
+      terms.every(t => s.hay.includes(t)));
+    if (state.unique) {
+      const seen = new Set();
+      out = out.filter(s => !seen.has(s.key) && seen.add(s.key));
+    }
+    return out;
+  }
+
+  function median(a) { if (!a.length) return null; const b = [...a].sort((x, y) => x - y); return b[Math.floor((b.length - 1) / 2)]; }
+
+  // ---------- tooltip
+  const tip = $("tip");
+  function showTip(html, x, y) {
+    tip.innerHTML = html; tip.hidden = false;
+    const r = tip.getBoundingClientRect();
+    const left = Math.min(Math.max(8, x + 14), window.innerWidth - r.width - 8);
+    const top = y - r.height - 12 < 8 ? y + 16 : y - r.height - 12;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  }
+  function hideTip() { tip.hidden = true; }
+  function bindMark(g, html, onPick) {
+    g.setAttribute("tabindex", "0"); g.setAttribute("role", "button");
+    g.addEventListener("pointermove", e => showTip(html, e.clientX, e.clientY));
+    g.addEventListener("pointerleave", hideTip);
+    g.addEventListener("focus", () => { const r = g.getBoundingClientRect(); showTip(html, r.left + r.width / 2, r.top); });
+    g.addEventListener("blur", hideTip);
+    g.addEventListener("click", () => { hideTip(); onPick(); });
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(); } });
+  }
+  const NS = "http://www.w3.org/2000/svg";
+  function el(name, attrs, parent) {
+    const n = document.createElementNS(NS, name);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+  function txt(parent, x, y, s, attrs) { const t = el("text", Object.assign({ x, y }, attrs || {}), parent); t.textContent = s; return t; }
+  function hbar(x, y, w, h, roundEnd) {
+    if (w <= 0) return "";
+    const r = roundEnd ? Math.min(4, w / 2, h / 2) : 0;
+    return `M${x},${y} h${w - r} a${r},${r} 0 0 1 ${r},${r} v${h - 2 * r} a${r},${r} 0 0 1 ${-r},${r} h${-(w - r)} z`;
+  }
+  function vcol(x, base, w, h) {
+    if (h <= 0) return "";
+    const r = Math.min(3, w / 2, h);
+    return `M${x},${base} v${-(h - r)} a${r},${r} 0 0 1 ${r},${-r} h${w - 2 * r} a${r},${r} 0 0 1 ${r},${r} v${h - r} z`;
+  }
+  function measure(s) { const c = measure.c || (measure.c = document.createElement("canvas").getContext("2d")); c.font = "13px " + getComputedStyle(document.body).fontFamily; return c.measureText(s).width; }
+
+  // ---------- chart: evidence by folder
+  function drawEvidence(data) {
+    const box = $("ch-ev"); box.innerHTML = "";
+    const W = box.clientWidth || 320;
+    const rows = RAW.folders.map(f => {
+      const c = {}; EV.forEach(e => c[e] = 0);
+      data.forEach(s => { if (s.folder === f.id) c[s.evidence]++; });
+      return { f, c, total: EV.reduce((a, e) => a + c[e], 0) };
+    });
+    const labelW = Math.min(170, Math.max(...rows.map(r => measure(`${r.f.id} ${r.f.short}`))) + 12);
+    const max = Math.max(1, ...rows.map(r => r.total));
+    const plotW = W - labelW - 34;
+    const bh = 18, gap = 10, H = rows.length * (bh + gap);
+    const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Stacked bars of evidence labels by folder" }, box);
+    rows.forEach((r, i) => {
+      const y = i * (bh + gap);
+      const lab = txt(svg, labelW - 10, y + bh / 2 + 4.5, `${r.f.id} ${r.f.short}`, { "text-anchor": "end", class: state.folder && state.folder !== r.f.id ? "muted" : "" });
+      lab.style.cursor = "pointer";
+      lab.addEventListener("click", () => setFilter("folder", state.folder === r.f.id ? "" : r.f.id));
+      let x = labelW;
+      const nz = EV.filter(e => r.c[e]);
+      nz.forEach((e, j) => {
+        const w = r.c[e] / max * plotW;
+        const last = j === nz.length - 1;
+        const g = el("g", { class: "mark", "aria-label": `${r.f.short}: ${r.c[e]} ${e}` }, svg);
+        const active = (!state.folder || state.folder === r.f.id) && (!state.ev || state.ev === e);
+        el("path", { d: hbar(x, y, Math.max(1, w - (last ? 0 : 2)), bh, last), class: "ev-" + EVCLS[e] + (active ? "" : " dim") }, g);
+        bindMark(g, `<b>${esc(r.f.id + " " + r.f.short)}</b>${r.c[e]} ${esc(e)} of ${r.total} entries`, () => {
+          const same = state.folder === r.f.id && state.ev === e;
+          state.folder = same ? "" : r.f.id; state.ev = same ? "" : e; syncControls(); render();
+        });
+        x += w;
+      });
+      txt(svg, x + 6, y + bh / 2 + 4.5, r.total || "0", { class: "muted" });
+    });
+  }
+
+  // ---------- chart: study types
+  function drawTypes(data) {
+    const box = $("ch-type"); box.innerHTML = "";
+    const W = box.clientWidth || 320;
+    const c = {}; TYPES.forEach(t => c[t] = 0);
+    data.forEach(s => c[s.study_type]++);
+    const total = data.length || 1;
+    const labels = { "Registry, cohort or large dataset": "Registry or cohort", "Systematic or umbrella review": "Systematic review", "Guideline or consensus": "Guideline, consensus" };
+    const labelW = Math.min(150, Math.max(...TYPES.map(t => measure(labels[t] || t))) + 12);
+    const max = Math.max(1, ...TYPES.map(t => c[t]));
+    const plotW = W - labelW - 78;
+    const bh = 18, gap = 12, H = TYPES.length * (bh + gap);
+    const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Bars of sources by kind of study" }, box);
+    TYPES.forEach((t, i) => {
+      const y = i * (bh + gap);
+      txt(svg, labelW - 10, y + bh / 2 + 4.5, labels[t] || t, { "text-anchor": "end", class: state.type && state.type !== t ? "muted" : "" });
+      const w = c[t] / max * plotW;
+      const g = el("g", { class: "mark", "aria-label": `${t}: ${c[t]}` }, svg);
+      el("rect", { x: labelW, y: y - 3, width: plotW + 70, height: bh + 6, fill: "transparent" }, g);
+      el("path", { d: hbar(labelW, y, Math.max(w, 1), bh, true), class: (t === "Other" ? "fill-soft" : "fill-bar") + (state.type && state.type !== t ? " dim" : "") }, g);
+      txt(g, labelW + w + 6, y + bh / 2 + 4.5, `${c[t]} (${Math.round(100 * c[t] / total)}%)`);
+      bindMark(g, `<b>${esc(t)}</b>${c[t]} of ${data.length} shown`, () => setFilter("type", state.type === t ? "" : t));
+    });
+  }
+
+  // ---------- chart: years
+  function drawYears(data) {
+    const box = $("ch-year"); box.innerHTML = "";
+    const W = box.clientWidth || 320;
+    const ys = data.map(s => s.year).filter(Boolean);
+    const c = {}; ys.forEach(y => c[y] = (c[y] || 0) + 1);
+    const y0 = Math.floor(YMIN / 5) * 5, y1 = YMAX;
+    const span = []; for (let y = y0; y <= y1; y++) span.push(y);
+    const med = median(ys);
+    const max = Math.max(1, ...Object.values(c));
+    const step = max > 20 ? 10 : max > 8 ? 5 : max > 4 ? 2 : 1;
+    const top = Math.ceil(max / step) * step;
+    const left = 28, right = W - 4, H = 190, base = H - 24;
+    const slot = (right - left) / span.length, cw = Math.max(2, Math.min(slot - 1.5, 16));
+    const sy = (base - 8) / top;
+    const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Columns of sources by publication year" }, box);
+    for (let v = 0; v <= top; v += step) {
+      const yy = base - v * sy;
+      if (v) el("line", { x1: left, x2: right, y1: yy, y2: yy, class: "gridline" }, svg);
+      txt(svg, left - 6, yy + 4.5, v, { "text-anchor": "end", class: "muted" });
+    }
+    const from = parseInt(state.from, 10), to = parseInt(state.to, 10);
+    const tickEvery = slot * 5 < 34 ? 10 : 5;
+    span.forEach((yr, i) => {
+      const x = left + i * slot + (slot - cw) / 2;
+      const v = c[yr] || 0;
+      const inRange = (isNaN(from) || yr >= from) && (isNaN(to) || yr <= to);
+      if (v) {
+        const g = el("g", { class: "mark", "aria-label": `${yr}: ${v} sources` }, svg);
+        el("rect", { x: left + i * slot, y: 0, width: slot, height: base, fill: "transparent" }, g);
+        el("path", { d: vcol(x, base, cw, v * sy), class: (med && yr >= med ? "fill-bar" : "fill-soft") + (inRange ? "" : " dim") }, g);
+        bindMark(g, `<b>${yr}</b>${v} source${v === 1 ? "" : "s"} shown`, () => {
+          const same = state.from == yr && state.to == yr;
+          state.from = same ? "" : String(yr); state.to = same ? "" : String(yr); syncControls(); render();
+        });
+      }
+      if (yr % tickEvery === 0) txt(svg, x + cw / 2, base + 18, yr, { "text-anchor": "middle", class: "muted" });
+    });
+    el("line", { x1: left, x2: right, y1: base, y2: base, class: "axisline" }, svg);
+  }
+
+  // ---------- legend
+  $("ev-legend").innerHTML = EV.map(e => `<span><i class="sw ev-${EVCLS[e]}"></i>${esc(e)}</span>`).join("");
+
+  // ---------- table
+  const evRank = Object.fromEntries(EV.map((e, i) => [e, i]));
+  function sorted(data) {
+    const d = state.dir, k = state.sort;
+    const cmp = {
+      page: (a, b) => a.i - b.i,
+      year: (a, b) => (a.year || 0) - (b.year || 0) || a.i - b.i,
+      author: (a, b) => a.first_author.localeCompare(b.first_author) || a.i - b.i,
+      evidence: (a, b) => evRank[a.evidence] - evRank[b.evidence] || a.i - b.i,
+      type: (a, b) => TYPES.indexOf(a.study_type) - TYPES.indexOf(b.study_type) || a.i - b.i,
+    }[k];
+    return [...data].sort((a, b) => d * cmp(a, b));
+  }
+  function cleanNote(n) {
+    if (!n) return "";
+    n = n.replace(/^\*\*Evidence:[^*]*\*\*[,:.;]?\s*/, "").replace(/\*\*/g, "").replace(/\*/g, "").trim();
+    return n ? n[0].toUpperCase() + n.slice(1) : "";
+  }
+  function row(s) {
+    const ids = [];
+    if (s.doi) ids.push(`<a href="https://doi.org/${encodeURI(s.doi)}" target="_blank" rel="noopener">DOI</a>`);
+    if (s.pmid) ids.push(`<a href="https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/" target="_blank" rel="noopener">PubMed</a>`);
+    if (s.pmc) ids.push(`<a href="https://pmc.ncbi.nlm.nih.gov/articles/${s.pmc}/" target="_blank" rel="noopener">PMC</a>`);
+    const others = (pagesByKey[s.key] || []).filter(o => o.page !== s.page);
+    const otherPages = [...new Set(others.map(o => o.page))];
+    const also = state.unique && otherPages.length
+      ? `<span class="also">and ${otherPages.length} more page${otherPages.length > 1 ? "s" : ""}</span>`
+      : (!state.unique && otherPages.length ? `<span class="also">also cited on ${otherPages.length} other page${otherPages.length > 1 ? "s" : ""}</span>` : "");
+    const label = s.evidence_label && s.evidence_label !== s.evidence ? ` title="Label on the page: ${esc(s.evidence_label)}"` : "";
+    return `<tr>
+      <td class="c-src"><span class="src-meta"><strong style="color:var(--ink)">${esc(s.first_author)}</strong>${s.journal ? " · <em>" + esc(s.journal) + "</em>" : ""}</span>
+        <span class="src-title">${esc(s.title)}</span>${cleanNote(s.note) ? `<span class="src-note">${esc(cleanNote(s.note))}</span>` : ""}</td>
+      <td class="c-ev"><span class="pill"${label}><i class="sw ev-${EVCLS[s.evidence]}"></i>${esc(s.evidence)}</span></td>
+      <td class="c-type">${esc(s.study_type)}</td>
+      <td class="c-year num">${s.year || "–"}</td>
+      <td class="c-page"><a href="${BLOB}${esc(s.page)}" target="_blank" rel="noopener">${esc(s.folder + " · " + s.pageShort)}</a> <span class="src-meta">[${s.n}]</span>${also}</td>
+      <td class="c-ids"><span class="ids">${ids.join("") || '<span class="src-meta">No ID</span>'}</span></td>
+    </tr>`;
+  }
+
+  function render() {
+    const data = filtered();
+    const rows = sorted(data);
+    $("rows").innerHTML = rows.slice(0, state.limit).map(row).join("");
+    $("empty").hidden = rows.length > 0;
+    $("more").hidden = rows.length <= state.limit;
+    $("more-btn").textContent = `Show ${Math.min(60, rows.length - state.limit)} more of ${rows.length - state.limit}`;
+    $("count").textContent = `Showing ${Math.min(rows.length, state.limit)} of ${rows.length} ${state.unique ? "sources" : "entries"}`;
+    // stats
+    const uniq = new Set(data.map(s => s.key)).size;
+    const sm = data.filter(s => s.evidence === "Strong" || s.evidence === "Moderate").length;
+    const med = median(data.map(s => s.year).filter(Boolean));
+    $("st-entries").textContent = data.length.toLocaleString("en-AU");
+    $("st-entries-sub").textContent = state.unique ? "one per source" : `on ${new Set(data.map(s => s.page)).size} pages`;
+    $("st-unique").textContent = uniq.toLocaleString("en-AU");
+    $("st-strong").textContent = data.length ? Math.round(100 * sm / data.length) + "%" : "–";
+    $("st-year").textContent = med || "–";
+    $("st-year-sub").textContent = med ? `half from ${med} or later` : "no years";
+    drawEvidence(filtered(["ev", "folder"]));
+    drawTypes(filtered("type"));
+    drawYears(filtered("year"));
+    document.querySelectorAll("th button[data-sort]").forEach(b => {
+      if (b.dataset.sort === state.sort && state.sort !== "page") b.setAttribute("aria-sort", state.dir > 0 ? "ascending" : "descending");
+      else b.removeAttribute("aria-sort");
+    });
+  }
+
+  function setFilter(k, v) { state[k] = v; state.limit = 60; syncControls(); render(); }
+  function syncControls() {
+    $("f-q").value = state.q; $("f-folder").value = state.folder; $("f-ev").value = state.ev; $("f-type").value = state.type;
+    $("f-from").value = state.from; $("f-to").value = state.to; $("f-unique").checked = state.unique;
+  }
+  let qTimer;
+  $("f-q").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value; state.limit = 60; render(); }, 120); });
+  [["f-folder", "folder"], ["f-ev", "ev"], ["f-type", "type"], ["f-from", "from"], ["f-to", "to"]].forEach(([id, k]) =>
+    $(id).addEventListener("change", e => { state[k] = e.target.value; state.limit = 60; render(); }));
+  $("f-unique").addEventListener("change", e => { state.unique = e.target.checked; state.limit = 60; render(); });
+  $("f-reset").addEventListener("click", () => { Object.assign(state, { q: "", folder: "", ev: "", type: "", from: "", to: "", unique: false, limit: 60 }); syncControls(); render(); });
+  $("more-btn").addEventListener("click", () => { state.limit += 60; render(); });
+  document.querySelectorAll("th button[data-sort]").forEach(b => b.addEventListener("click", () => {
+    const k = b.dataset.sort;
+    if (state.sort === k) state.dir = -state.dir; else { state.sort = k; state.dir = k === "year" ? -1 : 1; }
+    render();
+  }));
+  let rz;
+  new ResizeObserver(() => { clearTimeout(rz); rz = setTimeout(render, 80); }).observe(document.querySelector(".charts"));
+  render();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(render);
+})();
+</script>

@@ -16,6 +16,13 @@ The World Health Organization's ICD-11 also allows autism and ADHD to be diagnos
 
 A 2019 meta-analysis that counted only confirmed clinical diagnoses found a lower pooled figure: 28% of autistic people had ADHD [5]. The difference is probably about method (what counts as having ADHD, and who was sampled) rather than one estimate being wrong. Both found ADHD to be the most common, or among the most common, co-occurring diagnoses in autism [4][5].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/05/autism-adhd-overlap-dark.svg">
+  <img src="../assets/charts/05/autism-adhd-overlap.svg" alt="Dot plot of pooled estimates. Children and adolescents with ADHD who meet the threshold for autism: 21% in all samples, 19% in community samples, 24% in clinic samples. Autistic people who have ADHD: 28% counting only confirmed clinical diagnoses, 38.5% currently have ADHD, and 40.2% have had it at some point. A bracket joins the 28% and 38.5% estimates, which differ by about ten percentage points." width="720">
+</picture>
+
+*Pooled estimates of how often autism and ADHD occur together from three meta-analyses; each figure hides wide variation between studies, and the child figures come from children only.*
+
 **They run together in families.** In Swedish national registers covering about 1.9 million people born from 1987 to 2006, autistic people had about 22 times the odds of also having an ADHD diagnosis [6]. Their relatives also had raised odds of ADHD, and more so the more genes they shared: about 18 times for identical twins, against about 4.3 for non-identical twins and 4.6 for full siblings [6].
 
 The authors read the pattern as pointing to shared genetic influences [6]. These are relative figures; the abstract does not give the share of relatives affected.
