@@ -630,7 +630,8 @@ def load_conflicts():
     recs = []
     files = 0
     if conflicts_dir.is_dir():
-        for f in sorted(conflicts_dir.glob("*.json")):
+        # group files only; conflicts.json is the merged copy made by tools/conflicts/build.py
+        for f in sorted(p for p in conflicts_dir.glob("*.json") if p.name != "conflicts.json"):
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
             except Exception as e:  # half-written file: skip it, keep building

@@ -962,5 +962,509 @@
     "severity": "moderate",
     "next_step": "Add a clause to the myth correction that one 2025 review and a 2025 US FDA notice took a different view, linking to the home page; the full weighing belongs on the 04 page (see the folder-04 register).",
     "new_research": true
+  },
+  {
+    "id": "C06-011",
+    "topic": "Does medication improve quality of life in adults?",
+    "page": "06-treatment-what-works/how-well-medication-works.md",
+    "claim": "In adults, symptom relief did not bring measurable quality-of-life gains; medicines were not efficacious on quality of life.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A 2025 component network meta-analysis of 113 adult trials found medicines reduced core symptoms but were not efficacious on other outcomes such as quality of life; a withdrawal-trial meta-analysis found a quality-of-life drop after stopping only in children.",
+        "sources": [
+          {
+            "citation": "Ostinelli EG, et al. Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry. 2025;12(1):32-43.",
+            "doi": "10.1016/S2215-0366(24)00360-2",
+            "pmid": "39701638",
+            "year": 2025,
+            "design": "component network meta-analysis",
+            "n": "113 trials, 14,887",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Tsujii N, et al. Effect of continuing and discontinuing medications on quality of life after symptomatic remission in ADHD: a systematic review and meta-analysis. J Clin Psychiatry. 2020;81(3):19r13015.",
+            "doi": "10.4088/JCP.19r13015",
+            "pmid": "32237294",
+            "year": 2020,
+            "design": "meta-analysis of withdrawal RCTs",
+            "n": "5 trials, 1,463",
+            "cited_on_page": false,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2025 meta-analysis of 17 placebo-controlled RCTs (5,388 people) found amphetamines (g 0.51), methylphenidate (0.38) and atomoxetine (0.30) improved quality of life more than placebo; for atomoxetine the effect did not differ between children and adults.",
+        "sources": [
+          {
+            "citation": "Bellato A, et al. Systematic review and meta-analysis: effects of pharmacological treatment for ADHD on quality of life. J Am Acad Child Adolesc Psychiatry. 2025.",
+            "doi": "10.1016/j.jaac.2024.05.023",
+            "pmid": "38823477",
+            "year": 2025,
+            "design": "meta-analysis of RCTs",
+            "n": "17 RCTs, 5,388",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "Different trial sets, quality-of-life scales and analytic models: Ostinelli's component network model across many interventions may have had few quality-of-life data points per comparison and wide intervals, while Bellato pooled placebo-controlled medication trials directly. Effects in Bellato are smaller than for symptoms and quality of life is often self-rated by participants who may guess their allocation. The abstract does not split stimulant effects by age, so the adult-specific stimulant estimate needs the full text.",
+    "page_handling": "reports one side",
+    "severity": "major",
+    "next_step": "Add Bellato 2025 and change the short answer from 'did not bring measurable quality-of-life gains' to 'evidence on quality of life is mixed: one large adult network analysis found no clear benefit, while a meta-analysis of 17 trials found small-to-moderate gains'. Extract adult-only estimates from Bellato's full text. Also update the matching sentence on 07/when-your-partner-has-adhd.md.",
+    "new_research": true
+  },
+  {
+    "id": "C06-012",
+    "topic": "Long-term benefit: withdrawal trials vs naturalistic MTA follow-up",
+    "page": "06-treatment-what-works/staying-on-or-stopping-medication.md",
+    "claim": "After two years methylphenidate still helped children on average (40% vs 16% worsened on placebo), while in the MTA follow-up early differences faded and extended use was not linked to fewer adult symptoms.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Randomised discontinuation trials show more worsening after switching to placebo in children treated for over two years and in adults stable on lisdexamfetamine (75% vs 9% relapse).",
+        "sources": [
+          {
+            "citation": "Matthijssen AM, et al. Continued benefits of methylphenidate in ADHD after 2 years in clinical practice: a randomized placebo-controlled discontinuation study. Am J Psychiatry. 2019;176(9):754-62.",
+            "doi": "10.1176/appi.ajp.2019.18111296",
+            "pmid": "31109200",
+            "year": 2019,
+            "design": "RCT (discontinuation)",
+            "n": "94",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Brams M, et al. Maintenance of efficacy of lisdexamfetamine dimesylate in adults with ADHD: randomized withdrawal design. J Clin Psychiatry. 2012;73(7):977-83.",
+            "doi": "10.4088/JCP.11m07430",
+            "pmid": "22780921",
+            "year": 2012,
+            "design": "RCT (randomised withdrawal, industry-funded)",
+            "n": "116",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In the MTA, original group differences were gone by 3 years; by 8 years medication in the previous year was not linked to better functioning, and at 16 years consistent use was linked to shorter height but not fewer symptoms.",
+        "sources": [
+          {
+            "citation": "Molina BSG, et al. The MTA at 8 years: prospective follow-up of children treated for combined-type ADHD in a multisite study. J Am Acad Child Adolesc Psychiatry. 2009;48(5):484-500.",
+            "doi": "10.1097/CHI.0b013e31819c23d0",
+            "pmid": "19318991",
+            "year": 2009,
+            "design": "observational follow-up of RCT cohort",
+            "n": "about three-quarters of 579",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Swanson JM, et al. Young adult outcomes in the follow-up of the multimodal treatment study of ADHD. J Child Psychol Psychiatry. 2017;58(6):663-78.",
+            "doi": "10.1111/jcpp.12684",
+            "pmid": "28295312",
+            "year": 2017,
+            "design": "observational follow-up of RCT cohort",
+            "n": "MTA cohort",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Withdrawal trials enrol people who already respond and tolerate the drug (enriched), run for weeks, and can mistake rebound or unblinding for relapse. The MTA follow-up is non-randomised after 14 months, so families of more impaired children may have kept medicating (confounding by indication), which hides benefit. They answer different questions: 'does it still work for current responders now' vs 'does a childhood treatment strategy change the adult course'.",
+    "page_handling": "reports both",
+    "severity": "major",
+    "next_step": "Keep both, and add a one-line explanation that the designs answer different questions; consider adding the 2025 target-trial emulations (Zhang 2025, Li 2024) as a third, intermediate design for longer-term outcomes.",
+    "new_research": false
+  },
+  {
+    "id": "C06-013",
+    "topic": "Methylphenidate in early pregnancy and heart defects",
+    "page": "06-treatment-what-works/pregnancy-and-breastfeeding.md",
+    "claim": "No overall rise in birth defects, with a possible small increase in heart defects with methylphenidate (RR about 1.28-1.33).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A US-Nordic cohort (pooled RR 1.28, 1.00-1.64) and a 2026 meta-analysis of 25 studies (adjusted RR 1.33, 1.01-1.74) find a small, borderline rise in heart defects with methylphenidate but not amphetamines.",
+        "sources": [
+          {
+            "citation": "Huybrechts KF, et al. Association between methylphenidate and amphetamine use in pregnancy and risk of congenital malformations. JAMA Psychiatry. 2018;75(2):167-75.",
+            "doi": "10.1001/jamapsychiatry.2017.3644",
+            "pmid": "29238795",
+            "year": 2018,
+            "design": "cohort (US Medicaid + Nordic registers)",
+            "n": "1.8 million + 2.6 million pregnancies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Komargodski R, et al. Pregnancy and offspring outcomes after prenatal stimulant or atomoxetine exposure: a systematic review and meta-analysis. Am J Obstet Gynecol MFM. 2026;8:102165.",
+            "doi": "10.1016/j.ajogmf.2026.102165",
+            "pmid": "42887725",
+            "year": 2026,
+            "design": "meta-analysis of observational studies",
+            "n": "25 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2024 meta-analysis of 10 studies (about 16.6 million pregnancies) found no significant link between methylphenidate or atomoxetine and congenital anomalies (corrected April 2025, conclusions unchanged).",
+        "sources": [
+          {
+            "citation": "di Giacomo E, et al. Methylphenidate and atomoxetine in pregnancy and possible adverse fetal outcomes: a systematic review and meta-analysis. JAMA Netw Open. 2024;7(11):e2443648.",
+            "doi": "10.1001/jamanetworkopen.2024.43648",
+            "pmid": null,
+            "year": 2024,
+            "design": "meta-analysis of observational studies",
+            "n": "10 studies",
+            "cited_on_page": true,
+            "verified": "Crossref record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Estimates sit at the edge of statistical significance, so different study sets and whether heart defects are analysed separately from all anomalies tip the conclusion either way; the studies overlap heavily, so they are not independent confirmations. Confounding by maternal conditions remains possible.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Obtain the corrected di Giacomo estimates and check whether it analysed cardiac defects separately; note study overlap between the meta-analyses.",
+    "new_research": false
+  },
+  {
+    "id": "C06-014",
+    "topic": "Adult CBT: moderate-certainty benefit vs clinician-only effect",
+    "page": "06-treatment-what-works/therapy-and-skills.md",
+    "claim": "CBT has the best evidence among talking treatments for adults, with moderate-certainty short-term benefit against waiting lists; in a 2025 analysis it beat controls only on clinician ratings.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Cochrane found CBT reduced self-reported symptoms vs waiting list (SMD 0.84, moderate certainty); the 2025 BMJ umbrella review rates adult CBT at least moderate certainty; a 250-student RCT of a CBT-plus-mentoring programme found medium-to-large self-reported improvements.",
+        "sources": [
+          {
+            "citation": "Lopez PL, et al. Cognitive-behavioural interventions for ADHD in adults. Cochrane Database Syst Rev. 2018;CD010840.",
+            "doi": "10.1002/14651858.CD010840.pub2",
+            "pmid": "29566425",
+            "year": 2018,
+            "design": "systematic review and meta-analysis (Cochrane)",
+            "n": "14 trials, about 700",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Gosling CJ, et al. Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making. BMJ. 2025;391:e085875.",
+            "doi": "10.1136/bmj-2025-085875",
+            "pmid": "41297970",
+            "year": 2025,
+            "design": "umbrella review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Anastopoulos AD, et al. A randomized controlled trial examining CBT for college students with ADHD. J Consult Clin Psychol. 2021.",
+            "doi": "10.1037/ccp0000553",
+            "pmid": "33507774",
+            "year": 2021,
+            "design": "RCT (delayed-treatment control)",
+            "n": "250",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2025 component network meta-analysis found CBT (SMD about 0.76) beat controls only on clinician ratings, which were often unblinded, not on adults' own ratings.",
+        "sources": [
+          {
+            "citation": "Ostinelli EG, et al. Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults. Lancet Psychiatry. 2025;12(1):32-43.",
+            "doi": "10.1016/S2215-0366(24)00360-2",
+            "pmid": "39701638",
+            "year": 2025,
+            "design": "component network meta-analysis",
+            "n": "113 trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Self-reports against a waiting list (Cochrane) are generous because waiting can worsen scores; the network analysis compares against a range of controls and finds self-rated effects do not separate. Neither rater is blinded in a meaningful way for therapy. The two disagree on which rater shows the effect, which is itself a sign that expectation and comparator choice drive part of it.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Point out explicitly that Cochrane's benefit was self-rated while Ostinelli found self-ratings did not separate, and look in Ostinelli's supplement for CBT-vs-waitlist self-rated estimates to see whether comparator explains the gap.",
+    "new_research": true
+  },
+  {
+    "id": "C07-002",
+    "topic": "Trials of interventions to reduce ADHD stigma",
+    "page": "07-family-work-and-other-people/stigma-and-telling-people.md",
+    "claim": "No trial of an intervention to reduce public or self-stigma about ADHD was found.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Systematic reviews of community attitudes found no trials showing that better public knowledge reduces stigma.",
+        "sources": [
+          {
+            "citation": "Bisset M, et al. Recent attitudes toward ADHD in the broader community: a systematic review. J Atten Disord. 2022;26(4):537-48.",
+            "doi": "10.1177/10870547211003671",
+            "pmid": null,
+            "year": 2022,
+            "design": "systematic review",
+            "n": "10 studies",
+            "cited_on_page": true,
+            "verified": "Crossref record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2026 randomised controlled study of 145 children with ADHD found an 8-session nurse-led CBT-based psychoeducation programme reduced internalised stigma and raised hope compared with a wait-list control.",
+        "sources": [
+          {
+            "citation": "Yılmaz R, et al. The effect of cognitive behavioural therapy-based psychoeducation provided to children with ADHD on internalized stigma and hope. Psychol Health Med. 2026.",
+            "doi": "10.1080/13548506.2026.2714468",
+            "pmid": "42554334",
+            "year": 2026,
+            "design": "RCT (wait-list control, single clinic)",
+            "n": "145",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "The page's search predates or missed this trial; it is small, single-site, unblinded, self-reported and in children (Turkey), so it does not show effects on public stigma or in adults.",
+    "page_handling": "not mentioned",
+    "severity": "minor",
+    "next_step": "Revise 'no trial found' to 'one small trial in children found reduced self-stigma after a psychoeducation programme (Limited)'; search for adult and public-stigma intervention trials (e.g. teacher or workplace programmes).",
+    "new_research": true
+  },
+  {
+    "id": "C07-003",
+    "topic": "Does structured support help university students with ADHD?",
+    "page": "07-family-work-and-other-people/work-and-study.md",
+    "claim": "Support is barely tested: it is plausible that coaching, mentoring or flexible deadlines help, but plausible is not tested.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Reviews find workplace interventions almost untested and educational accommodations mostly without ADHD-specific benefit.",
+        "sources": [
+          {
+            "citation": "Lovett BJ, et al. Systematic review: educational accommodations for children and adolescents with ADHD. J Am Acad Child Adolesc Psychiatry. 2021.",
+            "doi": null,
+            "pmid": "32745597",
+            "year": 2021,
+            "design": "systematic review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "cited on page; record not rechecked here"
+          },
+          {
+            "citation": "Lauder, et al. A systematic review of interventions to support adults with ADHD at work. Front Psychol. 2022.",
+            "doi": "10.3389/fpsyg.2022.893469",
+            "pmid": null,
+            "year": 2022,
+            "design": "realist systematic review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "Crossref record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A two-site RCT of 250 college students found a two-semester CBT group plus individual mentoring programme (ACCESS) improved ADHD symptoms, executive functioning and use of disability accommodations more than delayed treatment (d 0.39-1.21).",
+        "sources": [
+          {
+            "citation": "Anastopoulos AD, et al. A randomized controlled trial examining CBT for college students with ADHD. J Consult Clin Psychol. 2021.",
+            "doi": "10.1037/ccp0000553",
+            "pmid": "33507774",
+            "year": 2021,
+            "design": "RCT (delayed-treatment control)",
+            "n": "250",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "The page's claim is about workplace adjustments and accommodations, where evidence really is thin; ACCESS is a study-support programme with mentoring, tested against delayed treatment with self-report outcomes, so it supports 'some structured support helps students' rather than any specific adjustment. Grades and retention were not primary outcomes in the abstract.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add ACCESS as the main controlled evidence for university support, with its limits (unblinded self-report, waitlist control, US public universities), and check later ACCESS papers for grades and retention.",
+    "new_research": true
+  },
+  {
+    "id": "C06-015",
+    "topic": "Suicidal thoughts: atomoxetine trial signal vs registry reassurance",
+    "page": "06-treatment-what-works/what-registries-show.md",
+    "claim": "Suicidal behaviour was not higher during treatment; within-person rates were slightly lower (HR 0.89 overall, 0.81 for stimulants).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Swedish and US within-person studies find suicide-related events or attempts no higher, and somewhat lower, during medicated periods; a Hong Kong study shows risk already raised before methylphenidate began.",
+        "sources": [
+          {
+            "citation": "Chen Q, et al. Drug treatment for ADHD and suicidal behaviour: register based study. BMJ. 2014;348:g3769.",
+            "doi": "10.1136/bmj.g3769",
+            "pmid": "24942388",
+            "year": 2014,
+            "design": "registry, within-individual",
+            "n": "37,936",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Chang Z, et al. Medication for ADHD and risk for suicide attempts. Biol Psychiatry. 2020;88(6):452-8.",
+            "doi": "10.1016/j.biopsych.2019.12.003",
+            "pmid": "31987492",
+            "year": 2020,
+            "design": "claims, within-individual",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Pooled placebo-controlled atomoxetine trials found suicidal ideation in 0.37% of children on atomoxetine vs 0% on placebo (5/1,357 vs 0/851; risk difference significant, number needed to harm 227), the basis of regulatory warnings; a later, larger pooled dataset found the paediatric difference no longer significant (0.37% vs 0.07%) and none in adults.",
+        "sources": [
+          {
+            "citation": "Bangs ME, et al. Meta-analysis of suicide-related behavior events in patients treated with atomoxetine. J Am Acad Child Adolesc Psychiatry. 2008.",
+            "doi": "10.1097/chi.0b013e31815d88b2",
+            "pmid": "18176331",
+            "year": 2008,
+            "design": "pooled analysis of RCTs (manufacturer)",
+            "n": "2,208 children",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Bangs ME, et al. Meta-analysis of suicide-related behavior or ideation in child, adolescent, and adult patients treated with atomoxetine. J Child Adolesc Psychopharmacol. 2014.",
+            "doi": "10.1089/cap.2014.0005",
+            "pmid": "25019647",
+            "year": 2014,
+            "design": "pooled analysis of RCTs (manufacturer)",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "population/age",
+    "why_they_may_differ": "Trials capture rare, mostly ideation-level events reported spontaneously in children over weeks; registries capture recorded suicide attempts and are dominated by stimulant use, so a non-stimulant-specific signal could be hidden in the overall estimate. Both trial analyses are manufacturer-led, and their sizes are tiny in absolute terms.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add a sentence (following safe-messaging rules) that atomoxetine carries a trial-based warning about suicidal thoughts in young people, with the absolute figures, and check whether Chen 2014 reported a non-stimulant estimate separately.",
+    "new_research": true
+  },
+  {
+    "id": "C08-006",
+    "topic": "Do childhood stimulants change later addiction risk?",
+    "page": "08-reading-this-well/myths-and-corrections.md",
+    "claim": "Correction to 'stimulants lead to addiction': within-person studies find fewer substance-related problems during medicated periods (about a third lower odds).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "US claims within-person data show 31-35% lower odds of substance-related emergencies in medicated months, and lower odds two years later.",
+        "sources": [
+          {
+            "citation": "Quinn PD, et al. ADHD medication and substance-related problems. Am J Psychiatry. 2017;174(9):877-85.",
+            "doi": "10.1176/appi.ajp.2017.16060686",
+            "pmid": "28659039",
+            "year": 2017,
+            "design": "claims, within-individual",
+            "n": "about 3 million",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A meta-analysis of prospective studies found children with and without a stimulant treatment history had comparable later substance use, abuse and dependence: treatment neither protected nor increased risk.",
+        "sources": [
+          {
+            "citation": "Humphreys KL, et al. Stimulant medication and substance use outcomes: a meta-analysis. JAMA Psychiatry. 2013.",
+            "doi": "10.1001/jamapsychiatry.2013.1273",
+            "pmid": "23754458",
+            "year": 2013,
+            "design": "meta-analysis of longitudinal studies",
+            "n": "3-11 studies per outcome",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "They measure different things: acute emergencies during current treatment vs long-term substance use disorders after childhood treatment. Both reject 'stimulants cause addiction', but the myth correction could be read as 'stimulants protect against addiction', which the long-term evidence does not support.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add to the myth correction that long-term follow-ups find neither increased nor reduced later substance use disorders (Humphreys 2013 is already cited on 05/alcohol-drugs-and-addiction.md).",
+    "new_research": true
+  },
+  {
+    "id": "C07-004",
+    "topic": "Medication and work outcomes: unemployment vs work disability",
+    "page": "07-family-work-and-other-people/work-and-study.md",
+    "claim": "Registry studies find slightly less long-term unemployment during medicated periods.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Swedish within-person data: long-term unemployment about 11% less common during medicated periods (RR 0.89), clearer in women.",
+        "sources": [
+          {
+            "citation": "Li L, et al. Association between pharmacological treatment of ADHD and long-term unemployment among working-age individuals in Sweden. JAMA Netw Open. 2022;5(4):e226815.",
+            "doi": "10.1001/jamanetworkopen.2022.6815",
+            "pmid": "35476068",
+            "year": 2022,
+            "design": "registry, within-individual",
+            "n": "12,875",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A larger Swedish within-person study found lower sickness absence or disability pension only during atomoxetine use (HR 0.89), not with stimulants.",
+        "sources": [
+          {
+            "citation": "Taipale H, et al. ADHD medications and work disability and mental health outcomes. JAMA Netw Open. 2024.",
+            "doi": "10.1001/jamanetworkopen.2024.2859",
+            "pmid": "38506810",
+            "year": 2024,
+            "design": "registry, within-individual",
+            "n": "221,714",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Different outcomes (unemployment vs sickness absence/disability pension), age ranges and exposure definitions; work disability was a secondary outcome in Taipale. Within-person designs are vulnerable to people starting or stopping medication around job changes.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "No change needed beyond noting that the two outcomes differ; a later analysis could check whether stimulant periods were shorter or more often interrupted in Taipale.",
+    "new_research": false
   }
 ]
