@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Emotion dysregulation is common in children with ADHD.** Emotion dysregulation means difficulty controlling how quickly, how strongly and for how long emotions are felt and expressed. An authoritative review reported that clinic-based studies estimate it affects 24–50% of children and teenagers with ADHD [1]. The authors argued it is best treated as a dimension, from mild to severe, and set out three competing explanations: that it is a core part of ADHD, a separate but related problem, or the mark of a distinct subgroup [1].
+**Emotion dysregulation is common in children with ADHD.** Emotion dysregulation means difficulty controlling how quickly, how strongly and for how long emotions are felt and expressed. An authoritative review reported that clinic-based studies estimate it affects 24–50% of children and teenagers with ADHD [1]. <!-- CHECK: 24–50% not in the PubMed abstract of Shaw 2014; confirm from the full text --> The authors argued it is best treated as a dimension, from mild to severe, and set out three competing explanations: that it is a core part of ADHD, a separate but related problem, or the mark of a distinct subgroup [1].
 
 **Adults with ADHD report much more emotion dysregulation.** A meta-analysis of studies in adults found large differences from controls in emotion dysregulation overall (Hedges' *g* = 1.17) and emotional lability, meaning rapid shifts in mood (*g* = 1.20) [2]. The 13 studies were few and mostly used self-report questionnaires, so the size of the effect is uncertain [2].
 
@@ -45,13 +45,13 @@ If emotional pain becomes overwhelming, help is available now; contacts are list
 
 ## Sources
 
-1. Shaw P, et al. Emotion dysregulation in attention deficit hyperactivity disorder. *American Journal of Psychiatry*. 2014. PMID 24480998. — **Evidence: Strong**: authoritative review, mostly child and adolescent data.
-2. Beheshti A, et al. Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis. *BMC Psychiatry*. 2020. DOI 10.1186/s12888-020-2442-7. — **Evidence: Moderate**: meta-analysis of 13 studies (2,535 participants), mostly self-report.
-3. Soler-Gutiérrez AM, et al. Evidence of emotion dysregulation as a core symptom of adult ADHD: a systematic review. *PLOS ONE*. 2023. — **Evidence: Moderate**: systematic review of 22 heterogeneous studies.
-4. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *European Psychiatry*. 2017. — **Evidence: Moderate**: 9 randomised placebo-controlled trials, lability a secondary outcome.
-5. Babinski DE, et al. Sensitivity to peer feedback in young adolescents with symptoms of ADHD: examination of neurophysiological and self-report measures. *Journal of Abnormal Child Psychology*. 2019. — **Evidence: Limited**: single correlational study.
+1. Shaw P, et al. Emotion dysregulation in attention deficit hyperactivity disorder. *American Journal of Psychiatry*. 2014;171(3):276–93. DOI 10.1176/appi.ajp.2013.13070966. PMID 24480998. — **Evidence: Strong**: authoritative review, mostly child and adolescent data.
+2. Beheshti A, et al. Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis. *BMC Psychiatry*. 2020;20(1):120. DOI 10.1186/s12888-020-2442-7. PMID 32164655. — **Evidence: Moderate**: meta-analysis of 13 studies (2,535 participants), mostly self-report.
+3. Soler-Gutiérrez AM, et al. Evidence of emotion dysregulation as a core symptom of adult ADHD: a systematic review. *PLOS ONE*. 2023;18(1):e0280131. DOI 10.1371/journal.pone.0280131. PMID 36608036. — **Evidence: Moderate**: systematic review of 22 heterogeneous studies.
+4. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *European Psychiatry*. 2017;44:198–207. DOI 10.1016/j.eurpsy.2017.05.021. PMID 28646732. — **Evidence: Moderate**: 9 randomised placebo-controlled trials, lability a secondary outcome.
+5. Babinski DE, et al. Sensitivity to peer feedback in young adolescents with symptoms of ADHD: examination of neurophysiological and self-report measures. *Journal of Abnormal Child Psychology*. 2019;47(4):605–17. DOI 10.1007/s10802-018-0470-2. PMID 30155685. — **Evidence: Limited**: single correlational study.
 6. From ADHD to well-being: the role of rejection sensitivity in college life. *European Psychiatry*. 2024 (conference abstract). DOI 10.1192/j.eurpsy.2024.594. PMC11859226. — **Evidence: Limited**: single cross-sectional study.
-7. Rowney-Smith A, et al. The lived experience of rejection sensitivity in ADHD: a qualitative exploration. *PLOS ONE*. 2026. DOI 10.1371/journal.pone.0314669. PMC12822938. — **Evidence: Limited**: qualitative focus group, five undergraduates.
+7. Rowney-Smith A, et al. The lived experience of rejection sensitivity in ADHD: a qualitative exploration. *PLOS ONE*. 2026;21(1):e0314669. DOI 10.1371/journal.pone.0314669. PMID 41564005. — **Evidence: Limited**: qualitative focus group, five undergraduates.
 8. van Asselt A, et al. Rejection sensitivity dysphoria in autistic adults: a scoping review. 2026. DOI 10.1177/27546330261441753. — **Evidence: Limited**: scoping review of a small, recent literature, autism not ADHD.
 9. Sandland B. Neurodivergent experiences of rejection sensitive dysphoria expose the environmental factors too often overlooked. *Neurodiversity*. 2025. DOI 10.1177/27546330251394516. — **Evidence: Limited**: qualitative thematic analysis.
 

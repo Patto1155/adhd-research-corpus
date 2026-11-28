@@ -12,17 +12,17 @@ These studies began with children, so the figures describe adults who were diagn
 
 About 30% reached full remission at some point, but 60% of those saw symptoms return later. About 90% still had some symptoms into young adulthood, a figure the study team has reported from the same cohort [2]. The idea that half of children simply outgrow ADHD does not fit these data.
 
-**Other cohorts found fluctuation less often.** A study of three other US cohorts (more than 10,000 young people), counting a course as fluctuating after two or more switches in and out of diagnosis, found it in 17–29% of young people with ADHD, never the largest group [7]. How common the in-and-out pattern is therefore remains debated.
+**Other cohorts found fluctuation less often.** A study of three other US cohorts (more than 10,000 young people), counting a course as fluctuating after two or more switches in and out of diagnosis, found it in 17–29% of young people with ADHD, never the largest group [3]. How common the in-and-out pattern is therefore remains debated.
 
-**Adult prevalence falls with age.** A global analysis estimated that 2.58% of adults have ADHD that began in childhood, and 6.76% have adult ADHD symptoms whatever their history [3]. For childhood-onset ADHD, the estimate fell from 5.1% at ages 18–24 to 0.8% over 60 [3].
+**Adult prevalence falls with age.** A global analysis estimated that 2.58% of adults have ADHD that began in childhood, and 6.76% have adult ADHD symptoms whatever their history [4]. For childhood-onset ADHD, the estimate fell from 5.1% at ages 18–24 to 0.8% at 60 and over [4].
 
 Methods varied widely between the studies pooled, so these are rough figures. Lower rates in older people may partly reflect how rarely older adults are assessed, not only real decline.
 
-**Older adults are barely studied.** A meta-analysis of ADHD in adults aged 50 and over found very different figures depending on how it was measured: 2.18% using symptom rating scales, but only 0.23% with a clinical diagnosis [4]. Treated ADHD was rarer again, less than half the rate of diagnosed ADHD [4]. The authors read this as a sign of under-recognition rather than of ADHD disappearing.
+**Older adults are barely studied.** A meta-analysis of ADHD in adults aged 50 and over found very different figures depending on how it was measured: 2.18% using symptom rating scales, but only 0.23% with a clinical diagnosis [5]. Treated ADHD was rarer again, less than half the rate of diagnosed ADHD [5]. The authors read this as a sign of under-recognition rather than of ADHD disappearing.
 
-**Adult onset is contested.** In New Zealand's Dunedin cohort of 1,037 people followed to age 38, 90% of the adults who met ADHD criteria had no childhood history of it [5]. Of 61 childhood cases, only 3 still met full criteria at 38 [5]. The authors raised the possibility that adult-onset ADHD is a different condition.
+**Adult onset is contested.** In New Zealand's Dunedin cohort of 1,037 people followed to age 38, 90% of the adults who met ADHD criteria had no childhood history of it [6]. Of 61 childhood cases, only 3 still met full criteria at 38 [6]. The authors raised the possibility that adult-onset ADHD is a different condition.
 
-**Careful reassessment found little true adult onset.** When the MTA team reassessed people who screened positive for late-onset ADHD, about 95% were excluded on careful assessment, most often because the symptoms occurred only during heavy substance use [6]. Most of the remaining late-onset cases had begun in adolescence, and the team found no evidence of adult-onset ADHD without a complex psychiatric history [6].
+**Careful reassessment found little true adult onset.** When the MTA team reassessed people who screened positive for late-onset ADHD, about 95% were excluded on careful assessment, most often because the symptoms occurred only during heavy substance use [7]. Most of the remaining late-onset cases had begun in adolescence, and the team found no evidence of adult-onset ADHD without a complex psychiatric history [7].
 
 The usual view now is that most "late" ADHD began in adolescence or was missed, with true adult onset unresolved. More is on [diagnosis as an adult](../01-is-this-real/diagnosed-as-an-adult.md).
 
@@ -50,13 +50,13 @@ At group level, ADHD tends to ease with age, and a stretch of good months or yea
 
 ## Sources
 
-1. Faraone SV, et al. The age-dependent decline of attention deficit hyperactivity disorder: a meta-analysis of follow-up studies. *Psychol Med*. 2006. PMID 16420712. — **Evidence: Strong**, meta-analysis of follow-up studies, now older.
-2. Sibley MH, et al. Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD. *Am J Psychiatry*. 2022. DOI 10.1176/appi.ajp.2021.21010032. PMID 34384227. — **Evidence: Strong**, single large cohort with eight assessments over 16 years.
-3. Song P, et al. The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis. *J Glob Health*. 2021;11:04009. — **Evidence: Moderate**, global meta-analysis with heterogeneous methods.
-4. Dobrosavljevic M, et al. Prevalence of attention-deficit/hyperactivity disorder in older adults: a systematic review and meta-analysis. *Neurosci Biobehav Rev*. 2020. PMID 32798966. — **Evidence: Moderate**, meta-analysis of 20 studies with varied methods.
-5. Moffitt TE, et al. Is adult ADHD a childhood-onset neurodevelopmental disorder? Evidence from a four-decade longitudinal cohort study. *Am J Psychiatry*. 2015;172(10):967–77. DOI 10.1176/appi.ajp.2015.14101266. — **Evidence: Moderate**, one birth cohort, small adult-ADHD group.
-6. Sibley MH, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. *Am J Psychiatry*. 2018. PMC5814300. — **Evidence: Moderate**, single cohort with repeated assessment.
-7. Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. *EClinicalMedicine*. 2023;60:102021. PMID 37333663. — **Evidence: Moderate**, three US cohorts (ABCD, NCR, NKI-Rockland), more than 10,000 young people; fluctuating defined as two or more switches in and out of diagnosis.
+1. Faraone SV, et al. The age-dependent decline of attention deficit hyperactivity disorder: a meta-analysis of follow-up studies. *Psychol Med*. 2006;36(2):159–65. DOI 10.1017/S003329170500471X. PMID 16420712. — **Evidence: Strong**, meta-analysis of follow-up studies, now older.
+2. Sibley MH, et al. Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD. *Am J Psychiatry*. 2022;179(2):142–51. DOI 10.1176/appi.ajp.2021.21010032. PMID 34384227. — **Evidence: Strong**, single large cohort with eight assessments over 16 years.
+3. Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. *EClinicalMedicine*. 2023;60:102021. PMID 37333663. — **Evidence: Moderate**, three US cohorts (ABCD, NCR, NKI-Rockland), more than 10,000 young people; fluctuating defined as two or more switches in and out of diagnosis.
+4. Song P, et al. The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis. *J Glob Health*. 2021;11:04009. DOI 10.7189/jogh.11.04009. PMID 33692893. — **Evidence: Moderate**, global meta-analysis with heterogeneous methods.
+5. Dobrosavljevic M, et al. Prevalence of attention-deficit/hyperactivity disorder in older adults: a systematic review and meta-analysis. *Neurosci Biobehav Rev*. 2020;118:282–9. DOI 10.1016/j.neubiorev.2020.07.042. PMID 32798966. — **Evidence: Moderate**, meta-analysis of 20 studies with varied methods.
+6. Moffitt TE, et al. Is adult ADHD a childhood-onset neurodevelopmental disorder? Evidence from a four-decade longitudinal cohort study. *Am J Psychiatry*. 2015;172(10):967–77. DOI 10.1176/appi.ajp.2015.14101266. PMID 25998281. — **Evidence: Moderate**, one birth cohort, small adult-ADHD group.
+7. Sibley MH, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. *Am J Psychiatry*. 2018;175(2):140–9. DOI 10.1176/appi.ajp.2017.17030298. PMID 29050505. — **Evidence: Moderate**, single cohort with repeated assessment.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)
