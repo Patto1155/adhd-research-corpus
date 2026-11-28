@@ -47,10 +47,10 @@ If you recognise yourself in ADHD descriptions, that is a reasonable starting po
 
 ## Related pages
 
-- [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
+- [How is ADHD diagnosed, and why is there no test?](../01-is-this-real/how-diagnosis-works.md)
 - [Anxiety and depression with ADHD: why are they so common?](anxiety-and-depression.md)
 - [Autism and ADHD: can you have both?](autism-and-adhd.md)
-- [Sleep and the body clock](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
+- [Sleep and ADHD: why can't I fall asleep, and is sleep the cause?](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

@@ -40,7 +40,7 @@ The best evidence says that on average emotions become steadier; it does not sho
 
 - [How do ADHD medicines work?](how-adhd-medicines-work.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
-- [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
+- [Emotions and rejection in ADHD: why do they hit so hard?](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

@@ -40,10 +40,11 @@ Whether to tell an employer, friend or family member is your decision. The resea
 
 ## Related pages
 
-- [After the diagnosis](../01-is-this-real/after-the-diagnosis.md)
+- [Just diagnosed with ADHD: why do I feel relieved, sad and doubtful?](../01-is-this-real/after-the-diagnosis.md)
 - [ADHD, work and study: does treatment or support help?](work-and-study.md)
-- [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
+- [Emotions and rejection in ADHD: why do they hit so hard?](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
 - [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
+- [Partner with ADHD: what does research say about relationships?](when-your-partner-has-adhd.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

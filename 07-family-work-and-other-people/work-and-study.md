@@ -53,9 +53,9 @@ They do suggest that difficulties at work or study are common, recognised, and p
 ## Related pages
 
 - [ADHD stigma and shame: should I tell people?](stigma-and-telling-people.md)
-- [What registries show](../06-treatment-what-works/what-registries-show.md)
-- [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
+- [Therapy, coaching and skills training: do they work for ADHD?](../06-treatment-what-works/therapy-and-skills.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

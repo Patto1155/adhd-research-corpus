@@ -40,7 +40,8 @@ Medicines for ADHD are not a crude sedative or a "speed" that forces focus. They
 
 - [How well does ADHD medication work?](how-well-medication-works.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
-- [Dopamine, noradrenaline and myths](../02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md)
+- [Is ADHD caused by low dopamine?](../02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md)
+- [Will ADHD medication change my personality or make me a zombie?](will-medication-change-me.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

@@ -66,6 +66,8 @@ Decisions about starting, changing or stopping medication belong in that convers
 - [How well does ADHD medication work?](how-well-medication-works.md)
 - [Real-life outcomes on ADHD medication: what do registries show?](what-registries-show.md)
 - [Physical health problems and ADHD: is there a link?](../05-what-often-comes-with-it/physical-health.md)
+- [Pregnancy, breastfeeding and ADHD medication: is it safe?](pregnancy-and-breastfeeding.md)
+- [ADHD medication for children: is it safe and worthwhile?](../07-family-work-and-other-people/children-and-medication.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

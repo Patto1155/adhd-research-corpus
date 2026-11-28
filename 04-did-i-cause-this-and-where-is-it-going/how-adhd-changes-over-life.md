@@ -28,7 +28,7 @@ The E-Risk and Pelotas cohorts found the same pattern: 67.5% of young adults wit
 
 The leading interpretation is that most "late" ADHD began in adolescence or was missed, but true adult onset is unresolved, and how much a study finds depends heavily on how often and how carefully it assessed people. The detail, including later re-analyses of the same cohorts, is on [diagnosis as an adult](../01-is-this-real/diagnosed-as-an-adult.md).
 
-**Dementia and life expectancy have their own page.** In short, links exist in registry data but are much weaker than headlines suggest, and early dementia can be mistaken for late-appearing ADHD. The studies, with their absolute risks and limits, are on [Will ADHD shorten my life? The hard statistics in context](the-hard-statistics-in-context.md).
+**Dementia and life expectancy have their own page.** In short, registry studies find links, but how large they are is disputed: they shrink once other mental health conditions are accounted for, and early dementia can be mistaken for late-appearing ADHD. The studies, with their absolute risks and limits, are on [Will ADHD shorten my life? The hard statistics in context](the-hard-statistics-in-context.md).
 
 ## What is uncertain or debated
 

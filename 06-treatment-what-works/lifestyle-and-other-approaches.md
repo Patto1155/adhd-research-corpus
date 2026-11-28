@@ -48,8 +48,8 @@ When a product or program reports dramatic improvement, the useful question is w
 
 - [Therapy, coaching and skills training: do they work for ADHD?](therapy-and-skills.md)
 - [How well does ADHD medication work?](how-well-medication-works.md)
-- [Sleep and the body clock](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
-- [ADHD myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Sleep and ADHD: why can't I fall asleep, and is sleep the cause?](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
+- [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

@@ -32,8 +32,9 @@ Therapy and skills training aim at different things from medication: habits, sys
 
 - [How well does ADHD medication work?](how-well-medication-works.md)
 - [Neurofeedback, diet, supplements, exercise: do they help ADHD?](lifestyle-and-other-approaches.md)
-- [Executive function and working memory](../03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Executive function and ADHD: why can't I plan or get started?](../03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Parent training and school support for ADHD: do they help?](../07-family-work-and-other-people/parenting-and-what-helps.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

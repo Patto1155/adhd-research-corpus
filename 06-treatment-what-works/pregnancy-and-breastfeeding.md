@@ -67,8 +67,8 @@ Whether to continue, pause or change medication in pregnancy or while breastfeed
 
 ## Related pages
 
-- [Hormones, cycles and menopause](../04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
-- [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
+- [Do periods, pregnancy and menopause make ADHD worse?](../04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
+- [What causes ADHD, and is it my fault or my parents'?](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
 - [Back to all worries](../README.md#find-your-worry)
 

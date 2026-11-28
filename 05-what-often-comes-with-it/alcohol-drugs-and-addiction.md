@@ -38,8 +38,9 @@ If substance use is putting you at risk right now, places to get help are listed
 
 - [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](../06-treatment-what-works/medication-safety.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 - [Anxiety and depression with ADHD: why are they so common?](anxiety-and-depression.md)
+- [Physical health problems and ADHD: is there a link?](physical-health.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

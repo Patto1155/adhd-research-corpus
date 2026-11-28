@@ -49,6 +49,7 @@ If emotional pain becomes overwhelming, help is available now; contacts are list
 - [Will medication change me?](../06-treatment-what-works/will-medication-change-me.md)
 - [When your partner has ADHD](../07-family-work-and-other-people/when-your-partner-has-adhd.md)
 - [ADHD myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

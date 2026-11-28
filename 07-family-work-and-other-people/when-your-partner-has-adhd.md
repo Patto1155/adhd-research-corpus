@@ -42,10 +42,11 @@ The 2021 review recommends that clinicians work with the couple rather than only
 
 ## Related pages
 
-- [Diagnosed as an adult](../01-is-this-real/diagnosed-as-an-adult.md)
-- [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
-- [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
-- [Anxiety and depression](../05-what-often-comes-with-it/anxiety-and-depression.md)
+- [Diagnosed as an adult: how was my ADHD missed, and is it the same?](../01-is-this-real/diagnosed-as-an-adult.md)
+- [Emotions and rejection in ADHD: why do they hit so hard?](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
+- [Therapy, coaching and skills training: do they work for ADHD?](../06-treatment-what-works/therapy-and-skills.md)
+- [Anxiety and depression with ADHD: why are they so common?](../05-what-often-comes-with-it/anxiety-and-depression.md)
+- [ADHD stigma and shame: should I tell people?](stigma-and-telling-people.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

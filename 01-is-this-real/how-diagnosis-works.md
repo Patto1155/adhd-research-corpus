@@ -42,6 +42,8 @@ Information here is not a diagnosis, as [not medical advice](../08-reading-this-
 - [Why are ADHD diagnoses rising, and is it a fad?](more-diagnoses-than-ever.md)
 - [Why are girls and women with ADHD so often missed?](women-and-girls.md)
 - [Sources and guidelines](../08-reading-this-well/sources-and-guidelines.md)
+- [What is ADHD, actually?](what-adhd-is.md)
+- [Diagnosed as an adult: how was my ADHD missed, and is it the same?](diagnosed-as-an-adult.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

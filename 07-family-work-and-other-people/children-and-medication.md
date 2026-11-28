@@ -53,10 +53,11 @@ Whether to use medication, and starting, pausing or stopping it, is a decision f
 
 ## Related pages
 
-- [How well medication works](../06-treatment-what-works/how-well-medication-works.md)
-- [Medication safety](../06-treatment-what-works/medication-safety.md)
+- [How well does ADHD medication work?](../06-treatment-what-works/how-well-medication-works.md)
+- [Is ADHD medication safe? Heart, growth, psychosis and misuse](../06-treatment-what-works/medication-safety.md)
 - [Parent training and school support for ADHD: do they help?](parenting-and-what-helps.md)
-- [Staying on or stopping medication](../06-treatment-what-works/staying-on-or-stopping-medication.md)
+- [Stopping ADHD medication: do benefits fade, and is it for life?](../06-treatment-what-works/staying-on-or-stopping-medication.md)
+- [ADHD in children: how common, did we cause it, and what comes next?](adhd-in-children-and-teenagers.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

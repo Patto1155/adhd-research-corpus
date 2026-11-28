@@ -48,9 +48,9 @@ If you have one diagnosis and recognise traits of the other, that is common and 
 ## Related pages
 
 - [Is it ADHD, or could it be something else?](is-it-adhd-or-something-else.md)
-- [Genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
-- [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
-- [Why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
+- [Is ADHD genetic, and will my children have it?](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
+- [How is ADHD diagnosed, and why is there no test?](../01-is-this-real/how-diagnosis-works.md)
+- [Why is my ADHD so different from someone else's?](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

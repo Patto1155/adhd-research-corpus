@@ -40,10 +40,10 @@ The research does not support the idea that you caused your child's ADHD. It doe
 
 ## Related pages
 
-- [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
+- [What causes ADHD, and is it my fault or my parents'?](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 - [Parent training and school support for ADHD: do they help?](parenting-and-what-helps.md)
 - [ADHD medication for children: is it safe and worthwhile?](children-and-medication.md)
-- [How ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
+- [ADHD over a lifetime: will it get better or worse as I age?](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

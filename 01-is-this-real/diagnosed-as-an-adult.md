@@ -42,6 +42,8 @@ Being diagnosed in adulthood is common and is not, in itself, a sign of a wrong 
 - [Just diagnosed with ADHD: why do I feel relieved, sad and doubtful?](after-the-diagnosis.md)
 - [How ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
 - [ADHD or something else](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [Why are girls and women with ADHD so often missed?](women-and-girls.md)
+- [Why are ADHD diagnoses rising, and is it a fad?](more-diagnoses-than-ever.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

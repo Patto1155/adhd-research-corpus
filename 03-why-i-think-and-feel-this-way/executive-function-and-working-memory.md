@@ -54,6 +54,7 @@ If you struggle to start, organise and finish, that is consistent with what ADHD
 - [ADHD and hyperfocus: why can I focus for hours on some things?](attention-regulation-and-hyperfocus.md)
 - [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
 - [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
+- [Emotions and rejection in ADHD: why do they hit so hard?](emotions-and-rejection.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

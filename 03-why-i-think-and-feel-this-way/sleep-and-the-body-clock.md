@@ -36,7 +36,7 @@ If you lie awake for a long time and feel most alert late at night, that fits a 
 - [Physical health](../05-what-often-comes-with-it/physical-health.md)
 - [Medication safety](../06-treatment-what-works/medication-safety.md)
 - [Lifestyle and other approaches](../06-treatment-what-works/lifestyle-and-other-approaches.md)
-- [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
+- [ADHD and hyperfocus: why can I focus for hours on some things?](attention-regulation-and-hyperfocus.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

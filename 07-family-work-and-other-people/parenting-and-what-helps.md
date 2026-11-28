@@ -51,7 +51,7 @@ The evidence on causes is on [what does and doesn't cause ADHD](../04-did-i-caus
 
 - [ADHD in children: how common, did we cause it, and what comes next?](adhd-in-children-and-teenagers.md)
 - [ADHD medication for children: is it safe and worthwhile?](children-and-medication.md)
-- [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
+- [Therapy, coaching and skills training: do they work for ADHD?](../06-treatment-what-works/therapy-and-skills.md)
 - [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
 - [Back to all worries](../README.md#find-your-worry)
 

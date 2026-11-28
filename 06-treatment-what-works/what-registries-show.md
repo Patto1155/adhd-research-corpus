@@ -60,8 +60,8 @@ These studies are among the strongest real-world evidence that ADHD medication i
 
 - [How well does ADHD medication work?](how-well-medication-works.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

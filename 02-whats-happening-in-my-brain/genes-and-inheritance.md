@@ -56,6 +56,7 @@ No genetic test can predict ADHD, and heritability says nothing about blame. The
 - [Is ADHD caused by low dopamine?](dopamine-noradrenaline-and-myths.md)
 - [Why is my ADHD so different from someone else's?](why-no-two-adhd-brains-are-alike.md)
 - [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Does ADHD mean my brain is damaged or "three years behind"?](brain-structure-and-development.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

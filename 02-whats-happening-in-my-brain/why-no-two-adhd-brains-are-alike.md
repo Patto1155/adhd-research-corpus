@@ -52,6 +52,7 @@ If your ADHD does not look like a friend's, or like the descriptions you have re
 - [Executive function and working memory](../03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
 - [What is ADHD, actually?](../01-is-this-real/what-adhd-is.md)
 - [ADHD or something else](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [Is ADHD genetic, and will my children have it?](genes-and-inheritance.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

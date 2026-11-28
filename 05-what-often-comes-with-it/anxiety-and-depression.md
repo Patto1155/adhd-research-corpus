@@ -51,9 +51,10 @@ Figures on suicide risk in ADHD, with their context, are on [the hard statistics
 ## Related pages
 
 - [Is it ADHD, or could it be something else?](is-it-adhd-or-something-else.md)
-- [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
+- [Emotions and rejection in ADHD: why do they hit so hard?](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
 - [Therapy, coaching and skills training: do they work for ADHD?](../06-treatment-what-works/therapy-and-skills.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Addiction and ADHD: is risk higher, and do medicines raise it?](alcohol-drugs-and-addiction.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

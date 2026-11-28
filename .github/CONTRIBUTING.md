@@ -69,7 +69,8 @@ These tools and files support the pages. None of them is written for readers, an
 Some pages carry charts. They follow one shared style so the site reads as one piece.
 
 - **Scripts are the source of truth.** Every chart is drawn by a Python script in `tools/charts/` that uses only the standard library. Edit the script and re-run it; never hand-edit an SVG. `python3 tools/charts/corpus.py` also refreshes the corpus charts and the generated numbers on [the evidence at a glance](../08-reading-this-well/the-evidence-at-a-glance.md) and the folder READMEs.
-- **Light and dark pair.** Each chart is saved as `name.svg` and `name-dark.svg`, with viewBox width 720, the font stack `system-ui, -apple-system, "Segoe UI", Roboto, sans-serif`, and no text smaller than 13px.
+- **One set of design tokens.** All colours, fonts, chart text sizes and corner radii live in `tools/design/tokens.json`, the single source of truth for the charts, the reader and the explorer. It is loaded by `tools/design/tokens.py`; the chart scripts draw their shared frame, title block and source footer with `tools/charts/chartkit.py`, and both HTML builders inject the tokens at a `/*__TOKENS__*/` marker in their templates. Change a colour or size in `tokens.json`, never in a script, template or SVG.
+- **Light and dark pair.** Each chart is saved as `name.svg` and `name-dark.svg`, with viewBox width 720 and no text smaller than 13px (both set in `tokens.json`).
 - **Embed both**, with alt text and a caption:
 
   ```html
@@ -86,4 +87,15 @@ Some pages carry charts. They follow one shared style so the site reads as one p
 - **Say what it shows.** The title states the takeaway in plain words; bars and lines are labelled directly; a small source line names where the numbers came from.
 - **Alt text and caption are required.** Alt text gives the full numbers, so a screen-reader user loses nothing.
 - **Calm colours for hard topics.** Charts about mortality, suicide or other serious harms use calm blues and greys, never alarm reds, and follow the safe-messaging rules above.
-- **Colour is never the only cue.** Reuse the palette already in the `tools/charts/` scripts: blue (`#257de0` light, `#338ced` dark) for a single series, a light-to-dark blue ramp for evidence strength, neutral greys for text and gridlines. Pair colour with labels or a legend.
+- **Colour is never the only cue.** Use the palette in `tools/design/tokens.json` (a single-series colour, an ordinal blue ramp for evidence strength, and neutrals for text and gridlines) rather than new colours, and pair colour with labels or a legend.
+- **Rebuild after a change.** From the repository root, re-run whichever of these your change touches, then check:
+
+  ```
+  python3 tools/charts/brain_mind.py
+  python3 tools/charts/outcomes_treatment.py
+  python3 tools/charts/corpus.py
+  python3 tools/reader/build.py <out.html>
+  python3 tools/explorer/build.py <out.html>
+  python3 tools/conflicts/build.py
+  python3 tools/check_format.py
+  ```

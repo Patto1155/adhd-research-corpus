@@ -42,10 +42,10 @@ At group level, ADHD comes with higher rates of many physical conditions, and so
 
 ## Related pages
 
-- [Sleep and the body clock](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
+- [Sleep and ADHD: why can't I fall asleep, and is sleep the cause?](../03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](../06-treatment-what-works/medication-safety.md)
 - [Addiction and ADHD: is risk higher, and do medicines raise it?](alcohol-drugs-and-addiction.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

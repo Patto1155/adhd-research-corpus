@@ -62,6 +62,7 @@ If someone tells you "medication doesn't really work" or "Cochrane says it's use
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
 - [Real-life outcomes on ADHD medication: what do registries show?](what-registries-show.md)
 - [Therapy, coaching and skills training: do they work for ADHD?](therapy-and-skills.md)
+- [Stopping ADHD medication: do benefits fade, and is it for life?](staying-on-or-stopping-medication.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

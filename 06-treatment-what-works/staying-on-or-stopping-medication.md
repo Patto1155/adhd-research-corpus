@@ -50,7 +50,7 @@ The evidence suggests ADHD medication keeps working for many people who take it 
 
 - [How well does ADHD medication work?](how-well-medication-works.md)
 - [Is ADHD medication safe? Heart, growth, psychosis and misuse](medication-safety.md)
-- [How ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
+- [ADHD over a lifetime: will it get better or worse as I age?](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
