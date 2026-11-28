@@ -1,51 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 548" width="720" height="548" role="img" aria-labelledby="title desc" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
-<title id="title">Counted deaths put the gap at about 7 to 9 years in diagnosed UK adults; the “13 years” figure is a calculator estimate</title>
-<desc id="desc">Horizontal bars of years of life lost. Counted, from UK GP records of 30,039 diagnosed adults: men 6.8 years (73.3 against 80.0), women 8.6 years (75.2 against 83.8). Modelled with an online life-expectancy calculator in one Milwaukee clinical cohort, with no deaths counted: 8.4 fewer years of total life for the childhood hyperactivity group, and a 12.7-year reduction for those whose ADHD persisted into adulthood.</desc>
-<defs><pattern id="est" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8a8a8a" stroke-width="2.2"/></pattern></defs>
-<rect x="0.5" y="0.5" width="719" height="547" rx="8" fill="#ffffff" stroke="#e7e7e7" stroke-width="1"/>
-<text x="24.0" y="42.0" font-size="18" font-weight="650" fill="#191919" text-anchor="start">Counted deaths put the gap at about 7 to 9 years in diagnosed UK adults;</text>
-<text x="24.0" y="65.4" font-size="18" font-weight="650" fill="#191919" text-anchor="start">the “13 years” figure is a calculator estimate</text>
-<text x="24.0" y="88.8" font-size="14" font-weight="400" fill="#666666" text-anchor="start">Years of life expectancy lost, compared with people without ADHD. Solid bars come from deaths</text>
-<text x="24.0" y="108.4" font-size="14" font-weight="400" fill="#666666" text-anchor="start">that happened; striped bars are predictions.</text>
-<rect x="24" y="134.0" width="14" height="14" rx="3" fill="#257de0"/>
-<text x="44.0" y="146.0" font-size="14" font-weight="400" fill="#666666" text-anchor="start">Counted from deaths</text>
-<rect x="208.28" y="134.0" width="14" height="14" rx="3" fill="url(#est)" stroke="#8a8a8a" stroke-width="1.5"/>
-<text x="228.3" y="146.0" font-size="14" font-weight="400" fill="#666666" text-anchor="start">Modelled, no deaths counted</text>
-<line x1="294.0" x2="294.0" y1="194.0" y2="358.0" stroke="#c2c2c2" stroke-width="1"/>
-<text x="294.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">0</text>
-<line x1="330.0" x2="330.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="330.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">2</text>
-<line x1="366.0" x2="366.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="366.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">4</text>
-<line x1="402.0" x2="402.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="402.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">6</text>
-<line x1="438.0" x2="438.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="438.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">8</text>
-<line x1="474.0" x2="474.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="474.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">10</text>
-<line x1="510.0" x2="510.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="510.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">12</text>
-<line x1="546.0" x2="546.0" y1="194.0" y2="358.0" stroke="#e7e7e7" stroke-width="1"/>
-<text x="546.0" y="376.0" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">14</text>
-<text x="546.0" y="396.0" font-size="13" font-weight="400" fill="#666666" text-anchor="end">years of life lost</text>
-<text x="24.0" y="187.0" font-size="14" font-weight="650" fill="#191919" text-anchor="start">UK adults with diagnosed ADHD [4]</text>
-<text x="36.0" y="213.0" font-size="14" font-weight="400" fill="#191919" text-anchor="start">Men</text>
-<path d="M294.00,198.00 H412.40 Q416.40,198.00 416.40,202.00 V214.00 Q416.40,218.00 412.40,218.00 H294.00 Z" fill="#257de0"/>
-<text x="424.4" y="213.0" font-size="14" font-weight="600" fill="#191919" text-anchor="start">6.8 years (73.3 v 80.0)</text>
-<text x="36.0" y="245.0" font-size="14" font-weight="400" fill="#191919" text-anchor="start">Women</text>
-<path d="M294.00,230.00 H444.80 Q448.80,230.00 448.80,234.00 V246.00 Q448.80,250.00 444.80,250.00 H294.00 Z" fill="#257de0"/>
-<text x="456.8" y="245.0" font-size="14" font-weight="600" fill="#191919" text-anchor="start">8.6 years (75.2 v 83.8)</text>
-<text x="24.0" y="287.0" font-size="14" font-weight="650" fill="#191919" text-anchor="start">Milwaukee childhood cohort, calculator [5]</text>
-<text x="36.0" y="313.0" font-size="14" font-weight="400" fill="#191919" text-anchor="start">Whole group, total life</text>
-<path d="M294.00,298.75 H441.20 Q444.45,298.75 444.45,302.00 V314.00 Q444.45,317.25 441.20,317.25 H294.00 Z" fill="url(#est)" stroke="#8a8a8a" stroke-width="1.5"/>
-<text x="453.2" y="313.0" font-size="14" font-weight="600" fill="#191919" text-anchor="start">8.4 years</text>
-<text x="36.0" y="345.0" font-size="14" font-weight="400" fill="#191919" text-anchor="start">ADHD persisted into adulthood</text>
-<path d="M294.00,330.75 H518.60 Q521.85,330.75 521.85,334.00 V346.00 Q521.85,349.25 518.60,349.25 H294.00 Z" fill="url(#est)" stroke="#8a8a8a" stroke-width="1.5"/>
-<text x="530.6" y="345.0" font-size="14" font-weight="600" fill="#191919" text-anchor="start">12.7 years</text>
-<text x="24.0" y="426.0" font-size="14" font-weight="400" fill="#191919" text-anchor="start">The calculator turned 14 health and lifestyle answers into a prediction for 131 young adults (mostly</text>
-<text x="24.0" y="445.6" font-size="14" font-weight="400" fill="#191919" text-anchor="start">boys, more severe than ADHD in the community). The UK authors say their own gap probably</text>
-<text x="24.0" y="465.2" font-size="14" font-weight="400" fill="#191919" text-anchor="start">overstates it for everyone with ADHD.</text>
-<line x1="24" x2="696" y1="484.8" y2="484.8" stroke="#e7e7e7" stroke-width="1"/>
-<text x="24.0" y="505.8" font-size="13" font-weight="400" fill="#666666" text-anchor="start">Sources: O’Nions et al., Br J Psychiatry 2025 [4]; Barkley et al., J Atten Disord 2019 [5]. Group averages,</text>
-<text x="24.0" y="524.0" font-size="13" font-weight="400" fill="#666666" text-anchor="start">not a prediction for any person.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 531" width="720" height="531" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Counted deaths put the gap at about 7 to 9 years in diagnosed UK adults; the “13 years” figure is a calculator estimate</title>
+<desc id="d">Horizontal bars of years of life lost. Counted, from UK GP records of 30,039 diagnosed adults: men 6.8 years (73.3 against 80.0), women 8.6 years (75.2 against 83.8). Modelled with an online life-expectancy calculator in one Milwaukee clinical cohort, with no deaths counted: 8.4 fewer years of total life for the childhood hyperactivity group, and a 12.7-year reduction for those whose ADHD persisted into adulthood.</desc>
+<defs><pattern id="est" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8b959e" stroke-width="2.2"/></pattern></defs>
+<rect x="0.5" y="0.5" width="719" height="530" rx="12" fill="#ffffff" stroke="#dce2e7" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#182026" text-anchor="start">Counted deaths put the gap at about 7 to 9 years in diagnosed</text>
+<text x="24.0" y="64.0" font-size="18" font-weight="600" fill="#182026" text-anchor="start">UK adults; the “13 years” figure is a calculator estimate</text>
+<text x="24.0" y="90.0" font-size="14" font-weight="400" fill="#4f5b66" text-anchor="start">Years of life expectancy lost, compared with people without ADHD.</text>
+<rect x="24" y="118" width="14" height="14" rx="3" fill="#257de0"/>
+<text x="44.0" y="130.0" font-size="14" font-weight="400" fill="#4f5b66" text-anchor="start">Counted from deaths that happened</text>
+<rect x="292.8399999999999" y="118" width="14" height="14" rx="3" fill="url(#est)" stroke="#8b959e" stroke-width="1.5"/>
+<text x="312.8" y="130.0" font-size="14" font-weight="400" fill="#4f5b66" text-anchor="start">Modelled prediction, no deaths counted</text>
+<line x1="294.0" x2="294.0" y1="178.0" y2="342.0" stroke="#b9c3cc" stroke-width="1"/>
+<text x="294.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">0</text>
+<line x1="330.0" x2="330.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="330.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">2</text>
+<line x1="366.0" x2="366.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="366.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">4</text>
+<line x1="402.0" x2="402.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="402.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">6</text>
+<line x1="438.0" x2="438.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="438.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">8</text>
+<line x1="474.0" x2="474.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="474.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">10</text>
+<line x1="510.0" x2="510.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="510.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">12</text>
+<line x1="546.0" x2="546.0" y1="178.0" y2="342.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="546.0" y="360.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="middle">14</text>
+<text x="546.0" y="380.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="end">years of life lost</text>
+<text x="24.0" y="171.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">UK adults with diagnosed ADHD [4]</text>
+<text x="36.0" y="197.0" font-size="14" font-weight="400" fill="#182026" text-anchor="start">Men</text>
+<path d="M294.00,182.00 H412.40 Q416.40,182.00 416.40,186.00 V198.00 Q416.40,202.00 412.40,202.00 H294.00 Z" fill="#257de0"/>
+<text x="424.4" y="197.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">6.8 years (73.3 v 80.0)</text>
+<text x="36.0" y="229.0" font-size="14" font-weight="400" fill="#182026" text-anchor="start">Women</text>
+<path d="M294.00,214.00 H444.80 Q448.80,214.00 448.80,218.00 V230.00 Q448.80,234.00 444.80,234.00 H294.00 Z" fill="#257de0"/>
+<text x="456.8" y="229.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">8.6 years (75.2 v 83.8)</text>
+<text x="24.0" y="271.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">Milwaukee childhood cohort, calculator [5]</text>
+<text x="36.0" y="297.0" font-size="14" font-weight="400" fill="#182026" text-anchor="start">Whole group, total life</text>
+<path d="M294.00,282.75 H441.20 Q444.45,282.75 444.45,286.00 V298.00 Q444.45,301.25 441.20,301.25 H294.00 Z" fill="url(#est)" stroke="#8b959e" stroke-width="1.5"/>
+<text x="453.2" y="297.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">8.4 years</text>
+<text x="36.0" y="329.0" font-size="14" font-weight="400" fill="#182026" text-anchor="start">ADHD persisted into adulthood</text>
+<path d="M294.00,314.75 H518.60 Q521.85,314.75 521.85,318.00 V330.00 Q521.85,333.25 518.60,333.25 H294.00 Z" fill="url(#est)" stroke="#8b959e" stroke-width="1.5"/>
+<text x="530.6" y="329.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">12.7 years</text>
+<text x="24.0" y="410.0" font-size="14" font-weight="400" fill="#182026" text-anchor="start">The calculator turned 14 health and lifestyle answers into a prediction for 131 young adults (mostly</text>
+<text x="24.0" y="429.6" font-size="14" font-weight="400" fill="#182026" text-anchor="start">boys, more severe than ADHD in the community). The UK authors say their own gap probably</text>
+<text x="24.0" y="449.2" font-size="14" font-weight="400" fill="#182026" text-anchor="start">overstates it for everyone with ADHD.</text>
+<line x1="24" x2="696" y1="470.8" y2="470.8" stroke="#e6eaee" stroke-width="1"/>
+<text x="24.0" y="494.8" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="start">Sources: O’Nions et al., Br J Psychiatry 2025 [4]; Barkley et al., J Atten Disord 2019 [5]. Group averages, not</text>
+<text x="24.0" y="512.8" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="start">a prediction for any person.</text>
 </svg>

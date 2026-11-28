@@ -27,53 +27,23 @@ from xml.sax.saxutils import escape
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "assets", "charts")
 
-W = 720
-PAD = 24
-FONT = 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'
+import chartkit as ck
 
-THEMES = {
-    "light": dict(
-        surface="#ffffff", ink="#191919", ink2="#666666", grid="#e7e7e7",
-        axis="#c2c2c2", accent="#257de0", strong="#1757ac", ref="#8a8a8a",
-        dot="#dedede", band1="#f3f7fd", band2="#e5effc", band3="#d5e6fb",
-        border="#e7e7e7",
-    ),
-    "dark": dict(
-        surface="#191919", ink="#efefef", ink2="#9c9c9c", grid="#303030",
-        axis="#474747", accent="#338ced", strong="#84b9f3", ref="#6e6e6e",
-        dot="#333333", band1="#1c2129", band2="#1e2836", band3="#213047",
-        border="#303030",
-    ),
-}
+W = ck.W
+PAD = ck.PAD
 
 
-def text_width(s, size, bold=False):
-    """Rough rendered width of system-ui text, erring wide."""
-    w = 0.0
-    for ch in s:
-        if ch in "il.,:;'|!()[] ":
-            w += 0.30
-        elif ch in "mwMW%":
-            w += 0.85
-        elif ch.isupper() or ch.isdigit():
-            w += 0.62
-        else:
-            w += 0.53
-    return w * size * (1.06 if bold else 1.0)
+def _theme(mode):
+    # Colours from tools/design/tokens.json. accent = series blue (the group the
+    # sentence is about), ref = neutral comparison grey, strong = filled dots.
+    c = ck.theme(mode)
+    c.update(accent=c["series"], strong=c["series_strong"], dot=c["dot_off"])
+    return c
 
 
-def wrap(s, size, maxw, bold=False):
-    words, lines, cur = s.split(), [], ""
-    for wd in words:
-        trial = (cur + " " + wd).strip()
-        if text_width(trial, size, bold) <= maxw or not cur:
-            cur = trial
-        else:
-            lines.append(cur)
-            cur = wd
-    if cur:
-        lines.append(cur)
-    return lines
+THEMES = {"light": _theme("light"), "dark": _theme("dark")}
+text_width = ck.text_width
+wrap = ck.wrap
 
 
 class Svg:
@@ -88,9 +58,11 @@ class Svg:
     def add(self, s):
         self.body.append(s)
 
-    def text(self, x, y, s, size=14, fill=None, weight=400, anchor="start", italic=False):
+    def text(self, x, y, s, size=14, fill=None, weight=400, anchor="start", italic=False, halo=False):
         fill = fill or self.t["ink"]
         st = ' font-style="italic"' if italic else ""
+        if halo:  # surface-coloured outline so a label stays readable where it crosses a gridline
+            st += f' stroke="{self.t["surface"]}" stroke-width="4" stroke-linejoin="round" paint-order="stroke"'
         self.add(
             f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size}" font-weight="{weight}" '
             f'fill="{fill}" text-anchor="{anchor}"{st}>{escape(s)}</text>'
@@ -107,19 +79,12 @@ class Svg:
         return len(lines)
 
     def header(self, title, subtitle=None):
-        self.para(PAD, title, 18, self.t["ink"], 650, lh=1.3)
-        if subtitle:
-            self.y += 4
-            self.para(PAD, subtitle, 14, self.t["ink2"], lh=1.4)
-        self.y += 18
+        parts, self.y = ck.header(self.t, title, subtitle)
+        self.body.extend(parts)
 
     def footer(self, source):
-        self.y += 14
-        self.add(f'<line x1="{PAD}" x2="{W - PAD}" y1="{self.y:.1f}" y2="{self.y:.1f}" '
-                 f'stroke="{self.t["grid"]}" stroke-width="1"/>')
-        self.y += 8
-        self.para(PAD, source, 13, self.t["ink2"], lh=1.4)
-        self.y += PAD - 6
+        parts, self.y = ck.footer(self.t, self.y, source)
+        self.body.extend(parts)
 
     def hbar(self, x0, y, length, h, fill, extra=""):
         """Horizontal bar: square at the baseline, 4px rounded data end."""
@@ -132,21 +97,7 @@ class Svg:
         self.add(f'<path d="{d}" fill="{fill}"{extra}/>')
 
     def render(self):
-        h = math.ceil(self.y)
-        t = self.t
-        out = [
-            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}" '
-            f'role="img" aria-labelledby="title desc" font-family=\'{FONT}\'>',
-            f'<title id="title">{escape(self.title)}</title>',
-            f'<desc id="desc">{escape(self.desc)}</desc>',
-        ]
-        if self.defs:
-            out.append("<defs>" + "".join(self.defs) + "</defs>")
-        out.append(f'<rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="8" '
-                   f'fill="{t["surface"]}" stroke="{t["border"]}" stroke-width="1"/>')
-        out.extend(self.body)
-        out.append("</svg>")
-        return "\n".join(out) + "\n"
+        return ck.document(self.t, math.ceil(self.y), self.title, self.desc, self.body, self.defs)
 
 
 def save(folder, name, build):
@@ -280,8 +231,7 @@ def deaths_grid(theme):
             "study of about 1.92 million people; the cohort was aged 32 or under.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Each grid is 10,000 people followed for one year. A filled dot is one death. "
-                    "Nearly every dot in both grids is someone who did not die that year.")
+    s.header(title, "Each grid is 10,000 people followed for one year; a filled dot is one death.")
     pitch, r, gapb = 3.0, 1.1, 2
     gw = 100 * pitch + 9 * gapb
     gx = [PAD, W - PAD - gw]
@@ -289,7 +239,7 @@ def deaths_grid(theme):
              ("Without ADHD", "2.21 per 10,000 person-years", 2)]
     y0 = s.y
     for (h1, h2, n), x in zip(heads, gx):
-        s.text(x, y0 + 15, h1, 15, t["ink"], 650)
+        s.text(x, y0 + 15, h1, 15, t["ink"], 600)
         s.text(x, y0 + 35, h2, 14, t["ink2"])
     gy = y0 + 70
     for (h1, h2, n), x in zip(heads, gx):
@@ -300,7 +250,8 @@ def deaths_grid(theme):
               f'stroke="{t["ink2"]}" stroke-width="1" fill="none"/>')
         s.text(x + 74, gy - 5, f"about {n} deaths", 13, t["ink"], 600)
     s.y = gy + gw + 18
-    s.para(PAD, "In relative terms: a rate ratio of 2.07 after adjustment, and 1.50 after "
+    s.para(PAD, "Nearly every dot in both grids is someone who did not die that year. "
+                "In relative terms: a rate ratio of 2.07 after adjustment, and 1.50 after "
                 "removing people who also had oppositional defiant, conduct or substance use disorders.",
            14, t["ink"], lh=1.4)
     s.footer("Source: Dalsgaard et al., Lancet 2015 [1]. Danish national registry, about 1.92 million "
@@ -319,10 +270,9 @@ def life_years(theme):
     s = Svg(theme, title, desc)
     t = s.t
     hatch_def(s, "est", t["ref"])
-    s.header(title, "Years of life expectancy lost, compared with people without ADHD. "
-                    "Solid bars come from deaths that happened; striped bars are predictions.")
-    legend(s, [("Counted from deaths", t["accent"], None),
-               ("Modelled, no deaths counted", t["ref"], "est")])
+    s.header(title, "Years of life expectancy lost, compared with people without ADHD.")
+    legend(s, [("Counted from deaths that happened", t["accent"], None),
+               ("Modelled prediction, no deaths counted", t["ref"], "est")])
     s.y += 6
     label_w = 270
     x0, x1, vmax = PAD + label_w, W - PAD - 150, 14
@@ -354,7 +304,7 @@ def life_years(theme):
     s.text(x1, y_bot + 38, "years of life lost", 13, t["ink2"], anchor="end")
     for kind, item, y in rows:
         if kind == "sec":
-            s.text(PAD, y + 15, item, 14, t["ink"], 650)
+            s.text(PAD, y + 15, item, 14, t["ink"], 600)
             continue
         name, v, lab, est = item
         s.text(PAD + 12, y + 15, name, 14, t["ink"])
@@ -392,7 +342,7 @@ def paracetamol(theme):
     by = s.y
     s.add(f'<rect x="{bx}" y="{by}" width="{bw}" height="58" rx="6" fill="{t["band1"]}"/>')
     s.text(bx + 16, by + 24, "Comparing brothers and sisters, one exposed and one not:", 14, t["ink"])
-    s.text(bx + 16, by + 45, "hazard ratio 0.98, no difference.", 14, t["ink"], 650)
+    s.text(bx + 16, by + 45, "hazard ratio 0.98, no difference.", 14, t["ink"], 600)
     s.y = by + 58
     s.footer("Source: Ahlqvist et al. [3]. Swedish national registry. Sibling comparisons account for "
              "family factors that siblings share.")
@@ -431,8 +381,7 @@ def depression_anxiety(theme):
             "Adjusted for age and sex.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Share of Swedish adults aged 18 to 64 with a diagnosis recorded at some point "
-                    "in adulthood, adjusted for age and sex.")
+    s.header(title, "Swedish adults aged 18 to 64 ever diagnosed in adulthood, adjusted for age and sex.")
     legend(s, [("With ADHD", t["accent"], None), ("Without ADHD", t["ref"], None)])
     s.y += 4
     paired_bars(s, [("Depression", [42, 4.7]), ("Anxiety", [45, 4.9])], 50,
@@ -451,8 +400,7 @@ def autism_overlap(theme):
             "estimates differ by about ten percentage points.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Pooled estimates from meta-analyses. Each dot is one estimate; each pooled figure "
-                    "hides a wide range between studies.")
+    s.header(title, "Pooled estimates from meta-analyses; each hides a wide range between studies.")
     label_w = 300
     x0, x1, vmax = PAD + label_w, W - PAD - 30, 50
     sections = [
@@ -485,7 +433,7 @@ def autism_overlap(theme):
     pos = {}
     for kind, item, y in rows:
         if kind == "sec":
-            s.text(PAD, y + 16, item, 14, t["ink"], 650)
+            s.text(PAD, y + 16, item, 14, t["ink"], 600)
             continue
         name, v, lab = item
         cy = y + rh / 2
@@ -495,7 +443,7 @@ def autism_overlap(theme):
         cx = x0 + (x1 - x0) * v / vmax
         s.add(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="6" fill="{t["accent"]}" '
               f'stroke="{t["surface"]}" stroke-width="2"/>')
-        s.text(cx - 12, cy + 5, lab, 14, t["ink"], 600, anchor="end")
+        s.text(cx - 12, cy + 5, lab, 14, t["ink"], 600, anchor="end", halo=True)
         pos[v] = (cx, cy)
     # bracket between the two main ADHD-in-autism estimates
     (ax, ay), (bx, by) = pos[28], pos[38.5]
@@ -522,9 +470,7 @@ def effect_sizes(theme):
             "0.41. Reference lines mark the conventions 0.2 small, 0.5 medium and 0.8 large.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Standardised mean difference (SMD) against placebo, mostly at around 12 weeks. "
-                    "Further right means a bigger average effect. Values marked “about” are "
-                    "rounded on the page.")
+    s.header(title, "Standardised mean difference (SMD) against placebo, mostly at around 12 weeks.")
     label_w = 330
     x0, x1, vmax = PAD + label_w, W - PAD - 10, 1.2
     sx = lambda v: x0 + (x1 - x0) * v / vmax
@@ -563,10 +509,10 @@ def effect_sizes(theme):
         s.add(f'<line x1="{sx(v):.1f}" x2="{sx(v):.1f}" y1="{y_top - 6:.1f}" y2="{y_bot:.1f}" '
               f'stroke="{t["axis"] if v == 0 else t["grid"]}" stroke-width="1"/>')
         s.text(sx(v), y_bot + 18, f"{v:g}", 13, t["ink2"], anchor="middle")
-    s.text(x1, y_bot + 38, "SMD", 13, t["ink2"], anchor="end")
+    s.text(x1, y_bot + 38, "SMD: further right = bigger average effect →", 13, t["ink2"], anchor="end")
     for kind, item, y in rows:
         if kind == "sec":
-            s.text(PAD, y + 16, item, 14, t["ink"], 650)
+            s.text(PAD, y + 16, item, 14, t["ink"], 600)
             continue
         name, v, lab = item
         cy = y + rh / 2
@@ -578,7 +524,8 @@ def effect_sizes(theme):
               f'stroke="{t["surface"]}" stroke-width="2"/>')
         s.text(cx + 12, cy + 5, lab, 14, t["ink"], 600)
     s.y = y_bot + 46
-    s.footer("Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli et al., Lancet Psychiatry 2025 [2]; "
+    s.footer("Values marked “about” are rounded on the page. "
+             "Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli et al., Lancet Psychiatry 2025 [2]; "
              "Storebø et al., Cochrane 2023/2025 [3]; Moukhtarian et al., Eur Psychiatry 2017 [6]. "
              "Short-term symptom ratings only, not quality of life or long-term outcomes.")
     return s
@@ -594,8 +541,7 @@ def heart_defects(theme):
             "0.96, not linked to more heart defects.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Unadjusted (raw) rates in US Medicaid data, early-pregnancy exposure. Each grid is "
-                    "1,000 births; a filled dot is a baby with a heart defect.")
+    s.header(title, "Raw rates, early-pregnancy exposure. Each grid is 1,000 births; a dot is one defect.")
     cols, rows, pitch, r = 40, 25, 5.0, 1.75
     gw = cols * pitch
     gap = (W - 2 * PAD - 3 * gw) / 2
@@ -605,7 +551,7 @@ def heart_defects(theme):
     y0 = s.y
     for i, (h1, h2, v) in enumerate(groups):
         x = PAD + i * (gw + gap)
-        s.text(x, y0 + 15, h1, 15, t["ink"], 650)
+        s.text(x, y0 + 15, h1, 15, t["ink"], 600)
         s.text(x, y0 + 35, h2 + " (unadjusted)", 14, t["ink2"])
         n = int(v)
         dot_grid(s, x, y0 + 46, cols, rows, pitch, r, n, round(v - n, 2), t["strong"], t["dot"],
@@ -615,8 +561,8 @@ def heart_defects(theme):
     by = s.y
     lines = [
         ("After adjusting for differences between the women:", 400),
-        ("Methylphenidate: relative risk 1.28 (range 1.00 to 1.64), a possible small increase.", 650),
-        ("Amphetamines: relative risk 0.96 in the US data, not linked to more heart defects.", 650),
+        ("Methylphenidate: relative risk 1.28 (range 1.00 to 1.64), a possible small increase.", 600),
+        ("Amphetamines: relative risk 0.96 in the US data, not linked to more heart defects.", 600),
     ]
     s.add(f'<rect x="{bx}" y="{by}" width="{bw}" height="{20 + 22 * len(lines)}" rx="6" fill="{t["band1"]}"/>')
     for i, (ln, wgt) in enumerate(lines):
@@ -635,8 +581,7 @@ def psychosis(theme):
             "1.65 for amphetamine; about 1 in 660 overall.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "13- to 25-year-olds in US insurance data. Each grid is 1,000 people starting a "
-                    "medicine; a filled dot is someone who developed new psychosis treated with an antipsychotic.")
+    s.header(title, "Each grid is 1,000 people aged 13 to 25 starting a medicine; a filled dot is one case.")
     cols, rows, pitch, r = 40, 25, 7.6, 2.6
     gw = cols * pitch
     gap = W - 2 * PAD - 2 * gw
@@ -644,13 +589,14 @@ def psychosis(theme):
     y0 = s.y
     for i, (h1, h2, v) in enumerate(groups):
         x = PAD + i * (gw + gap)
-        s.text(x, y0 + 15, h1, 15, t["ink"], 650)
+        s.text(x, y0 + 15, h1, 15, t["ink"], 600)
         s.text(x, y0 + 35, h2, 14, t["ink2"])
         n = int(v)
         dot_grid(s, x, y0 + 46, cols, rows, pitch, r, n, round(v - n, 2), t["strong"], t["dot"],
                  clip_id=f"pfrac{i}")
     s.y = y0 + 46 + rows * pitch + 16
-    s.para(PAD, "In relative terms: hazard ratio 1.65 for amphetamine compared with methylphenidate. "
+    s.para(PAD, "A case is new psychosis treated with an antipsychotic, in US insurance data. "
+                "In relative terms: hazard ratio 1.65 for amphetamine compared with methylphenidate. "
                 "About 1 in 660 people overall.", 14, t["ink"], lh=1.4)
     s.footer("Source: Moran et al., N Engl J Med 2019 [8]. Two US insurance cohorts, 221,846 people aged "
              "13 to 25. Young people only; may not apply to older adults.")
@@ -665,8 +611,7 @@ def withdrawal(theme):
             "different definitions of worsening.")
     s = Svg(theme, title, desc)
     t = s.t
-    s.header(title, "Share who worsened (children) or relapsed (adults) in randomised trials of people "
-                    "already doing well on a medicine. The two trials define worsening differently.")
+    s.header(title, "Share who worsened (children) or relapsed (adults) in two randomised trials.")
     legend(s, [("Switched to placebo", t["accent"], None), ("Continued the medicine", t["ref"], None)])
     s.y += 4
     paired_bars(s, [("Children, methylphenidate [1]", [40.4, 15.9]),
@@ -674,8 +619,9 @@ def withdrawal(theme):
                 100, [0, 25, 50, 75, 100], lambda v: f"{v}%", ("", ""), label_w=230,
                 value_fmt=lambda v: f"{v:.1f}%")
     s.y += 2
-    s.para(PAD, "Most children who stopped did not clearly worsen. Both trials enrolled people who had "
-                "already responded to and tolerated the medicine.", 14, t["ink"], lh=1.4)
+    s.para(PAD, "Most children who stopped did not clearly worsen. Both trials enrolled people who were "
+                "already doing well on, and tolerating, the medicine, and they define worsening differently.",
+           14, t["ink"], lh=1.4)
     s.footer("Sources: Matthijssen et al. [1] (94 children and adolescents aged 8 to 18); Brams et al. [2]. "
              "Decisions about stopping are made with a prescriber.")
     return s

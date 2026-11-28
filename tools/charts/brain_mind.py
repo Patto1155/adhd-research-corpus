@@ -21,34 +21,20 @@ OUT = {
     "03": os.path.join(ROOT, "assets", "charts", "03"),
 }
 
-W = 720
-FONT = 'system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif'
+import chartkit as ck
 
-# Validated reference palette (dataviz skill, references/palette.md).
-THEMES = {
-    "light": {
-        "surface": "#ffffff",
-        "ink": "#191919",
-        "ink2": "#666666",
-        "grid": "#e7e7e7",
-        "axis": "#c2c2c2",
-        "s1": "#257de0",
-        "s2": "#f47230",
-        "overlap": "#9c9c9c",
-        "border": "rgba(11,11,11,0.10)",
-    },
-    "dark": {
-        "surface": "#191919",
-        "ink": "#efefef",
-        "ink2": "#9c9c9c",
-        "grid": "#303030",
-        "axis": "#474747",
-        "s1": "#338ced",
-        "s2": "#e76624",
-        "overlap": "#8a8a8a",
-        "border": "rgba(255,255,255,0.10)",
-    },
-}
+W = ck.W
+PAD = ck.PAD
+
+# Colours come from tools/design/tokens.json via chartkit (dataviz-validated palette).
+# s1 is the series blue, s2 the second series, overlap the neutral comparison grey.
+def _theme(mode):
+    c = ck.theme(mode)
+    c.update(s1=c["series"], s2=c["series2"], overlap=c["ref"])
+    return c
+
+
+THEMES = {"light": _theme("light"), "dark": _theme("dark")}
 
 MINUS = "−"
 
@@ -78,8 +64,10 @@ class Svg:
     def add(self, s):
         self.parts.append(s)
 
-    def text(self, x, y, s, size=14, color="ink", anchor="start", weight=400, italic=False):
+    def text(self, x, y, s, size=14, color="ink", anchor="start", weight=400, italic=False, halo=False):
         style = ' font-style="italic"' if italic else ""
+        if halo:  # surface-coloured outline so a label stays readable where it crosses a gridline
+            style += f' stroke="{self.t["surface"]}" stroke-width="4" stroke-linejoin="round" paint-order="stroke"'
         self.add(
             f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size}" fill="{self.t[color]}" '
             f'text-anchor="{anchor}" font-weight="{weight}"{style}>{escape(s)}</text>'
@@ -115,33 +103,19 @@ class Svg:
                  f"V{bot - r:.1f} Q{x1:.1f},{bot:.1f} {x1 + r:.1f},{bot:.1f} H{x0:.1f} Z")
         self.add(f'<path d="{d}" fill="{self.t[color]}"/>')
 
-    def header(self, title_lines, subtitle_lines):
-        y = 34
-        for ln in title_lines:
-            self.text(24, y, ln, size=18, weight=600)
-            y += 24
-        y += 2
-        for ln in subtitle_lines:
-            self.text(24, y, ln, size=14, color="ink2")
-            y += 20
+    def header(self, title, subtitle=None):
+        """Shared header block; returns the y where the plot can start."""
+        parts, y = ck.header(self.t, title, subtitle)
+        self.parts.extend(parts)
         return y
 
-    def footer(self, source_lines):
-        y = self.h - 18 - 18 * (len(source_lines) - 1)
-        for ln in source_lines:
-            self.text(24, y, ln, size=13, color="ink2")
-            y += 18
+    def footer(self, source_lines, after):
+        """Source footer below the content that ends at y=after; sets the chart height."""
+        parts, self.h = ck.footer(self.t, after, source_lines)
+        self.parts.extend(parts)
 
     def render(self):
-        t = self.t
-        head = (
-            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {self.h}" width="{W}" '
-            f'height="{self.h}" role="img" aria-labelledby="t d" font-family="{FONT}">\n'
-            f'<title id="t">{escape(self.title)}</title>\n<desc id="d">{escape(self.desc)}</desc>\n'
-            f'<rect x="0.5" y="0.5" width="{W - 1}" height="{self.h - 1}" rx="8" '
-            f'fill="{t["surface"]}" stroke="{t["border"]}"/>\n'
-        )
-        return head + "\n".join(self.parts) + "\n</svg>\n"
+        return ck.document(self.t, self.h, self.title, self.desc, self.parts)
 
 
 def write(folder, name, build):
@@ -196,13 +170,10 @@ def enigma_subcortical(theme):
     s = Svg(theme, 0, "Deep brain structures differ only slightly in ADHD, on average",
             "Dot plot of ENIGMA-ADHD effect sizes (Cohen's d), all between -0.10 and -0.19, "
             "inside the conventional 'small' threshold of 0.2.")
-    top = 34 + 24 * 2 + 2 + 20 * 2 + 28
+    y = s.header("Deep brain structures were only very slightly smaller, on average, in the ADHD group",
+                 "Cohen’s d for 1,713 people with ADHD vs 1,529 without. Every value is under 0.2.")
+    top = y + 22
     plot_bot = top + row_h * len(rows)
-    s.h = plot_bot + 60 + 50
-    y = s.header(["Deep brain structures were only very slightly smaller,",
-                  "on average, in the ADHD group"],
-                 ["Effect size (Cohen’s d) for 1,713 people with ADHD vs 1,529 without.",
-                  "Every value is smaller than 0.2, the conventional “small” effect."])
     x0, x1 = 250, 560
     lo, hi = -0.3, 0.3
     s.text(580, top - 10, "Groups overlap", size=13, color="ink2")
@@ -217,22 +188,21 @@ def enigma_subcortical(theme):
         s.text(24, cy + 15, role, size=13, color="ink2")
         s.line(sx(d), cy, sx(0), cy, "s1", 2, "round")
         s.dot(sx(d), cy, 6)
-        s.text(sx(d) - 12, cy + 5, num(d), size=13, color="ink", anchor="end")
-        s.text(580, cy + 5, ov, size=14)
+        s.text(sx(d) - 12, cy + 5, num(d), size=14, color="ink", anchor="end", weight=600, halo=True)
+        s.text(580, cy + 5, ov, size=14, weight=600)
     s.footer(["Source: Hoogman et al. 2017, Lancet Psychiatry — see source 1 on this page.",
-              "Overlap is this page’s calculation from each effect size, not a figure from the paper."])
+              "Overlap is this page’s calculation from each effect size, not a figure from the paper."],
+             plot_bot + 46)
     return s
 
 
-def bell_pair(theme, d, ov_label, title_lines, sub_lines, group_a, group_b, axis_label,
+def bell_pair(theme, d, ov_label, title, subtitle, group_a, group_b, axis_label,
               source_lines, desc, a_left=True, a_color="s1", b_color="s2"):
     """Two equal-spread normal curves whose means differ by |d| SDs; overlap shaded."""
-    s = Svg(theme, 0, " ".join(title_lines), desc)
-    top = 34 + 24 * len(title_lines) + 2 + 20 * len(sub_lines) + 30
+    s = Svg(theme, 0, title, desc)
+    top = s.header(title, subtitle) + 4
     plot_h = 190
     base = top + plot_h
-    s.h = base + 40 + 18 * len(source_lines) + 26
-    s.header(title_lines, sub_lines)
     x0, x1 = 60, 660
     lo, hi = -3.6, 3.6
     sx = lambda v: x0 + (v - lo) / (hi - lo) * (x1 - x0)
@@ -254,13 +224,14 @@ def bell_pair(theme, d, ov_label, title_lines, sub_lines, group_a, group_b, axis
     t = s.t
     s.add(f'<path d="{path(fa)}" fill="{t[a_color]}" fill-opacity="0.14"/>')
     s.add(f'<path d="{path(fb)}" fill="{t[b_color]}" fill-opacity="0.14"/>')
-    s.add(f'<path d="{path(lambda x: min(fa(x), fb(x)))}" fill="{t["overlap"]}" fill-opacity="0.38"/>')
+    s.add(f'<path d="{path(lambda x: min(fa(x), fb(x)))}" fill="{t["overlap"]}" fill-opacity="0.32"/>')
     s.add(f'<path d="{curve(fb)}" fill="none" stroke="{t[b_color]}" stroke-width="2" stroke-linejoin="round"/>')
     s.add(f'<path d="{curve(fa)}" fill="none" stroke="{t[a_color]}" stroke-width="2" stroke-linejoin="round"/>')
     s.line(x0, base, x1, base, "axis", 1)
     # Average markers
+    # (stopped above the overlap label so the line never runs through the text)
     for m, col in ((ma, a_color), (mb, b_color)):
-        s.line(sx(m), sy(peak), sx(m), base, col, 1.5)
+        s.line(sx(m), sy(peak), sx(m), base - 84, col, 1.5)
     # Overlap label in the middle of the shared area
     s.text(sx(0), base - 62, ov_label, size=16, weight=600, anchor="middle")
     s.text(sx(0), base - 42, "overlap", size=14, anchor="middle")
@@ -276,17 +247,15 @@ def bell_pair(theme, d, ov_label, title_lines, sub_lines, group_a, group_b, axis
         s.add(f'<rect x="{sw - (0 if anchor == "start" else 0):.1f}" y="{ly - 6:.1f}" width="12" height="4" rx="2" fill="{t[col]}"/>')
         s.text(tx, ly, label, size=14, anchor=anchor)
     s.text(sx(0), base + 22, axis_label, size=13, color="ink2", anchor="middle")
-    s.footer(source_lines)
+    s.footer(source_lines, base + 26)
     return s
 
 
 def amygdala_overlap(theme):
     return bell_pair(
         theme, 0.19, "about 92%",
-        ["With an effect size of −0.19, the two groups’",
-         "amygdala sizes are almost completely mixed"],
-        ["Illustration: two bell curves 0.19 standard deviations apart, the amygdala",
-         "difference in the largest study. The grey area is shared by both groups."],
+        "With an effect size of −0.19, the two groups’ amygdala sizes are almost completely mixed",
+        "Illustration: bell curves 0.19 standard deviations apart. Grey is shared by both groups.",
         "People with ADHD", "People without ADHD",
         "Amygdala volume → (larger to the right)",
         ["Source: Hoogman et al. 2017, Lancet Psychiatry — see source 1 on this page.",
@@ -300,13 +269,11 @@ def classifier_vs_chance(theme):
     s = Svg(theme, 0, "Brain-scan classifiers are only a little better than chance",
             "Two scales. Accuracy: careful studies 60-80% vs 50% coin toss and an 80% proposed bar. "
             "AUROC: best ABCD structural model 0.567 vs 0.5 chance and 1.0 perfect.")
-    title = ["Scan-based classifiers sit closer to a coin toss",
-             "than to a usable diagnostic test"]
-    sub = ["Two measures, each on its own scale."]
-    y = s.header(title, sub)
+    y = s.header("Scan-based classifiers sit closer to a coin toss than to a usable diagnostic test",
+                 "Two measures, each on its own scale.")
     x0, x1 = 40, 600
     # Panel A
-    pa = y + 18
+    pa = y + 4
     s.text(24, pa, "Accuracy in studies that tested on separate data (review of 69 studies)", size=14, weight=600)
     ty = pa + 64
     sx = lambda v: x0 + v / 100 * (x1 - x0)
@@ -335,9 +302,9 @@ def classifier_vs_chance(theme):
     s.text(sb(0.567) + 12, ty2 + 5, "0.567", size=14, weight=600)
     s.text(sb(0.5) + 4, ty2 - 16, "0.5 = coin toss", size=13, color="ink2")
     s.text(sb(1.0), ty2 - 16, "1.0 = perfect", size=13, color="ink2", anchor="end")
-    s.h = ty2 + 32 + 26 + 18 * 2 + 10
     s.footer(["Sources: Pulini et al. 2019 (source 19), APA work group 2012 (24) and Gaus et al. 2023 (21),",
-              "see this page. The proposed bar is 80% sensitivity and 80% specificity, not accuracy itself."])
+              "see this page. The proposed bar is 80% sensitivity and 80% specificity, not accuracy itself."],
+             ty2 + 36)
     return s
 
 
@@ -350,10 +317,9 @@ def dat_direction(theme):
     ]
     s = Svg(theme, 0, "Dopamine transporter studies disagree on direction",
             "Diverging bars: one PET study about 11% lower in ADHD; a meta-analysis of 9 studies 14% higher.")
-    y = s.header(["Dopamine transporter scans point in opposite",
-                  "directions, so they cannot show a “deficiency”"],
-                 ["Average dopamine transporter level in ADHD compared with people without ADHD."])
-    top = y + 24
+    y = s.header("Dopamine transporter scans point in opposite directions, so they cannot show a “deficiency”",
+                 "Average dopamine transporter level in ADHD compared with people without ADHD.")
+    top = y + 10
     row_h = 64
     plot_bot = top + row_h * len(rows)
     x0, x1 = 360, 680
@@ -366,12 +332,12 @@ def dat_direction(theme):
         s.text(24, cy + 16, sub, size=13, color="ink2")
         s.hbar(sx(0), sx(v), cy, 24)
         if v < 0:
-            s.text(sx(v) - 8, cy + 5, lab, size=13, anchor="end")
+            s.text(sx(v) - 8, cy + 5, lab, size=14, anchor="end", weight=600, halo=True)
         else:
-            s.text(sx(v) + 8, cy + 5, lab, size=13, anchor="start")
-    s.h = plot_bot + 42 + 30 + 18 * 2
+            s.text(sx(v) + 8, cy + 5, lab, size=14, anchor="start", weight=600)
     s.footer(["Sources: Volkow et al. 2009, JAMA (source 1) and Fusar-Poli et al. 2012 (source 3), see this page.",
-              "The 11% is this page’s calculation from the paper’s figures (0.63 vs 0.71)."])
+              "The 11% is this page’s calculation from the paper’s figures (0.63 vs 0.71)."],
+             plot_bot + 46)
     return s
 
 
@@ -406,11 +372,11 @@ def dot_rows(s, rows, top, row_h, x0, x1, lo, hi, ticks, small=0.2, value_dx=12,
             s.line(sx(0), cy, sx(max(vals)), cy, "s1", 2, "round")
             for v in vals:
                 s.dot(sx(v), cy, 6)
-            s.text(sx(max(vals)) + value_dx, cy + 5, vlab, size=13)
+            s.text(sx(max(vals)) + value_dx, cy + 5, vlab, size=14, weight=600)
         elif kind == "range":
             s.line(sx(0), cy, sx(vals[0]), cy, "s1", 2, "round")
             s.capsule(sx(vals[0]), sx(vals[1]), cy, h=12)
-            s.text(sx(vals[1]) + value_dx, cy + 5, vlab, size=13)
+            s.text(sx(vals[1]) + value_dx, cy + 5, vlab, size=14, weight=600)
         elif kind == "open":
             s.line(sx(0), cy, sx(vals[0]), cy, "s1", 2, "round")
             s.dot(sx(vals[0]), cy, 6)
@@ -419,7 +385,7 @@ def dot_rows(s, rows, top, row_h, x0, x1, lo, hi, ticks, small=0.2, value_dx=12,
             t = s.t
             s.add(f'<path d="M{ax - 6:.1f},{cy - 5:.1f} L{ax + 2:.1f},{cy:.1f} L{ax - 6:.1f},{cy + 5:.1f}" '
                   f'fill="none" stroke="{t["s1"]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>')
-            s.text(ax + 10, cy + 5, vlab, size=13)
+            s.text(ax + 10, cy + 5, vlab, size=14, weight=600)
         elif kind == "text":
             s.text(sx(0) + 10, cy + 5, vlab, size=13, color="ink2", italic=True)
         y += row_h
@@ -441,15 +407,14 @@ def exec_function(theme):
     ]
     s = Svg(theme, 0, "Executive-function gaps are medium-sized in children and adults",
             "Dot plot of effect sizes (d) for ADHD vs comparison groups: children 0.43 to 1.06, adults 0.57 to 0.89.")
-    y = s.header(["On average, executive gaps are medium-sized,",
-                  "in children and in adults"],
-                 ["Effect size (d): how far apart the group averages are, in standard deviations.",
-                  "Further right = weaker average performance in the ADHD group."])
-    top = y + 22
-    bot = dot_rows(s, rows, top, 42, 330, 600, 0, 1.2, [0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2])
-    s.h = bot + 30 + 26 + 18 * 2 + 6
+    y = s.header("On average, executive gaps are medium-sized, in children and in adults",
+                 "Effect size (d): how far apart the group averages are, in standard deviations.")
+    top = y + 14
+    bot = dot_rows(s, rows, top, 42, 330, 600, 0, 1.2, [0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2],
+                   axis_note="further right = weaker average performance in ADHD →")
     s.footer(["Sources: Willcutt et al. 2005 (source 1), Martinussen et al. 2005 (3), Boonstra et al. 2005 (4),",
-              "see this page. Even at 0.69 the groups’ scores overlap by about 73% (this page’s calculation)."])
+              "see this page. Even at 0.69 the groups’ scores overlap by about 73% (this page’s calculation)."],
+             bot + 46)
     return s
 
 
@@ -465,14 +430,12 @@ def rt_variability(theme):
     s = Svg(theme, 0, "Reaction times vary more in ADHD, but not much more than in other conditions",
             "Dot plot of Hedges' g for reaction-time variability: 0.76 children vs peers, 0.46 adults vs peers, "
             "0.25 children vs other clinical groups; teenagers and adults not distinguishable from other clinical groups.")
-    y = s.header(["Reaction times are more variable in ADHD, but only",
-                  "slightly more than in other conditions"],
-                 ["Trial-to-trial reaction-time variability, effect size (g), from 319 studies.",
-                  "Further right = more variable on average in the ADHD group."])
-    top = y + 22
-    bot = dot_rows(s, rows, top, 40, 330, 640, 0, 1.0, [0, 0.2, 0.4, 0.6, 0.8, 1.0])
-    s.h = bot + 30 + 26 + 18 + 6
-    s.footer(["Source: Kofler et al. 2013, Clinical Psychology Review — see source 1 on this page."])
+    y = s.header("Reaction times are more variable in ADHD, but only slightly more than in other conditions",
+                 "Trial-to-trial reaction-time variability, effect size (g), from 319 studies.")
+    top = y + 14
+    bot = dot_rows(s, rows, top, 40, 330, 640, 0, 1.0, [0, 0.2, 0.4, 0.6, 0.8, 1.0],
+                   axis_note="further right = more variable in ADHD →")
+    s.footer(["Source: Kofler et al. 2013, Clinical Psychology Review — see source 1 on this page."], bot + 46)
     return s
 
 
@@ -488,25 +451,22 @@ def time_and_rewards(theme):
     s = Svg(theme, 0, "Time perception and preference for sooner rewards differ by a medium amount",
             "Dot plot: time-perception precision g = 0.66, accuracy g above 0.40, delay discounting d = 0.43, "
             "children's choice-impulsivity g = 0.47.")
-    y = s.header(["Time perception and the pull of “now” differ",
-                  "by a medium amount, on average"],
-                 ["Effect size (d or g) for ADHD vs comparison groups, in standard deviations.",
-                  "Further right = larger average difference."])
-    top = y + 22
-    bot = dot_rows(s, rows, top, 42, 330, 640, 0, 1.0, [0, 0.2, 0.4, 0.6, 0.8, 1.0])
-    s.h = bot + 30 + 26 + 18 * 2 + 6
+    y = s.header("Time perception and the pull of “now” differ by a medium amount, on average",
+                 "Effect size (d or g) for ADHD vs comparison groups, in standard deviations.")
+    top = y + 14
+    bot = dot_rows(s, rows, top, 42, 330, 640, 0, 1.0, [0, 0.2, 0.4, 0.6, 0.8, 1.0],
+                   axis_note="further right = larger average difference →")
     s.footer(["Sources: Zheng et al. 2022 (source 2), Jackson & MacKillop 2016 (3), Patros et al. 2016 (4),",
-              "see this page. Even at g = 0.66 the groups overlap by about 74% (this page’s calculation)."])
+              "see this page. Even at g = 0.66 the groups overlap by about 74% (this page’s calculation)."],
+             bot + 46)
     return s
 
 
 def emotion_overlap(theme):
     return bell_pair(
         theme, 1.17, "about 56%",
-        ["A large average difference in emotion dysregulation",
-         "still leaves the groups overlapping by more than half"],
-        ["Illustration: two bell curves 1.17 standard deviations apart, the adult",
-         "meta-analysis result. The grey area is shared by both groups."],
+        "A large average difference in emotion dysregulation still leaves the groups overlapping by more than half",
+        "Illustration: bell curves 1.17 standard deviations apart. Grey is shared by both groups.",
         "Adults without ADHD", "Adults with ADHD",
         "Emotion dysregulation score → (more to the right)",
         ["Source: Beheshti et al. 2020, BMC Psychiatry — see source 2 on this page.",

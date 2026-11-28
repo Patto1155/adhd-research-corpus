@@ -1,68 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 591" width="720" height="591" role="img" aria-labelledby="title desc" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
-<title id="title">In short trials, medicines beat placebo on core symptoms, with bigger effects in children than adults</title>
-<desc id="desc">Dot plot of standardised mean differences (SMD) against placebo at around 12 weeks. Children and teenagers: amphetamines about 1.02 and methylphenidate about 0.78 (network meta-analysis, clinician-rated); methylphenidate 0.74 teacher-rated (Cochrane). Adults: stimulants roughly 0.6 and atomoxetine roughly 0.5 clinician-rated; both about 0.4 self-rated; emotional lability about 0.41. Reference lines mark the conventions 0.2 small, 0.5 medium and 0.8 large.</desc>
-<rect x="0.5" y="0.5" width="719" height="590" rx="8" fill="#191919" stroke="#303030" stroke-width="1"/>
-<text x="24.0" y="42.0" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">In short trials, medicines beat placebo on core symptoms, with bigger</text>
-<text x="24.0" y="65.4" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">effects in children than adults</text>
-<text x="24.0" y="88.8" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">Standardised mean difference (SMD) against placebo, mostly at around 12 weeks. Further right</text>
-<text x="24.0" y="108.4" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">means a bigger average effect. Values marked “about” are rounded on the page.</text>
-<rect x="409.3" y="150.0" width="83.0" height="300.0" fill="#1c2129"/>
-<rect x="492.3" y="150.0" width="83.0" height="300.0" fill="#1e2836"/>
-<rect x="575.3" y="150.0" width="110.7" height="300.0" fill="#213047"/>
-<text x="450.8" y="144.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">small</text>
-<text x="533.8" y="144.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">medium</text>
-<text x="630.7" y="144.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">large</text>
-<line x1="354.0" x2="354.0" y1="150.0" y2="450.0" stroke="#474747" stroke-width="1"/>
-<text x="354.0" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0</text>
-<line x1="409.3" x2="409.3" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="409.3" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0.2</text>
-<line x1="464.7" x2="464.7" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="464.7" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0.4</text>
-<line x1="520.0" x2="520.0" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="520.0" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0.6</text>
-<line x1="575.3" x2="575.3" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="575.3" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0.8</text>
-<line x1="630.7" x2="630.7" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="630.7" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">1</text>
-<line x1="686.0" x2="686.0" y1="150.0" y2="450.0" stroke="#303030" stroke-width="1"/>
-<text x="686.0" y="468.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">1.2</text>
-<text x="686.0" y="488.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">SMD</text>
-<text x="24.0" y="172.0" font-size="14" font-weight="650" fill="#efefef" text-anchor="start">Children and teenagers</text>
-<text x="36.0" y="203.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Amphetamines, clinician-rated [1]</text>
-<line x1="354.0" x2="636.2" y1="198.0" y2="198.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="636.2" cy="198.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="648.2" y="203.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">1.02</text>
-<text x="36.0" y="231.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Methylphenidate, clinician-rated [1]</text>
-<line x1="354.0" x2="569.8" y1="226.0" y2="226.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="569.8" cy="226.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="581.8" y="231.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">0.78</text>
-<text x="36.0" y="259.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Methylphenidate, teacher-rated, Cochrane [3]</text>
-<line x1="354.0" x2="558.7" y1="254.0" y2="254.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="558.7" cy="254.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="570.7" y="259.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">0.74</text>
-<text x="24.0" y="294.0" font-size="14" font-weight="650" fill="#efefef" text-anchor="start">Adults</text>
-<text x="36.0" y="325.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Stimulants, clinician-rated [2]</text>
-<line x1="354.0" x2="520.0" y1="320.0" y2="320.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="520.0" cy="320.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="532.0" y="325.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">about 0.6</text>
-<text x="36.0" y="353.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Atomoxetine, clinician-rated [2]</text>
-<line x1="354.0" x2="492.3" y1="348.0" y2="348.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="492.3" cy="348.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="504.3" y="353.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">about 0.5</text>
-<text x="36.0" y="381.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Stimulants, self-rated [2]</text>
-<line x1="354.0" x2="464.7" y1="376.0" y2="376.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="464.7" cy="376.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="476.7" y="381.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">about 0.4</text>
-<text x="36.0" y="409.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Atomoxetine, self-rated [2]</text>
-<line x1="354.0" x2="464.7" y1="404.0" y2="404.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="464.7" cy="404.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="476.7" y="409.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">about 0.4</text>
-<text x="36.0" y="437.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">Emotional lability, both [6]</text>
-<line x1="354.0" x2="467.4" y1="432.0" y2="432.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
-<circle cx="467.4" cy="432.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
-<text x="479.4" y="437.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">0.41</text>
-<line x1="24" x2="696" y1="510.0" y2="510.0" stroke="#303030" stroke-width="1"/>
-<text x="24.0" y="531.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli et al., Lancet Psychiatry 2025 [2]; Storebø et</text>
-<text x="24.0" y="549.2" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">al., Cochrane 2023/2025 [3]; Moukhtarian et al., Eur Psychiatry 2017 [6]. Short-term symptom ratings</text>
-<text x="24.0" y="567.4" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">only, not quality of life or long-term outcomes.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 574" width="720" height="574" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">In short trials, medicines beat placebo on core symptoms, with bigger effects in children than adults</title>
+<desc id="d">Dot plot of standardised mean differences (SMD) against placebo at around 12 weeks. Children and teenagers: amphetamines about 1.02 and methylphenidate about 0.78 (network meta-analysis, clinician-rated); methylphenidate 0.74 teacher-rated (Cochrane). Adults: stimulants roughly 0.6 and atomoxetine roughly 0.5 clinician-rated; both about 0.4 self-rated; emotional lability about 0.41. Reference lines mark the conventions 0.2 small, 0.5 medium and 0.8 large.</desc>
+<rect x="0.5" y="0.5" width="719" height="573" rx="12" fill="#171c20" stroke="#2a3238" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">In short trials, medicines beat placebo on core</text>
+<text x="24.0" y="64.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">symptoms, with bigger effects in children than adults</text>
+<text x="24.0" y="90.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">Standardised mean difference (SMD) against placebo, mostly at around 12 weeks.</text>
+<rect x="409.3" y="134.0" width="83.0" height="300.0" fill="#19242e"/>
+<rect x="492.3" y="134.0" width="83.0" height="300.0" fill="#1b2b3b"/>
+<rect x="575.3" y="134.0" width="110.7" height="300.0" fill="#1d3249"/>
+<text x="450.8" y="128.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">small</text>
+<text x="533.8" y="128.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">medium</text>
+<text x="630.7" y="128.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">large</text>
+<line x1="354.0" x2="354.0" y1="134.0" y2="434.0" stroke="#46515a" stroke-width="1"/>
+<text x="354.0" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0</text>
+<line x1="409.3" x2="409.3" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="409.3" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0.2</text>
+<line x1="464.7" x2="464.7" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="464.7" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0.4</text>
+<line x1="520.0" x2="520.0" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="520.0" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0.6</text>
+<line x1="575.3" x2="575.3" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="575.3" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0.8</text>
+<line x1="630.7" x2="630.7" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="630.7" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">1</text>
+<line x1="686.0" x2="686.0" y1="134.0" y2="434.0" stroke="#283037" stroke-width="1"/>
+<text x="686.0" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">1.2</text>
+<text x="686.0" y="472.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">SMD: further right = bigger average effect →</text>
+<text x="24.0" y="156.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">Children and teenagers</text>
+<text x="36.0" y="187.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Amphetamines, clinician-rated [1]</text>
+<line x1="354.0" x2="636.2" y1="182.0" y2="182.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="636.2" cy="182.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="648.2" y="187.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">1.02</text>
+<text x="36.0" y="215.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Methylphenidate, clinician-rated [1]</text>
+<line x1="354.0" x2="569.8" y1="210.0" y2="210.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="569.8" cy="210.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="581.8" y="215.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.78</text>
+<text x="36.0" y="243.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Methylphenidate, teacher-rated, Cochrane [3]</text>
+<line x1="354.0" x2="558.7" y1="238.0" y2="238.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="558.7" cy="238.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="570.7" y="243.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.74</text>
+<text x="24.0" y="278.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">Adults</text>
+<text x="36.0" y="309.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Stimulants, clinician-rated [2]</text>
+<line x1="354.0" x2="520.0" y1="304.0" y2="304.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="520.0" cy="304.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="532.0" y="309.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">about 0.6</text>
+<text x="36.0" y="337.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Atomoxetine, clinician-rated [2]</text>
+<line x1="354.0" x2="492.3" y1="332.0" y2="332.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="492.3" cy="332.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="504.3" y="337.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">about 0.5</text>
+<text x="36.0" y="365.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Stimulants, self-rated [2]</text>
+<line x1="354.0" x2="464.7" y1="360.0" y2="360.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="464.7" cy="360.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="476.7" y="365.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">about 0.4</text>
+<text x="36.0" y="393.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Atomoxetine, self-rated [2]</text>
+<line x1="354.0" x2="464.7" y1="388.0" y2="388.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="464.7" cy="388.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="476.7" y="393.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">about 0.4</text>
+<text x="36.0" y="421.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Emotional lability, both [6]</text>
+<line x1="354.0" x2="467.4" y1="416.0" y2="416.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="467.4" cy="416.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
+<text x="479.4" y="421.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.41</text>
+<line x1="24" x2="696" y1="496.0" y2="496.0" stroke="#283037" stroke-width="1"/>
+<text x="24.0" y="520.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Values marked “about” are rounded on the page. Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli</text>
+<text x="24.0" y="538.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">et al., Lancet Psychiatry 2025 [2]; Storebø et al., Cochrane 2023/2025 [3]; Moukhtarian et al., Eur Psychiatry</text>
+<text x="24.0" y="556.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">2017 [6]. Short-term symptom ratings only, not quality of life or long-term outcomes.</text>
 </svg>

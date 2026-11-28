@@ -706,7 +706,9 @@ def main():
     }
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     charts = json.dumps(CHARTS, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    tpl = (HERE / "template.html").read_text(encoding="utf-8")
+    sys.path.insert(0, str(ROOT / "tools" / "design"))
+    import tokens  # shared palette, fonts and radii (tools/design/tokens.json)
+    tpl = tokens.inject((HERE / "template.html").read_text(encoding="utf-8"))
     out = tpl.replace("__READER_DATA__", blob).replace("__CHART_DATA__", charts)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     tmp = out_path.with_suffix(".tmp")

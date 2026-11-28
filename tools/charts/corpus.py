@@ -2,6 +2,8 @@
 """Build a picture of the whole corpus from the pages' own source lists.
 
 Run from anywhere:  python3 tools/charts/corpus.py
+  --charts-only  redraw SVGs and JSON but leave the .md pages untouched
+  --from-json    redraw from the saved corpus.json instead of re-reading the pages (style-only changes)
 
 What it does (Python standard library only, safe to re-run as pages change):
 
@@ -331,41 +333,20 @@ def summarise(corpus: dict) -> dict:
 
 # --------------------------------------------------------------------------- SVG drawing
 
-FONT = 'system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif'
-W = 720
-PAD = 24
+import sys as _sys
 
-THEMES = {
-    "light": {
-        "surface": "#ffffff", "ink": "#191919", "ink2": "#666666",
-        "grid": "#e7e7e7", "axis": "#c2c2c2", "border": "#e2e2e2",
-        "bar": "#257de0", "bar_soft": "#84b9f3", "accent": "#0f4a96",
-        "evidence": ["#0f4a96", "#257de0", "#84b9f3", "#f47230", "#6a4ce2", "#a3a3a3"],
-    },
-    "dark": {
-        "surface": "#191919", "ink": "#efefef", "ink2": "#9c9c9c",
-        "grid": "#303030", "axis": "#474747", "border": "#2e2e2e",
-        "bar": "#338ced", "bar_soft": "#1b64be", "accent": "#9dc8f7",
-        "evidence": ["#9dc8f7", "#519ced", "#1b64be", "#e76624", "#9887ef", "#6b6b6b"],
-    },
-}
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+import chartkit as ck  # noqa: E402
+
+W = ck.W
+PAD = ck.PAD
+# Colours from tools/design/tokens.json; "evidence" is the six-step evidence palette
+# shared with the reader and explorer (ordinal blues, then contested, guideline, other).
+THEMES = {m: dict(ck.theme(m), bar=ck.theme(m)["series"], bar_soft=ck.theme(m)["series_soft"])
+          for m in ("light", "dark")}
 
 
-def text_width(s: str, size: float = 13, bold: bool = False) -> float:
-    """Rough width estimate for a system sans; used to keep labels clear of marks."""
-    narrow = set("iljtf.,:;'!|() ")
-    wide = set("mwMW")
-    w = 0.0
-    for ch in s:
-        if ch in narrow:
-            w += 0.30
-        elif ch in wide:
-            w += 0.85
-        elif ch.isupper() or ch.isdigit():
-            w += 0.64
-        else:
-            w += 0.54
-    return w * size * (1.06 if bold else 1.0)
+text_width = ck.text_width
 
 
 def ink_on(fill: str) -> str:
@@ -399,21 +380,18 @@ def col_path(x, y_base, w, h, r=3):
 
 
 def svg_doc(height, theme, body, title, desc):
-    th = THEMES[theme]
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {height}" width="{W}" '
-            f'height="{height}" role="img" aria-labelledby="t d" font-family="{FONT}">\n'
-            f'<title id="t">{escape(title)}</title><desc id="d">{escape(desc)}</desc>\n'
-            f'<rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="8" fill="{th["surface"]}" '
-            f'stroke="{th["border"]}"/>\n' + "\n".join(b for b in body if b) + "\n</svg>\n")
+    return ck.document(THEMES[theme], height, title, desc, body)
 
 
 def header(th, title, subtitle):
-    return [t(PAD, 38, title, 18, th["ink"], 600), t(PAD, 62, subtitle, 14, th["ink2"])]
+    """Shared header block. Returns (parts, top) where top is where content starts."""
+    return ck.header(th, title, subtitle)
 
 
-def footer(th, height, today, extra=""):
+def footer(th, y, today, extra=""):
+    """Source footer below content ending at y. Returns (parts, height)."""
     line = f"Source: this site's own source lists, generated {today}.{(' ' + extra) if extra else ''}"
-    return t(PAD, height - 16, line, 13, th["ink2"])
+    return ck.footer(th, y, line)
 
 
 def chart_evidence_by_folder(corpus, theme, today, meta):
@@ -428,9 +406,9 @@ def chart_evidence_by_folder(corpus, theme, today, meta):
     max_total = max(sum(v) for _, v in rows) or 1
     plot_w = W - x0 - PAD - 40
     scale = plot_w / max_total
-    body = header(th, meta["title"], meta["subtitle"])
+    body, top0 = header(th, meta["title"], meta["subtitle"])
     # legend, two rows
-    lx, ly = PAD, 92
+    lx, ly = PAD, top0
     for i, k in enumerate(EVIDENCE_ORDER):
         if i == 3:
             lx, ly = PAD, ly + 22
@@ -441,7 +419,7 @@ def chart_evidence_by_folder(corpus, theme, today, meta):
     bar_h, gap = 22, 14
     for r, (f, vals) in enumerate(rows):
         y = top + r * (bar_h + gap)
-        body.append(t(x0 - 12, y + bar_h / 2 + 5, f"{f['id']}  {f['short']}", 13, th["ink"], anchor="end"))
+        body.append(t(x0 - 12, y + bar_h / 2 + 5, f"{f['id']}  {f['short']}", 14, th["ink"], anchor="end"))
         x = x0
         nonzero = [i for i, v in enumerate(vals) if v]
         last = nonzero[-1] if nonzero else -1
@@ -454,11 +432,12 @@ def chart_evidence_by_folder(corpus, theme, today, meta):
             body.append(p + f' fill="{cols[i]}"><title>{escape(f["short"])}: {v} {escape(EVIDENCE_ORDER[i])}</title></path>')
             lbl = str(v)
             if text_width(lbl) + 10 <= seg_w:
-                body.append(t(x + seg_w / 2, y + bar_h / 2 + 4.5, lbl, 13, ink_on(cols[i]), 500, "middle"))
+                body.append(t(x + seg_w / 2, y + bar_h / 2 + 4.5, lbl, 13, ink_on(cols[i]), 600, "middle"))
             x += w
-        body.append(t(x + 8, y + bar_h / 2 + 5, str(sum(vals)), 13, th["ink"], 600))
-    height = top + len(rows) * (bar_h + gap) + 34
-    body.append(footer(th, height, today, "Counts are citations on each folder's pages."))
+        body.append(t(x + 8, y + bar_h / 2 + 5, str(sum(vals)), 14, th["ink"], 600))
+    f_parts, height = footer(th, top + len(rows) * (bar_h + gap) - gap, today,
+                             "Counts are citations on each folder's pages.")
+    body += f_parts
     return svg_doc(height, theme, body, meta["title"], meta["alt"])
 
 
@@ -472,18 +451,19 @@ def chart_study_types(corpus, theme, today, meta):
     x0 = PAD + label_w
     plot_w = W - x0 - PAD - 90
     mx = max(v for _, v in items) or 1
-    body = header(th, meta["title"], meta["subtitle"])
-    top, bar_h, gap = 92, 22, 16
+    body, top = header(th, meta["title"], meta["subtitle"])
+    top += 4
+    bar_h, gap = 22, 16
     for i, (k, v) in enumerate(items):
         y = top + i * (bar_h + gap)
         fill = th["bar_soft"] if k == "Other" else th["bar"]
-        body.append(t(x0 - 12, y + bar_h / 2 + 5, k, 13, th["ink"], anchor="end"))
+        body.append(t(x0 - 12, y + bar_h / 2 + 5, k, 14, th["ink"], anchor="end"))
         w = v / mx * plot_w
         body.append(bar_path(x0, y, max(w, 1), bar_h) + f' fill="{fill}"><title>{escape(k)}: {v}</title></path>')
-        body.append(t(x0 + w + 8, y + bar_h / 2 + 5, f"{v}  ({round(100 * v / total)}%)", 13, th["ink"], 500))
+        body.append(t(x0 + w + 8, y + bar_h / 2 + 5, f"{v}  ({round(100 * v / total)}%)", 14, th["ink"], 600))
     body.append(f'<line x1="{x0}" x2="{x0}" y1="{top - 6}" y2="{top + len(items) * (bar_h + gap) - gap + 6}" stroke="{th["axis"]}"/>')
-    height = top + len(items) * (bar_h + gap) + 30
-    body.append(footer(th, height, today, "Types are a keyword guess."))
+    f_parts, height = footer(th, top + len(items) * (bar_h + gap) - gap + 6, today, "Types are a keyword guess.")
+    body += f_parts
     return svg_doc(height, theme, body, meta["title"], meta["alt"])
 
 
@@ -500,11 +480,12 @@ def chart_years(corpus, theme, today, meta):
     tick_step = 5 if mx > 20 else 2 if mx > 8 else 1
     y_top_val = ((mx + tick_step - 1) // tick_step) * tick_step
     left, right = PAD + 34, W - PAD
-    plot_top, plot_bot = 128, 330
+    body, top0 = header(th, meta["title"], meta["subtitle"])
+    plot_top = top0 + 40
+    plot_bot = plot_top + 202
     slot = (right - left) / len(span)
     cw = max(min(slot - 2, 24), 2)
     sy = (plot_bot - plot_top) / y_top_val
-    body = header(th, meta["title"], meta["subtitle"])
     for v in range(0, y_top_val + 1, tick_step):
         yy = plot_bot - v * sy
         if v:
@@ -524,14 +505,14 @@ def chart_years(corpus, theme, today, meta):
     mxp = left + mi * slot
     body.append(f'<line x1="{mxp:.1f}" x2="{mxp:.1f}" y1="{plot_top - 40}" y2="{plot_bot}" stroke="{th["ink2"]}" stroke-width="1"/>')
     body.append(t(mxp - 6, plot_top - 28, f"Older half, before {med}", 13, th["ink2"], anchor="end"))
-    body.append(t(mxp + 6, plot_top - 28, "Newer half", 13, th["ink"], 500))
+    body.append(t(mxp + 6, plot_top - 28, "Newer half", 13, th["ink"], 600))
     # peak label
     peak = max(span, key=lambda yr: (c.get(yr, 0), yr))
     pi = span.index(peak)
     px = left + pi * slot + slot / 2
-    body.append(t(px, plot_bot - c[peak] * sy - 7, c[peak], 13, th["ink"], 600, "middle"))
-    height = plot_bot + 64
-    body.append(footer(th, height, today, f"Each source counted once. {y_max} is a part year."))
+    body.append(t(px, plot_bot - c[peak] * sy - 7, c[peak], 14, th["ink"], 600, "middle"))
+    f_parts, height = footer(th, plot_bot + 26, today, f"Each source counted once. {y_max} is a part year.")
+    body += f_parts
     return svg_doc(height, theme, body, meta["title"], meta["alt"])
 
 
@@ -545,8 +526,7 @@ def chart_site_map(corpus, theme, today, meta):
     col_w = (W - 2 * PAD - 24) / 2
     cols = [folders[:4], folders[4:]]
     row_h, head_h, block_gap = 21, 40, 16
-    body = header(th, meta["title"], meta["subtitle"])
-    top = 92
+    body, top = header(th, meta["title"], meta["subtitle"])
     max_y = top
     for ci, fl in enumerate(cols):
         x = PAD + ci * (col_w + 24)
@@ -555,7 +535,7 @@ def chart_site_map(corpus, theme, today, meta):
             pages = by_folder[f["id"]]
             n_src = sum(p["n_sources"] for p in pages)
             block_h = head_h + len(pages) * row_h + 8
-            body.append(f'<rect x="{x:.1f}" y="{y}" width="{col_w:.1f}" height="{block_h}" rx="6" fill="none" stroke="{th["border"]}"/>')
+            body.append(f'<rect x="{x:.1f}" y="{y}" width="{col_w:.1f}" height="{block_h}" rx="{ck.RADIUS["inner"]}" fill="none" stroke="{th["border"]}"/>')
             body.append(t(x + 12, y + 22, f"{f['id']}  {f['short']}", 14, th["ink"], 600))
             body.append(t(x + col_w - 12, y + 22, f"{len(pages)} pages · {n_src} sources", 13, th["ink2"], anchor="end"))
             label_w = 176
@@ -573,8 +553,8 @@ def chart_site_map(corpus, theme, today, meta):
                 body.append(t(bx + w + 6, ry + 9, p["n_sources"], 13, th["ink2"]))
             y += block_h + block_gap
         max_y = max(max_y, y)
-    height = max_y + 22
-    body.append(footer(th, height, today, "Bar length = sources listed on the page."))
+    f_parts, height = footer(th, max_y - block_gap, today, "Bar length = sources listed on the page.")
+    body += f_parts
     return svg_doc(height, theme, body, meta["title"], meta["alt"])
 
 
@@ -602,20 +582,21 @@ def chart_reused(corpus, theme, today, meta, top_n=10):
     x0 = PAD + label_w
     plot_w = W - x0 - PAD - 70
     mx = max(n for _, n in items) or 1
-    body = header(th, meta["title"], meta["subtitle"])
-    top, bar_h, gap = 92, 20, 14
+    body, top = header(th, meta["title"], meta["subtitle"])
+    top += 4
+    bar_h, gap = 20, 14
     for i, (s, n) in enumerate(items):
         y = top + i * (bar_h + gap)
         what = s["journal"] or ("NG87" if s["key"] == "nice:ng87" else s["title"])
         lbl = reuse_label(s) + (f", {what}" if what else "")
-        while text_width(lbl) > label_w - 14:
+        while text_width(lbl, 14) > label_w - 14:
             lbl = lbl[:-2].rstrip() + "…"
-        body.append(t(x0 - 12, y + bar_h / 2 + 5, lbl, 13, th["ink"], anchor="end"))
+        body.append(t(x0 - 12, y + bar_h / 2 + 5, lbl, 14, th["ink"], anchor="end"))
         w = n / mx * plot_w
         body.append(bar_path(x0, y, w, bar_h) + f' fill="{th["bar"]}"><title>{escape(s["title"])}: {n} pages</title></path>')
-        body.append(t(x0 + w + 8, y + bar_h / 2 + 5, f"{n} pages", 13, th["ink"], 500))
-    height = top + len(items) * (bar_h + gap) + 30
-    body.append(footer(th, height, today))
+        body.append(t(x0 + w + 8, y + bar_h / 2 + 5, f"{n} pages", 14, th["ink"], 600))
+    f_parts, height = footer(th, top + len(items) * (bar_h + gap) - gap, today)
+    body += f_parts
     return svg_doc(height, theme, body, meta["title"], meta["alt"])
 
 
@@ -812,13 +793,21 @@ def folder_stats_md(corpus, fid):
 
 
 def main():
-    today = _dt.date.today().isoformat()
-    corpus = build_corpus()
-    summ = summarise(corpus)
-    OUT.mkdir(parents=True, exist_ok=True)
-    data = {"generated": today, "summary": summ, "evidence_order": EVIDENCE_ORDER,
-            "type_order": TYPE_ORDER, **corpus}
-    (OUT / "corpus.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if "--from-json" in _sys.argv:
+        # Redraw from the saved corpus.json (same numbers, same date) without re-reading the pages.
+        # Useful for style-only changes while pages are being edited.
+        saved = json.loads((OUT / "corpus.json").read_text(encoding="utf-8"))
+        today = saved["generated"]
+        corpus = {k: saved[k] for k in ("folders", "pages", "sources")}
+        summ = summarise(corpus)
+    else:
+        today = _dt.date.today().isoformat()
+        corpus = build_corpus()
+        summ = summarise(corpus)
+        OUT.mkdir(parents=True, exist_ok=True)
+        data = {"generated": today, "summary": summ, "evidence_order": EVIDENCE_ORDER,
+                "type_order": TYPE_ORDER, **corpus}
+        (OUT / "corpus.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     metas = chart_meta(corpus, summ)
     for name, fn in CHARTS:
@@ -827,12 +816,14 @@ def main():
             (OUT / f"{name}{suffix}.svg").write_text(fn(corpus, theme, today, metas[name]), encoding="utf-8")
     (OUT / "charts.json").write_text(json.dumps(metas, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
-    blocks = {name: picture_md(name, m) for name, m in metas.items()}
-    blocks["summary"] = summary_md(summ)
-    blocks["thin-pages"] = thin_pages_md(corpus)
-    refreshed = refresh_page(blocks)
-    for f in corpus["folders"]:
-        refresh_page({"folder-stats": folder_stats_md(corpus, f["id"])}, ROOT / f["path"] / "README.md")
+    refreshed = False
+    if "--charts-only" not in _sys.argv:  # --charts-only: redraw SVGs and JSON, leave the .md pages alone
+        blocks = {name: picture_md(name, m) for name, m in metas.items()}
+        blocks["summary"] = summary_md(summ)
+        blocks["thin-pages"] = thin_pages_md(corpus)
+        refreshed = refresh_page(blocks)
+        for f in corpus["folders"]:
+            refresh_page({"folder-stats": folder_stats_md(corpus, f["id"])}, ROOT / f["path"] / "README.md")
 
     print(f"Corpus generated {today}")
     print(f"  folders {summ['folders']}, pages {summ['pages']} ({summ['pages_with_sources']} with sources)")
@@ -842,7 +833,7 @@ def main():
     print("  study type (unique): " + ", ".join(f"{k} {v}" for k, v in summ["study_types_unique"].items()))
     print(f"  years {summ['year_min']}-{summ['year_max']}, median {summ['year_median']}, "
           f"since 2020 {summ['since_2020']}/{summ['years_known']}")
-    print(f"  wrote {OUT.relative_to(ROOT)}/corpus.json and {len(CHARTS) * 2} SVGs"
+    print(f"  wrote {len(CHARTS) * 2} SVGs" + ("" if "--from-json" in _sys.argv else f" and {OUT.relative_to(ROOT)}/corpus.json")
           + ("; refreshed " + str(PAGE.relative_to(ROOT)) if refreshed else ""))
 
 

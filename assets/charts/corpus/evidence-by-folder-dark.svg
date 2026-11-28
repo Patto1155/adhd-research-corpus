@@ -1,104 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 462" width="720" height="462" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
-<title id="t">69% of cited sources are labelled Strong or Moderate</title><desc id="d">Stacked bar chart of 397 source entries by folder and evidence label. Overall: 108 strong, 165 moderate, 77 limited, 10 contested, 20 guideline or consensus, 17 commentary or not graded. By folder: 01 Is ADHD real?: 51 sources (14 strong, 21 moderate, 10 limited, 5 guideline or consensus, 1 commentary or not graded); 02 My brain: 70 sources (17 strong, 29 moderate, 12 limited, 5 contested, 4 guideline or consensus, 3 commentary or not graded); 03 How I think and feel: 41 sources (10 strong, 16 moderate, 11 limited, 1 contested, 1 guideline or consensus, 2 commentary or not graded); 04 Causes and outlook: 40 sources (8 strong, 19 moderate, 11 limited, 1 guideline or consensus, 1 commentary or not graded); 05 What comes with it: 31 sources (10 strong, 18 moderate, 2 limited, 1 guideline or consensus); 06 Treatment: 78 sources (20 strong, 37 moderate, 15 limited, 3 contested, 2 guideline or consensus, 1 commentary or not graded); 07 Family, work, others: 50 sources (12 strong, 24 moderate, 12 limited, 1 contested, 1 guideline or consensus); 08 Reading this well: 36 sources (17 strong, 1 moderate, 4 limited, 5 guideline or consensus, 9 commentary or not graded). Causes and outlook has the largest share labelled Limited (28%).</desc>
-<rect x="0.5" y="0.5" width="719" height="461" rx="8" fill="#191919" stroke="#2e2e2e"/>
-<text x="24.0" y="38.0" font-size="18" font-weight="600" fill="#efefef" text-anchor="start">69% of cited sources are labelled Strong or Moderate</text>
-<text x="24.0" y="62.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">Sources cited in each folder, by the evidence label given on the page</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 472" width="720" height="472" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">69% of cited sources are labelled Strong or Moderate</title>
+<desc id="d">Stacked bar chart of 397 source entries by folder and evidence label. Overall: 108 strong, 165 moderate, 77 limited, 10 contested, 20 guideline or consensus, 17 commentary or not graded. By folder: 01 Is ADHD real?: 51 sources (14 strong, 21 moderate, 10 limited, 5 guideline or consensus, 1 commentary or not graded); 02 My brain: 70 sources (17 strong, 29 moderate, 12 limited, 5 contested, 4 guideline or consensus, 3 commentary or not graded); 03 How I think and feel: 41 sources (10 strong, 16 moderate, 11 limited, 1 contested, 1 guideline or consensus, 2 commentary or not graded); 04 Causes and outlook: 40 sources (8 strong, 19 moderate, 11 limited, 1 guideline or consensus, 1 commentary or not graded); 05 What comes with it: 31 sources (10 strong, 18 moderate, 2 limited, 1 guideline or consensus); 06 Treatment: 78 sources (20 strong, 37 moderate, 15 limited, 3 contested, 2 guideline or consensus, 1 commentary or not graded); 07 Family, work, others: 50 sources (12 strong, 24 moderate, 12 limited, 1 contested, 1 guideline or consensus); 08 Reading this well: 36 sources (17 strong, 1 moderate, 4 limited, 5 guideline or consensus, 9 commentary or not graded). Causes and outlook has the largest share labelled Limited (28%).</desc>
+<rect x="0.5" y="0.5" width="719" height="471" rx="12" fill="#171c20" stroke="#2a3238" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">69% of cited sources are labelled Strong or Moderate</text>
+<text x="24.0" y="66.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">Sources cited in each folder, by the evidence label given on the page</text>
 <rect x="24" y="82" width="12" height="12" rx="3" fill="#9dc8f7"/>
-<text x="42.0" y="92.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Strong</text>
-<rect x="108.30000000000001" y="82" width="12" height="12" rx="3" fill="#519ced"/>
-<text x="126.3" y="92.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Moderate</text>
-<rect x="209.37" y="82" width="12" height="12" rx="3" fill="#1b64be"/>
-<text x="227.4" y="92.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Limited</text>
+<text x="42.0" y="92.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Strong</text>
+<rect x="108.17" y="82" width="12" height="12" rx="3" fill="#519ced"/>
+<text x="126.2" y="92.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Moderate</text>
+<rect x="209.24" y="82" width="12" height="12" rx="3" fill="#1b64be"/>
+<text x="227.2" y="92.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Limited</text>
 <rect x="24" y="104" width="12" height="12" rx="3" fill="#e76624"/>
-<text x="42.0" y="114.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Contested</text>
-<rect x="126.24000000000001" y="104" width="12" height="12" rx="3" fill="#9887ef"/>
-<text x="144.2" y="114.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Guideline or consensus</text>
-<rect x="310.38" y="104" width="12" height="12" rx="3" fill="#6b6b6b"/>
-<text x="328.4" y="114.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Commentary or not graded</text>
-<text x="202.0" y="156.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">01  Is ADHD real?</text>
+<text x="42.0" y="114.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Contested</text>
+<rect x="126.11" y="104" width="12" height="12" rx="3" fill="#9887ef"/>
+<text x="144.1" y="114.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Guideline or consensus</text>
+<rect x="310.11999999999995" y="104" width="12" height="12" rx="3" fill="#6f7a83"/>
+<text x="328.1" y="114.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Commentary or not graded</text>
+<text x="202.0" y="156.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">01  Is ADHD real?</text>
 <path d="M214.0,140.0 h77.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-77.3 z" fill="#9dc8f7"><title>Is ADHD real?: 14 Strong</title></path>
-<text x="252.7" y="155.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">14</text>
+<text x="252.7" y="155.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">14</text>
 <path d="M293.3,140.0 h117.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-117.0 z" fill="#519ced"><title>Is ADHD real?: 21 Moderate</title></path>
-<text x="351.8" y="155.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">21</text>
+<text x="351.8" y="155.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">21</text>
 <path d="M412.3,140.0 h54.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-54.7 z" fill="#1b64be"><title>Is ADHD real?: 10 Limited</title></path>
-<text x="439.7" y="155.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">10</text>
+<text x="439.7" y="155.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">10</text>
 <path d="M469.0,140.0 h26.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-26.3 z" fill="#9887ef"><title>Is ADHD real?: 5 Guideline or consensus</title></path>
-<text x="482.2" y="155.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">5</text>
-<path d="M497.3,140.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6b6b6b"><title>Is ADHD real?: 1 Commentary or not graded</title></path>
-<text x="511.0" y="156.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">51</text>
-<text x="202.0" y="192.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">02  My brain</text>
+<text x="482.2" y="155.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<path d="M497.3,140.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6f7a83"><title>Is ADHD real?: 1 Commentary or not graded</title></path>
+<text x="511.0" y="156.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">51</text>
+<text x="202.0" y="192.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">02  My brain</text>
 <path d="M214.0,176.0 h94.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-94.3 z" fill="#9dc8f7"><title>My brain: 17 Strong</title></path>
-<text x="261.2" y="191.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">17</text>
+<text x="261.2" y="191.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">17</text>
 <path d="M310.3,176.0 h162.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-162.3 z" fill="#519ced"><title>My brain: 29 Moderate</title></path>
-<text x="391.5" y="191.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">29</text>
+<text x="391.5" y="191.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">29</text>
 <path d="M474.7,176.0 h66.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-66.0 z" fill="#1b64be"><title>My brain: 12 Limited</title></path>
-<text x="507.7" y="191.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">12</text>
+<text x="507.7" y="191.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">12</text>
 <path d="M542.7,176.0 h26.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-26.3 z" fill="#e76624"><title>My brain: 5 Contested</title></path>
-<text x="555.8" y="191.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">5</text>
+<text x="555.8" y="191.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
 <path d="M571.0,176.0 h20.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-20.7 z" fill="#9887ef"><title>My brain: 4 Guideline or consensus</title></path>
-<text x="581.3" y="191.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">4</text>
-<path d="M593.7,176.0 h13.0 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-13.0 z" fill="#6b6b6b"><title>My brain: 3 Commentary or not graded</title></path>
-<text x="618.7" y="192.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">70</text>
-<text x="202.0" y="228.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">03  How I think and feel</text>
+<text x="581.3" y="191.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<path d="M593.7,176.0 h13.0 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-13.0 z" fill="#6f7a83"><title>My brain: 3 Commentary or not graded</title></path>
+<text x="618.7" y="192.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">70</text>
+<text x="202.0" y="228.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">03  How I think and feel</text>
 <path d="M214.0,212.0 h54.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-54.7 z" fill="#9dc8f7"><title>How I think and feel: 10 Strong</title></path>
-<text x="241.3" y="227.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">10</text>
+<text x="241.3" y="227.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">10</text>
 <path d="M270.7,212.0 h88.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-88.7 z" fill="#519ced"><title>How I think and feel: 16 Moderate</title></path>
-<text x="315.0" y="227.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">16</text>
+<text x="315.0" y="227.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">16</text>
 <path d="M361.3,212.0 h60.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-60.3 z" fill="#1b64be"><title>How I think and feel: 11 Limited</title></path>
-<text x="391.5" y="227.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">11</text>
+<text x="391.5" y="227.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">11</text>
 <path d="M423.7,212.0 h3.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-3.7 z" fill="#e76624"><title>How I think and feel: 1 Contested</title></path>
 <path d="M429.3,212.0 h3.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-3.7 z" fill="#9887ef"><title>How I think and feel: 1 Guideline or consensus</title></path>
-<path d="M435.0,212.0 h7.3 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-7.3 z" fill="#6b6b6b"><title>How I think and feel: 2 Commentary or not graded</title></path>
-<text x="454.3" y="228.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">41</text>
-<text x="202.0" y="264.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">04  Causes and outlook</text>
+<path d="M435.0,212.0 h7.3 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-7.3 z" fill="#6f7a83"><title>How I think and feel: 2 Commentary or not graded</title></path>
+<text x="454.3" y="228.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">41</text>
+<text x="202.0" y="264.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">04  Causes and outlook</text>
 <path d="M214.0,248.0 h43.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-43.3 z" fill="#9dc8f7"><title>Causes and outlook: 8 Strong</title></path>
-<text x="235.7" y="263.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">8</text>
+<text x="235.7" y="263.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">8</text>
 <path d="M259.3,248.0 h105.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-105.7 z" fill="#519ced"><title>Causes and outlook: 19 Moderate</title></path>
-<text x="312.2" y="263.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">19</text>
+<text x="312.2" y="263.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">19</text>
 <path d="M367.0,248.0 h60.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-60.3 z" fill="#1b64be"><title>Causes and outlook: 11 Limited</title></path>
-<text x="397.2" y="263.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">11</text>
+<text x="397.2" y="263.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">11</text>
 <path d="M429.3,248.0 h3.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-3.7 z" fill="#9887ef"><title>Causes and outlook: 1 Guideline or consensus</title></path>
-<path d="M435.0,248.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6b6b6b"><title>Causes and outlook: 1 Commentary or not graded</title></path>
-<text x="448.7" y="264.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">40</text>
-<text x="202.0" y="300.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">05  What comes with it</text>
+<path d="M435.0,248.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6f7a83"><title>Causes and outlook: 1 Commentary or not graded</title></path>
+<text x="448.7" y="264.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">40</text>
+<text x="202.0" y="300.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">05  What comes with it</text>
 <path d="M214.0,284.0 h54.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-54.7 z" fill="#9dc8f7"><title>What comes with it: 10 Strong</title></path>
-<text x="241.3" y="299.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">10</text>
+<text x="241.3" y="299.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">10</text>
 <path d="M270.7,284.0 h100.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-100.0 z" fill="#519ced"><title>What comes with it: 18 Moderate</title></path>
-<text x="320.7" y="299.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">18</text>
+<text x="320.7" y="299.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">18</text>
 <path d="M372.7,284.0 h9.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-9.3 z" fill="#1b64be"><title>What comes with it: 2 Limited</title></path>
 <path d="M384.0,284.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#9887ef"><title>What comes with it: 1 Guideline or consensus</title></path>
-<text x="397.7" y="300.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">31</text>
-<text x="202.0" y="336.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">06  Treatment</text>
+<text x="397.7" y="300.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">31</text>
+<text x="202.0" y="336.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">06  Treatment</text>
 <path d="M214.0,320.0 h111.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-111.3 z" fill="#9dc8f7"><title>Treatment: 20 Strong</title></path>
-<text x="269.7" y="335.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">20</text>
+<text x="269.7" y="335.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">20</text>
 <path d="M327.3,320.0 h207.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-207.7 z" fill="#519ced"><title>Treatment: 37 Moderate</title></path>
-<text x="431.2" y="335.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">37</text>
+<text x="431.2" y="335.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">37</text>
 <path d="M537.0,320.0 h83.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-83.0 z" fill="#1b64be"><title>Treatment: 15 Limited</title></path>
-<text x="578.5" y="335.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">15</text>
+<text x="578.5" y="335.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">15</text>
 <path d="M622.0,320.0 h15.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-15.0 z" fill="#e76624"><title>Treatment: 3 Contested</title></path>
 <path d="M639.0,320.0 h9.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-9.3 z" fill="#9887ef"><title>Treatment: 2 Guideline or consensus</title></path>
-<path d="M650.3,320.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6b6b6b"><title>Treatment: 1 Commentary or not graded</title></path>
-<text x="664.0" y="336.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">78</text>
-<text x="202.0" y="372.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">07  Family, work, others</text>
+<path d="M650.3,320.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#6f7a83"><title>Treatment: 1 Commentary or not graded</title></path>
+<text x="664.0" y="336.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">78</text>
+<text x="202.0" y="372.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">07  Family, work, others</text>
 <path d="M214.0,356.0 h66.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-66.0 z" fill="#9dc8f7"><title>Family, work, others: 12 Strong</title></path>
-<text x="247.0" y="371.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">12</text>
+<text x="247.0" y="371.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">12</text>
 <path d="M282.0,356.0 h134.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-134.0 z" fill="#519ced"><title>Family, work, others: 24 Moderate</title></path>
-<text x="349.0" y="371.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">24</text>
+<text x="349.0" y="371.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">24</text>
 <path d="M418.0,356.0 h66.0 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-66.0 z" fill="#1b64be"><title>Family, work, others: 12 Limited</title></path>
-<text x="451.0" y="371.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">12</text>
+<text x="451.0" y="371.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">12</text>
 <path d="M486.0,356.0 h3.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-3.7 z" fill="#e76624"><title>Family, work, others: 1 Contested</title></path>
 <path d="M491.7,356.0 h2.8 a2.8333333333333335,2.8333333333333335 0 0 1 2.8333333333333335,2.8333333333333335 v16.3 a2.8333333333333335,2.8333333333333335 0 0 1 -2.8333333333333335,2.8333333333333335 h-2.8 z" fill="#9887ef"><title>Family, work, others: 1 Guideline or consensus</title></path>
-<text x="505.3" y="372.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">50</text>
-<text x="202.0" y="408.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="end">08  Reading this well</text>
+<text x="505.3" y="372.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">50</text>
+<text x="202.0" y="408.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="end">08  Reading this well</text>
 <path d="M214.0,392.0 h94.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-94.3 z" fill="#9dc8f7"><title>Reading this well: 17 Strong</title></path>
-<text x="261.2" y="407.5" font-size="13" font-weight="500" fill="#0b0b0b" text-anchor="middle">17</text>
+<text x="261.2" y="407.5" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">17</text>
 <path d="M310.3,392.0 h3.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-3.7 z" fill="#519ced"><title>Reading this well: 1 Moderate</title></path>
 <path d="M316.0,392.0 h20.7 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-20.7 z" fill="#1b64be"><title>Reading this well: 4 Limited</title></path>
-<text x="326.3" y="407.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">4</text>
+<text x="326.3" y="407.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
 <path d="M338.7,392.0 h26.3 a0,0 0 0 1 0,0 v22.0 a0,0 0 0 1 0,0 h-26.3 z" fill="#9887ef"><title>Reading this well: 5 Guideline or consensus</title></path>
-<text x="351.8" y="407.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">5</text>
-<path d="M367.0,392.0 h47.0 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-47.0 z" fill="#6b6b6b"><title>Reading this well: 9 Commentary or not graded</title></path>
-<text x="392.5" y="407.5" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">9</text>
-<text x="426.0" y="408.0" font-size="13" font-weight="600" fill="#efefef" text-anchor="start">36</text>
-<text x="24.0" y="446.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Source: this site&#x27;s own source lists, generated 2026-11-28. Counts are citations on each folder&#x27;s pages.</text>
+<text x="351.8" y="407.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<path d="M367.0,392.0 h47.0 a4,4 0 0 1 4,4 v14.0 a4,4 0 0 1 -4,4 h-47.0 z" fill="#6f7a83"><title>Reading this well: 9 Commentary or not graded</title></path>
+<text x="392.5" y="407.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">9</text>
+<text x="426.0" y="408.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">36</text>
+<line x1="24" x2="696" y1="430.0" y2="430.0" stroke="#283037" stroke-width="1"/>
+<text x="24.0" y="454.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Source: this site's own source lists, generated 2026-11-28. Counts are citations on each folder's pages.</text>
 </svg>

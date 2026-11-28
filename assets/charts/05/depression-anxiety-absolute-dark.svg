@@ -1,38 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 395" width="720" height="395" role="img" aria-labelledby="title desc" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
-<title id="title">About 4 in 10 adults with diagnosed ADHD also had a recorded depression diagnosis, against about 1 in 20 without</title>
-<desc id="desc">Paired bars from Swedish registers of 5.55 million adults aged 18 to 64. Depression diagnosis recorded in 42% of adults with ADHD against 4.7% without; anxiety 45% against 4.9%. Adjusted for age and sex.</desc>
-<rect x="0.5" y="0.5" width="719" height="394" rx="8" fill="#191919" stroke="#303030" stroke-width="1"/>
-<text x="24.0" y="42.0" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">About 4 in 10 adults with diagnosed ADHD also had a recorded depression</text>
-<text x="24.0" y="65.4" font-size="18" font-weight="650" fill="#efefef" text-anchor="start">diagnosis, against about 1 in 20 without</text>
-<text x="24.0" y="88.8" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">Share of Swedish adults aged 18 to 64 with a diagnosis recorded at some point in adulthood,</text>
-<text x="24.0" y="108.4" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">adjusted for age and sex.</text>
-<rect x="24" y="134.0" width="14" height="14" rx="3" fill="#338ced"/>
-<text x="44.0" y="146.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">With ADHD</text>
-<rect x="137.86" y="134.0" width="14" height="14" rx="3" fill="#6e6e6e"/>
-<text x="157.9" y="146.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">Without ADHD</text>
-<line x1="144.0" x2="144.0" y1="166.0" y2="284.0" stroke="#474747" stroke-width="1"/>
-<text x="144.0" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">0%</text>
-<line x1="230.4" x2="230.4" y1="166.0" y2="284.0" stroke="#303030" stroke-width="1"/>
-<text x="230.4" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">10%</text>
-<line x1="316.8" x2="316.8" y1="166.0" y2="284.0" stroke="#303030" stroke-width="1"/>
-<text x="316.8" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">20%</text>
-<line x1="403.2" x2="403.2" y1="166.0" y2="284.0" stroke="#303030" stroke-width="1"/>
-<text x="403.2" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">30%</text>
-<line x1="489.6" x2="489.6" y1="166.0" y2="284.0" stroke="#303030" stroke-width="1"/>
-<text x="489.6" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">40%</text>
-<line x1="576.0" x2="576.0" y1="166.0" y2="284.0" stroke="#303030" stroke-width="1"/>
-<text x="576.0" y="302.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="middle">50%</text>
-<text x="24.0" y="196.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">Depression</text>
-<path d="M144.00,170.00 H502.88 Q506.88,170.00 506.88,174.00 V184.00 Q506.88,188.00 502.88,188.00 H144.00 Z" fill="#338ced"/>
-<text x="514.9" y="184.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">42% </text>
-<path d="M144.00,194.00 H180.61 Q184.61,194.00 184.61,198.00 V208.00 Q184.61,212.00 180.61,212.00 H144.00 Z" fill="#6e6e6e"/>
-<text x="192.6" y="208.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">4.7% </text>
-<text x="24.0" y="264.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">Anxiety</text>
-<path d="M144.00,238.00 H528.80 Q532.80,238.00 532.80,242.00 V252.00 Q532.80,256.00 528.80,256.00 H144.00 Z" fill="#338ced"/>
-<text x="540.8" y="252.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">45% </text>
-<path d="M144.00,262.00 H182.34 Q186.34,262.00 186.34,266.00 V276.00 Q186.34,280.00 182.34,280.00 H144.00 Z" fill="#6e6e6e"/>
-<text x="194.3" y="276.0" font-size="14" font-weight="400" fill="#efefef" text-anchor="start">4.9% </text>
-<line x1="24" x2="696" y1="332.0" y2="332.0" stroke="#303030" stroke-width="1"/>
-<text x="24.0" y="353.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Source: Chen et al., PLoS One 2018 [2]. 5.55 million adults, 61,129 with diagnosed ADHD. Health-record</text>
-<text x="24.0" y="371.2" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">diagnoses only, so milder or untreated conditions are missed.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 378" width="720" height="378" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">About 4 in 10 adults with diagnosed ADHD also had a recorded depression diagnosis, against about 1 in 20 without</title>
+<desc id="d">Paired bars from Swedish registers of 5.55 million adults aged 18 to 64. Depression diagnosis recorded in 42% of adults with ADHD against 4.7% without; anxiety 45% against 4.9%. Adjusted for age and sex.</desc>
+<rect x="0.5" y="0.5" width="719" height="377" rx="12" fill="#171c20" stroke="#2a3238" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">About 4 in 10 adults with diagnosed ADHD also had a</text>
+<text x="24.0" y="64.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">recorded depression diagnosis, against about 1 in 20 without</text>
+<text x="24.0" y="90.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">Swedish adults aged 18 to 64 ever diagnosed in adulthood, adjusted for age and sex.</text>
+<rect x="24" y="118" width="14" height="14" rx="3" fill="#338ced"/>
+<text x="44.0" y="130.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">With ADHD</text>
+<rect x="135.33999999999997" y="118" width="14" height="14" rx="3" fill="#6f7a83"/>
+<text x="155.3" y="130.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">Without ADHD</text>
+<line x1="144.0" x2="144.0" y1="150.0" y2="268.0" stroke="#46515a" stroke-width="1"/>
+<text x="144.0" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">0%</text>
+<line x1="230.4" x2="230.4" y1="150.0" y2="268.0" stroke="#283037" stroke-width="1"/>
+<text x="230.4" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">10%</text>
+<line x1="316.8" x2="316.8" y1="150.0" y2="268.0" stroke="#283037" stroke-width="1"/>
+<text x="316.8" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">20%</text>
+<line x1="403.2" x2="403.2" y1="150.0" y2="268.0" stroke="#283037" stroke-width="1"/>
+<text x="403.2" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">30%</text>
+<line x1="489.6" x2="489.6" y1="150.0" y2="268.0" stroke="#283037" stroke-width="1"/>
+<text x="489.6" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">40%</text>
+<line x1="576.0" x2="576.0" y1="150.0" y2="268.0" stroke="#283037" stroke-width="1"/>
+<text x="576.0" y="286.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="middle">50%</text>
+<text x="24.0" y="180.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">Depression</text>
+<path d="M144.00,154.00 H502.88 Q506.88,154.00 506.88,158.00 V168.00 Q506.88,172.00 502.88,172.00 H144.00 Z" fill="#338ced"/>
+<text x="514.9" y="168.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">42% </text>
+<path d="M144.00,178.00 H180.61 Q184.61,178.00 184.61,182.00 V192.00 Q184.61,196.00 180.61,196.00 H144.00 Z" fill="#6f7a83"/>
+<text x="192.6" y="192.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">4.7% </text>
+<text x="24.0" y="248.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">Anxiety</text>
+<path d="M144.00,222.00 H528.80 Q532.80,222.00 532.80,226.00 V236.00 Q532.80,240.00 528.80,240.00 H144.00 Z" fill="#338ced"/>
+<text x="540.8" y="236.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">45% </text>
+<path d="M144.00,246.00 H182.34 Q186.34,246.00 186.34,250.00 V260.00 Q186.34,264.00 182.34,264.00 H144.00 Z" fill="#6f7a83"/>
+<text x="194.3" y="260.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">4.9% </text>
+<line x1="24" x2="696" y1="318.0" y2="318.0" stroke="#283037" stroke-width="1"/>
+<text x="24.0" y="342.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Source: Chen et al., PLoS One 2018 [2]. 5.55 million adults, 61,129 with diagnosed ADHD. Health-record</text>
+<text x="24.0" y="360.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">diagnoses only, so milder or untreated conditions are missed.</text>
 </svg>

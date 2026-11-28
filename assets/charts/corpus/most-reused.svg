@@ -1,37 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 462" width="720" height="462" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
-<title id="t">Gosling CJ 2025 (BMJ) is cited on the most pages: 6</title><desc id="d">Bar chart of the ten sources cited on the most pages: Gosling CJ 2025 (BMJ), 6 pages; Demontis D 2023 (Nature Genetics), 4 pages; APA 2022 (no journal), 4 pages; NICE 2018 (no journal), 4 pages; Polanczyk GV 2014 (International Journal of Epidemiology), 4 pages; Sonuga-Barke EJS 2013 (Am J Psychiatry), 4 pages; Norman LJ 2023 (EClinicalMedicine), 3 pages; Hartman CA 2023 (Neurosci Biobehav Rev), 3 pages; Sibley MH 2022 (American Journal of Psychiatry), 3 pages; Sonuga-Barke E 2021 (Lancet Psychiatry), 3 pages. 57 sources in all appear on two or more pages.</desc>
-<rect x="0.5" y="0.5" width="719" height="461" rx="8" fill="#ffffff" stroke="#e2e2e2"/>
-<text x="24.0" y="38.0" font-size="18" font-weight="600" fill="#191919" text-anchor="start">Gosling CJ 2025 (BMJ) is cited on the most pages: 6</text>
-<text x="24.0" y="62.0" font-size="14" font-weight="400" fill="#666666" text-anchor="start">Sources cited on more than one page (top 10)</text>
-<text x="342.0" y="107.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Gosling CJ 2025, BMJ</text>
-<path d="M354.0,92.0 h268.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-268.0 z" fill="#257de0"><title>Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making: 6 pages</title></path>
-<text x="634.0" y="107.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">6 pages</text>
-<text x="342.0" y="141.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Demontis D 2023, Nature Genetics</text>
-<path d="M354.0,126.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains: 4 pages</title></path>
-<text x="543.3" y="141.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">4 pages</text>
-<text x="342.0" y="175.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">APA 2022, Diagnostic and Statistical Manual of Me…</text>
-<path d="M354.0,160.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Diagnostic and Statistical Manual of Mental Disorders: 4 pages</title></path>
-<text x="543.3" y="175.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">4 pages</text>
-<text x="342.0" y="209.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">NICE 2018, NG87</text>
-<path d="M354.0,194.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Attention deficit hyperactivity disorder: diagnosis and management (NG87): 4 pages</title></path>
-<text x="543.3" y="209.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">4 pages</text>
-<text x="342.0" y="243.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Polanczyk GV 2014, International Journal of Epid…</text>
-<path d="M354.0,228.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis: 4 pages</title></path>
-<text x="543.3" y="243.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">4 pages</text>
-<text x="342.0" y="277.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Sonuga-Barke EJS 2013, Am J Psychiatry</text>
-<path d="M354.0,262.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Nonpharmacological interventions for ADHD: systematic review and meta-analyses of randomized controlled trials of dietary and psychological treatments: 4 pages</title></path>
-<text x="543.3" y="277.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">4 pages</text>
-<text x="342.0" y="311.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Norman LJ 2023, EClinicalMedicine</text>
-<path d="M354.0,296.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts: 3 pages</title></path>
-<text x="498.0" y="311.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">3 pages</text>
-<text x="342.0" y="345.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Hartman CA 2023, Neurosci Biobehav Rev</text>
-<path d="M354.0,330.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Anxiety, mood, and substance use disorders in adult men and women with and without attention-deficit/hyperactivity disorder: a substantive and methodological overview: 3 pages</title></path>
-<text x="498.0" y="345.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">3 pages</text>
-<text x="342.0" y="379.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Sibley MH 2022, American Journal of Psychiatry</text>
-<path d="M354.0,364.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD: 3 pages</title></path>
-<text x="498.0" y="379.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">3 pages</text>
-<text x="342.0" y="413.0" font-size="13" font-weight="400" fill="#191919" text-anchor="end">Sonuga-Barke E 2021, Lancet Psychiatry</text>
-<path d="M354.0,398.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>The neurodiversity concept: is it helpful for clinicians and scientists?: 3 pages</title></path>
-<text x="498.0" y="413.0" font-size="13" font-weight="500" fill="#191919" text-anchor="start">3 pages</text>
-<text x="24.0" y="446.0" font-size="13" font-weight="400" fill="#666666" text-anchor="start">Source: this site&#x27;s own source lists, generated 2026-11-28.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Gosling CJ 2025 (BMJ) is cited on the most pages: 6</title>
+<desc id="d">Bar chart of the ten sources cited on the most pages: Gosling CJ 2025 (BMJ), 6 pages; Demontis D 2023 (Nature Genetics), 4 pages; APA 2022 (no journal), 4 pages; NICE 2018 (no journal), 4 pages; Polanczyk GV 2014 (International Journal of Epidemiology), 4 pages; Sonuga-Barke EJS 2013 (Am J Psychiatry), 4 pages; Norman LJ 2023 (EClinicalMedicine), 3 pages; Hartman CA 2023 (Neurosci Biobehav Rev), 3 pages; Sibley MH 2022 (American Journal of Psychiatry), 3 pages; Sonuga-Barke E 2021 (Lancet Psychiatry), 3 pages. 57 sources in all appear on two or more pages.</desc>
+<rect x="0.5" y="0.5" width="719" height="479" rx="12" fill="#ffffff" stroke="#dce2e7" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#182026" text-anchor="start">Gosling CJ 2025 (BMJ) is cited on the most pages: 6</text>
+<text x="24.0" y="66.0" font-size="14" font-weight="400" fill="#4f5b66" text-anchor="start">Sources cited on more than one page (top 10)</text>
+<text x="342.0" y="111.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Gosling CJ 2025, BMJ</text>
+<path d="M354.0,96.0 h268.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-268.0 z" fill="#257de0"><title>Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making: 6 pages</title></path>
+<text x="634.0" y="111.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">6 pages</text>
+<text x="342.0" y="145.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Demontis D 2023, Nature Genetics</text>
+<path d="M354.0,130.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains: 4 pages</title></path>
+<text x="543.3" y="145.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">4 pages</text>
+<text x="342.0" y="179.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">APA 2022, Diagnostic and Statistical Manual of…</text>
+<path d="M354.0,164.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Diagnostic and Statistical Manual of Mental Disorders: 4 pages</title></path>
+<text x="543.3" y="179.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">4 pages</text>
+<text x="342.0" y="213.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">NICE 2018, NG87</text>
+<path d="M354.0,198.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Attention deficit hyperactivity disorder: diagnosis and management (NG87): 4 pages</title></path>
+<text x="543.3" y="213.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">4 pages</text>
+<text x="342.0" y="247.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Polanczyk GV 2014, International Journal of E…</text>
+<path d="M354.0,232.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis: 4 pages</title></path>
+<text x="543.3" y="247.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">4 pages</text>
+<text x="342.0" y="281.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Sonuga-Barke EJS 2013, Am J Psychiatry</text>
+<path d="M354.0,266.0 h177.3 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-177.3 z" fill="#257de0"><title>Nonpharmacological interventions for ADHD: systematic review and meta-analyses of randomized controlled trials of dietary and psychological treatments: 4 pages</title></path>
+<text x="543.3" y="281.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">4 pages</text>
+<text x="342.0" y="315.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Norman LJ 2023, EClinicalMedicine</text>
+<path d="M354.0,300.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts: 3 pages</title></path>
+<text x="498.0" y="315.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">3 pages</text>
+<text x="342.0" y="349.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Hartman CA 2023, Neurosci Biobehav Rev</text>
+<path d="M354.0,334.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Anxiety, mood, and substance use disorders in adult men and women with and without attention-deficit/hyperactivity disorder: a substantive and methodological overview: 3 pages</title></path>
+<text x="498.0" y="349.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">3 pages</text>
+<text x="342.0" y="383.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Sibley MH 2022, American Journal of Psychiat…</text>
+<path d="M354.0,368.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD: 3 pages</title></path>
+<text x="498.0" y="383.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">3 pages</text>
+<text x="342.0" y="417.0" font-size="14" font-weight="400" fill="#182026" text-anchor="end">Sonuga-Barke E 2021, Lancet Psychiatry</text>
+<path d="M354.0,402.0 h132.0 a4,4 0 0 1 4,4 v12.0 a4,4 0 0 1 -4,4 h-132.0 z" fill="#257de0"><title>The neurodiversity concept: is it helpful for clinicians and scientists?: 3 pages</title></path>
+<text x="498.0" y="417.0" font-size="14" font-weight="600" fill="#182026" text-anchor="start">3 pages</text>
+<line x1="24" x2="696" y1="438.0" y2="438.0" stroke="#e6eaee" stroke-width="1"/>
+<text x="24.0" y="462.0" font-size="13" font-weight="400" fill="#4f5b66" text-anchor="start">Source: this site's own source lists, generated 2026-11-28.</text>
 </svg>

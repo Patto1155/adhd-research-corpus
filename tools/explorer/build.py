@@ -25,6 +25,9 @@ slim = {
     "sources": [[s[k] for k in keep] for s in d["sources"]],
 }
 blob = json.dumps(slim, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-tpl = (HERE / "template.html").read_text(encoding="utf-8")
+sys.path.insert(0, str(HERE.parent / "design"))
+import tokens  # noqa: E402  shared palette, fonts and radii (tools/design/tokens.json)
+
+tpl = tokens.inject((HERE / "template.html").read_text(encoding="utf-8"))
 OUT.write_text(tpl.replace("__CORPUS_DATA__", blob), encoding="utf-8")
 print(f"{OUT} written, {len(slim['sources'])} sources, {len(blob) // 1024} KB data")

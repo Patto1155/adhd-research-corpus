@@ -1,164 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 916" width="720" height="916" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
-<title id="t">8 folders, 45 pages, 397 cited sources</title><desc id="d">Map of the site. 8 folders hold 45 pages with 397 source entries in total. 01 Is ADHD real?: 6 pages, 51 sources; 02 My brain: 4 pages, 70 sources; 03 How I think and feel: 5 pages, 41 sources; 04 Causes and outlook: 4 pages, 40 sources; 05 What comes with it: 5 pages, 31 sources; 06 Treatment: 9 pages, 78 sources; 07 Family, work, others: 6 pages, 50 sources; 08 Reading this well: 6 pages, 36 sources. The page with the most sources is Brain structure with 26.</desc>
-<rect x="0.5" y="0.5" width="719" height="915" rx="8" fill="#191919" stroke="#2e2e2e"/>
-<text x="24.0" y="38.0" font-size="18" font-weight="600" fill="#efefef" text-anchor="start">8 folders, 45 pages, 397 cited sources</text>
-<text x="24.0" y="62.0" font-size="14" font-weight="400" fill="#9c9c9c" text-anchor="start">Each bar shows how many sources a page lists</text>
-<rect x="24.0" y="92" width="324.0" height="174" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="36.0" y="114.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">01  Is ADHD real?</text>
-<text x="336.0" y="114.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">6 pages · 51 sources</text>
-<text x="36.0" y="141.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">After the diagnosis</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 936" width="720" height="936" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">8 folders, 45 pages, 397 cited sources</title>
+<desc id="d">Map of the site. 8 folders hold 45 pages with 397 source entries in total. 01 Is ADHD real?: 6 pages, 51 sources; 02 My brain: 4 pages, 70 sources; 03 How I think and feel: 5 pages, 41 sources; 04 Causes and outlook: 4 pages, 40 sources; 05 What comes with it: 5 pages, 31 sources; 06 Treatment: 9 pages, 78 sources; 07 Family, work, others: 6 pages, 50 sources; 08 Reading this well: 6 pages, 36 sources. The page with the most sources is Brain structure with 26.</desc>
+<rect x="0.5" y="0.5" width="719" height="935" rx="12" fill="#171c20" stroke="#2a3238" stroke-width="1"/>
+<text x="24.0" y="40.0" font-size="18" font-weight="600" fill="#e8edf0" text-anchor="start">8 folders, 45 pages, 397 cited sources</text>
+<text x="24.0" y="66.0" font-size="14" font-weight="400" fill="#a3aeb7" text-anchor="start">Each bar shows how many sources a page lists</text>
+<rect x="24.0" y="92" width="324.0" height="174" rx="8" fill="none" stroke="#2a3238"/>
+<text x="36.0" y="114.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">01  Is ADHD real?</text>
+<text x="336.0" y="114.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">6 pages · 51 sources</text>
+<text x="36.0" y="141.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">After the diagnosis</text>
 <path d="M212.0,131.0 h36.6 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-36.6 z" fill="#338ced"><title>Just diagnosed with ADHD: why do I feel relieved, sad and doubtful?: 11 sources</title></path>
-<text x="258.6" y="141.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">11</text>
-<text x="36.0" y="162.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Diagnosed as an adult</text>
+<text x="258.6" y="141.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">11</text>
+<text x="36.0" y="162.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Diagnosed as an adult</text>
 <path d="M212.0,152.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Diagnosed as an adult: how was my ADHD missed, and is it the same?: 8 sources</title></path>
-<text x="247.5" y="162.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="36.0" y="183.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">How diagnosis works</text>
+<text x="247.5" y="162.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="36.0" y="183.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">How diagnosis works</text>
 <path d="M212.0,173.0 h29.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-29.2 z" fill="#338ced"><title>How is ADHD diagnosed, and why is there no test?: 9 sources</title></path>
-<text x="251.2" y="183.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">9</text>
-<text x="36.0" y="204.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">More diagnoses than ever</text>
+<text x="251.2" y="183.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">9</text>
+<text x="36.0" y="204.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">More diagnoses than ever</text>
 <path d="M212.0,194.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Why are ADHD diagnoses rising, and is it a fad?: 8 sources</title></path>
-<text x="247.5" y="204.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="36.0" y="225.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">What ADHD is</text>
+<text x="247.5" y="204.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="36.0" y="225.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">What ADHD is</text>
 <path d="M212.0,215.0 h21.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-21.8 z" fill="#338ced"><title>What is ADHD, actually?: 7 sources</title></path>
-<text x="243.8" y="225.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">7</text>
-<text x="36.0" y="246.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Women and girls</text>
+<text x="243.8" y="225.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">7</text>
+<text x="36.0" y="246.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Women and girls</text>
 <path d="M212.0,236.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Why are girls and women with ADHD so often missed?: 8 sources</title></path>
-<text x="247.5" y="246.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<rect x="24.0" y="282" width="324.0" height="132" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="36.0" y="304.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">02  My brain</text>
-<text x="336.0" y="304.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">4 pages · 70 sources</text>
-<text x="36.0" y="331.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Brain structure</text>
+<text x="247.5" y="246.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<rect x="24.0" y="282" width="324.0" height="132" rx="8" fill="none" stroke="#2a3238"/>
+<text x="36.0" y="304.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">02  My brain</text>
+<text x="336.0" y="304.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">4 pages · 70 sources</text>
+<text x="36.0" y="331.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Brain structure</text>
 <path d="M212.0,321.0 h92.0 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-92.0 z" fill="#338ced"><title>Does ADHD mean my brain is damaged or &quot;three years behind&quot;?: 26 sources</title></path>
-<text x="314.0" y="331.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">26</text>
-<text x="36.0" y="352.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Dopamine and myths</text>
+<text x="314.0" y="331.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">26</text>
+<text x="36.0" y="352.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Dopamine and myths</text>
 <path d="M212.0,342.0 h77.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-77.2 z" fill="#338ced"><title>Is ADHD caused by low dopamine?: 22 sources</title></path>
-<text x="299.2" y="352.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">22</text>
-<text x="36.0" y="373.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Genes and inheritance</text>
+<text x="299.2" y="352.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">22</text>
+<text x="36.0" y="373.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Genes and inheritance</text>
 <path d="M212.0,363.0 h21.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-21.8 z" fill="#338ced"><title>Is ADHD genetic, and will my children have it?: 7 sources</title></path>
-<text x="243.8" y="373.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">7</text>
-<text x="36.0" y="394.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">No two brains alike</text>
+<text x="243.8" y="373.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">7</text>
+<text x="36.0" y="394.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">No two brains alike</text>
 <path d="M212.0,384.0 h51.4 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-51.4 z" fill="#338ced"><title>Why is my ADHD so different from someone else&#x27;s?: 15 sources</title></path>
-<text x="273.4" y="394.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">15</text>
-<rect x="24.0" y="430" width="324.0" height="153" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="36.0" y="452.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">03  How I think and feel</text>
-<text x="336.0" y="452.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">5 pages · 41 sources</text>
-<text x="36.0" y="479.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Attention and hyperfocus</text>
+<text x="273.4" y="394.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">15</text>
+<rect x="24.0" y="430" width="324.0" height="153" rx="8" fill="none" stroke="#2a3238"/>
+<text x="36.0" y="452.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">03  How I think and feel</text>
+<text x="336.0" y="452.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">5 pages · 41 sources</text>
+<text x="36.0" y="479.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Attention and hyperfocus</text>
 <path d="M212.0,469.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>ADHD and hyperfocus: why can I focus for hours on some things?: 8 sources</title></path>
-<text x="247.5" y="479.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="36.0" y="500.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Emotions and rejection</text>
+<text x="247.5" y="479.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="36.0" y="500.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Emotions and rejection</text>
 <path d="M212.0,490.0 h29.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-29.2 z" fill="#338ced"><title>Emotions and rejection in ADHD: why do they hit so hard?: 9 sources</title></path>
-<text x="251.2" y="500.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">9</text>
-<text x="36.0" y="521.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Executive function</text>
+<text x="251.2" y="500.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">9</text>
+<text x="36.0" y="521.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Executive function</text>
 <path d="M212.0,511.0 h40.3 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-40.3 z" fill="#338ced"><title>Executive function and ADHD: why can&#x27;t I plan or get started?: 12 sources</title></path>
-<text x="262.3" y="521.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">12</text>
-<text x="36.0" y="542.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Sleep and body clock</text>
+<text x="262.3" y="521.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">12</text>
+<text x="36.0" y="542.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Sleep and body clock</text>
 <path d="M212.0,532.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>Sleep and ADHD: why can&#x27;t I fall asleep, and is sleep the cause?: 6 sources</title></path>
-<text x="240.2" y="542.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<text x="36.0" y="563.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Time and waiting</text>
+<text x="240.2" y="542.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<text x="36.0" y="563.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Time and waiting</text>
 <path d="M212.0,553.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>Time and waiting in ADHD: why do I lose track and hate waiting?: 6 sources</title></path>
-<text x="240.2" y="563.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<rect x="24.0" y="599" width="324.0" height="132" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="36.0" y="621.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">04  Causes and outlook</text>
-<text x="336.0" y="621.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">4 pages · 40 sources</text>
-<text x="36.0" y="648.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Hormones and menopause</text>
+<text x="240.2" y="563.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<rect x="24.0" y="599" width="324.0" height="132" rx="8" fill="none" stroke="#2a3238"/>
+<text x="36.0" y="621.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">04  Causes and outlook</text>
+<text x="336.0" y="621.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">4 pages · 40 sources</text>
+<text x="36.0" y="648.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Hormones and menopause</text>
 <path d="M212.0,638.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Do periods, pregnancy and menopause make ADHD worse?: 8 sources</title></path>
-<text x="247.5" y="648.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="36.0" y="669.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Changes over a lifetime</text>
+<text x="247.5" y="648.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="36.0" y="669.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Changes over a lifetime</text>
 <path d="M212.0,659.0 h21.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-21.8 z" fill="#338ced"><title>ADHD over a lifetime: will it get better or worse as I age?: 7 sources</title></path>
-<text x="243.8" y="669.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">7</text>
-<text x="36.0" y="690.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">The hard statistics</text>
+<text x="243.8" y="669.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">7</text>
+<text x="36.0" y="690.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">The hard statistics</text>
 <path d="M212.0,680.0 h51.4 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-51.4 z" fill="#338ced"><title>Will ADHD shorten my life? The hard statistics in context: 15 sources</title></path>
-<text x="273.4" y="690.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">15</text>
-<text x="36.0" y="711.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">What causes ADHD</text>
+<text x="273.4" y="690.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">15</text>
+<text x="36.0" y="711.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">What causes ADHD</text>
 <path d="M212.0,701.0 h32.9 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-32.9 z" fill="#338ced"><title>What causes ADHD, and is it my fault or my parents&#x27;?: 10 sources</title></path>
-<text x="254.9" y="711.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">10</text>
-<rect x="372.0" y="92" width="324.0" height="153" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="384.0" y="114.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">05  What comes with it</text>
-<text x="684.0" y="114.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">5 pages · 31 sources</text>
-<text x="384.0" y="141.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Alcohol, drugs, addiction</text>
+<text x="254.9" y="711.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">10</text>
+<rect x="372.0" y="92" width="324.0" height="153" rx="8" fill="none" stroke="#2a3238"/>
+<text x="384.0" y="114.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">05  What comes with it</text>
+<text x="684.0" y="114.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">5 pages · 31 sources</text>
+<text x="384.0" y="141.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Alcohol, drugs, addiction</text>
 <path d="M560.0,131.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Addiction and ADHD: is risk higher, and do medicines raise it?: 8 sources</title></path>
-<text x="595.5" y="141.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="162.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Anxiety and depression</text>
+<text x="595.5" y="141.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="162.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Anxiety and depression</text>
 <path d="M560.0,152.0 h10.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-10.8 z" fill="#338ced"><title>Anxiety and depression with ADHD: why are they so common?: 4 sources</title></path>
-<text x="580.8" y="162.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">4</text>
-<text x="384.0" y="183.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Autism and ADHD</text>
+<text x="580.8" y="162.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">4</text>
+<text x="384.0" y="183.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Autism and ADHD</text>
 <path d="M560.0,173.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>Autism and ADHD: can you have both?: 6 sources</title></path>
-<text x="588.2" y="183.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<text x="384.0" y="204.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">ADHD or something else?</text>
+<text x="588.2" y="183.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<text x="384.0" y="204.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">ADHD or something else?</text>
 <path d="M560.0,194.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Is it ADHD, or could it be something else?: 8 sources</title></path>
-<text x="595.5" y="204.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="225.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Physical health</text>
+<text x="595.5" y="204.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="225.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Physical health</text>
 <path d="M560.0,215.0 h14.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-14.5 z" fill="#338ced"><title>Physical health problems and ADHD: is there a link?: 5 sources</title></path>
-<text x="584.5" y="225.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">5</text>
-<rect x="372.0" y="261" width="324.0" height="237" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="384.0" y="283.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">06  Treatment</text>
-<text x="684.0" y="283.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">9 pages · 78 sources</text>
-<text x="384.0" y="310.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">How ADHD medicines work</text>
+<text x="584.5" y="225.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">5</text>
+<rect x="372.0" y="261" width="324.0" height="237" rx="8" fill="none" stroke="#2a3238"/>
+<text x="384.0" y="283.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">06  Treatment</text>
+<text x="684.0" y="283.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">9 pages · 78 sources</text>
+<text x="384.0" y="310.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">How ADHD medicines work</text>
 <path d="M560.0,300.0 h21.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-21.8 z" fill="#338ced"><title>How do ADHD medicines work?: 7 sources</title></path>
-<text x="591.8" y="310.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">7</text>
-<text x="384.0" y="331.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">How well medication works</text>
+<text x="591.8" y="310.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">7</text>
+<text x="384.0" y="331.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">How well medication works</text>
 <path d="M560.0,321.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>How well does ADHD medication work?: 6 sources</title></path>
-<text x="588.2" y="331.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<text x="384.0" y="352.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Lifestyle approaches</text>
+<text x="588.2" y="331.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<text x="384.0" y="352.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Lifestyle approaches</text>
 <path d="M560.0,342.0 h32.9 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-32.9 z" fill="#338ced"><title>Neurofeedback, diet, supplements, exercise: do they help ADHD?: 10 sources</title></path>
-<text x="602.9" y="352.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">10</text>
-<text x="384.0" y="373.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Medication safety</text>
+<text x="602.9" y="352.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">10</text>
+<text x="384.0" y="373.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Medication safety</text>
 <path d="M560.0,363.0 h36.6 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-36.6 z" fill="#338ced"><title>Is ADHD medication safe? Heart, growth, psychosis and misuse: 11 sources</title></path>
-<text x="606.6" y="373.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">11</text>
-<text x="384.0" y="394.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Pregnancy, breastfeeding</text>
+<text x="606.6" y="373.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">11</text>
+<text x="384.0" y="394.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Pregnancy, breastfeeding</text>
 <path d="M560.0,384.0 h44.0 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-44.0 z" fill="#338ced"><title>Pregnancy, breastfeeding and ADHD medication: is it safe?: 13 sources</title></path>
-<text x="614.0" y="394.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">13</text>
-<text x="384.0" y="415.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Staying on or stopping</text>
+<text x="614.0" y="394.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">13</text>
+<text x="384.0" y="415.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Staying on or stopping</text>
 <path d="M560.0,405.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Stopping ADHD medication: do benefits fade, and is it for life?: 8 sources</title></path>
-<text x="595.5" y="415.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="436.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Therapy and skills</text>
+<text x="595.5" y="415.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="436.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Therapy and skills</text>
 <path d="M560.0,426.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Therapy, coaching and skills training: do they work for ADHD?: 8 sources</title></path>
-<text x="595.5" y="436.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="457.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">What registries show</text>
+<text x="595.5" y="436.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="457.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">What registries show</text>
 <path d="M560.0,447.0 h29.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-29.2 z" fill="#338ced"><title>Real-life outcomes on ADHD medication: what do registries show?: 9 sources</title></path>
-<text x="599.2" y="457.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">9</text>
-<text x="384.0" y="478.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Will medication change me</text>
+<text x="599.2" y="457.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">9</text>
+<text x="384.0" y="478.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Will medication change me</text>
 <path d="M560.0,468.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>Will ADHD medication change my personality or make me a zombie?: 6 sources</title></path>
-<text x="588.2" y="478.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<rect x="372.0" y="514" width="324.0" height="174" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="384.0" y="536.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">07  Family, work, others</text>
-<text x="684.0" y="536.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">6 pages · 50 sources</text>
-<text x="384.0" y="563.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Children and teenagers</text>
+<text x="588.2" y="478.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<rect x="372.0" y="514" width="324.0" height="174" rx="8" fill="none" stroke="#2a3238"/>
+<text x="384.0" y="536.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">07  Family, work, others</text>
+<text x="684.0" y="536.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">6 pages · 50 sources</text>
+<text x="384.0" y="563.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Children and teenagers</text>
 <path d="M560.0,553.0 h36.6 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-36.6 z" fill="#338ced"><title>ADHD in children: how common, did we cause it, and what comes next?: 11 sources</title></path>
-<text x="606.6" y="563.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">11</text>
-<text x="384.0" y="584.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Children and medication</text>
+<text x="606.6" y="563.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">11</text>
+<text x="384.0" y="584.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Children and medication</text>
 <path d="M560.0,574.0 h36.6 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-36.6 z" fill="#338ced"><title>ADHD medication for children: is it safe and worthwhile?: 11 sources</title></path>
-<text x="606.6" y="584.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">11</text>
-<text x="384.0" y="605.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Parenting and what helps</text>
+<text x="606.6" y="584.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">11</text>
+<text x="384.0" y="605.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Parenting and what helps</text>
 <path d="M560.0,595.0 h18.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-18.2 z" fill="#338ced"><title>Parent training and school support for ADHD: do they help?: 6 sources</title></path>
-<text x="588.2" y="605.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">6</text>
-<text x="384.0" y="626.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Stigma and telling people</text>
+<text x="588.2" y="605.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">6</text>
+<text x="384.0" y="626.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Stigma and telling people</text>
 <path d="M560.0,616.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>ADHD stigma and shame: should I tell people?: 8 sources</title></path>
-<text x="595.5" y="626.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="647.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Partners with ADHD</text>
+<text x="595.5" y="626.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="647.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Partners with ADHD</text>
 <path d="M560.0,637.0 h10.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-10.8 z" fill="#338ced"><title>Partner with ADHD: what does research say about relationships?: 4 sources</title></path>
-<text x="580.8" y="647.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">4</text>
-<text x="384.0" y="668.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Work and study</text>
+<text x="580.8" y="647.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">4</text>
+<text x="384.0" y="668.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Work and study</text>
 <path d="M560.0,658.0 h32.9 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-32.9 z" fill="#338ced"><title>ADHD, work and study: does treatment or support help?: 10 sources</title></path>
-<text x="602.9" y="668.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">10</text>
-<rect x="372.0" y="704" width="324.0" height="174" rx="6" fill="none" stroke="#2e2e2e"/>
-<text x="384.0" y="726.0" font-size="14" font-weight="600" fill="#efefef" text-anchor="start">08  Reading this well</text>
-<text x="684.0" y="726.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="end">6 pages · 36 sources</text>
-<text x="384.0" y="753.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Glossary</text>
-<text x="566.0" y="753.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">0</text>
-<text x="384.0" y="774.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">How to read the evidence</text>
+<text x="602.9" y="668.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">10</text>
+<rect x="372.0" y="704" width="324.0" height="174" rx="8" fill="none" stroke="#2a3238"/>
+<text x="384.0" y="726.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">08  Reading this well</text>
+<text x="684.0" y="726.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="end">6 pages · 36 sources</text>
+<text x="384.0" y="753.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Glossary</text>
+<text x="566.0" y="753.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">0</text>
+<text x="384.0" y="774.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">How to read the evidence</text>
 <path d="M560.0,764.0 h40.3 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-40.3 z" fill="#338ced"><title>Reading ADHD research: what do the numbers really mean?: 12 sources</title></path>
-<text x="610.3" y="774.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">12</text>
-<text x="384.0" y="795.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Myths and corrections</text>
+<text x="610.3" y="774.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">12</text>
+<text x="384.0" y="795.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Myths and corrections</text>
 <path d="M560.0,785.0 h21.8 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-21.8 z" fill="#338ced"><title>ADHD myths: which popular claims are wrong or half right?: 7 sources</title></path>
-<text x="591.8" y="795.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">7</text>
-<text x="384.0" y="816.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Not medical advice</text>
+<text x="591.8" y="795.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">7</text>
+<text x="384.0" y="816.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Not medical advice</text>
 <path d="M560.0,806.0 h25.5 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-25.5 z" fill="#338ced"><title>Can these pages tell me what to do about my ADHD?: 8 sources</title></path>
-<text x="595.5" y="816.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">8</text>
-<text x="384.0" y="837.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Sources and guidelines</text>
+<text x="595.5" y="816.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">8</text>
+<text x="384.0" y="837.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Sources and guidelines</text>
 <path d="M560.0,827.0 h29.2 a4,4 0 0 1 4,4 v4.0 a4,4 0 0 1 -4,4 h-29.2 z" fill="#338ced"><title>Where does the information on these pages come from?: 9 sources</title></path>
-<text x="599.2" y="837.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">9</text>
-<text x="384.0" y="858.0" font-size="13" font-weight="400" fill="#efefef" text-anchor="start">Evidence at a glance</text>
-<text x="566.0" y="858.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">0</text>
-<text x="24.0" y="900.0" font-size="13" font-weight="400" fill="#9c9c9c" text-anchor="start">Source: this site&#x27;s own source lists, generated 2026-11-28. Bar length = sources listed on the page.</text>
+<text x="599.2" y="837.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">9</text>
+<text x="384.0" y="858.0" font-size="13" font-weight="400" fill="#e8edf0" text-anchor="start">Evidence at a glance</text>
+<text x="566.0" y="858.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">0</text>
+<line x1="24" x2="696" y1="894.0" y2="894.0" stroke="#283037" stroke-width="1"/>
+<text x="24.0" y="918.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Source: this site's own source lists, generated 2026-11-28. Bar length = sources listed on the page.</text>
 </svg>
