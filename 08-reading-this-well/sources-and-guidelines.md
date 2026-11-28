@@ -6,8 +6,10 @@
 
 - **Who maintains them.** The pages are maintained by the owner of this GitHub repository, who is not a clinician.
 - **How they were drafted.** They were drafted with AI assistance. A first set of AI writers drafted each page from published sources, chosen as described further down this page.
-- **How they were checked.** Separate AI checkers then tested the claims against the cited sources, in two waves. Figures that could not be confirmed were either removed or kept with their origin, such as a press release or a secondary summary, stated in the text.
-- **What the checking rested on.** In the first two waves, PubMed, doi.org, Crossref and Europe PMC could not be opened directly, so confirmation rested on abstracts and index records shown in web search results. In a third check (November 2026), most sources were matched against their PubMed or Crossref record and the numbers against the abstract; a few were checked against open-access full texts. Tables and supplementary material were still rarely read.
+- **How they were checked.** Separate AI checkers then tested the claims against the cited sources, in three rounds. Figures that could not be confirmed were either removed or kept with their origin, such as a press release or a secondary summary, stated in the text.
+- **What the checking rested on.** In the first two rounds, PubMed, doi.org, Crossref and Europe PMC could not be opened directly, so confirmation rested on abstracts and index records shown in web search results. In the third round (November 2026), most sources were matched against their PubMed or Crossref record and the numbers against the abstract; a few were checked against open-access full texts. Tables and supplementary material were still rarely read.
+- **How the pages are kept consistent.** A formatting checker (`tools/check_format.py`) tests every page for its standard shape, numbered citations that match their sources, and links that resolve. Charts are drawn by scripts and may show only numbers that the page text states and cites, so a chart and its page cannot drift apart.
+- **Where disagreements are logged.** During the third round, checkers also recorded places where good sources disagree, including research the pages do not yet cite, in a working register for editors ([research/conflicting-claims.md](../research/conflicting-claims.md)). It is a to-do list for future revisions, not reader advice, and its entries have not yet all been worked into the pages.
 - **Who has not reviewed them.** No clinician has reviewed these pages.
 
 In practice, each cited paper was looked for in search results showing its bibliographic record (authors, title, journal, year, and usually a DOI or PubMed ID). Where part of a record could not be confirmed, it was removed or replaced with a short description in square brackets, and no DOI was constructed or guessed. Where a detail rested on memory, a secondary report or an unconfirmed identifier, checkers flagged it, and each flag was resolved by removing the detail or saying on the page where it came from.
@@ -68,8 +70,10 @@ If you want to know what your clinician is likely working from, the guideline fo
 - [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
 - [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
 - [Can these pages tell me what to do about my ADHD?](not-medical-advice.md)
-- [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
-- [How well medication works](../06-treatment-what-works/how-well-medication-works.md)
+- [ADHD terms explained: what do the technical words mean?](glossary.md)
+- [ADHD myths: which popular claims are wrong or half right?](myths-and-corrections.md)
+- [How is ADHD diagnosed, and why is there no test?](../01-is-this-real/how-diagnosis-works.md)
+- [How well does ADHD medication work?](../06-treatment-what-works/how-well-medication-works.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

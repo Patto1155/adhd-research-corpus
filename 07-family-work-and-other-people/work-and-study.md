@@ -1,6 +1,6 @@
 # ADHD, work and study: does treatment or support help?
 
-> **Short answer:** Possibly a little, but it is barely tested. Registry studies find slightly less long-term unemployment during medicated periods, a small observational link; workplace adjustments are almost untested, and exam adjustments show little benefit specific to ADHD. On average, adults with ADHD earn less and are less likely to finish university, though many do well.
+> **Short answer:** Possibly a little, but it is barely tested. Registry studies find slightly less long-term unemployment during medicated periods; one university trial found a therapy-and-mentoring programme helped students; workplace and exam adjustments are almost untested or show little ADHD-specific benefit. On average, adults with ADHD earn less and are less likely to finish university, though many do well.
 
 ## What the evidence shows
 
@@ -28,9 +28,11 @@ Randomised trials of adult ADHD medication measure symptoms over weeks or months
 
 **Exam adjustments: little evidence of a specific benefit.** A 2021 systematic review of educational accommodations for children and teenagers with ADHD found that most showed no benefit specific to students with ADHD, with reading aloud the exception [7]. An earlier systematic review of students with behavioural difficulties, a wider group than ADHD alone, reported evidence, which its authors call preliminary, that extra time, the most common adjustment, gives students with ADHD no boost beyond what it gives other students and may do more harm than good [8]. Both reviews are of school-age students, so applying them to university is an extrapolation.
 
-**Workplace adjustments: almost untested.** A 2022 systematic review of interventions to support adults with ADHD at work found very little research on workplace interventions, and noted that most studies tested medication, which is hard to translate into workplace practice [9].
+**University support: one sizeable trial.** A US trial at two public universities randomly assigned 250 students with ADHD to ACCESS, a two-semester programme combining group cognitive behavioural therapy (CBT) with individual mentoring, either straight away or a year later [9]. Those who started at once improved more in ADHD symptoms, executive functioning and use of disability support services, with medium to large effects (Cohen's *d*, a measure like Hedges' *g* above, of 0.39 to 1.21), though depression and anxiety did not clearly change [9]. Outcomes were self-reported by students who knew they were in the programme, against a waiting list, so this supports structured study support rather than any single adjustment; grades and graduation were not among the main outcomes in the abstract.
 
-A 2024 review of 79 studies on employment experiences concluded that people with ADHD can do well with good job fit and support [10]. A charity summary says it excluded intervention trials, which the abstract did not confirm; if so, it cannot show which adjustments work.
+**Workplace adjustments: almost untested.** A 2022 systematic review of interventions to support adults with ADHD at work found very little research on workplace interventions, and noted that most studies tested medication, which is hard to translate into workplace practice [10].
+
+A 2024 review of 79 studies on employment experiences concluded that people with ADHD can do well with good job fit and support [11]. A charity summary says it excluded intervention trials, which the abstract did not confirm; if so, it cannot show which adjustments work.
 
 ## What is uncertain or debated
 
@@ -38,7 +40,7 @@ A 2024 review of 79 studies on employment experiences concluded that people with
 
 **Who is studied.** Most large studies are Swedish or American. Welfare systems, labour markets and university support differ a great deal between countries, and findings may not carry over.
 
-**Whether support helps.** It is plausible that coaching, mentoring, flexible deadlines or quieter workspaces help. Plausible is not the same as tested, and no controlled trial of a workplace adjustment for ADHD was found for this page.
+**Whether support helps.** It is plausible that coaching, mentoring, flexible deadlines or quieter workspaces help. Plausible is not the same as tested: no controlled trial of a workplace adjustment for ADHD was found for this page, and the one sizeable university trial tested a whole programme, not a single adjustment [9].
 
 **Your rights.** Whether you must, should or can safely tell an employer or university, and what adjustments the law requires, depends on your country and sometimes your job. That is a legal question, and these pages do not give legal advice.
 
@@ -66,8 +68,9 @@ They do suggest that difficulties at work or study are common, recognised, and p
 6. Lu Y, et al. Association between medication use and performance on higher education entrance tests in individuals with attention-deficit/hyperactivity disorder. *JAMA Psychiatry*. 2017;74(8):815–22. DOI 10.1001/jamapsychiatry.2017.1472. — **Evidence: Limited**, within-person registry study of 930 test-takers; small effect.
 7. Lovett BJ, et al. Systematic review: educational accommodations for children and adolescents with attention-deficit/hyperactivity disorder. *Journal of the American Academy of Child and Adolescent Psychiatry*. 2021. PMID 32745597. — **Evidence: Limited**, systematic review of a small, mostly school-age literature.
 8. Harrison JR, et al. Educational accommodations for students with behavioral challenges: a systematic review of the literature. *Review of Educational Research*. 2013;83(4):551–97. DOI 10.3102/0034654313497517. — **Evidence: Limited**, systematic review; the extra-time finding is described by its authors as preliminary.
-9. Lauder, et al. A systematic review of interventions to support adults with ADHD at work—implications from the paucity of context-specific research for theory and practice. *Frontiers in Psychology*. 2022. DOI 10.3389/fpsyg.2022.893469. — **Evidence: Limited**, realist systematic review finding little primary evidence.
-10. Hotte-Meunier, et al. Strengths and challenges to embrace attention-deficit/hyperactivity disorder in employment: a systematic review. *Neurodiversity*. 2024. DOI 10.1177/27546330241287655. — **Evidence: Moderate** for outcomes, none for interventions. First author and the exclusion of intervention studies are from a charity summary, not the abstract.
+9. Anastopoulos AD, et al. A randomized controlled trial examining CBT for college students with ADHD. *J Consult Clin Psychol*. 2021;89(1):21–33. DOI 10.1037/ccp0000553. PMID 33507774. — **Evidence: Moderate**, randomised trial of 250 students at two US universities against delayed treatment; self-reported outcomes, unblinded; confirmed against the PubMed abstract.
+10. Lauder, et al. A systematic review of interventions to support adults with ADHD at work—implications from the paucity of context-specific research for theory and practice. *Frontiers in Psychology*. 2022. DOI 10.3389/fpsyg.2022.893469. — **Evidence: Limited**, realist systematic review finding little primary evidence.
+11. Hotte-Meunier, et al. Strengths and challenges to embrace attention-deficit/hyperactivity disorder in employment: a systematic review. *Neurodiversity*. 2024. DOI 10.1177/27546330241287655. — **Evidence: Moderate** for outcomes, none for interventions. First author and the exclusion of intervention studies are from a charity summary, not the abstract.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

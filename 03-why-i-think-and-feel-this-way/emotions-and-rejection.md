@@ -25,15 +25,16 @@
 
 **Those studies measured rejection sensitivity, not RSD.** Both are single, correlational studies.
 
-**RSD as a named condition is not established.** RSD is not in the DSM-5-TR or ICD-11, the two main diagnostic systems; where the term first came from was not checked for this page. A search for this page, covering work published up to late 2026, found no validated questionnaire for RSD and no systematic review of RSD in ADHD.
+**RSD as a named condition is not established.** RSD is not in the DSM-5-TR or ICD-11, the two main diagnostic systems. The term was introduced by the US psychiatrist William Dodson, based on his clinical experience with people with ADHD, and spread widely through social media [7]. A search for this page, covering work published up to late 2026, found no validated questionnaire for RSD and no systematic review of RSD in ADHD.
 
-**The first studies using the term are small.** A 2026 qualitative study of five university students with ADHD described masking, withdrawal and physical sensations as common responses to rejection [7]. A 2026 scoping review of rejection sensitivity dysphoria in *autistic* adults noted that the term is rarely used in scientific research [8]. A 2025 qualitative study of neurodivergent adults pointed to environmental factors, such as other people's judgement and learned responses to past rejection [9]; none of these tests RSD as a distinct condition.
+**The first studies using the term are small.** A 2026 qualitative study of five university students with ADHD described masking, withdrawal and physical sensations as common responses to rejection [8]. A 2026 scoping review of rejection sensitivity dysphoria in *autistic* adults noted that the term is rarely used in scientific research [9]. A 2025 qualitative study of neurodivergent adults pointed to environmental factors, such as other people's judgement and learned responses to past rejection [10]; none of these tests RSD as a distinct condition.
 
 ## What is uncertain or debated
 
 - **Is emotion dysregulation part of ADHD itself?** It is not one of the listed symptoms, as these pages' writers read the diagnostic criteria (the manual's text was not rechecked for this page). Experts disagree about whether it should be [1].
 - **Is rejection sensitivity built in or learned?** People with ADHD often face more criticism and social rejection from childhood. Heightened sensitivity could come from ADHD itself, from that history, or both, and current studies cannot separate these.
 - **Overlap with other conditions.** Intense emotions and rejection sensitivity are also features of anxiety, depression, trauma and borderline personality disorder. This is a reason for careful assessment; see [is it ADHD or something else](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md).
+- **Is a new label helpful?** A 2026 critical reflection by a Dutch researcher argued that RSD can offer validation and connection, but that using it between professionals risks more stigma, framing the experience as innate so that social and environmental causes are overlooked, confusing terms and outrunning the evidence [7]. It recommended the established idea of rejection sensitivity instead [7]. People who use the term and researchers largely agree on the experience; the disagreement is whether the label adds anything.
 - **Treatment claims for RSD.** Popular sources sometimes recommend specific medicines for RSD. No trials of treatments for RSD as defined were found.
 
 ## What this means for you
@@ -58,9 +59,10 @@ If emotional pain becomes overwhelming, help is available now; contacts are list
 4. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *European Psychiatry*. 2017;44:198–207. DOI 10.1016/j.eurpsy.2017.05.021. PMID 28646732. — **Evidence: Moderate**: 9 randomised placebo-controlled trials, lability a secondary outcome.
 5. Babinski DE, et al. Sensitivity to peer feedback in young adolescents with symptoms of ADHD: examination of neurophysiological and self-report measures. *Journal of Abnormal Child Psychology*. 2019;47(4):605–17. DOI 10.1007/s10802-018-0470-2. PMID 30155685. — **Evidence: Limited**: single correlational study.
 6. Müller V, Pikó B. From ADHD to well-being: the role of rejection sensitivity in college life. *European Psychiatry*. 2024;67(S1):S284–S285 (conference abstract). DOI 10.1192/j.eurpsy.2024.594. PMC11859226. — **Evidence: Limited**: single cross-sectional study.
-7. Rowney-Smith A, et al. The lived experience of rejection sensitivity in ADHD: a qualitative exploration. *PLOS ONE*. 2026;21(1):e0314669. DOI 10.1371/journal.pone.0314669. PMID 41564005. — **Evidence: Limited**: qualitative focus group, five undergraduates.
-8. van Asselt A, et al. Rejection sensitivity dysphoria in autistic adults: a scoping review. 2026. DOI 10.1177/27546330261441753. — **Evidence: Limited**: scoping review of a small, recent literature, autism not ADHD.
-9. Sandland B. Neurodivergent experiences of rejection sensitive dysphoria expose the environmental factors too often overlooked. *Neurodiversity*. 2025. DOI 10.1177/27546330251394516. — **Evidence: Limited**: qualitative thematic analysis.
+7. van Asselt A. [Rejection sensitivity dysphoria: a critical reflection]. *Tijdschrift voor Psychiatrie*. 2026;68(3):127–30. PMID 41944472. — **Evidence: Expert commentary**: critical reflection in Dutch; the attribution of the term to Dodson was confirmed from the English abstract, not the full text.
+8. Rowney-Smith A, et al. The lived experience of rejection sensitivity in ADHD: a qualitative exploration. *PLOS ONE*. 2026;21(1):e0314669. DOI 10.1371/journal.pone.0314669. PMID 41564005. — **Evidence: Limited**: qualitative focus group, five undergraduates.
+9. van Asselt A, et al. Rejection sensitivity dysphoria in autistic adults: a scoping review. 2026. DOI 10.1177/27546330261441753. — **Evidence: Limited**: scoping review of a small, recent literature, autism not ADHD.
+10. Sandland B. Neurodivergent experiences of rejection sensitive dysphoria expose the environmental factors too often overlooked. *Neurodiversity*. 2025. DOI 10.1177/27546330251394516. — **Evidence: Limited**: qualitative thematic analysis.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

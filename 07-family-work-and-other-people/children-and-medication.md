@@ -1,6 +1,6 @@
 # ADHD medication for children: is it safe and worthwhile?
 
-> **Short answer:** In short-term trials, ADHD medicines reduce children's symptoms with medium-to-large effects, and in one large trial more than behavioural treatment. In that trial, the advantage faded by three years once families chose their own treatment. One follow-up linked consistent childhood use with about 2.5 cm less adult height; another cohort found no difference. Effects are smaller in preschool children.
+> **Short answer:** In short-term trials, ADHD medicines reduce children's symptoms with medium-to-large effects, and in one large trial more than behavioural treatment. In that trial, the advantage faded by three years once families chose their own treatment. One follow-up linked longer childhood use with about 2.5 cm less adult height; another cohort found no difference. Effects are smaller in preschool children.
 
 ## What the evidence shows
 
@@ -20,6 +20,8 @@ Combined treatment was not clearly better than medication alone on core symptoms
 Teenagers no longer taking medication at eight years were, as a group, doing about as well as those still on it [4]. Because treatment was no longer randomised, these follow-ups cannot show whether medication works long term; children who did worse may have been more likely to stay on it.
 
 **Growth: slower during treatment; the effect on adult height is unsettled.** At about age 25, MTA participants who had taken medication consistently or inconsistently through childhood were about 2.5 cm shorter than those who had taken little or none (2.55 cm, compared with the "negligible use" subgroup) [5]. Compared with classmates without ADHD, the ADHD group as a whole was about 1.3 cm shorter as adults; that compares ADHD with no ADHD, not medication with none [5]. The same comparison found no lower adult symptom severity in the consistently medicated group [5].
+
+Later analyses of the same cohort give larger or smaller gaps depending on the comparison group; they are set out on [medication safety](../06-treatment-what-works/medication-safety.md).
 
 Not every study finds a difference in adult height. A US birth-cohort study of 340 children with ADHD and 680 without found that neither ADHD nor stimulant treatment was associated with a difference in final adult height, though treated boys had their growth spurt slightly later [6].
 
@@ -41,7 +43,7 @@ NICE recommends an ADHD-focused group parent-training programme as the first-lin
 
 **Certainty grading.** The Cochrane review of methylphenidate in children rates all outcomes as very low certainty, while other groups rate similar data moderate or high [1, 11]. The disagreement concerns risk of bias and blinding, not whether the average effect exists.
 
-**Later substance use.** A common worry is that childhood stimulants lead to later drug problems. The evidence on this is on [alcohol, drugs and addiction](../05-what-often-comes-with-it/alcohol-drugs-and-addiction.md).
+**Later substance use.** A common worry is that childhood stimulants lead to later drug problems. Long-term follow-ups have found that childhood stimulant treatment neither raises nor lowers later substance problems on average; the evidence is on [Addiction and ADHD: is risk higher, and do medicines raise it?](../05-what-often-comes-with-it/alcohol-drugs-and-addiction.md)
 
 ## What this means for you
 

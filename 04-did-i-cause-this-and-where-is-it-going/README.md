@@ -1,6 +1,6 @@
 # Did I cause this, and where is it going?
 
-These pages cover where ADHD comes from, how it changes across a lifetime, and what the frightening statistics actually mean.
+Where ADHD comes from, how it changes across a lifetime, and what the frightening statistics actually mean.
 
 - [What causes ADHD, and is it my fault or my parents'?](what-does-and-doesnt-cause-adhd.md): genes, pregnancy exposures, parenting, sugar, screens and preterm birth.
 - [ADHD over a lifetime: will it get better or worse as I age?](how-adhd-changes-over-life.md): persistence into adulthood, symptoms that come and go, adult onset.

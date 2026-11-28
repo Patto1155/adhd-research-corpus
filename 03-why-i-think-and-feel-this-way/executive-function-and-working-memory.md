@@ -1,6 +1,6 @@
 # Executive function and ADHD: why can't I plan or get started?
 
-> **Short answer:** On average, people with ADHD score lower on executive function tests (holding information in mind, stopping an action, switching tasks, planning) by a small-to-medium amount. Many score in the normal range yet still struggle in daily life, partly because lab tests and everyday ratings measure different things. Executive difficulties are a common part of ADHD, not the whole of it, and they are not unique to it.
+> **Short answer:** On average, people with ADHD score moderately lower on executive function tests (holding information in mind, stopping an action, switching tasks, planning). Many still score in the normal range yet struggle in daily life, partly because tests and everyday ratings measure different things. Executive difficulties are common in ADHD, but not universal and not unique to it.
 
 ## What the evidence shows
 

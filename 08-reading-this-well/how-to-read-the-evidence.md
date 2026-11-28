@@ -97,7 +97,15 @@ Each source on every page carries a label. Research studies and reviews get one 
 - **Limited:** small, few or self-report studies. Treat as a lead, not a conclusion.
 - **Contested:** good-quality sources disagree, or experts dispute how to read the same data.
 
-Sources that are not research studies are labelled by what they are: **Guideline**, **Consensus definition** (a diagnostic manual such as DSM-5-TR), **Expert consensus**, **Expert commentary** or **Regulatory notice**, and a few entries use a close variant, such as a guideline surveillance report, or say a source was not assessed. A grade may be given as a range, such as "Limited to moderate", where a source is strong for one question and weaker for another; the note after the label says which.
+**In-between and qualified grades.** A grade may be given as a range, such as **Limited to moderate** or **Moderate to strong**, where a source is stronger for one question than another; the note after the label says which. "**Strong** design" means the study design is strong, but the finding is still observational, so it shows a link rather than proving cause.
+
+**Guidelines and consensus.** **Guideline** is a national clinical guideline, such as NICE NG87, and **Guideline surveillance** is a guideline body's report on whether its guideline needs updating. **Consensus definition** is a diagnostic manual such as DSM-5-TR, and **Expert consensus** is a statement agreed by a panel of experts. These are only as strong as the evidence and process behind them.
+
+**Commentary and reviews.** **Expert review** is a theoretical or narrative review by specialists, not a systematic search; **Expert commentary** is an argued viewpoint. "**Limited, expert commentary**" means an opinion piece whose claims rest on limited evidence.
+
+**Official and other records.** **Regulatory notice** and **Regulatory decision** are records from a medicines or device regulator, such as the US FDA, and **Drug review** is a review cited only for a medicine's approval status; none of these is an evidence summary. **Not yet published** marks a guideline still in development. Crisis services on [not medical advice](not-medical-advice.md) are listed without a grade, because they are contacts, not evidence.
+
+The [evidence at a glance](the-evidence-at-a-glance.md) charts count in-between grades toward the lower grade, and group the non-research labels as "guideline or consensus" or "commentary or not graded".
 
 A meta-analysis pools many studies; a systematic review searches for all relevant studies by a stated method. Neither guarantees quality: a meta-analysis of small, unblinded trials is still small and unblinded.
 
@@ -119,21 +127,23 @@ No group statistic on these pages can tell you about your own brain, genes or fu
 - [Where does the information on these pages come from?](sources-and-guidelines.md)
 - [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
 - [ADHD terms explained: what do the technical words mean?](glossary.md)
-- [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Can these pages tell me what to do about my ADHD?](not-medical-advice.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
+- [Is ADHD genetic, and will my children have it?](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
 
-1. Hoogman M, et al. Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. *Lancet Psychiatry*. 2017;4:310–319. — **Evidence: Strong**, pooled data from 23 sites, 1,713 with ADHD.
+1. Hoogman M, et al. Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. *Lancet Psychiatry*. 2017;4(4):310–319. DOI 10.1016/S2215-0366(17)30049-4. PMID 28219628. — **Evidence: Strong**, pooled data from 23 sites, 1,713 with ADHD.
 2. Willcutt EG, et al. Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. *Biol Psychiatry*. 2005;57(11):1336–46. PMID 15950006. — **Evidence: Strong**, meta-analysis of 83 studies; effect sizes .46 to .69 confirmed from abstract.
 3. Faraone SV, et al. Genetics of attention deficit hyperactivity disorder. *Mol Psychiatry*. 2019;24(4):562–575. PMID 29892054. — **Evidence: Strong**, review of 37 twin studies.
 4. Larsson H, et al. The heritability of clinically diagnosed attention deficit hyperactivity disorder across the lifespan. *Psychol Med*. 2014;44(10):2223–9. PMID 24107258. — **Evidence: Strong**, Swedish twins with register diagnoses; the adult subsample was 37,714 twins.
-5. Demontis D, et al. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. *Nat Genet*. 2019;51(1):63–75. — **Evidence: Strong**, 20,183 cases and 35,191 controls. The "about 22%" figure is as described by the same group's 2023 paper; the exact value in the 2019 paper was not seen.
+5. Demontis D, et al. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. *Nat Genet*. 2019;51(1):63–75. DOI 10.1038/s41588-018-0269-7. PMID 30478444. — **Evidence: Strong**, 20,183 cases and 35,191 controls. The "about 22%" figure is as described by the same group's 2023 paper; the exact value in the 2019 paper was not seen.
 6. Dalsgaard S, et al. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. *Lancet*. 2015;385(9983):2190–6. PMID 25726514. — **Evidence: Strong**, 1.92 million Danes, 32,061 with ADHD; observational. Rates and rate ratio confirmed from abstract.
 7. Layton TJ, et al. Attention deficit–hyperactivity disorder and month of school enrollment. *N Engl J Med*. 2018;379(22):2122–30. PMID 30485780. PMC6322209. — **Evidence: Strong** design, natural experiment, 407,846 children; claims-based diagnoses, so the rates depend on insurance coding. The diagnosis rates of 85.1 (309 of 36,319 August-born children) and 63.6 per 10,000 are from the PubMed abstract.
 8. Skoglund C, et al. Familial confounding of the association between maternal smoking during pregnancy and ADHD in offspring. *J Child Psychol Psychiatry*. 2014;55(1):61–8. PMID 25359172. — **Evidence: Strong**, sibling-control design, 813,030 Swedish children; hazard ratios confirmed from abstract records.
-9. Ahlqvist VH, et al. Acetaminophen use during pregnancy and children's risk of autism, ADHD, and intellectual disability. *JAMA*. 2024. PMC11004836. — **Evidence: Strong**, 2.48 million children with sibling comparison; hazard ratios confirmed from abstract.
-10. Lichtenstein P, et al. Medication for attention deficit–hyperactivity disorder and criminality. *N Engl J Med*. 2012;367:2006–14. — **Evidence: Strong** design, observational; 32% and 41% reductions confirmed from abstract.
+9. Ahlqvist VH, et al. Acetaminophen use during pregnancy and children's risk of autism, ADHD, and intellectual disability. *JAMA*. 2024;331(14):1205–14. DOI 10.1001/jama.2024.3172. PMID 38592388. PMC11004836. — **Evidence: Strong**, 2.48 million children with sibling comparison; hazard ratios confirmed from abstract.
+10. Lichtenstein P, et al. Medication for attention deficit–hyperactivity disorder and criminality. *N Engl J Med*. 2012;367:2006–14. DOI 10.1056/NEJMoa1203241. — **Evidence: Strong** design, observational; 32% and 41% reductions confirmed from abstract.
 11. Sonuga-Barke EJS, et al. Nonpharmacological interventions for ADHD: systematic review and meta-analyses of randomized controlled trials of dietary and psychological treatments. *Am J Psychiatry*. 2013;170(3):275–89. PMID 23360949. — **Evidence: Strong**, meta-analyses split by rater blinding.
 12. Westwood SJ, et al. Neurofeedback for attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. *JAMA Psychiatry*. 2025;82(2):118–29. DOI 10.1001/jamapsychiatry.2024.3702. — **Evidence: Strong**, 38 RCTs, 2,472 participants.
 

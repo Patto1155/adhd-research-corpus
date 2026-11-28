@@ -81,16 +81,18 @@ If reading them is hard, it is fine to stop and come back later, or to read them
 
 ## Who wrote this and how
 
-These pages were drafted with AI assistance, and separate AI checkers then tested the claims against the abstracts and index records of the cited sources, almost never their full texts. They are not written by or for a clinical service, and no clinician has reviewed them. Errors can remain; the full account is in [where the information on these pages comes from](sources-and-guidelines.md#how-these-pages-were-written).
+These pages were drafted with AI assistance, and separate AI checkers then tested the claims against the abstracts and PubMed or Crossref records of the cited sources, in three rounds, rarely against their full texts. They are not written by or for a clinical service, and no clinician has reviewed them. Errors can remain; the full account is in [where the information on these pages comes from](sources-and-guidelines.md#how-these-pages-were-written).
 
 If you find an error, please open an issue on GitHub, as the [contributing guide](../.github/CONTRIBUTING.md) describes.
 
 ## Related pages
 
-- [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
-- [Is it ADHD or something else?](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [How is ADHD diagnosed, and why is there no test?](../01-is-this-real/how-diagnosis-works.md)
+- [Is it ADHD, or could it be something else?](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
 - [Where does the information on these pages come from?](sources-and-guidelines.md)
 - [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
+- [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
+- [Will ADHD shorten my life? The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

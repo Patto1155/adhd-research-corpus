@@ -28,7 +28,7 @@ If you are worried about your safety, contacts for urgent help are on [Can these
 
 **Whether treatment helps couples.** No randomised trial of couples therapy for ADHD was found for this page. One systematic review of couples therapy where a partner has ADHD was seen in searches but could not be checked, and it appears to rest on a handful of studies.
 
-Whether ADHD medication improves relationship outcomes has not been well tested; adult trials have found that medication reduces symptoms but did not improve self-rated quality of life; see [how well medication works](../06-treatment-what-works/how-well-medication-works.md).
+Whether ADHD medication improves relationship outcomes has not been well tested; trials find that medication reduces symptoms, while evidence on whether it improves quality of life is mixed; see [How well does ADHD medication work?](../06-treatment-what-works/how-well-medication-works.md)
 
 **Who is studied.** Most research involves heterosexual couples, often students or clinic samples, in the US or Europe. Evidence for same-sex couples, older couples, and couples where both partners have ADHD is very limited.
 

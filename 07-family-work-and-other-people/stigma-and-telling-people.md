@@ -28,9 +28,9 @@ A small 2026 survey of young adults aged 18 to 29 looked at how they decide whom
 
 **Whether disclosure helps or harms on balance.** No study followed people who did and did not disclose at work to compare what happened next. The outcome probably depends heavily on the workplace, the person told and the country's legal protections.
 
-**What reduces stigma.** No trial of an intervention to reduce public or self-stigma about ADHD was found for this page.
+**What reduces stigma.** One small trial has tested a way to reduce self-stigma. In Türkiye, 145 children with ADHD were randomly assigned to an 8-session, nurse-led psychoeducation programme based on cognitive behavioural therapy (CBT), or to a waiting list; internalised stigma fell and hope rose more in the programme group [9]. It was a single, unblinded trial in children with self-reported outcomes, and no trial of an intervention to reduce public stigma, or self-stigma in adults, was found for this page.
 
-**Most studies are small and Western.** The studies on this page come from Germany and the US, and the wider literature is mostly European and North American. How stigma differs by culture, ethnicity or gender is barely studied; evidence on differences in who gets diagnosed is on [how diagnosis works](../01-is-this-real/how-diagnosis-works.md).
+**Most studies are small and Western.** Most studies on this page come from Germany and the US, and the wider literature is mostly European and North American. How stigma differs by culture, ethnicity or gender is barely studied; evidence on differences in who gets diagnosed is on [how diagnosis works](../01-is-this-real/how-diagnosis-works.md).
 
 ## What this means for you
 
@@ -56,6 +56,7 @@ Whether to tell an employer, friend or family member is your decision. The resea
 6. McIntosh CK, et al. Thriving at work with ADHD: antecedents and outcomes of proactive disclosure. *Equality, Diversity and Inclusion*. 2023;42(2):228–47. DOI 10.1108/EDI-02-2022-0033. — **Evidence: Limited**, online survey of 166 working adults.
 7. Mazur E. Emerging adults' identity and disclosure of ADHD in social relationships. *New Ideas in Psychology*. 2026;80:101213. DOI 10.1016/j.newideapsych.2025.101213. — **Evidence: Limited**, small exploratory online survey of people aged 18–29; abstract not reached.
 8. Jastrowski, et al. Disclosure of attention-deficit/hyperactivity disorder may minimize risk of social rejection. *Psychiatry*. 2007;70(3):274–82. DOI 10.1521/psyc.2007.70.3.274. — **Evidence: Limited**, single vignette experiment, 306 young adults.
+9. Yılmaz R, Kavak Budak F. The effect of cognitive behavioural therapy-based psychoeducation provided to children with attention deficit/hyperactivity disorder on internalized stigma and hope: a randomized controlled study. *Psychol Health Med*. 2026 (online ahead of print). DOI 10.1080/13548506.2026.2714468. PMID 42554334. — **Evidence: Limited**, single randomised trial of 145 children against a waiting list, self-reported outcomes; confirmed against the PubMed abstract.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

@@ -118,7 +118,7 @@ Folder 08 also has many ungraded entries, because its sources include crisis ser
 ## What is uncertain or debated
 
 - **Counting is not checking.** A page with 20 sources is not more reliable than one with 6. These charts show where the pages lean, not whether they are correct.
-- **The labels are judgements.** They were given by AI drafters and checkers working from abstracts and index records, almost never full texts. A clinician or methodologist might grade some sources differently.
+- **The labels are judgements.** They were given by AI drafters and checkers working from abstracts and index records, rarely full texts, and the same source is occasionally graded differently on two pages when it is cited for different points. A clinician or methodologist might grade some sources differently.
 - **The study types are guessed.** A script sorts each source by words in its title and notes, so some sources are misfiled. A "meta-analysis" of five small studies and one of 300 count the same.
 - **No clinician has reviewed these pages.** [Where does the information on these pages come from?](sources-and-guidelines.md) explains how the pages were written and checked.
 
@@ -131,11 +131,16 @@ Use these charts to judge how much weight a part of the site can bear. Where a f
 - [Where does the information on these pages come from?](sources-and-guidelines.md)
 - [Reading ADHD research: what do the numbers really mean?](how-to-read-the-evidence.md)
 - [Can these pages tell me what to do about my ADHD?](not-medical-advice.md)
+- [ADHD terms explained: what do the technical words mean?](glossary.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## How these charts are made
 
-The charts come from `tools/charts/corpus.py`, which reads every page's source list and writes `assets/charts/corpus/corpus.json`. Run `python3 tools/charts/corpus.py` to refresh the charts and the numbers on this page. In-between grades such as "Limited to moderate" count toward the lower grade, so the charts never overstate the evidence.
+The charts come from `tools/charts/corpus.py`, which reads every page's source list and writes `assets/charts/corpus/corpus.json`. Run `python3 tools/charts/corpus.py` to refresh the charts and the numbers on this page.
+
+In-between grades such as "Limited to moderate" count toward the lower grade, so the charts never overstate the evidence. What each label means is set out in [Reading ADHD research](how-to-read-the-evidence.md#the-evidence-labels-used-on-every-page).
+
+For editors, `python3 tools/explorer/build.py` turns the same `corpus.json` into a searchable, filterable list of every source, and `python3 tools/reader/build.py` builds a low-attention reader that holds the whole site in one page. Both write a local HTML file and never change the pages.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

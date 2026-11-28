@@ -1,6 +1,6 @@
 # Pregnancy, breastfeeding and ADHD medication: is it safe?
 
-> **Short answer:** Large registry studies are broadly reassuring about stimulants in pregnancy, though some small signals remain under study. Accounting for the mother's own ADHD and circumstances, studies found no overall rise in birth defects, miscarriage or later neurodevelopmental conditions; the signals concern heart defects (methylphenidate), pre-eclampsia and preterm birth with continued stimulant use. Modafinil, sometimes used off-label, has been linked to birth defects. Breastfeeding data are limited but suggest little methylphenidate reaches the baby.
+> **Short answer:** Large registry studies are broadly reassuring about stimulants in pregnancy: after accounting for the mother's own ADHD and circumstances, there was no overall rise in birth defects, miscarriage or later neurodevelopmental conditions. Small signals remain for heart defects (methylphenidate), pre-eclampsia and preterm birth with continued use. Breastfeeding data are limited but suggest little methylphenidate reaches the baby.
 
 This page discusses birth defects and pregnancy complications. The short answer above is the main point.
 
@@ -52,11 +52,12 @@ In a small prospective study, some breastfed infants had reactions such as sleep
 ## What is uncertain or debated
 
 - **All of this evidence is observational.** Randomised trials in pregnancy are not done for ethical reasons.
-- **Some medicines are barely studied.** Most studies focus on first-trimester exposure and on methylphenidate and amphetamines. There is much less on atomoxetine, guanfacine, viloxazine (approved for ADHD in the United States; availability differs by country) and lisdexamfetamine specifically. A 2025 systematic review of 12 cohort studies singled out modafinil, which is sometimes used off-label for ADHD, as significantly increasing the risk of birth defects [12].
+- **Some medicines are barely studied.** Most studies focus on first-trimester exposure and on methylphenidate and amphetamines. There is much less on atomoxetine, guanfacine, viloxazine (approved for ADHD in the United States; availability differs by country) and lisdexamfetamine specifically.
 - **The women differ.** Women who continue medication may have more severe ADHD, and women who stop may differ in other ways.
 - **Breastfeeding evidence** rests on very few mother-baby pairs.
-- **Studies disagree at the margins.** In that 2025 review, seven of the 12 studies found no significant harm, one found benefits of continuing, and three linked medication with specific problems, including pre-eclampsia and rare abdominal-wall and limb defects [12]. Most of those were single findings that other studies did not repeat.
+- **Studies disagree at the margins.** In a 2025 systematic review of 12 cohort studies, seven of the 12 studies found no significant harm, one found benefits of continuing, and three linked medication with specific problems, including pre-eclampsia and rare abdominal-wall and limb defects [12]. Most of those were single findings that other studies did not repeat.
 - **Guidance is limited.** The same 2025 review is reported to note that NICE's ADHD guideline for England does not cover medication use in pregnancy [12]. <!-- CHECK: NICE statement not in the Tai 2025 abstract; confirm in full text --> A 2024 clinical guideline on ADHD in pregnancy and the postpartum period, published in an obstetrics journal, recommends individualised planning and describes the safety data for medication as largely reassuring [13]. Any such guidance rests on the same observational evidence described on this page.
+- **Modafinil is an unresolved signal.** The 2025 review singled out modafinil, a wakefulness medicine sometimes used off-label for ADHD, as significantly increasing the risk of birth defects [12]. That rests largely on a Danish register report of more major malformations after first-trimester exposure [14], while a Swedish and Norwegian register report the same year did not find a clear increase [15]. <!-- CHECK: direction and counts in both JAMA research letters (and the 2021 erratum to Cesta 2020) not read; neither has a PubMed abstract --> Both counted few exposed pregnancies, and most women prescribed modafinil take it for sleep disorders, so they may differ from women taking ADHD stimulants.
 
 ## What this means for you
 
@@ -86,6 +87,8 @@ Whether to continue, pause or change medication in pregnancy or while breastfeed
 11. Drugs and Lactation Database (LactMed). Dextroamphetamine; Amphetamine. National Library of Medicine (US). NCBI Bookshelf. — **Evidence: Limited**, case reports and small studies.
 12. Tai S, et al. Maternal and offspring outcomes associated with prescribed ADHD medication in pregnancy: a systematic review. *Arch Womens Ment Health*. 2025;28(6):1425–46. DOI 10.1007/s00737-025-01621-x. PMID 41083615. — **Evidence: Moderate**, systematic review of 12 cohort studies, no pooling; confirmed against the PubMed abstract.
 13. Scoten O, et al. Attention-deficit/hyperactivity disorder in pregnancy and the postpartum period. *Am J Obstet Gynecol*. 2024;231(1):19–35. PMID 38432409. — **Evidence: Guideline**, clinical practice guideline based on observational evidence.
+14. Damkier P, Broe A. First-trimester pregnancy exposure to modafinil and risk of congenital malformations. *JAMA*. 2020;323(4):374–6. DOI 10.1001/jama.2019.20008. PMID 31990303. — **Evidence: Limited**, Danish register research letter, few exposed pregnancies; PubMed record has no abstract.
+15. Cesta CE, et al. Incidence of malformations after early pregnancy exposure to modafinil in Sweden and Norway. *JAMA*. 2020;324(9):895–7. Erratum *JAMA*. 2021;325(1):90. DOI 10.1001/jama.2020.9840. PMID 32870289. — **Evidence: Limited**, Swedish and Norwegian register research letter, few exposed pregnancies; PubMed record has no abstract.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

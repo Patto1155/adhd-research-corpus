@@ -1,6 +1,6 @@
 # Why do I think and feel this way?
 
-These pages link everyday ADHD experiences, such as forgetting, lateness, uneven focus, intense emotions and late nights, to what research measures.
+How everyday ADHD experiences, such as forgetting, lateness, uneven focus, intense emotions and late nights, link to what research measures.
 
 - [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md): planning and working memory, and why tests and daily life disagree.
 - [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md): time perception, preferring rewards now, and "time blindness" reconsidered.

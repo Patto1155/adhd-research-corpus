@@ -25,7 +25,8 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 - Every factual claim with a number has a numbered source on the same page.
 - A source is cited only if its record has been confirmed (first author, title, journal, year, and a DOI or PubMed ID). Never construct or guess a DOI: give one only if you have seen it in the source's index record or publisher page; if you only have a PubMed ID, give that.
 - Use this format: `First-author surname and initials, et al. Title. *Journal*. Year. DOI or PMID. — **Evidence: label**, short reason.`
-- Each research source carries an evidence grade (**Strong**, **Moderate**, **Limited** or **Contested**) and a few words on why. Guidelines, consensus statements and expert commentary are labelled by what they are.
+- Each research source carries an evidence grade (**Strong**, **Moderate**, **Limited** or **Contested**) and a few words on why. Guidelines, consensus statements and expert commentary are labelled by what they are. Use only the labels defined in [the evidence labels used on every page](../08-reading-this-well/how-to-read-the-evidence.md#the-evidence-labels-used-on-every-page); if you need a new one, define it there first. If a source already appears on another page, check its grade there and either match it or say in the note why it differs.
+- A technical term is defined where it first appears on a page, in words that match the [glossary](../08-reading-this-well/glossary.md). Add new terms to the glossary in alphabetical order, with a link to the page where the term matters most.
 - If a number comes from memory, a secondary source, or an identifier you could not confirm, add `<!-- CHECK: what needs confirming -->` after it so reviewers can find it.
 - Where good sources disagree, report the disagreement rather than choosing one.
 - Each key fact has one home page: for example, heritability on `02-whats-happening-in-my-brain/genes-and-inheritance.md`, mortality on `04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md`, and medication effect sizes on `06-treatment-what-works/how-well-medication-works.md`. The full numbers and caveats live on the home page, and a change to a number is made there first. Other pages may state the headline figure, provided it matches the home page, and should link to the home page for the detail.
@@ -52,6 +53,16 @@ The corpus prefers, in order: consensus statements and national guidelines; syst
 - No self-tests. Screening questionnaires may be described, not reproduced as a diagnostic quiz.
 - Report evidence on supplements, diets, apps and devices without telling readers what to buy.
 - Content on suicide, self-harm or mortality follows safe-messaging practice (no method detail) and links to [not medical advice](../08-reading-this-well/not-medical-advice.md) for crisis contacts.
+
+## For editors and researchers
+
+These tools and files support the pages. None of them is written for readers, and none needs anything beyond Python's standard library.
+
+- **Check before you submit.** Run `python3 tools/check_format.py` (or give it one or more page paths). It checks each page's standard shape, that every `[n]` has a matching source and vice versa, the source-line format, tables, chart markup, and that relative links and `#anchors` resolve. Lines marked `(warn)` are heuristics for a person to judge; anything else must be fixed.
+- **The register of disagreements.** [research/conflicting-claims.md](../research/conflicting-claims.md) is a working register of places where good sources disagree, including research the pages do not yet cite. Each entry gives both sides, why they may differ, how the page handles it now, and a next step. It is a to-do list for editors, not reader advice and not a source to cite. Edit the group files in `research/conflicts/` (schema in `research/conflicts/SCHEMA.md`), then run `python3 tools/conflicts/build.py` to rebuild the register.
+- **The source data.** `python3 tools/charts/corpus.py` reads every page's source list, writes `assets/charts/corpus/corpus.json`, and refreshes the corpus charts and the marked sections of the folder READMEs and [the evidence at a glance](../08-reading-this-well/the-evidence-at-a-glance.md). Edit around the `<!-- corpus:... -->` markers, never inside them.
+- **Interactive explorer.** `python3 tools/explorer/build.py` inlines `corpus.json` into a single HTML file (default `tools/explorer/index.html`, not committed) for searching and filtering every source by folder, evidence label and study type. Re-run it after `corpus.py`. It is a quick way to spot the same source graded differently on two pages.
+- **Interactive reader.** `python3 tools/reader/build.py` builds a low-attention reading version of the whole site as one HTML file (default `tools/reader/index.html`, not committed). It reads the pages, the "Find your worry" list in the root README, the folder READMEs, the charts, the evidence-label definitions and the conflicts register, and never rewrites page text. Because it parses these files, keep the root README's folder table and `### [Folder](…)` worry headings, the folder READMEs' `- [Title](page.md): blurb` lists, and the evidence-label list on [Reading ADHD research](../08-reading-this-well/how-to-read-the-evidence.md) in their current shape.
 
 ## Charts
 

@@ -1,6 +1,6 @@
 # ADHD and hyperfocus: why can I focus for hours on some things?
 
-> **Short answer:** Research suggests ADHD involves difficulty *regulating* attention more than having too little of it. On average, attention in ADHD is more variable from moment to moment, and it slips most on long, unrewarding tasks. Intense focus ("hyperfocus") is widely reported, but its research is small, recent and questionnaire-based, and it is not unique to ADHD.
+> **Short answer:** ADHD seems to involve difficulty *regulating* attention more than having too little of it. On average, attention varies more from moment to moment and slips most on long, unrewarding tasks. Intense focus ("hyperfocus") is widely reported, but the research is small and self-reported, and one study found it no more common in diagnosed adults than in others.
 
 ## What the evidence shows
 
@@ -27,19 +27,21 @@ This page's reading, which no study here tested directly, is that "you can focus
 
 **A refined questionnaire was validated in 2024.** A 12-item version measuring hyperfocus as a general tendency (the AHQ-D) was tested in a preregistered study of 347 adults. Its items measured a single underlying trait well, and scores correlated with an adult ADHD rating scale (*r* = 0.53, a moderate-to-strong association) [7]. The authors did not specifically recruit people with ADHD, so the ADHD link is suggestive rather than tested in a diagnosed group [7].
 
-**The concept itself is not yet well defined.** A review concluded that hyperfocus has no consensus definition, that related ideas (such as "flow" and absorption) are studied under other names, and that it is discussed in autism and schizophrenia as well as ADHD [8]. Research on how it affects thinking and the brain is limited [8].
+**A study with a diagnosed group found no overall difference.** A Dutch study compared 78 adults diagnosed with ADHD with matched adults without ADHD, and also surveyed 1,124 adults without a diagnosis [8]. In the general sample, people with more ADHD traits reported hyperfocus more often; but the diagnosed group did not differ from the comparison group in how often, how long or in how many situations hyperfocus happened, and reported it *less* often in study and social settings [8]. The authors concluded hyperfocus is not specific to ADHD, and suggested different questionnaires may be measuring different things [8].
+
+**The concept itself is not yet well defined.** A review concluded that hyperfocus has no consensus definition, that related ideas (such as "flow" and absorption) are studied under other names, and that it is discussed in autism and schizophrenia as well as ADHD [9]. Research on how it affects thinking and the brain is limited [9].
 
 ## What is uncertain or debated
 
-- **Hyperfocus evidence is thin.** It rests on a few self-report studies, mostly from one research group, in online samples [6, 7, 8]. There are no lab measures of hyperfocus, no studies of how common it is in diagnosed adults, and no evidence on whether it helps or harms on balance.
-- **Not unique to ADHD.** Absorption and flow are common in the general population and are also reported in autism [8].
+- **Hyperfocus evidence is thin, and it disagrees.** Online trait studies link more ADHD symptoms with more hyperfocus [6, 7], while the one comparison of diagnosed adults with matched adults without ADHD found no overall difference [8]. All of it is self-report: there are no lab measures of hyperfocus, and no evidence on whether it helps or harms on balance. Trait links in online samples can partly reflect people who endorse many experiences in general.
+- **Not unique to ADHD.** Absorption and flow are common in the general population and are also reported in autism [9].
 - **Not a diagnostic feature.** Hyperfocus is not among the listed ADHD symptoms, as these pages' writers read the diagnostic criteria; the manual's text was not rechecked for this page. Being able to focus intensely on some things neither argues against ADHD nor supports it.
 - **"Superpower" framing** goes well beyond the evidence. Equally, there is no evidence that hyperfocus is harmful in itself.
 - **Most attention findings are from children.** The variability gap is smaller in adults than in children [1], and the vigilance meta-analysis was in children only [4].
 
 ## What this means for you
 
-Focusing deeply on what interests you while drifting on what does not fits how research describes ADHD attention: uneven rather than absent. If you experience hyperfocus, many others with ADHD report the same. Science cannot yet say much about how common it is, why it happens, or what it means for you.
+Focusing deeply on what interests you while drifting on what does not fits how research describes ADHD attention: uneven rather than absent. If you experience hyperfocus, many others with ADHD report the same. So do many people without ADHD, and science cannot yet say much about how common it is, why it happens, or what it means for you.
 
 ## Related pages
 
@@ -58,7 +60,8 @@ Focusing deeply on what interests you while drifting on what does not fits how r
 5. Luman M, et al. The impact of reinforcement contingencies on AD/HD: a review and theoretical appraisal. *Clinical Psychology Review*. 2005;25(2):183–213. DOI 10.1016/j.cpr.2004.11.001. PMID 15642646. — **Evidence: Moderate**: review of 22 studies (1,181 children), not pooled.
 6. Hupfeld KE, et al. Living "in the zone": hyperfocus in adult ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*. 2019;11(2):191–208. DOI 10.1007/s12402-018-0272-y. PMID 30267329. — **Evidence: Limited**: new self-report questionnaire, online samples.
 7. Hupfeld KE, et al. Validation of the dispositional adult hyperfocus questionnaire (AHQ-D). *Scientific Reports*. 2024;14(1):19460. DOI 10.1038/s41598-024-70028-y. PMID 39169147. — **Evidence: Limited**: psychometric validation in 347 adults, not recruited for ADHD.
-8. Ashinoff BK, Abu-Akel A. Hyperfocus: the forgotten frontier of attention. *Psychological Research*. 2021;85(1):1–19. DOI 10.1007/s00426-019-01245-8. PMID 31541305. — **Evidence: Limited**: narrative review of a small field.
+8. Groen Y, et al. Testing the relation between ADHD and hyperfocus experiences. *Research in Developmental Disabilities*. 2020;107:103789. DOI 10.1016/j.ridd.2020.103789. PMID 33126147. — **Evidence: Limited**: one clinical group of 78 adults with matched comparisons, plus a survey of 1,124 adults; self-report.
+9. Ashinoff BK, Abu-Akel A. Hyperfocus: the forgotten frontier of attention. *Psychological Research*. 2021;85(1):1–19. DOI 10.1007/s00426-019-01245-8. PMID 31541305. — **Evidence: Limited**: narrative review of a small field.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

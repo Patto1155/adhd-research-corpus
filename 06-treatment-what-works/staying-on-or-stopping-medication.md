@@ -24,7 +24,7 @@ In a randomised discontinuation trial (also called a randomised withdrawal trial
 
 **Quality of life dipped slightly after stopping, in children only.** A meta-analysis of five withdrawal trials (1,463 people) found that switching to placebo was associated with a small drop in quality of life in children and adolescents (SMD 0.19), but not in adults [4].
 
-**In the long-term MTA follow-up, early differences faded.** The MTA study randomised 579 children to different treatments for 14 months, then followed them for years while families chose their own treatment. By eight years, the original groups no longer differed, and medication use in the previous year was not linked to better functioning [5]. At 16 years, extended medication use was associated with shorter adult height but not with fewer adult symptoms [6].
+**In the long-term MTA follow-up, early differences faded.** The US Multimodal Treatment Study of ADHD (MTA) randomised 579 children to different treatments for 14 months, then followed them for years while families chose their own treatment. By eight years, the original groups no longer differed, and medication use in the previous year was not linked to better functioning [5]. At 16 years, extended medication use was associated with shorter adult height but not with fewer adult symptoms [6].
 
 Because families chose whether to continue, those who stayed on medication may have had more severe ADHD, so this does not show medication stops working.
 

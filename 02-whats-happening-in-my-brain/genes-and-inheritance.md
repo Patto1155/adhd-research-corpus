@@ -30,7 +30,7 @@ The pattern tracks shared genes, though the authors concluded that a small amoun
 
 An earlier genome-wide study of 20,183 people with ADHD, the first to find clearly linked regions (12 of them), found that the variants linked to a diagnosis were the same ones linked to ADHD traits in the general population [5]. Its authors concluded that a diagnosis is the extreme end of continuous, heritable traits [5].
 
-**Most of these variants are shared with other conditions.** An estimated 84–98% of the variants that influence ADHD also influence other psychiatric conditions [4], which helps explain why ADHD so often comes with anxiety, depression or autism. About a third of ADHD's heritability is thought to come from this polygenic component of many common variants [1].
+**Most of these variants are shared with other conditions.** An estimated 84–98% of the variants that influence ADHD also influence other psychiatric conditions [4], which helps explain why ADHD so often comes with anxiety, depression or autism. A 2019 review, summarising the genome-wide studies available then, estimated that about a third of ADHD's heritability comes from this polygenic component of many common variants [1]. <!-- CHECK: the common-variant (SNP) heritability reported in the full text of source 4; the abstract does not give it, and if lower, update this sentence -->
 
 **Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 controls (0.156 vs 0.075 per person) [6]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
 
@@ -39,6 +39,7 @@ An earlier genome-wide study of 20,183 people with ADHD, the first to find clear
 ## What is uncertain or debated
 
 - **The "missing" heritability.** Twin studies give about 74%; measured DNA explains much less. Rare variants, gene–environment interplay and the assumptions of twin studies may each account for part of the gap.
+- **Genes acting through the family environment.** Some of what looks like genetic influence may work through the home that parents' genes help create (an *indirect genetic effect*), not through the child's own DNA. In about 24,700 Norwegian parent–child trios, mother-rated hyperactivity at age 3 was linked more to parents' genes acting this way (9.6% of the variation) than to the child's own genes (1.3%); for inattention the figures were 6.7% and 4.8% [8]. These were toddler traits rated by mothers, not ADHD diagnoses, and twin studies do not separate the two kinds of effect.
 - **Heritability is not destiny.** High heritability is compatible with environment mattering a great deal for how ADHD plays out. Genes and environment are also tangled: parents pass on both genes and surroundings.
 - **Polygenic scores cannot diagnose.** A polygenic score adds up a person's many small genetic risks. At present it explains only a small share of who has ADHD and cannot tell an individual whether they, or their child, have or will develop it. (A checked figure for how much it explains was not found for this page.)
 - **Recurrence risk for a parent's children.** No checked figure was found. The sibling data above are the closest guide.
@@ -66,6 +67,7 @@ No genetic test can predict ADHD, and heritability says nothing about blame. The
 5. Demontis D, et al. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. *Nat Genet*. 2019;51(1):63–75. DOI 10.1038/s41588-018-0269-7. PMID 30478444. — **Evidence: Strong**: GWAS meta-analysis, 20,183 cases and 35,191 controls, with replication samples.
 6. Williams NM, et al. Rare chromosomal deletions and duplications in attention-deficit hyperactivity disorder: a genome-wide analysis. *Lancet*. 2010;376(9750):1401–8. DOI 10.1016/S0140-6736(10)61109-9. PMID 20888040. — **Evidence: Moderate**: 366 cases and 1,047 controls, Icelandic replication of a 16p13.11 finding.
 7. Gizer IR, et al. Candidate gene studies of ADHD: a meta-analytic review. *Hum Genet*. 2009;126(1):51–90. DOI 10.1007/s00439-009-0694-x. PMID 19506906. — **Evidence: Moderate**: meta-analysis of candidate-gene studies, with high heterogeneity.
+8. Hegemann L, et al. Direct and indirect genetic effects on early neurodevelopmental traits. *J Child Psychol Psychiatry*. 2025;66(7):1053–64. DOI 10.1111/jcpp.14122. PMID 39887701. — **Evidence: Moderate**: within-family genomic study of up to 24,692 parent–offspring trios (MoBa); mother-rated traits at age 3, not diagnosis.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

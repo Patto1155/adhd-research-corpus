@@ -1,4 +1,4 @@
-# ADHD and other people: children, parents, partners, work, stigma
+# ADHD and other people
 
 What research says about ADHD in children and teenagers, parenting and medication for children, adult relationships, work and study, and stigma and telling people.
 

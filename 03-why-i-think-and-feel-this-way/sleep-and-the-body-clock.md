@@ -19,9 +19,10 @@
 ## What is uncertain or debated
 
 - **Which way does it run?** A later body clock might contribute to ADHD symptoms, ADHD might push sleep later, or a shared biology might drive both. The research is mostly cross-sectional, which cannot tell these apart.
+- **Genetic studies disagree.** Mendelian randomisation uses genetic variants linked to a trait as a natural experiment, to test cause and effect. One such study estimated that a genetic tendency to insomnia raised the odds of ADHD by about a third (odds ratio 1.33), with a weaker hint of ADHD shortening sleep [6]; an earlier one found no clear effect in either direction for ADHD [7]. They used different genetic data and methods, and both describe lifelong tendencies, not the effect of a bad night or of treating sleep.
 - **Sleep problems can look like ADHD.** Short or disrupted sleep impairs attention and mood in anyone, and conditions such as sleep apnoea and delayed sleep phase disorder can resemble ADHD. See [is it ADHD or something else](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md).
-- **What guidelines say.** A 2021 NICE surveillance review noted that body-clock (circadian rhythm) disorders cause delayed sleep onset and that their symptoms can overlap with those of ADHD [6]. A checked guideline recommendation on screening for sleep problems during ADHD assessment was not found for this page.
-- **Treatments for the body clock.** Melatonin may help sleep onset in ADHD, but the systematic review found few trials [3]. Whether shifting the body clock also improves daytime ADHD symptoms has hardly been tested.
+- **What guidelines say.** A 2021 NICE surveillance review noted that body-clock (circadian rhythm) disorders cause delayed sleep onset and that their symptoms can overlap with those of ADHD [8]. A checked guideline recommendation on screening for sleep problems during ADHD assessment was not found for this page.
+- **Treatments for the body clock.** Melatonin may help sleep onset in ADHD, but the systematic review found few trials [3]. Whether shifting the body clock also improves daytime ADHD symptoms has been tested in one small trial, with mixed results: in 51 adults with ADHD and a delayed body clock, three weeks of low-dose melatonin moved the clock earlier and reduced self-rated ADHD symptoms by 14%, but melatonin plus morning bright light moved the clock further without changing symptoms [9]. Two weeks after treatment stopped, both the clock and symptoms were back where they started [9].
 - **Adults versus children.** The child evidence is larger. The adult meta-analysis included 13 studies [2].
 - **Medication versus ADHD itself.** Many studies include people on stimulants, which can affect sleep, making it hard to isolate ADHD's own effect.
 
@@ -35,6 +36,7 @@ If you lie awake for a long time and feel most alert late at night, that fits a 
 - [Physical health](../05-what-often-comes-with-it/physical-health.md)
 - [Medication safety](../06-treatment-what-works/medication-safety.md)
 - [Lifestyle and other approaches](../06-treatment-what-works/lifestyle-and-other-approaches.md)
+- [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
@@ -44,7 +46,10 @@ If you lie awake for a long time and feel most alert late at night, that fits a 
 3. Coogan AN, et al. A systematic review of circadian function, chronotype and chronotherapy in attention deficit hyperactivity disorder. *ADHD Attention Deficit and Hyperactivity Disorders*. 2017;9(3):129–47. DOI 10.1007/s12402-016-0214-5. PMID 28064405. — **Evidence: Moderate**: systematic review of 62 studies, few treatment trials.
 4. Van Veen MM, et al. Delayed circadian rhythm in adults with attention-deficit/hyperactivity disorder and chronic sleep-onset insomnia. *Biological Psychiatry*. 2010;67(11):1091–6. DOI 10.1016/j.biopsych.2009.12.032. PMID 20163790. — **Evidence: Limited**: single small study.
 5. Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). *Cochrane Database of Systematic Reviews*. 2015. PMID 26599576. — **Evidence: Contested**, the effect size is consistent across reviews while its certainty rating is disputed; cited here for common side effects, from randomised trials.
-6. National Institute for Health and Care Excellence. 2021 exceptional surveillance of attention deficit hyperactivity disorder: diagnosis and management (NICE guideline NG87). 2021. nice.org.uk/guidance/ng87. — **Evidence: Guideline surveillance**; decided not to update the guideline on melatonin.
+6. Sun X, et al. Sleep disturbance and psychiatric disorders: a bidirectional Mendelian randomisation study. *Epidemiology and Psychiatric Sciences*. 2022;31:e26. DOI 10.1017/S2045796021000810. PMID 35465862. — **Evidence: Moderate**: genetic (Mendelian randomisation) analysis of published genome-wide summary data; estimates lifelong genetic tendency.
+7. Gao X, et al. The bidirectional causal relationships of insomnia with five major psychiatric disorders: a Mendelian randomization study. *European Psychiatry*. 2019;60:79–85. DOI 10.1016/j.eurpsy.2019.05.004. PMID 31234011. — **Evidence: Moderate**: genetic (Mendelian randomisation) analysis using older genome-wide data; no significant result for ADHD.
+8. National Institute for Health and Care Excellence. 2021 exceptional surveillance of attention deficit hyperactivity disorder: diagnosis and management (NICE guideline NG87). 2021. nice.org.uk/guidance/ng87. — **Evidence: Guideline surveillance**; decided not to update the guideline on melatonin.
+9. van Andel E, et al. Effects of chronotherapy on circadian rhythm and ADHD symptoms in adults with attention-deficit/hyperactivity disorder and delayed sleep phase syndrome: a randomized clinical trial. *Chronobiology International*. 2021;38(2):260–9. DOI 10.1080/07420528.2020.1835943. PMID 33121289. — **Evidence: Limited**: one three-arm randomised trial of 51 adults over three weeks; self-rated symptoms; the bright-light arm was not blinded.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

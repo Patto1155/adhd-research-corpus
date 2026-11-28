@@ -59,7 +59,7 @@ This page is the home for scans of brain **chemistry** and brain **activity**, c
 
 | Method | Who was compared | Finding in ADHD, on average | Size or strength | Source | Evidence |
 |---|---|---|---|---|---|
-| PET, dopamine transporter and receptors | 53 never-medicated adults vs 44 | Lower, mainly left reward pathway | About 11% lower in nucleus accumbens; one site | [1] | Moderate |
+| PET, dopamine transporter and receptors | 53 never-medicated adults vs 44 | Lower, mainly left reward pathway | About 11% lower in nucleus accumbens; one site | [1] | Limited |
 | PET, dopamine release after a stimulant | 19 never-medicated adults vs 24 | Smaller release in caudate | Small sample | [2] | Limited |
 | PET/SPECT, striatal dopamine transporter | 9 studies; 169 vs 173 | 14% *higher* on average; direction varies | Large between-study differences; medication history disputed | [3, 4] | Contested |
 | Task fMRI, many tasks | 55 studies (39 child, 16 adult) | Less activity in control and attention networks; more in some others | Location only, no effect size | [5] | Moderate |
@@ -122,7 +122,7 @@ You do not have a measured chemical shortage, because nobody can measure one. Th
 
 ## Sources
 
-1. Volkow ND, et al. Evaluating dopamine reward pathway in ADHD: clinical implications. *JAMA*. 2009. DOI 10.1001/jama.2009.1308. PMID 19738093. — **Evidence: Moderate**: PET, 53 never-medicated adults and 44 controls, single site.
+1. Volkow ND, et al. Evaluating dopamine reward pathway in ADHD: clinical implications. *JAMA*. 2009. DOI 10.1001/jama.2009.1308. PMID 19738093. — **Evidence: Limited**: one PET study, 53 never-medicated adults with ADHD and 44 controls, single site.
 2. Volkow ND, et al. Depressed dopamine activity in caudate and preliminary evidence of limbic involvement in adults with attention-deficit/hyperactivity disorder. *Archives of General Psychiatry*. 2007. DOI 10.1001/archpsyc.64.8.932. PMID 17679638. — **Evidence: Limited**: PET, 19 adults with ADHD and 24 controls.
 3. Fusar-Poli P, et al. Striatal dopamine transporter alterations in ADHD: pathophysiology or adaptation to psychostimulants? A meta-analysis. *American Journal of Psychiatry*. 2012. DOI 10.1176/appi.ajp.2011.11060940. PMID 22294258. — **Evidence: Contested**: 9 small imaging studies, large heterogeneity, disputed coding.
 4. Spencer TJ, et al. Striatal dopamine transporter binding in adults with ADHD [letter, with author reply]. *American Journal of Psychiatry*. 2012. DOI 10.1176/appi.ajp.2012.12020232. PMID 22684601. — **Evidence: Contested**: critique of source 3, not new data.

@@ -33,6 +33,7 @@
 - **Timing or attention?** Poor timing may partly reflect lapses of attention during the task rather than a separate "clock" problem. The reproduction findings above suggest both play a part [1].
 - **Specificity.** Steep delay discounting is also found in addiction and some other conditions, so it is not unique to ADHD.
 - **Whether the effect is inflated.** The children's meta-analysis found larger effects in studies with weaker diagnostic methods or no girls [4]. This is one reason to treat the exact sizes as approximate.
+- **Discounting or dislike of waiting?** A 2021 meta-analysis of 37 comparisons (3,763 participants) found small-to-medium effects both on discounting tasks and on simpler choose-now-or-wait tasks, and offering real rather than imaginary rewards on the simpler tasks almost doubled the odds ratio for impulsive choice in ADHD [7]. Its authors read this as delay aversion combined with low motivation for imaginary rewards, rather than a fixed discounting trait [7].
 - **"Time blindness"** is a popular metaphor, not a research term. It describes the experience usefully, but the evidence supports "less accurate and more variable", not "blind".
 - **Individual differences.** These are group-level effects, and the groups overlap, so some people with ADHD time intervals as well as anyone.
 
@@ -58,6 +59,7 @@ External cues, such as visible clocks, timers and broken-down deadlines, are oft
 4. Patros CH, et al. Choice-impulsivity in children and adolescents with attention-deficit/hyperactivity disorder (ADHD): a meta-analytic review. *Clinical Psychology Review*. 2016;43:162–74. DOI 10.1016/j.cpr.2015.11.001. PMID 26602954. — **Evidence: Moderate**: meta-analysis of 26 studies (4,320 children); effect varies with diagnostic method.
 5. Sonuga-Barke EJS. The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. *Neuroscience and Biobehavioral Reviews*. 2003;27(7):593–604. DOI 10.1016/j.neubiorev.2003.08.005. PMID 14624804. — **Evidence: Expert review**: theoretical paper describing the model, not testing it.
 6. Volkow ND, et al. Evaluating dopamine reward pathway in ADHD: clinical implications. *JAMA*. 2009;302(10):1084–91. DOI 10.1001/jama.2009.1308. PMID 19738093. — **Evidence: Limited**: one PET study, 53 never-medicated adults with ADHD and 44 controls, single site.
+7. Marx I, et al. ADHD and the choice of small immediate over larger delayed rewards: a comparative meta-analysis of performance on simple choice-delay and temporal discounting paradigms. *Journal of Attention Disorders*. 2021;25(2):171–87. DOI 10.1177/1087054718772138. PMID 29806533. — **Evidence: Moderate**: meta-analysis of 37 group comparisons.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)
