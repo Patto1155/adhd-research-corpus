@@ -652,7 +652,7 @@ def psychosis(theme):
     s.y = y0 + 46 + rows * pitch + 16
     s.para(PAD, "In relative terms: hazard ratio 1.65 for amphetamine compared with methylphenidate. "
                 "About 1 in 660 people overall.", 14, t["ink"], lh=1.4)
-    s.footer("Source: Moran et al., N Engl J Med 2019 [7]. Two US insurance cohorts, 221,846 people aged "
+    s.footer("Source: Moran et al., N Engl J Med 2019 [8]. Two US insurance cohorts, 221,846 people aged "
              "13 to 25. Young people only; may not apply to older adults.")
     return s
 

@@ -31,7 +31,7 @@ Whether ADHD medicines affect blood pressure and heart risk is a separate questi
 
 - **Cause and direction.** These are observational studies. Poor sleep, smoking, alcohol, diet, inactivity, stress, poverty and side effects of other treatments could each sit between ADHD and illness. Some physical conditions may also make attention worse.
 - **Diagnosed cases only.** Registry studies count people who reached health services, who may be more severely affected or more often checked for other conditions.
-- **Absolute risks are mostly missing.** The largest registry study reports relative figures. Absolute figures were found only for obesity, type 2 diabetes and high blood pressure [2][3]; for most other conditions, how many extra people per thousand are affected was not available in the sources checked.
+- **Absolute risks are mostly missing.** The largest registry study reports relative figures. Absolute figures were found only for obesity, type 2 diabetes and high blood pressure [2, 3]; for most other conditions, how many extra people per thousand are affected was not available in the sources checked.
 - **Which links can be changed.** Few studies test whether treating ADHD, or helping with sleep, activity or smoking, changes physical health outcomes in people with ADHD.
 
 ## What this means for you

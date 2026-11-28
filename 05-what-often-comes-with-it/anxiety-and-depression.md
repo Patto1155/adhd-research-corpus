@@ -31,7 +31,7 @@ How clinicians tell these conditions apart is covered on [Is it ADHD, or could i
 
 ## What is uncertain or debated
 
-- **Which comes first, and why.** Genetic studies suggest a modest path from ADHD to depression, and one suggests a larger path the other way [3][4]. Experiences such as repeated failure, criticism or isolation are hard to measure. The cohort evidence comes from childhood ADHD followed into young adulthood.
+- **Which comes first, and why.** Genetic studies suggest a modest path from ADHD to depression, and one suggests a larger path the other way [3, 4]. Experiences such as repeated failure, criticism or isolation are hard to measure. The cohort evidence comes from childhood ADHD followed into young adulthood.
 - **How much is measurement.** Questionnaires for anxiety and depression include concentration and restlessness items, which people with ADHD may endorse because of ADHD alone. This can inflate overlap estimates.
 - **Whether treating ADHD lowers depression risk.** Registry studies link ADHD medication with fewer episodes of depression and suicidal behaviour, but they are observational. See [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
 - **Older adults.** There are few data on how the overlap changes after 65 [1].

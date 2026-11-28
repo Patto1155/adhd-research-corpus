@@ -48,7 +48,11 @@ Pages that cover contested or technical ground, such as brain scans and dopamine
 *Evidence labels as written on each page. In-between grades such as "Limited to moderate" count toward the lower grade. Causes and outlook leans most on Limited evidence; What comes with it has the highest share of Strong or Moderate.*
 <!-- /corpus:evidence-by-folder -->
 
-Each source on a page carries a label written by the person who drafted or checked that page. **Strong** usually means a large meta-analysis or a very large study with consistent results. **Moderate** means good evidence with real limits. **Limited** means a small study, a single study or an early finding. **Contested** means good sources disagree. [Reading ADHD research](how-to-read-the-evidence.md) explains the labels in full.
+Each source on a page carries a label written by the person who drafted or checked that page.
+
+**Strong** usually means a large meta-analysis or a very large study with consistent results. **Moderate** means good evidence with real limits.
+
+**Limited** means a small study, a single study or an early finding. **Contested** means good sources disagree. [Reading ADHD research](how-to-read-the-evidence.md) explains the labels in full.
 
 The labels describe the source, not the sentence that cites it. A page can cite a Strong source for a careful, narrow point and still be uncertain overall, which is why every page has a "what is uncertain" section.
 
@@ -63,7 +67,9 @@ The labels describe the source, not the sentence that cites it. A page can cite 
 *Kinds of study, guessed from each citation's title and notes, so some will be misfiled. "Other" includes narrative reviews, commentaries, single surveys and service pages.*
 <!-- /corpus:study-types -->
 
-Meta-analyses pool many studies, so they are the backbone of what is "established". Registry and cohort studies follow very large groups over time, often whole countries. They show what happens in real life but cannot prove cause on their own. Randomised trials are few here because the site leans on reviews that pool trials, rather than on single trials.
+Meta-analyses pool many studies, so they are the backbone of what is "established". Registry and cohort studies follow very large groups over time, often whole countries.
+
+They show what happens in real life but cannot prove cause on their own. Randomised trials are few here because the site leans on reviews that pool trials, rather than on single trials.
 
 ## How current is the evidence?
 
@@ -105,7 +111,9 @@ These pages have half or more of their sources labelled **Limited**. Their answe
 - [Partner with ADHD: what does research say about relationships?](../07-family-work-and-other-people/when-your-partner-has-adhd.md): 2 of 4 sources labelled Limited
 <!-- /corpus:thin-pages -->
 
-Two patterns stand out. Questions about lived experience (life after a diagnosis, stigma, partners) draw on interview studies and small surveys. Newer ideas such as hyperfocus, rejection sensitivity and hormonal effects have little research behind them yet. Folder 08 also has many ungraded entries, because its sources include crisis services and guidelines rather than studies.
+Two patterns stand out. Questions about lived experience (life after a diagnosis, stigma, partners) draw on interview studies and small surveys. Newer ideas such as hyperfocus, rejection sensitivity and hormonal effects have little research behind them yet.
+
+Folder 08 also has many ungraded entries, because its sources include crisis services and guidelines rather than studies.
 
 ## What is uncertain or debated
 
@@ -130,4 +138,4 @@ Use these charts to judge how much weight a part of the site can bear. Where a f
 The charts come from `tools/charts/corpus.py`, which reads every page's source list and writes `assets/charts/corpus/corpus.json`. Run `python3 tools/charts/corpus.py` to refresh the charts and the numbers on this page. In-between grades such as "Limited to moderate" count toward the lower grade, so the charts never overstate the evidence.
 
 ---
-Last reviewed: November 2026 · [How these pages are made](sources-and-guidelines.md) · [Not medical advice](not-medical-advice.md)
+Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

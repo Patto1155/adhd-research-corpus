@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Stimulants raise dopamine and noradrenaline between nerve cells.** Nerve cells release these messengers and then pull them back in through "transporter" proteins. Methylphenidate blocks the dopamine transporter (DAT) and the noradrenaline transporter (NET), so the messengers stay active for longer. Amphetamines block the same transporters and also push extra dopamine and noradrenaline out of the nerve cell [1][2].
+**Stimulants raise dopamine and noradrenaline between nerve cells.** Nerve cells release these messengers and then pull them back in through "transporter" proteins. Methylphenidate blocks the dopamine transporter (DAT) and the noradrenaline transporter (NET), so the messengers stay active for longer. Amphetamines block the same transporters and also push extra dopamine and noradrenaline out of the nerve cell [1, 2].
 
 **Non-stimulants act more narrowly.** Atomoxetine mainly blocks the noradrenaline transporter. Viloxazine also blocks it, more moderately, and acts on some serotonin receptors, so some researchers describe it as modulating both serotonin and noradrenaline; its mechanism in ADHD is not fully worked out [3].
 
