@@ -47,9 +47,9 @@ The best evidence says that on average emotions become steadier; it does not sho
 
 1. Moukhtarian TR, et al. Effects of stimulants and atomoxetine on emotional lability in adults: a systematic review and meta-analysis. *Eur Psychiatry*. 2017;44:198–207. DOI 10.1016/j.eurpsy.2017.05.021. PMID 28646732. — **Evidence: Moderate**, 9 trials.
 2. Pozzi M, et al. Adverse drug events related to mood and emotion in paediatric patients treated for ADHD: a meta-analysis. *J Affect Disord*. 2018;238:161–78. PMID 29883938. — **Evidence: Moderate**, 45 trials in children; authors note incomplete adverse-event reporting.
-3. Stuckelman ZD, et al. Risk of irritability with psychostimulant treatment in children with ADHD: a meta-analysis. *J Clin Psychiatry*. 2017;78(6):e648–55. — **Evidence: Moderate**, 32 trials, 3,664 children.
-4. Emotional dysregulation and stimulant medication in adult ADHD. *J Psychiatry Neurosci*. 2024. PMID 39122408. PMC11318975. — **Evidence: Limited**, single laboratory study.
-5. Singh I. Not robots: children's perspectives on authenticity, moral agency and stimulant drug treatments. *J Med Ethics*. 2013;39(6). — **Evidence: Limited**, qualitative interviews, 151 families, self-selected.
+3. Stuckelman ZD, et al. Risk of irritability with psychostimulant treatment in children with ADHD: a meta-analysis. *J Clin Psychiatry*. 2017;78(6):e648–55. DOI 10.4088/JCP.15r10601. PMID 28682529. — **Evidence: Moderate**, 32 trials, 3,664 children.
+4. Greenfield MS, et al. Emotional dysregulation and stimulant medication in adult ADHD. *J Psychiatry Neurosci*. 2024;49(4):E242–51. DOI 10.1503/jpn.240009. PMID 39122408. PMC11318975. — **Evidence: Limited**, single laboratory study.
+5. Singh I. Not robots: children's perspectives on authenticity, moral agency and stimulant drug treatments. *J Med Ethics*. 2013;39(6):359–66. DOI 10.1136/medethics-2011-100224. PMID 22930677. — **Evidence: Limited**, qualitative interviews, 151 families, self-selected.
 6. Bolt I, et al. Psychopharmaceutical enhancers: enhancing identity? *Neuroethics*. 2009;2:103–11. DOI 10.1007/s12152-008-9031-7. — **Evidence: Limited**, qualitative interviews with adults, small sample (about a dozen or more; exact number not captured).
 
 ---

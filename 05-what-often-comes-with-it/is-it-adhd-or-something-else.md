@@ -61,7 +61,7 @@ If you recognise yourself in ADHD descriptions, that is a reasonable starting po
 4. Spencer AE, et al. Examining the association between posttraumatic stress disorder and attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. *J Clin Psychiatry*. 2016. PMID 26114394. — **Evidence: Moderate**, meta-analysis of 22 studies.
 5. Schiweck C, et al. Comorbidity of ADHD and adult bipolar disorder: a systematic review and meta-analysis. *Neurosci Biobehav Rev*. 2021;124:100–23. PMID 33515607. — **Evidence: Moderate**, meta-analysis of 71 studies, high heterogeneity.
 6. Asherson P, et al. Differential diagnosis, comorbidity, and treatment of attention-deficit/hyperactivity disorder in relation to bipolar disorder or borderline personality disorder in adults. *Curr Med Res Opin*. 2014. DOI 10.1185/03007995.2014.915800. PMID 24804976. — **Evidence: Moderate**, expert review.
-7. Sibley MH, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. *Am J Psychiatry*. 2018. PMC5814300. — **Evidence: Moderate**, single cohort with repeated assessment.
+7. Sibley MH, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. *Am J Psychiatry*. 2018;175(2):140–9. DOI 10.1176/appi.ajp.2017.17030298. PMID 29050505. PMC5814300. — **Evidence: Moderate**, single cohort with repeated assessment.
 8. Sadek J. Attention deficit hyperactivity disorder misdiagnosis: why medical evaluation should be a part of ADHD assessment. *Brain Sci*. 2023. DOI 10.3390/brainsci13111522. PMC10669410. — **Evidence: Limited**, single-author selective (not systematic) review.
 
 ---

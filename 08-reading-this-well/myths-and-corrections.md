@@ -7,7 +7,7 @@ This page mentions claims about early death and dementia. The short answer above
 ## About whether ADHD is real
 
 **"ADHD is a fad, or overdiagnosed."**
-Partly true, depending on where you look. When the same diagnostic methods are used, the share of children with ADHD has not risen over three decades, though diagnoses have, and there is evidence of milder cases being included and of the youngest children in a class being diagnosed more often. Some places, such as English primary care, still diagnose fewer adults than expected, so the fairest summary is rising recognition plus real noise in how diagnosis happens.
+Partly true, depending on where you look. When the same diagnostic methods are used, the share of children with ADHD has not risen over three decades, though diagnoses have [1], and there is evidence of milder cases being included and of the youngest children in a class being diagnosed more often. Some places, such as English primary care, still diagnose fewer adults than expected, so the fairest summary is rising recognition plus real noise in how diagnosis happens.
 → [More diagnoses than ever](../01-is-this-real/more-diagnoses-than-ever.md)
 
 **"Everyone's a little bit ADHD."**
@@ -19,7 +19,7 @@ Girls and women are diagnosed less often and later, and the gap between the sexe
 → [Women and girls](../01-is-this-real/women-and-girls.md)
 
 **"An online quiz or TikTok video told me I have it."**
-Screening questionnaires flag people who may need assessment; they cannot diagnose. A study of the 100 most popular ADHD videos on TikTok found about half (52) were misleading [3].
+Screening questionnaires flag people who may need assessment; they cannot diagnose. A study of the 100 most popular ADHD videos on TikTok found about half (52) were misleading [2].
 → [How diagnosis works](../01-is-this-real/how-diagnosis-works.md)
 
 **"You can't get ADHD as an adult" / "Adult-onset ADHD is a separate condition."**
@@ -41,7 +41,7 @@ Group differences in brain size are very small, and people with and without ADHD
 → [Brain structure and development](../02-whats-happening-in-my-brain/brain-structure-and-development.md)
 
 **"If a stimulant helps you focus, you must have ADHD."**
-Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. In a small 1980 double-blind study, a single dose of dextroamphetamine reduced activity and improved vigilance in boys without ADHD, and acted similarly in boys with ADHD and in adult men [5].
+Stimulants sharpen attention in many people without ADHD too, so a good response does not confirm a diagnosis. In a small 1980 double-blind study, a single dose of dextroamphetamine reduced activity and improved vigilance and learning in boys without ADHD, and acted similarly in boys with ADHD and in young men [3].
 → [How ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md)
 
 ## About thinking and feeling
@@ -65,13 +65,13 @@ On current evidence, parenting style does not appear to cause ADHD, which arises
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
 **"Sugar, screens, paracetamol or smoking in pregnancy cause ADHD."**
-Double-blind trials have not found that sugar changes children's behaviour [1]. The links with paracetamol and smoking in pregnancy largely disappear when siblings are compared, which points to shared family factors. Screens are linked with ADHD symptoms, but which causes which is unclear.
+Double-blind trials have not found that sugar changes children's behaviour [4]. The links with paracetamol and smoking in pregnancy largely disappear when siblings are compared, which points to shared family factors. Screens are linked with ADHD symptoms, but which causes which is unclear.
 → [What does and doesn't cause ADHD](../04-did-i-cause-this-and-where-is-it-going/what-does-and-doesnt-cause-adhd.md)
 
 ## About the future
 
 **"People with ADHD die 13 years earlier."**
-This figure is a model-based estimate from one group of 158 children, mostly boys, from Milwaukee in the United States, put through a life-expectancy calculator [2]. It is not a count of deaths. Studies of actual deaths among diagnosed adults find a smaller and still uncertain gap, much of it from accidents and other risks that can change.
+This figure is a model-based estimate from a life-expectancy calculator, applied to one Milwaukee study group: 131 young adults diagnosed with hyperactivity as children, and 71 comparison young adults [5]. The 12.7 fewer years applied to those whose ADHD persisted into adulthood; for the childhood-diagnosed group as a whole the estimate was 8.4 years [5]. It is not a count of deaths. Studies of actual deaths among diagnosed adults find a smaller and still uncertain gap, much of it from accidents and other risks that can change.
 → [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 
 **"ADHD causes dementia."**
@@ -85,7 +85,7 @@ Many women report this, and hormone effects are plausible, but research on menop
 ## About treatment
 
 **"Stimulants lead to addiction."**
-Studies that compare people with themselves on and off medication find fewer substance-related problems during medicated periods. Misuse and passing medicine to others are real, separate problems.
+Studies that compare people with themselves on and off medication find fewer substance-related problems during medicated periods; in US insurance data, the odds of a substance-related event were about a third lower in medicated months [6]. Misuse and passing medicine to others are real, separate problems.
 → [Alcohol, drugs and addiction](../05-what-often-comes-with-it/alcohol-drugs-and-addiction.md)
 
 **"ADHD medication doesn't really work. Cochrane said so."**
@@ -101,7 +101,7 @@ When symptom ratings are made by people who do not know who got the treatment, n
 → [Lifestyle and other approaches](../06-treatment-what-works/lifestyle-and-other-approaches.md)
 
 **"Either ADHD is a disorder, or it's just a difference (neurodiversity)."**
-These views are not mutually exclusive. Some researchers argue for combining a neurodiversity view with clinical care, because diagnosis and treatment help many people [4]. These pages present the evidence without choosing between them.
+These views are not mutually exclusive. Some researchers argue for combining a neurodiversity view with clinical care, because diagnosis and treatment help many people [7]. These pages present the evidence without choosing between them.
 → [What ADHD is](../01-is-this-real/what-adhd-is.md)
 
 ## What is uncertain or debated
@@ -125,11 +125,13 @@ If a claim has worried or reassured you, the linked page gives the numbers, who 
 
 This page summarises; each linked page carries its own sources. Key sources for claims not given in full elsewhere:
 
-1. Wolraich ML, et al. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies from 16 reports; a small effect, or an effect in some children, could not be ruled out.
-2. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019. — **Evidence: Limited**, actuarial estimate from one clinical cohort of 158 children, mostly boys; no deaths counted. Journal and year are as given in the author's own summaries; volume, pages and DOI were not found.
-3. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading.
-4. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7). DOI 10.1016/S2215-0366(21)00167-X. — **Evidence: Limited, expert commentary**, an argued viewpoint rather than a study.
-5. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract.
+1. Polanczyk GV, et al. ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis. *Int J Epidemiol*. 2014;43(2):434–42. DOI 10.1093/ije/dyt261. PMID 24464188. — **Evidence: Strong**, meta-regression of 135 community studies of children and adolescents.
+2. Yeung A, et al. TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. *Can J Psychiatry*. 2022;67(12):899–906. DOI 10.1177/07067437221082854. PMID 35196157. — **Evidence: Limited**, content analysis of the 100 most popular videos; 52 rated misleading.
+3. Rapoport JL, et al. Dextroamphetamine: its cognitive and behavioral effects in normal and hyperactive boys and normal men. *Arch Gen Psychiatry*. 1980;37(8):933–43. DOI 10.1001/archpsyc.1980.01780210091010. PMID 7406657. — **Evidence: Limited**, small double-blind crossover study; confirmed from abstract.
+4. Wolraich ML, et al. The effect of sugar on behavior or cognition in children: a meta-analysis. *JAMA*. 1995;274(20):1617–21. DOI 10.1001/jama.1995.03530200053037. PMID 7474248. — **Evidence: Moderate**, meta-analysis of 23 double-blind studies from 16 reports; a small effect, or an effect in some children, could not be ruled out.
+5. Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. *J Atten Disord*. 2019;23(9):907–23. DOI 10.1177/1087054718816164. PMID 30526189. — **Evidence: Limited**, actuarial estimate in one clinical cohort (131 hyperactive and 71 control participants at follow-up); no deaths counted; figures confirmed against the PubMed abstract.
+6. Quinn PD, et al. ADHD medication and substance-related problems. *Am J Psychiatry*. 2017;174(9):877–85. DOI 10.1176/appi.ajp.2017.16060686. PMID 28659039. — **Evidence: Strong** design, within-person comparison in US insurance data; observational.
+7. Sonuga-Barke E, et al. The neurodiversity concept: is it helpful for clinicians and scientists? *Lancet Psychiatry*. 2021;8(7):559–61. DOI 10.1016/S2215-0366(21)00167-X. PMID 33984295. — **Evidence: Limited, expert commentary**, an argued viewpoint rather than a study.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)
