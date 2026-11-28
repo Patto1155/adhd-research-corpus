@@ -17,7 +17,7 @@
             "design": "registry with full-sibling comparison",
             "n": "2.48 million children",
             "cited_on_page": true,
-            "verified": "PubMed record + abstract (as cited on page)"
+            "verified": "PubMed record + abstract"
           },
           {
             "citation": "Sheikh J, et al. Maternal paracetamol (acetaminophen) use during pregnancy and risk of autism spectrum disorder and attention deficit/hyperactivity disorder in offspring: umbrella review of systematic reviews. BMJ. 2025.",
@@ -27,7 +27,7 @@
             "design": "umbrella review",
             "n": "9 reviews, 40 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Gustavson K, et al. Acetaminophen use during pregnancy and offspring attention deficit hyperactivity disorder - a longitudinal sibling control study. JCPP Adv. 2021.",
@@ -103,7 +103,7 @@
             "design": "registry with sibling and cousin comparisons",
             "n": null,
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Haan E, et al. Prenatal smoking, alcohol and caffeine exposure and maternal-reported attention deficit hyperactivity disorder symptoms in childhood: triangulation of evidence using negative control and polygenic risk score analyses. Addiction. 2022.",
@@ -235,7 +235,7 @@
             "design": "meta-analysis",
             "n": "12 studies, 1,787 people",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -291,7 +291,7 @@
             "design": "prospective cohort",
             "n": "2,587 adolescents",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Thorell LB, et al. Longitudinal associations between digital media use and ADHD symptoms in children and adolescents: a systematic literature review. Eur Child Adolesc Psychiatry. 2024.",
@@ -377,7 +377,7 @@
             "design": "meta-analysis of blinded within-person trials",
             "n": "23 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -433,7 +433,7 @@
             "design": "adoption study",
             "n": "two adoption samples",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -525,7 +525,7 @@
             "design": "clinical cohort, 8 assessments over 16 years",
             "n": "558",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -555,7 +555,7 @@
             "design": "clinical cohort",
             "n": "558",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -565,13 +565,13 @@
         "sources": [
           {
             "citation": "Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. EClinicalMedicine. 2023.",
-            "doi": null,
+            "doi": "10.1016/j.eclinm.2023.102021",
             "pmid": "37333663",
             "year": 2023,
             "design": "three cohorts (ABCD, NCR, NKI-Rockland)",
             "n": ">10,000",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -601,7 +601,7 @@
             "design": "birth cohort (Dunedin)",
             "n": "1,037",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Agnew-Blais JC, et al. Evaluation of the Persistence, Remission, and Emergence of Attention-Deficit/Hyperactivity Disorder in Young Adulthood. JAMA Psychiatry. 2016.",
@@ -637,7 +637,7 @@
             "design": "clinical cohort (MTA local normative comparison group)",
             "n": null,
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Breda V, et al. The neurodevelopmental nature of attention-deficit hyperactivity disorder in adults. Br J Psychiatry. 2021.",
@@ -677,7 +677,7 @@
             "design": "meta-analysis",
             "n": null,
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Wootton RE, et al. Decline in attention-deficit hyperactivity disorder traits over the life course in the general population: trajectories across five population birth cohorts spanning ages 3 to 45 years. Int J Epidemiol. 2022.",
@@ -703,7 +703,7 @@
             "design": "meta-analysis",
             "n": "20 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -733,7 +733,7 @@
             "design": "population cohort, cross-sectional self-report (SAGA)",
             "n": "5,392 women (535 with ADHD)",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Boyd C, et al. ADHD and the female reproductive stages: menstruation, perinatal and menopause. Arch Womens Ment Health. 2026.",
@@ -759,7 +759,7 @@
             "design": "cross-sectional survey",
             "n": "656 (245 with ADHD)",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -789,7 +789,7 @@
             "design": "clinic survey, no control",
             "n": "209",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Osianlis E, et al. ADHD in females: survey findings on symptoms across hormonal life stages. J Psychiatr Res. 2026.",
@@ -799,7 +799,7 @@
             "design": "online survey, no control",
             "n": "600",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -890,7 +890,7 @@
             "design": "expert review",
             "n": null,
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Groenman AP, et al. The monthly spectrum: Premenstrual symptoms across ADHD and autism. Womens Health (Lond). 2026.",
@@ -916,7 +916,7 @@
             "design": "systematic review",
             "n": "11 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Osianlis E, et al. ADHD in females: survey findings on symptoms across hormonal life stages. J Psychiatr Res. 2026.",
@@ -926,7 +926,7 @@
             "design": "online survey",
             "n": "600",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -956,7 +956,7 @@
             "design": "matched primary-care cohort",
             "n": "30,039 with ADHD",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -972,7 +972,7 @@
             "design": "clinical cohort with actuarial estimate",
             "n": "131 cases, 71 controls",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -1002,7 +1002,7 @@
             "design": "meta-analysis",
             "n": "4 datasets for suicide death",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -1018,7 +1018,7 @@
             "design": "meta-analysis",
             "n": "19 studies, about 16 million people",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -1048,7 +1048,7 @@
             "design": "national registry cohort",
             "n": "1.92 million (32,061 with ADHD)",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Catalá-López F, et al. Mortality in persons with autism spectrum disorder or attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. JAMA Pediatr. 2022.",
@@ -1058,7 +1058,7 @@
             "design": "meta-analysis",
             "n": "8 studies for ADHD",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -1074,7 +1074,7 @@
             "design": "meta-analysis",
             "n": "19 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       }
@@ -1098,13 +1098,13 @@
         "sources": [
           {
             "citation": "Dobrosavljevic M, et al. Attention-deficit/hyperactivity disorder as a risk factor for dementia and mild cognitive impairment: a population-based register study. Eur Psychiatry. 2022.",
-            "doi": null,
+            "doi": "10.1192/j.eurpsy.2021.2261",
             "pmid": "34924079",
             "year": 2022,
             "design": "national registry",
             "n": "3.6 million",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Becker S, et al. Risk of neurodegenerative disease or dementia in adults with attention-deficit/hyperactivity disorder: a systematic review. Front Psychiatry. 2023.",
@@ -1114,7 +1114,7 @@
             "design": "systematic review",
             "n": "7 studies",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -1130,7 +1130,7 @@
             "design": "health-insurance cohort",
             "n": "109,218 (730 with adult ADHD)",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Baiamonte L, et al. Attention Deficit/Hyperactivity Disorder and Risk of Dementia: A Systematic Review and Meta-Analysis. Brain Sci. 2026.",
@@ -1184,23 +1184,23 @@
         "sources": [
           {
             "citation": "Quinn PD, et al. ADHD medication and substance-related problems. Am J Psychiatry. 2017.",
-            "doi": null,
+            "doi": "10.1176/appi.ajp.2017.16060686",
             "pmid": "28659039",
             "year": 2017,
             "design": "within-person insurance-claims cohort",
             "n": "about 3 million",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Chang Z, et al. Stimulant ADHD medication and risk for substance abuse. J Child Psychol Psychiatry. 2014.",
-            "doi": null,
+            "doi": "10.1111/jcpp.12164",
             "pmid": "25158998",
             "year": 2014,
             "design": "national registry",
             "n": null,
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Zhang L, et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. BMJ. 2025.",
@@ -1210,7 +1210,7 @@
             "design": "target-trial emulation, national registry",
             "n": "148,581",
             "cited_on_page": true,
-            "verified": "PubMed record (as cited on page)"
+            "verified": "PubMed record"
           }
         ]
       },
@@ -1221,12 +1221,12 @@
           {
             "citation": "Humphreys KL, et al. Stimulant medication and substance use outcomes: a meta-analysis. JAMA Psychiatry. 2013.",
             "doi": "10.1001/jamapsychiatry.2013.1273",
-            "pmid": null,
+            "pmid": "23754458",
             "year": 2013,
             "design": "meta-analysis of observational studies",
             "n": "15 studies",
             "cited_on_page": true,
-            "verified": "Crossref record (DOI as cited on page)"
+            "verified": "PubMed record"
           },
           {
             "citation": "Molina BSG, et al. Association Between Stimulant Treatment and Substance Use Through Adolescence Into Early Adulthood. JAMA Psychiatry. 2023.",
@@ -1245,7 +1245,7 @@
     "why_they_may_differ": "The protective findings are short-term (month-by-month or two-year windows) and concern acute substance-related events such as emergency visits, which medication might reduce through less impulsive behaviour while it is being taken; the neutral findings concern long-term use patterns years later. Registry estimates may also reflect healthy-adherer effects (people stable enough to take medication regularly). The two sides agree that medication does not raise risk.",
     "page_handling": "reports both",
     "severity": "moderate",
-    "next_step": "Add Molina 2023 as the best long-term evidence that childhood stimulant treatment neither increases nor prevents adult substance use, and qualify 'if anything, medicated periods are associated with fewer substance problems' as a short-term finding about acute events. Mirror on 06-treatment-what-works/what-registries-show.md if it makes the same claim. Confirm PMID for Humphreys 2013 from PubMed.",
+    "next_step": "Add Molina 2023 as the best long-term evidence that childhood stimulant treatment neither increases nor prevents adult substance use, and qualify 'if anything, medicated periods are associated with fewer substance problems' as a short-term finding about acute events. Mirror on 06-treatment-what-works/what-registries-show.md if it makes the same claim.",
     "new_research": true
   },
   {
@@ -1266,7 +1266,7 @@
             "design": "meta-analysis of prospective cohorts",
             "n": "13 cohorts",
             "cited_on_page": true,
-            "verified": "PubMed record + abstract (as cited on page)"
+            "verified": "PubMed record + abstract"
           }
         ]
       },
@@ -1302,6 +1302,408 @@
     "page_handling": "not mentioned",
     "severity": "moderate",
     "next_step": "Add a sentence in 'Why the link exists' that genetic (Mendelian randomisation) studies support ADHD liability raising smoking and cannabis initiation, with the usual MR caveats; it still does not test self-medication specifically. Consider linking to genes-and-inheritance for shared genetics.",
+    "new_research": true
+  },
+  {
+    "id": "C05-003",
+    "topic": "ADHD and obesity: shared genes, cause, or both directions?",
+    "page": "05-what-often-comes-with-it/physical-health.md",
+    "claim": "Obesity is moderately more common (28.2% against 16.4% in adults); for metabolic conditions shared genetic factors explained 60-69% of the overlap; whether changing habits lowers the risk has barely been tested.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Much of the overlap is shared genetic liability: the Swedish sibling-based study attributed most of the ADHD-metabolic overlap to shared genes, and the meta-analysis shows an association, not a direction.",
+        "sources": [
+          {
+            "citation": "Du Rietz E, et al. Mapping phenotypic and aetiological associations between ADHD and physical conditions in adulthood in Sweden: a genetically informed register study. Lancet Psychiatry. 2021.",
+            "doi": "10.1016/S2215-0366(21)00171-1",
+            "pmid": "34242595",
+            "year": 2021,
+            "design": "national registry with sibling-based genetic modelling",
+            "n": "4.8 million adults",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Cortese S, et al. Association between ADHD and obesity: a systematic review and meta-analysis. Am J Psychiatry. 2016.",
+            "doi": "10.1176/appi.ajp.2015.15020266",
+            "pmid": "26315982",
+            "year": 2016,
+            "design": "meta-analysis",
+            "n": "42 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Mendelian randomisation studies find causal effects in both directions: genetic liability to ADHD raises obesity-related traits, and higher BMI raises ADHD risk, with stronger effects for childhood obesity, according to a review of ADHD MR studies and two primary analyses.",
+        "sources": [
+          {
+            "citation": "Karhunen V, et al. The link between attention deficit hyperactivity disorder (ADHD) symptoms and obesity-related traits: genetic and prenatal explanations. Transl Psychiatry. 2021.",
+            "doi": "10.1038/s41398-021-01584-4",
+            "pmid": "34482360",
+            "year": 2021,
+            "design": "bidirectional Mendelian randomisation plus birth-cohort polygenic scores",
+            "n": "2,984 (NFBC1986) plus GWAS summary data",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Chen W, et al. Mendelian randomization analyses identify bidirectional causal relationships of obesity with psychiatric disorders. J Affect Disord. 2023.",
+            "doi": "10.1016/j.jad.2023.07.044",
+            "pmid": "37474010",
+            "year": 2023,
+            "design": "two-sample Mendelian randomisation",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Riglin L, et al. Mendelian randomisation studies of Attention Deficit Hyperactivity Disorder. JCPP Adv. 2022.",
+            "doi": "10.1002/jcv2.12117",
+            "pmid": "37431426",
+            "year": 2022,
+            "design": "review of Mendelian randomisation studies",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "'Shared genes' (sibling modelling) and 'causal effect' (MR) are not mutually exclusive: MR treats the same variants as instruments, and a variant that raises both ADHD and BMI through a common pathway (pleiotropy) can look like a causal effect. Sibling models partition overlap into genetic and environmental parts but cannot show direction. The page's framing ('shared biology, which is no one's fault') is fair, but it omits the genetic evidence that each may partly lead to the other, which bears on its point that habits and sleep may be modifiable routes.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add one sentence that genetic causal-inference studies suggest effects in both directions between ADHD and higher body weight (Riglin 2022 review), with MR caveats; this supports, rather than contradicts, the page's point that weight-related pathways may be modifiable.",
+    "new_research": true
+  },
+  {
+    "id": "C05-004",
+    "topic": "ADHD and cardiovascular disease in adults",
+    "page": "05-what-often-comes-with-it/physical-health.md",
+    "claim": "Reviews differ: an earlier systematic review noted one large registry study had found no link with cardiovascular disease, whereas the later Swedish sibling study found modestly raised odds for heart and circulation conditions.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "No clear link: an earlier systematic review of 126 mostly small studies noted a large registry study had found no association with cardiovascular disease.",
+        "sources": [
+          {
+            "citation": "Instanes JT, et al. Adult ADHD and comorbid somatic disease: a systematic literature review. J Atten Disord. 2018.",
+            "doi": "10.1177/1087054716669589",
+            "pmid": "27664125",
+            "year": 2018,
+            "design": "systematic review",
+            "n": "126 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Raised risk: in 5.4 million Swedish adults followed for about 12 years, 38.05% of those with ADHD against 23.57% without had a cardiovascular diagnosis (HR 2.05, falling to 1.65 after adjusting for metabolic, lifestyle and psychiatric factors); the sibling study also found modestly raised odds; MR studies give some evidence of causal effects on coronary artery disease and stroke.",
+        "sources": [
+          {
+            "citation": "Li L, et al. Attention-deficit/hyperactivity disorder as a risk factor for cardiovascular diseases: a nationwide population-based cohort study. World Psychiatry. 2022.",
+            "doi": "10.1002/wps.21020",
+            "pmid": "36073682",
+            "year": 2022,
+            "design": "national registry cohort",
+            "n": "5,389,519 adults",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Du Rietz E, et al. Mapping phenotypic and aetiological associations between ADHD and physical conditions in adulthood in Sweden: a genetically informed register study. Lancet Psychiatry. 2021.",
+            "doi": "10.1016/S2215-0366(21)00171-1",
+            "pmid": "34242595",
+            "year": 2021,
+            "design": "national registry with sibling modelling",
+            "n": "4.8 million",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Riglin L, et al. Mendelian randomisation studies of Attention Deficit Hyperactivity Disorder. JCPP Adv. 2022.",
+            "doi": "10.1002/jcv2.12117",
+            "pmid": "37431426",
+            "year": 2022,
+            "design": "review of Mendelian randomisation studies",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "The older null registry finding likely came from a younger cohort with few cardiovascular events; Li 2022 followed adults born 1941-83 for over a decade, with ADHD as a time-varying exposure. Long-term ADHD medication is itself linked to modestly higher cardiovascular risk (covered on the medication-safety page), so part of the association may run through treatment, and part through smoking, weight and sleep, which registries measure imperfectly.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Add Li 2022 as the main cardiovascular source, with its absolute figures (38.05% against 23.57% over about 12 years, all cardiovascular diagnoses) and the attenuation to HR 1.65 after adjustment; this resolves the 'reviews differ' sentence in favour of a raised risk. Update the 'absolute risks are mostly missing' bullet accordingly and link to medication-safety for the medication part.",
+    "new_research": true
+  },
+  {
+    "id": "C05-005",
+    "topic": "Direction of the ADHD-depression link",
+    "page": "05-what-often-comes-with-it/anxiety-and-depression.md",
+    "claim": "Genetic studies suggest ADHD modestly raises later depression risk (MR odds ratio 1.21; 1.09 in a larger study), and depression liability may raise ADHD risk more (1.76).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "ADHD leads to depression: childhood ADHD predicted recurrent depression in ALSPAC and MR gave odds ratio 1.21; a 2024 Swedish study triangulating sibling and twin comparisons (HR 4.12 for later depression after adjusting for shared family factors), twin-cohort score associations and MR (odds ratio 1.15) concluded ADHD is causally related to major depression.",
+        "sources": [
+          {
+            "citation": "Riglin L, et al. ADHD and depression: investigating a causal explanation. Psychol Med. 2021.",
+            "doi": "10.1017/S0033291720000665",
+            "pmid": "32249726",
+            "year": 2021,
+            "design": "birth cohort plus Mendelian randomisation",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Garcia-Argibay M, et al. Attention-Deficit/Hyperactivity Disorder and Major Depressive Disorder: Evidence From Multiple Genetically Informed Designs. Biol Psychiatry. 2024.",
+            "doi": "10.1016/j.biopsych.2023.07.017",
+            "pmid": "37562520",
+            "year": 2024,
+            "design": "sibling and twin comparisons plus Mendelian randomisation (Sweden)",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Effect may run mainly the other way: a network MR with larger datasets found a small ADHD-to-depression effect (1.09) and a larger depression-to-ADHD effect (1.76), and no causal link with anxiety.",
+        "sources": [
+          {
+            "citation": "Meisinger C, et al. Understanding the causal relationships of attention-deficit/hyperactivity disorder with mental disorders and suicide attempt: a network Mendelian randomisation study. BMJ Ment Health. 2023.",
+            "doi": "10.1136/bmjment-2022-300642",
+            "pmid": "37669871",
+            "year": 2023,
+            "design": "network Mendelian randomisation",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "MR estimates in the depression-to-ADHD direction are vulnerable because depression variants are weak, heterogeneous instruments and overlap with general psychopathology; ADHD-to-depression estimates are consistently positive but small across MR studies. Sibling designs address time order (ADHD diagnosed before depression) and shared family factors, but not factors that differ between siblings, so the large sibling HR measures association after family adjustment rather than a causal size. All approaches agree there is at least a modest ADHD-to-depression path.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Add Garcia-Argibay 2024 as the strongest triangulated evidence for an ADHD-to-depression path, and note that the reverse MR estimate (1.76) has not been replicated with sibling or time-ordered designs. Keep the page's caveat about untestable MR assumptions.",
+    "new_research": true
+  },
+  {
+    "id": "C05-006",
+    "topic": "How much more common are depression and anxiety: 4-5 times or about 9 times?",
+    "page": "05-what-often-comes-with-it/anxiety-and-depression.md",
+    "claim": "Adults with ADHD have about four to five times the odds of anxiety or depression (Hartman 2023); in Swedish records 42% against 4.7% had depression recorded (prevalence ratio about 9).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Pooled large studies (surveys, claims and registers): odds ratios of 5.0 for anxiety and 4.5 for major depression.",
+        "sources": [
+          {
+            "citation": "Hartman CA, et al. Anxiety, mood, and substance use disorders in adult men and women with and without attention-deficit/hyperactivity disorder: a substantive and methodological overview. Neurosci Biobehav Rev. 2023.",
+            "doi": "10.1016/j.neubiorev.2023.105209",
+            "pmid": "37149075",
+            "year": 2023,
+            "design": "meta-analysis of studies with >10,000 participants",
+            "n": "550,748 with ADHD",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Swedish national registers: recorded depression in 42% of adults with diagnosed ADHD against 4.7% without, and anxiety 45% against 4.9%, a ratio of about 9.",
+        "sources": [
+          {
+            "citation": "Chen Q, et al. Common psychiatric and metabolic comorbidity of adult attention-deficit/hyperactivity disorder: a population-based cross-sectional study. PLoS One. 2018.",
+            "doi": "10.1371/journal.pone.0204516",
+            "pmid": "30256837",
+            "year": 2018,
+            "design": "national register, cross-sectional",
+            "n": "5.55 million (61,129 with ADHD)",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Prevalence ratios and odds ratios are different measures (odds ratios exceed risk ratios when outcomes are common, so this would push the other way), so the gap is mainly about samples: registers count only diagnosed ADHD, which in Sweden in that era captured the most severe adults who are in frequent contact with services where depression is also recorded (surveillance bias), while surveys capture milder, undiagnosed cases. The page notes the records caveat but presents the two figures side by side in the short answer without explaining why they differ.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Add one sentence explaining that registry figures for diagnosed adults are higher than survey-based estimates because diagnosed adults are more severely affected and more often assessed; consider leading the short answer with the pooled 4-5 times figure and giving the Swedish absolute figures as one example.",
+    "new_research": false
+  },
+  {
+    "id": "C05-007",
+    "topic": "How often autistic people have ADHD",
+    "page": "05-what-often-comes-with-it/autism-and-adhd.md",
+    "claim": "Between about one in four and two in five autistic people have ADHD (28% in Lai 2019; 38.5% current, 40.2% lifetime in Rong 2021); adult data were not found for the ADHD-to-autism direction.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Higher figure: 38.5% current and 40.2% lifetime across 63 articles with high heterogeneity.",
+        "sources": [
+          {
+            "citation": "Rong Y, et al. Prevalence of attention-deficit/hyperactivity disorder in individuals with autism spectrum disorder: a meta-analysis. Res Autism Spectr Disord. 2021.",
+            "doi": "10.1016/j.rasd.2021.101759",
+            "pmid": null,
+            "year": 2021,
+            "design": "meta-analysis",
+            "n": "63 articles",
+            "cited_on_page": true,
+            "verified": "Crossref record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Lower figure using confirmed clinical diagnoses: 28% across 96 studies. A 2023 meta-analysis of 340 publications (about 590,000 participants) found ADHD among the most frequent co-occurring conditions in children and adults, with prevalence differing by age group and study design (pooled figures not in the abstract).",
+        "sources": [
+          {
+            "citation": "Lai MC, et al. Prevalence of co-occurring mental health diagnoses in the autism population: a systematic review and meta-analysis. Lancet Psychiatry. 2019.",
+            "doi": "10.1016/S2215-0366(19)30289-5",
+            "pmid": "31447415",
+            "year": 2019,
+            "design": "meta-analysis",
+            "n": "96 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Micai M, et al. Prevalence of co-occurring conditions in children and adults with autism spectrum disorder: A systematic review and meta-analysis. Neurosci Biobehav Rev. 2023.",
+            "doi": "10.1016/j.neubiorev.2023.105436",
+            "pmid": "37913872",
+            "year": 2023,
+            "design": "meta-analysis with age and design subgroups",
+            "n": "340 publications, about 590,000 participants",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Rong included symptom-based and research-assessed ADHD and many clinic samples; Lai restricted to confirmed diagnoses, which undercount in older studies done under DSM-IV's exclusion rule. Clinic samples, children and people without intellectual disability tend to give higher rates.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Obtain Micai 2023's ADHD point-prevalence figures by age group and design from the full text; if they include adults, they fill the page's stated gap on adult data and offer a third, larger estimate to sit between 28% and 38.5%.",
+    "new_research": true
+  },
+  {
+    "id": "C05-008",
+    "topic": "PTSD and ADHD: both directions, or mainly ADHD to PTSD?",
+    "page": "05-what-often-comes-with-it/is-it-adhd-or-something-else.md",
+    "claim": "Trauma and PTSD overlap in both directions: PTSD about 2.9 times as common with ADHD and ADHD about 1.7 times as common with PTSD; smaller (1.6) when the comparison group had also been through trauma.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Meta-analysis of 22 studies: association in both directions, smaller against trauma-exposed controls, consistent with symptom overlap and with trauma's own effects.",
+        "sources": [
+          {
+            "citation": "Spencer AE, et al. Examining the association between posttraumatic stress disorder and attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. J Clin Psychiatry. 2016.",
+            "doi": "10.4088/JCP.14r09479",
+            "pmid": "26114394",
+            "year": 2016,
+            "design": "meta-analysis",
+            "n": "22 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Genetic and sibling evidence points mainly one way: genetic liability to ADHD was causally linked to PTSD but not the reverse, and people diagnosed with ADHD had about 2.4 times the risk of later PTSD compared with their own undiagnosed siblings.",
+        "sources": [
+          {
+            "citation": "Wendt FR, et al. The Relationship of Attention-Deficit/Hyperactivity Disorder With Posttraumatic Stress Disorder: A Two-Sample Mendelian Randomization and Population-Based Sibling Comparison Study. Biol Psychiatry. 2023.",
+            "doi": "10.1016/j.biopsych.2022.08.012",
+            "pmid": "36335070",
+            "year": 2023,
+            "design": "Mendelian randomisation plus Swedish sibling comparison",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Co-occurrence 'in both directions' describes prevalence, which can arise even if causation runs one way (ADHD raises exposure to accidents and adversity, and thus PTSD) or if trauma symptoms are mistaken for ADHD. MR tests genetic liability, not trauma-induced ADHD-like symptoms, so it cannot rule out that trauma produces ADHD-like presentations; the page's clinical point about timing relative to trauma remains valid.",
+    "page_handling": "not mentioned",
+    "severity": "minor",
+    "next_step": "Add a sentence that genetic and sibling evidence suggests ADHD raises the later risk of PTSD (Wendt 2023), while trauma can still produce ADHD-like symptoms, which is why timing matters in assessment.",
+    "new_research": true
+  },
+  {
+    "id": "C05-009",
+    "topic": "Treating sleep apnoea: behaviour improves, measured attention may not",
+    "page": "05-what-often-comes-with-it/is-it-adhd-or-something-else.md",
+    "claim": "In a randomised trial, adenotonsillectomy for childhood sleep apnoea improved caregiver- and teacher-rated behaviour but not formal attention or executive-function tests; this shows a sleep disorder can produce ADHD-like behaviour.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Before-after and pooled studies suggest real ADHD-symptom improvement: a 2014 meta-analysis found a medium link between sleep-disordered breathing and ADHD symptoms (g 0.57) and medium symptom reductions after surgery (g 0.43 across 12 studies); a 2026 meta-analysis found moderate parent-rated behavioural and small executive-function improvement.",
+        "sources": [
+          {
+            "citation": "Sedky K, et al. Attention deficit hyperactivity disorder and sleep disordered breathing in pediatric populations: a meta-analysis. Sleep Med Rev. 2014.",
+            "doi": "10.1016/j.smrv.2013.12.003",
+            "pmid": "24581717",
+            "year": 2014,
+            "design": "meta-analysis (incl. pre-post studies)",
+            "n": "18 studies; 12 surgery studies (529 children)",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Lee YC, et al. Neurobehavioral outcomes after adenotonsillectomy for pediatric sleep-disordered breathing: A systematic review and meta-analysis. Am J Otolaryngol. 2026.",
+            "doi": "10.1016/j.amjoto.2026.104886",
+            "pmid": "42456309",
+            "year": 2026,
+            "design": "meta-analysis",
+            "n": "8 studies",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In the one large randomised trial and in the 2026 pooled data, objective attention and ADHD-specific measures did not improve significantly; the behaviour gains rest on raters who knew whether the child had surgery.",
+        "sources": [
+          {
+            "citation": "Marcus CL, et al. A randomized trial of adenotonsillectomy for childhood sleep apnea. N Engl J Med. 2013.",
+            "doi": "10.1056/NEJMoa1215881",
+            "pmid": "23692173",
+            "year": 2013,
+            "design": "RCT (CHAT)",
+            "n": "464",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Uncontrolled before-after studies overstate change through expectation and regression to the mean; in CHAT, parents and teachers were not blinded to surgery. Objective tests may be insensitive to day-to-day behaviour. The page's inference ('a sleep disorder can produce ADHD-like behaviour that improves when sleep is treated') is reasonable but rests on unblinded ratings.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Note that the behaviour ratings were unblinded and that pooled studies show the same pattern (behaviour improves, objective attention measures less clearly), so the trial shows sleep problems can worsen behaviour rather than proving they mimic ADHD.",
     "new_research": true
   }
 ]

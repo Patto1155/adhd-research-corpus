@@ -502,5 +502,465 @@
     "severity": "moderate",
     "next_step": "Mention the follow-up claim and why it does not overturn the blinded result (unblinded parent ratings, non-active controls, declared interests); check whether Westwood 2025 analysed follow-up time points with blinded raters.",
     "new_research": true
+  },
+  {
+    "id": "C06-009",
+    "topic": "Omega-3 supplements: small benefit vs no difference",
+    "page": "06-treatment-what-works/lifestyle-and-other-approaches.md",
+    "claim": "Omega-3 and other fatty acids have small or no effect; a 2023 Cochrane review found high-certainty evidence of no difference on parent-rated symptoms.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Earlier meta-analyses found small-to-moderate benefits in children: SMD 0.31 (10 trials) and g 0.38 on clinical symptoms (7 RCTs, 534 youths), plus larger effects on attention tests in 3 RCTs; children with ADHD had lower blood omega-3 levels.",
+        "sources": [
+          {
+            "citation": "Bloch MH, et al. Omega-3 fatty acid supplementation for the treatment of children with ADHD symptomatology: systematic review and meta-analysis. J Am Acad Child Adolesc Psychiatry. 2011;50(10):991-1000.",
+            "doi": "10.1016/j.jaac.2011.06.008",
+            "pmid": "21961774",
+            "year": 2011,
+            "design": "meta-analysis of RCTs",
+            "n": "10 trials, 699",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Chang JP, et al. Omega-3 polyunsaturated fatty acids in youths with ADHD: a systematic review and meta-analysis of clinical trials and biological studies. Neuropsychopharmacology. 2018.",
+            "doi": "10.1038/npp.2017.160",
+            "pmid": "28741625",
+            "year": 2018,
+            "design": "meta-analysis of RCTs and case-control studies",
+            "n": "7 RCTs, 534",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "The 2023 Cochrane review of 37 trials found high-certainty evidence of no difference on parent-rated total symptoms over the medium term (SMD -0.08); probably blinded ratings in 2013 gave only 0.16.",
+        "sources": [
+          {
+            "citation": "Gillies D, et al. Polyunsaturated fatty acids (PUFA) for ADHD in children and adolescents. Cochrane Database Syst Rev. 2023;CD007986.pub3.",
+            "doi": "10.1002/14651858.CD007986.pub3",
+            "pmid": "37058600",
+            "year": 2023,
+            "design": "systematic review and meta-analysis (Cochrane)",
+            "n": "37 trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Sonuga-Barke EJS, et al. Nonpharmacological interventions for ADHD: systematic review and meta-analyses of RCTs of dietary and psychological treatments. Am J Psychiatry. 2013;170(3):275-89.",
+            "doi": "10.1176/appi.ajp.2012.12070991",
+            "pmid": "23360949",
+            "year": 2013,
+            "design": "meta-analysis of RCTs",
+            "n": "54 trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Smaller, earlier pools of trials give larger effects; the Cochrane review has far more trials and grades risk of bias. Chang 2018 combines monotherapy trials and mixes clinical and cognitive outcomes; possible subgroup effects (children with low baseline omega-3, higher EPA doses) may be diluted in whole-population averages.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Optionally cite Chang 2018 as the strongest positive meta-analysis and state why the larger Cochrane review is weighted more; check whether any trial stratified by baseline omega-3 level.",
+    "new_research": true
+  },
+  {
+    "id": "C06-010",
+    "topic": "Exercise: moderate-to-large vs small effects on core symptoms",
+    "page": "06-treatment-what-works/lifestyle-and-other-approaches.md",
+    "claim": "In children, a 2015 meta-analysis of a small number of small trials reported moderate to large effects of aerobic exercise on attention, hyperactivity and impulsivity.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A 2015 meta-analysis and recent executive-function meta-analyses report moderate effects (for example inhibitory control g about 0.60 and working memory 0.51 in 16 RCTs of school-aged children).",
+        "sources": [
+          {
+            "citation": "Cerrillo-Urbina AJ, et al. The effects of physical exercise in children with ADHD: a systematic review and meta-analysis of randomized control trials. Child Care Health Dev. 2015;41(6):779-88.",
+            "doi": "10.1111/cch.12255",
+            "pmid": "25988743",
+            "year": 2015,
+            "design": "meta-analysis of RCTs",
+            "n": "small number of small trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Liu R, et al. Effects of exercise interventions on executive function in school-aged children with ADHD: a systematic review and meta-analysis. BMC Public Health. 2025.",
+            "doi": "10.1186/s12889-025-24335-2",
+            "pmid": "41034843",
+            "year": 2025,
+            "design": "meta-analysis of RCTs",
+            "n": "16 RCTs",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2022 meta-analysis restricted to RCTs in clinically diagnosed children using valid ADHD rating scales found only a small effect of regular moderate-to-vigorous activity on total core symptoms (g -0.33, 11 trials, with a confidence interval reaching -0.02).",
+        "sources": [
+          {
+            "citation": "Seiffer B, et al. The efficacy of physical activity for children with ADHD: a meta-analysis of randomized controlled trials. J Atten Disord. 2022;26(5):656-73.",
+            "doi": "10.1177/10870547211017982",
+            "pmid": "34041952",
+            "year": 2022,
+            "design": "meta-analysis of RCTs",
+            "n": "11 trials",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Executive-function tests are not ADHD symptoms, and the 2025 review notes its effects depend on test paradigm and scoring direction. Symptom ratings in exercise trials are rarely blinded. Stricter inclusion (clinical diagnosis, validated symptom scales) gives smaller effects.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Replace or supplement the 2015 'moderate to large' headline with the 2022 RCT-only symptom estimate (small, imprecise), separate test-based executive-function outcomes from symptom outcomes, and check whether any exercise meta-analysis split blinded and unblinded ratings.",
+    "new_research": true
+  },
+  {
+    "id": "C07-001",
+    "topic": "Parent training and children's core ADHD symptoms",
+    "page": "07-family-work-and-other-people/parenting-and-what-helps.md",
+    "claim": "On blinded ratings, parent training improves parenting and slightly reduces behaviour problems; effects on core ADHD symptoms shrink to little or nothing.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "On probably blinded measures, behavioural interventions show no significant effect on core ADHD symptoms, though parenting and conduct effects hold (SMD 0.63, 0.43, 0.31); in preschoolers only negative parenting held on independent assessment.",
+        "sources": [
+          {
+            "citation": "Sonuga-Barke EJS, et al. Nonpharmacological interventions for ADHD. Am J Psychiatry. 2013;170(3):275-89.",
+            "doi": "10.1176/appi.ajp.2012.12070991",
+            "pmid": "23360949",
+            "year": 2013,
+            "design": "meta-analysis of RCTs",
+            "n": "54 trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Daley D, et al. Behavioral interventions in ADHD: a meta-analysis of randomized controlled trials across multiple outcome domains. J Am Acad Child Adolesc Psychiatry. 2014;53(8):835-47.",
+            "doi": "10.1016/j.jaac.2014.05.013",
+            "pmid": "25062591",
+            "year": 2014,
+            "design": "meta-analysis of RCTs",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Newer syntheses find small-to-moderate between-group effects on ADHD symptoms sustained about 5 months after parent training (27 RCTs), robust parental-outcome effects on both blinded and unblinded measures, and, in an individual-participant analysis of 19 RCTs (1,720 children), that improvements in parenting go together with improvements in children's ADHD severity.",
+        "sources": [
+          {
+            "citation": "Doffer DPA, et al. Sustained improvements by behavioural parent training for children with ADHD: a meta-analytic review of longer-term child and parental outcomes. JCPP Adv. 2023.",
+            "doi": "10.1002/jcv2.12196",
+            "pmid": "37720584",
+            "year": 2023,
+            "design": "meta-analysis of RCTs",
+            "n": "27 studies",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Dekkers TJ, et al. Meta-analysis: which components of parent training work for children with ADHD? J Am Acad Child Adolesc Psychiatry. 2022.",
+            "doi": "10.1016/j.jaac.2021.06.015",
+            "pmid": "34224837",
+            "year": 2022,
+            "design": "meta-analysis of RCTs",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Psyllou C, et al. Research Review: Mechanisms of change and between-family differences in parenting interventions for children with ADHD - an individual participant data meta-analysis. J Child Psychol Psychiatry. 2025;66(9):1304-19.",
+            "doi": "10.1111/jcpp.14120",
+            "pmid": "39910778",
+            "year": 2025,
+            "design": "individual participant data meta-analysis",
+            "n": "19 RCTs, 1,720",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Position B relies mostly on parent reports, which the parents receiving training make with full knowledge, so expectation can inflate symptom change; Position A restricts to probably blinded raters, who see the child briefly or in another setting and may miss change at home. The abstracts of the newer reviews do not say whether the sustained ADHD-symptom effect survives blinded rating.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add the 2022-2025 syntheses as the current evidence on maintenance and mechanism, and check their full texts for blinded-only ADHD-symptom estimates; keep the page's framing that blinded evidence for core-symptom change is weak unless those estimates say otherwise.",
+    "new_research": true
+  },
+  {
+    "id": "C08-001",
+    "topic": "First-line medicine: NICE vs AADPA vs CADDRA vs network meta-analysis",
+    "page": "08-reading-this-well/sources-and-guidelines.md",
+    "claim": "Guidelines mostly agree on the basics and differ on details such as which medicine to offer first.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "NICE NG87 (England): methylphenidate as first-line medicine for children aged 5 and over and young people, after environmental modifications and support; lisdexamfetamine after an inadequate 6-week methylphenidate trial; for adults, lisdexamfetamine or methylphenidate.",
+        "sources": [
+          {
+            "citation": "National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management (NG87). 2018, updated 2019.",
+            "doi": null,
+            "pmid": null,
+            "year": 2018,
+            "design": "guideline",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "search result only"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "AADPA (Australia): methylphenidate, dexamfetamine or lisdexamfetamine equally as first-line for children 5 and over, adolescents and adults, citing minimal differences in efficacy and tolerability; each graded low certainty.",
+        "sources": [
+          {
+            "citation": "May T, et al. The Australian evidence-based clinical practice guideline for attention deficit hyperactivity disorder. Aust N Z J Psychiatry. 2023;57(8):1101-16.",
+            "doi": "10.1177/00048674231166329",
+            "pmid": "37254562",
+            "year": 2023,
+            "design": "guideline",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record + PMC full text"
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "summary": "CADDRA (Canada, 4.1): long-acting stimulants of either class (methylphenidate or amphetamine) as first-line, with a trial of both classes before second-line options; short-acting stimulants and atomoxetine second-line (from secondary descriptions).",
+        "sources": [
+          {
+            "citation": "Canadian ADHD Resource Alliance. Canadian ADHD Practice Guidelines, 4.1 edition. 2020/2021.",
+            "doi": null,
+            "pmid": null,
+            "year": 2021,
+            "design": "guideline",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "search result only"
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "summary": "The 2018 network meta-analysis favoured methylphenidate in children but amphetamines in adults, weighing efficacy against tolerability.",
+        "sources": [
+          {
+            "citation": "Cortese S, et al. Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2018;5(9):727-38.",
+            "doi": "10.1016/S2215-0366(18)30269-4",
+            "pmid": "30097390",
+            "year": 2018,
+            "design": "network meta-analysis",
+            "n": "133 trials",
+            "cited_on_page": false,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "guideline disagreement",
+    "why_they_may_differ": "Same trial base, different decisions: NICE adds cost-effectiveness and a stepped NHS pathway; AADPA judged the stimulants interchangeable on low-certainty evidence; CADDRA prioritises long-acting formulations for adherence and diversion reasons. The guidelines predate the 2025 network and umbrella reviews. Licensing (for example dexamfetamine availability) also differs by country.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add a short side-by-side table of each guideline's first-line wording, verified against the full NICE recommendations (1.7.x / adult section) and the CADDRA 4.1 PDF, and note where Cortese 2018 differs for adults. Frame as what each guideline says, not as advice.",
+    "new_research": true
+  },
+  {
+    "id": "C08-002",
+    "topic": "WFADHD 2026 update vs the 2021 statement the pages anchor on",
+    "page": "08-reading-this-well/sources-and-guidelines.md",
+    "claim": "The 2021 World Federation of ADHD consensus statement is the anchor for 'what is established'; the 2026 update says most conclusions stand, and pages have not been checked against it.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "2021 statement: 208 evidence-based conclusions from meta-analyses or studies of more than 2,000 people.",
+        "sources": [
+          {
+            "citation": "Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. Neurosci Biobehav Rev. 2021;128:789-818.",
+            "doi": "10.1016/j.neubiorev.2021.01.022",
+            "pmid": "33549739",
+            "year": 2021,
+            "design": "consensus statement",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "2026 update: 252 statements from 2021-2025 studies; supports many 2021 conclusions but adds nuance and says the balance of findings has shifted in a few areas. The abstract does not name which.",
+        "sources": [
+          {
+            "citation": "Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 2026 update. Neurosci Biobehav Rev. 2026;193:107083.",
+            "doi": "10.1016/j.neubiorev.2026.107083",
+            "pmid": "43044899",
+            "year": 2026,
+            "design": "consensus statement",
+            "n": "118 authors",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "guideline disagreement",
+    "why_they_may_differ": "New evidence 2021-2025 (for example target-trial emulations, umbrella reviews, pregnancy meta-analyses) may have moved specific conclusions. Both statements share authors, inclusion rules and declared industry links, so they are not independent checks of each other.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Read the 2026 full text, list every statement marked as changed or nuanced, and map each to the site's home pages (especially medication safety, registry outcomes, pregnancy and non-drug treatments). Until then, avoid calling the 2021 statement the anchor without that caveat.",
+    "new_research": false
+  },
+  {
+    "id": "C08-003",
+    "topic": "Is ADHD overdiagnosed?",
+    "page": "08-reading-this-well/myths-and-corrections.md",
+    "claim": "'ADHD is a fad, or overdiagnosed' is partly true: true prevalence has not risen over three decades, though diagnoses have, with some milder cases and relative-age effects.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "With the same methods, the share of children meeting ADHD criteria has not changed over three decades; rising diagnoses largely reflect recognition.",
+        "sources": [
+          {
+            "citation": "Polanczyk GV, et al. ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis. Int J Epidemiol. 2014;43(2):434-42.",
+            "doi": "10.1093/ije/dyt261",
+            "pmid": "24464188",
+            "year": 2014,
+            "design": "meta-regression",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A scoping review of 334 studies concluded there is evidence of overdiagnosis and overtreatment in children: diagnoses and prescribing rose, added cases were often milder, and the few studies of milder cases suggested diminishing returns where harms may outweigh benefits.",
+        "sources": [
+          {
+            "citation": "Kazda L, et al. Overdiagnosis of attention-deficit/hyperactivity disorder in children and adolescents: a systematic scoping review. JAMA Netw Open. 2021.",
+            "doi": "10.1001/jamanetworkopen.2021.5335",
+            "pmid": "33843998",
+            "year": 2021,
+            "design": "systematic scoping review",
+            "n": "334 studies",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Stable prevalence of meeting criteria in surveys does not settle whether clinical diagnoses track true need; a 'reservoir' of undiagnosed cases can coexist with over-labelling of milder or younger children. 'Overdiagnosis' in Kazda's sense means diagnosis that does more harm than good, a different question from prevalence. Under-diagnosis in adults (e.g. English primary care) runs the other way.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Cite Kazda 2021 as the main overdiagnosis evidence on the myths page or its target page (01/more-diagnoses-than-ever.md), and state that only five studies examined benefits and harms in milder cases.",
+    "new_research": true
+  },
+  {
+    "id": "C08-004",
+    "topic": "Life-expectancy gap: modelled 13 years vs life-table estimates",
+    "page": "08-reading-this-well/myths-and-corrections.md",
+    "claim": "'People with ADHD die 13 years earlier' is a model-based estimate from one Milwaukee group; studies of actual deaths among diagnosed adults find a smaller and still uncertain gap.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "The Milwaukee follow-up estimated 12.7 fewer years for persistent ADHD and 8.4 for the whole childhood-diagnosed group, using a life-expectancy calculator.",
+        "sources": [
+          {
+            "citation": "Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. J Atten Disord. 2019;23(9):907-23.",
+            "doi": "10.1177/1087054718816164",
+            "pmid": "30526189",
+            "year": 2019,
+            "design": "cohort with modelled life expectancy",
+            "n": "131 hyperactive, 71 controls",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A UK primary-care matched cohort (30,039 diagnosed adults) using life tables from observed deaths estimated life expectancy 6.78 years shorter for men and 8.64 years for women; the authors note diagnosed adults are a minority of all adults with ADHD.",
+        "sources": [
+          {
+            "citation": "O'Nions E, et al. Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study. Br J Psychiatry. 2025;226(5):261-8.",
+            "doi": "10.1192/bjp.2024.199",
+            "pmid": "39844532",
+            "year": 2025,
+            "design": "matched cohort, life tables",
+            "n": "30,039 ADHD; 300,390 comparison",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "The 13-year figure is modelled from risk factors in a small clinical sample; the UK figures come from observed deaths in a large diagnosed sample but still reflect a selected (diagnosed, often multimorbid) group. For women, the UK estimate (8.6 years) is close to Barkley's whole-group 8.4, so 'smaller gap' is only partly right.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "On the myths page, give the UK life-table figures (already on 04/the-hard-statistics-in-context.md) alongside the 13-year figure, and replace 'a smaller ... gap' with wording that says observed-death estimates are about 7-9 years in diagnosed UK adults, with wide uncertainty and selection caveats. Use safe-messaging wording.",
+    "new_research": true
+  },
+  {
+    "id": "C08-005",
+    "topic": "Paracetamol in pregnancy: sibling designs vs Navigation Guide review",
+    "page": "08-reading-this-well/myths-and-corrections.md",
+    "claim": "The links with paracetamol in pregnancy largely disappear when siblings are compared, pointing to shared family factors.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "In 2.48 million Swedish children the small raw link vanished in full-sibling comparisons (HR 0.98).",
+        "sources": [
+          {
+            "citation": "Ahlqvist VH, et al. Acetaminophen use during pregnancy and children's risk of autism, ADHD, and intellectual disability. JAMA. 2024;331(14):1205-14.",
+            "doi": "10.1001/jama.2024.3172",
+            "pmid": "38592388",
+            "year": 2024,
+            "design": "registry with sibling comparison",
+            "n": "2.48 million",
+            "cited_on_page": false,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2025 Navigation Guide review of 46 studies found most (27) reported positive associations, rated higher-quality studies as more likely to be positive, and called for advising pregnant women to limit use; one author declared work as an expert witness for plaintiffs.",
+        "sources": [
+          {
+            "citation": "Prada D, et al. Evaluation of the evidence on acetaminophen use and neurodevelopmental disorders using the Navigation Guide methodology. Environ Health. 2025.",
+            "doi": "10.1186/s12940-025-01208-0",
+            "pmid": "40804730",
+            "year": 2025,
+            "design": "systematic review (qualitative, Navigation Guide)",
+            "n": "46 studies",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "The Navigation Guide review weighs studies with detailed exposure measurement (often smaller cohorts) as higher quality and does not privilege sibling designs; sibling analyses remove family confounding but can be biased toward null by exposure misclassification and discordant-sibling selection. The myths page cites neither source directly (its home page, 04/what-does-and-doesnt-cause-adhd.md, carries the detail and the FDA notice).",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add a clause to the myth correction that one 2025 review and a 2025 US FDA notice took a different view, linking to the home page; the full weighing belongs on the 04 page (see the folder-04 register).",
+    "new_research": true
   }
 ]
