@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 428" width="720" height="428" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Brain-scan classifiers are only a little better than chance</title>
+<desc id="d">Two scales. Accuracy: careful studies 60-80% vs 50% coin toss and an 80% proposed bar. AUROC: best ABCD structural model 0.567 vs 0.5 chance and 1.0 perfect.</desc>
+<rect x="0.5" y="0.5" width="719" height="427" rx="8" fill="#191919" stroke="rgba(255,255,255,0.10)"/>
+<text x="24.0" y="34.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">Scan-based classifiers sit closer to a coin toss</text>
+<text x="24.0" y="58.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">than to a usable diagnostic test</text>
+<text x="24.0" y="84.0" font-size="14" fill="#9c9c9c" text-anchor="start" font-weight="400">Two measures, each on its own scale.</text>
+<text x="24.0" y="122.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">Accuracy in studies that tested on separate data (review of 69 studies)</text>
+<line x1="40.0" y1="160.0" x2="40.0" y2="198.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="40.0" y="218.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0%</text>
+<line x1="180.0" y1="160.0" x2="180.0" y2="198.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="180.0" y="218.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">25%</text>
+<line x1="320.0" y1="160.0" x2="320.0" y2="198.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="320.0" y="218.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">50%</text>
+<line x1="460.0" y1="160.0" x2="460.0" y2="198.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="460.0" y="218.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">75%</text>
+<line x1="600.0" y1="160.0" x2="600.0" y2="198.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="600.0" y="218.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">100%</text>
+<line x1="40.0" y1="198.0" x2="600.0" y2="198.0" stroke="#474747" stroke-width="1" stroke-linecap="butt"/>
+<rect x="376.0" y="180.0" width="112.0" height="12" rx="6.0" fill="#338ced" fill-opacity="1.0"/>
+<text x="432.0" y="170.0" font-size="14" fill="#efefef" text-anchor="middle" font-weight="400">mostly 60–80%</text>
+<line x1="320.0" y1="156.0" x2="320.0" y2="198.0" stroke="#9c9c9c" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="312.0" y="152.0" font-size="13" fill="#9c9c9c" text-anchor="end" font-weight="400">coin toss, 50%</text>
+<line x1="488.0" y1="156.0" x2="488.0" y2="198.0" stroke="#efefef" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="496.0" y="152.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">proposed bar for a test: 80%</text>
+<text x="496.0" y="168.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">sensitivity and specificity</text>
+<text x="24.0" y="260.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">AUROC of the best structural-scan model, 6,916 children (ABCD Study)</text>
+<line x1="40.0" y1="298.0" x2="40.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="40.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.5</text>
+<line x1="152.0" y1="298.0" x2="152.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="152.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.6</text>
+<line x1="264.0" y1="298.0" x2="264.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="264.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.7</text>
+<line x1="376.0" y1="298.0" x2="376.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="376.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.8</text>
+<line x1="488.0" y1="298.0" x2="488.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="488.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.9</text>
+<line x1="600.0" y1="298.0" x2="600.0" y2="336.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<text x="600.0" y="356.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">1.0</text>
+<line x1="40.0" y1="336.0" x2="600.0" y2="336.0" stroke="#474747" stroke-width="1" stroke-linecap="butt"/>
+<line x1="40.0" y1="324.0" x2="115.0" y2="324.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="115.0" cy="324.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="127.0" y="329.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">0.567</text>
+<text x="44.0" y="308.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">0.5 = coin toss</text>
+<text x="600.0" y="308.0" font-size="13" fill="#9c9c9c" text-anchor="end" font-weight="400">1.0 = perfect</text>
+<text x="24.0" y="392.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">Sources: Pulini et al. 2019 (source 19), APA work group 2012 (24) and Gaus et al. 2023 (21),</text>
+<text x="24.0" y="410.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">see this page. The proposed bar is 80% sensitivity and 80% specificity, not accuracy itself.</text>
+</svg>
