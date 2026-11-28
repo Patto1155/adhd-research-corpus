@@ -22,17 +22,19 @@
 | Full cousin | 2.24 |
 | Half cousin | 1.47 |
 
-The pattern tracks shared genes. ADHD that persisted into adulthood showed stronger family clustering: the hazard ratio for full siblings was 11.49 when the relative's ADHD continued past age 18, and 4.68 when it was diagnosed only in childhood [3].
+The pattern tracks shared genes, though the authors concluded that a small amount of shared family environment also contributes [3]. ADHD that persisted into adulthood showed stronger family clustering: the hazard ratio for full siblings was 11.49 when the relative's ADHD continued past age 18, and 4.68 when it was diagnosed only in childhood [3].
 
 **These are relative figures, not how many people.** The abstract does not give absolute risks, and no checked absolute figure for how many siblings are diagnosed was found for this page, so none is given here. A raised relative risk is not a certainty, and no checked figure was found specifically for children of an affected *parent* (rather than a sibling).
 
 **Many genes, each with a tiny effect.** The largest genome-wide association study (GWAS: a scan of the whole genome comparing people with and without a condition) included 38,691 people with ADHD and 186,843 without. It found 27 regions of the genome and 76 candidate genes linked to ADHD [4]. These genes are expressed particularly during early brain development, and the risk is enriched in several types of brain cell, including midbrain dopamine neurons [4].
 
+An earlier genome-wide study of 20,183 people with ADHD, the first to find clearly linked regions (12 of them), found that the variants linked to a diagnosis were the same ones linked to ADHD traits in the general population [5]. Its authors concluded that a diagnosis is the extreme end of continuous, heritable traits [5].
+
 **Most of these variants are shared with other conditions.** An estimated 84–98% of the variants that influence ADHD also influence other psychiatric conditions [4], which helps explain why ADHD so often comes with anxiety, depression or autism. About a third of ADHD's heritability is thought to come from this polygenic component of many common variants [1].
 
-**Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 controls (0.156 vs 0.075 per person) [5]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
+**Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 controls (0.156 vs 0.075 per person) [6]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
 
-**The old "dopamine genes" have small effects.** Before GWAS, research focused on single candidate genes such as the dopamine transporter gene (DAT1, also called SLC6A3) and the dopamine D4 receptor gene (DRD4). A 2009 meta-analysis found associations for these and several other genes, with significant variation between studies [6]. A checked figure for the size of each association was not found for this page, and these genes are not tests and do not explain ADHD on their own.
+**The old "dopamine genes" have small effects.** Before GWAS, research focused on single candidate genes such as the dopamine transporter gene (DAT1, also called SLC6A3) and the dopamine D4 receptor gene (DRD4). A 2009 meta-analysis found associations for these and several other genes, with significant variation between studies [7]. A checked figure for the size of each association was not found for this page, and these genes are not tests and do not explain ADHD on their own.
 
 ## What is uncertain or debated
 
@@ -57,12 +59,13 @@ No genetic test can predict ADHD, and heritability says nothing about blame. The
 
 ## Sources
 
-1. Faraone SV, et al. Genetics of attention deficit hyperactivity disorder. *Molecular Psychiatry*. 2019. DOI 10.1038/s41380-018-0070-0. PMID 29892054. — **Evidence: Strong**: review pooling 37 twin studies plus molecular genetic studies.
-2. Larsson H, et al. The heritability of clinically diagnosed attention deficit hyperactivity disorder across the lifespan. *Psychological Medicine*. 2014. DOI 10.1017/S0033291713002493. PMID 24107258. — **Evidence: Strong**: national twin register, clinical diagnoses (adult subsample 37,714 twins).
-3. Chen Q, et al. Familial aggregation of attention-deficit/hyperactivity disorder. *Journal of Child Psychology and Psychiatry*. 2017. DOI 10.1111/jcpp.12616. — **Evidence: Strong**: national register, 1.66 million people; relative risks only.
-4. Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. *Nature Genetics*. 2023. DOI 10.1038/s41588-022-01285-8. — **Evidence: Strong**: GWAS meta-analysis, 38,691 cases and 186,843 controls.
-5. Williams NM, et al. Rare chromosomal deletions and duplications in attention-deficit hyperactivity disorder: a genome-wide analysis. *Lancet*. 2010. DOI 10.1016/S0140-6736(10)61109-9. PMID 20888040. — **Evidence: Moderate**: 366 cases and 1,047 controls, Icelandic replication of a 16p13.11 finding.
-6. Gizer IR, et al. Candidate gene studies of ADHD: a meta-analytic review. *Human Genetics*. 2009. DOI 10.1007/s00439-009-0694-x. PMID 19506906. — **Evidence: Moderate**: meta-analysis of candidate-gene studies, with high heterogeneity.
+1. Faraone SV, et al. Genetics of attention deficit hyperactivity disorder. *Mol Psychiatry*. 2019;24(4):562–75. DOI 10.1038/s41380-018-0070-0. PMID 29892054. — **Evidence: Strong**: review pooling 37 twin studies plus molecular genetic studies; 74% and "about a third" confirmed against the abstract.
+2. Larsson H, et al. The heritability of clinically diagnosed attention deficit hyperactivity disorder across the lifespan. *Psychol Med*. 2014;44(10):2223–9. DOI 10.1017/S0033291713002493. PMID 24107258. — **Evidence: Strong**: national twin register (59,514 twins), clinical diagnoses.
+3. Chen Q, et al. Familial aggregation of attention-deficit/hyperactivity disorder. *J Child Psychol Psychiatry*. 2017;58(3):231–9. DOI 10.1111/jcpp.12616. PMID 27545745. — **Evidence: Strong**: national register, 1.66 million people; relative risks only.
+4. Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. *Nat Genet*. 2023;55(2):198–208. DOI 10.1038/s41588-022-01285-8. PMID 36702997. — **Evidence: Strong**: GWAS meta-analysis, 38,691 cases and 186,843 controls.
+5. Demontis D, et al. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. *Nat Genet*. 2019;51(1):63–75. DOI 10.1038/s41588-018-0269-7. PMID 30478444. — **Evidence: Strong**: GWAS meta-analysis, 20,183 cases and 35,191 controls, with replication samples.
+6. Williams NM, et al. Rare chromosomal deletions and duplications in attention-deficit hyperactivity disorder: a genome-wide analysis. *Lancet*. 2010;376(9750):1401–8. DOI 10.1016/S0140-6736(10)61109-9. PMID 20888040. — **Evidence: Moderate**: 366 cases and 1,047 controls, Icelandic replication of a 16p13.11 finding.
+7. Gizer IR, et al. Candidate gene studies of ADHD: a meta-analytic review. *Hum Genet*. 2009;126(1):51–90. DOI 10.1007/s00439-009-0694-x. PMID 19506906. — **Evidence: Moderate**: meta-analysis of candidate-gene studies, with high heterogeneity.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

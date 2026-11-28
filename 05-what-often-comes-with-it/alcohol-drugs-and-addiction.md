@@ -43,7 +43,7 @@ If substance use is putting you at risk right now, places to get help are listed
 
 ## Sources
 
-1. Lee SS, et al. Prospective association of childhood attention-deficit/hyperactivity disorder (ADHD) and substance use and abuse/dependence: a meta-analytic review. *Clin Psychol Rev*. 2011. PMID 21156266. — **Evidence: Moderate**, meta-analysis of 13 prospective cohorts; some results rest on few studies.
+1. Charach A, et al. Childhood attention-deficit/hyperactivity disorder and future substance use disorders: comparative meta-analyses. *J Am Acad Child Adolesc Psychiatry*. 2011;50(1):9–21. DOI 10.1016/j.jaac.2010.09.019. PMID 21156266. — **Evidence: Moderate**, meta-analysis of 13 prospective cohorts; some results rest on few studies; odds ratios confirmed against the PubMed abstract.
 2. Hartman CA, et al. Anxiety, mood, and substance use disorders in adult men and women with and without attention-deficit/hyperactivity disorder: a substantive and methodological overview. *Neurosci Biobehav Rev*. 2023;151:105209. DOI 10.1016/j.neubiorev.2023.105209. — **Evidence: Strong**, meta-analysis restricted to studies of more than 10,000 people.
 3. van Emmerik-van Oortmerssen K, et al. Prevalence of attention-deficit hyperactivity disorder in substance use disorder patients: a meta-analysis and meta-regression analysis. *Drug Alcohol Depend*. 2012. PMID 22209385. — **Evidence: Moderate**, meta-analysis of treatment-seeking samples.
 4. Humphreys KL, et al. Stimulant medication and substance use outcomes: a meta-analysis. *JAMA Psychiatry*. 2013. DOI 10.1001/jamapsychiatry.2013.1273. — **Evidence: Moderate**, meta-analysis of 15 observational studies; could not control for baseline severity.
