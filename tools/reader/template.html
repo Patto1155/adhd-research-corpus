@@ -1,0 +1,819 @@
+<title>ADHD Research Reader</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Atkinson+Hyperlegible+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one calm reading column (about 65 characters), one question per screen,
+   detail folded away under "Go deeper"; a slim sticky bar on top, a fixed safety note below. */
+:root {
+  --bg: #f4f6f7;          /* page ground, cool off-white */
+  --surface: #ffffff;     /* cards and panels */
+  --sunk: #eaeef1;        /* quiet wells: short-answer panel, chips */
+  --ink: #182026;         /* main text */
+  --ink-2: #4f5b66;       /* secondary text */
+  --line: #dce2e7;
+  --line-strong: #b9c3cc;
+  --accent: #1b64be;      /* the one accent: links, focus, progress */
+  --accent-ink: #ffffff;
+  --accent-wash: #e6effa;
+  --ev-strong: #0f4a96;   /* evidence ramp from the site's chart palette */
+  --ev-moderate: #257de0;
+  --ev-limited: #84b9f3;
+  --ev-contested: #c25a1c;
+  --ev-guideline: #6a4ce2;
+  --ev-other: #8f979e;
+  --shadow: 0 1px 2px rgba(24, 32, 38, 0.06);
+  --font: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "Atkinson Hyperlegible Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --radius: 12px;
+  --col: 42rem;
+  --text: 1.125rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101417; --surface: #171c20; --sunk: #1d2328; --ink: #e8edf0; --ink-2: #a3aeb7;
+    --line: #2a3238; --line-strong: #3f4a53; --accent: #8cbcf5; --accent-ink: #0d1a29; --accent-wash: #172536;
+    --ev-strong: #9dc8f7; --ev-moderate: #519ced; --ev-limited: #1f6ac4; --ev-contested: #e0824a;
+    --ev-guideline: #9887ef; --ev-other: #6f777e; --shadow: none;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101417; --surface: #171c20; --sunk: #1d2328; --ink: #e8edf0; --ink-2: #a3aeb7;
+  --line: #2a3238; --line-strong: #3f4a53; --accent: #8cbcf5; --accent-ink: #0d1a29; --accent-wash: #172536;
+  --ev-strong: #9dc8f7; --ev-moderate: #519ced; --ev-limited: #1f6ac4; --ev-contested: #e0824a;
+  --ev-guideline: #9887ef; --ev-other: #6f777e; --shadow: none;
+  color-scheme: dark;
+}
+html { font-size: 100%; }
+html[data-size="2"] { font-size: 112.5%; }
+html[data-size="3"] { font-size: 125%; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font); font-size: var(--text); line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg);
+}
+.gutter {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.col { max-width: var(--col); margin: 0 auto; }
+a { color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus { outline: none; }
+:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px;
+}
+h1, h2, h3, h4, h5 { text-wrap: balance; line-height: 1.25; margin: 0; }
+p { margin: 0; }
+button { font: inherit; color: inherit; }
+.ext { font-size: 0.8em; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.mono { font-family: var(--mono); font-size: 0.82rem; letter-spacing: 0.01em; }
+
+/* ---------- top bar */
+.bar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+}
+.bar-in { display: flex; align-items: center; gap: 8px; min-height: 56px; padding-block: 6px; }
+.brand { font-weight: 700; font-size: 1rem; color: var(--ink); text-decoration: none; margin-right: auto; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.brand .back { font-weight: 600; color: var(--accent); }
+.tool {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; min-width: 44px; justify-content: center;
+  padding: 0 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface);
+  font-size: 0.95rem; cursor: pointer; white-space: nowrap;
+}
+.tool:hover { border-color: var(--accent); }
+.tool[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.tool .n { font-family: var(--mono); font-size: 0.85rem; }
+.progress { height: 3px; background: transparent; }
+.progress i { display: block; height: 100%; width: 0; background: var(--accent); }
+
+/* ---------- safety note */
+.safety {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.safety p { font-size: 0.85rem; color: var(--ink-2); padding-block: 8px; text-align: center; }
+.safety a { font-weight: 600; }
+main { padding-block: 28px 120px; }
+
+/* ---------- start screen */
+.hello { display: grid; gap: 14px; padding-block: 12px 8px; }
+.kicker { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+.hello h1 { font-size: clamp(2.1rem, 1.5rem + 3vw, 3rem); font-weight: 700; letter-spacing: -0.015em; }
+.hello .sub { color: var(--ink-2); font-size: 1.1rem; max-width: 34rem; }
+.search { position: relative; margin-top: 6px; }
+.search label { display: block; font-weight: 600; font-size: 0.95rem; margin-bottom: 6px; }
+.search input {
+  width: 100%; min-width: 0; font: inherit; font-size: 1.1rem; color: var(--ink);
+  background: var(--surface); border: 2px solid var(--line-strong); border-radius: var(--radius);
+  padding: 14px 16px; -webkit-appearance: none; appearance: none;
+}
+.search input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-color: var(--accent); }
+.search .hint { font-size: 0.85rem; color: var(--ink-2); margin-top: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.chip {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 4px 14px; border-radius: 999px;
+  background: var(--sunk); color: var(--ink); text-decoration: none; font-size: 0.95rem; border: 1px solid transparent;
+}
+.chip:hover { border-color: var(--line-strong); }
+.chip .mono { color: var(--ink-2); margin-right: 6px; }
+.tally { font-size: 0.95rem; color: var(--ink-2); }
+.group { display: grid; gap: 14px; padding-top: 40px; scroll-margin-top: 80px; }
+.group-head { display: grid; gap: 2px; }
+.group-head h2 { font-size: 1.4rem; }
+.group-head p { color: var(--ink-2); font-size: 0.98rem; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.card {
+  display: flex; flex-direction: column; justify-content: space-between; gap: 14px; min-width: 0;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 18px 18px 14px; text-decoration: none; color: var(--ink); min-height: 120px;
+}
+.card:hover { border-color: var(--accent); }
+.card .q { font-size: 1.15rem; font-weight: 600; line-height: 1.35; }
+.card .note { color: var(--ink-2); font-size: 0.95rem; margin-top: 4px; }
+.card .meta { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--ink-2); }
+.card .go { color: var(--accent); font-weight: 600; font-size: 0.95rem; }
+.seen { font-family: var(--mono); font-size: 0.8rem; color: var(--ink-2); }
+.more { border-top: 1px solid var(--line); padding-top: 4px; }
+.more > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; color: var(--accent); font-size: 0.98rem; }
+.more ul { list-style: none; padding: 0; margin: 4px 0 8px; display: grid; gap: 12px; }
+.more li a { font-weight: 600; }
+.more li p { color: var(--ink-2); font-size: 0.95rem; }
+.elsewhere { display: grid; gap: 10px; padding-top: 48px; }
+.elsewhere h2 { font-size: 1.2rem; }
+.links { display: flex; flex-wrap: wrap; gap: 10px; }
+.results { display: grid; gap: 12px; padding-top: 24px; }
+.results .card { min-height: 0; }
+.results .snip { color: var(--ink-2); font-size: 0.98rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.empty { background: var(--sunk); border-radius: var(--radius); padding: 18px; color: var(--ink-2); }
+
+/* ---------- question screen */
+.qhead { display: grid; gap: 10px; }
+.eyebrow { font-size: 0.9rem; color: var(--ink-2); font-weight: 600; }
+.eyebrow a { color: inherit; }
+.qhead h1 { font-size: clamp(1.7rem, 1.3rem + 2vw, 2.35rem); font-weight: 700; letter-spacing: -0.01em; }
+.answer {
+  margin-top: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+  padding: 22px 22px 18px; display: grid; gap: 16px; box-shadow: var(--shadow);
+}
+.answer .label { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--ink-2); }
+.answer .text { font-size: clamp(1.25rem, 1.15rem + 0.5vw, 1.45rem); line-height: 1.55; max-width: 36em; }
+.answer-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.answer-tools .mono { color: var(--ink-2); margin-left: auto; }
+.preface { margin-top: 18px; display: grid; gap: 12px; }
+.callout { background: var(--sunk); border-radius: var(--radius); padding: 14px 16px; display: grid; gap: 10px; }
+.callout-important, .callout-warning { border: 2px solid var(--accent); background: var(--accent-wash); }
+.preface > p { background: var(--sunk); border-radius: var(--radius); padding: 14px 16px; color: var(--ink); }
+.facts { margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.facts .lbl { font-size: 0.95rem; color: var(--ink-2); margin-right: 2px; }
+.badge {
+  display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 2px 12px; border-radius: 999px;
+  background: var(--surface); border: 1px solid var(--line-strong); font-size: 0.9rem; cursor: pointer; color: var(--ink);
+}
+.badge:hover { border-color: var(--accent); }
+.badge .n { font-family: var(--mono); font-size: 0.85rem; }
+.sw { width: 10px; height: 10px; border-radius: 3px; flex: none; display: inline-block; }
+.g-Strong { background: var(--ev-strong); }
+.g-Moderate { background: var(--ev-moderate); }
+.g-Limited { background: var(--ev-limited); }
+.g-Range { background: linear-gradient(90deg, var(--ev-limited) 50%, var(--ev-moderate) 50%); }
+.g-Contested { background: var(--ev-contested); }
+.g-Guideline { background: var(--ev-guideline); }
+.g-Other { background: var(--ev-other); }
+.block { margin-top: 40px; display: grid; gap: 14px; }
+.block > h2 { font-size: 1.3rem; }
+.block > .hint { color: var(--ink-2); font-size: 0.95rem; margin-top: -8px; }
+.keys { display: grid; gap: 12px; }
+.key { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: grid; gap: 8px; box-shadow: var(--shadow); }
+.key .lead { font-weight: 700; font-size: 1.12rem; line-height: 1.4; }
+.key .rest { color: var(--ink); }
+.link-btn {
+  background: none; border: 0; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; font-size: 0.95rem;
+  min-height: 36px; text-align: left; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px;
+}
+.chart { margin: 0; display: grid; gap: 10px; min-width: 0; }
+.chart-box { background: var(--surface); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+.chart-box svg { display: block; width: 100%; height: auto; }
+.chart figcaption { color: var(--ink-2); font-size: 0.95rem; font-style: italic; }
+.chart-tools { display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: flex-start; }
+.chart-tools .alt { flex: 1 1 100%; }
+.chart-tools .alt > summary { color: var(--accent); font-weight: 600; font-size: 0.95rem; cursor: pointer; min-height: 36px; display: inline-flex; align-items: center; }
+.chart-tools .alt p { font-size: 0.98rem; background: var(--sunk); border-radius: 10px; padding: 12px 14px; margin-top: 6px; }
+.split { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.disagree-note { background: var(--sunk); border-radius: var(--radius); padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+
+/* go deeper */
+.deep { display: grid; gap: 10px; }
+.sec { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.sec > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 16px 18px; min-height: 60px; border-radius: var(--radius);
+}
+.sec > summary::-webkit-details-marker { display: none; }
+.sec > summary .t { font-weight: 700; font-size: 1.08rem; flex: 1; min-width: 0; }
+.sec > summary .mono { color: var(--ink-2); white-space: nowrap; }
+.sec > summary .chev { width: 22px; height: 22px; flex: none; border-radius: 50%; border: 1px solid var(--line-strong); display: grid; place-items: center; font-size: 0.8rem; color: var(--ink-2); }
+.sec[open] > summary .chev { transform: rotate(90deg); }
+.sec[open] > summary { border-bottom: 1px solid var(--line); border-radius: var(--radius) var(--radius) 0 0; }
+.sec-body { padding: 18px; display: grid; gap: 16px; min-width: 0; }
+.sec-body p, .sec-body li { max-width: 65ch; }
+.sec-body ul, .sec-body ol { margin: 0; padding-left: 1.4em; display: grid; gap: 8px; }
+.sec-body h4.sub, .sec-body h5.sub { font-size: 1.1rem; margin-top: 10px; scroll-margin-top: 90px; }
+.sec-body h5.sub { font-size: 1rem; }
+details.inner { background: var(--sunk); border-radius: 10px; }
+details.inner > summary { cursor: pointer; padding: 12px 14px; font-weight: 600; min-height: 48px; }
+details.inner .inner-body { padding: 0 14px 14px; display: grid; gap: 12px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); max-width: 100%; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { font-weight: 700; background: var(--sunk); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr:last-child td { border-bottom: 0; }
+.cite { font-family: var(--mono); font-size: 0.8em; text-decoration: none; padding: 0 1px; white-space: nowrap; }
+.cite:hover { text-decoration: underline; }
+.sources { list-style: none; padding: 0 !important; display: grid; gap: 14px !important; }
+.src { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px 10px; scroll-margin-top: 90px; }
+.src .num { font-family: var(--mono); color: var(--ink-2); font-size: 0.9rem; padding-top: 2px; }
+.src .cit { font-size: 0.98rem; overflow-wrap: anywhere; }
+.src .row { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.src .row a { font-size: 0.9rem; font-weight: 600; }
+.src.flash .cit { background: var(--accent-wash); border-radius: 6px; }
+
+/* next */
+.next { margin-top: 48px; display: grid; gap: 12px; }
+.next h2 { font-size: 1.2rem; }
+.next-card { display: grid; gap: 6px; background: var(--accent-wash); border: 2px solid var(--accent); border-radius: 16px; padding: 18px 20px; text-decoration: none; color: var(--ink); }
+.next-card .k { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--accent); }
+.next-card .q { font-size: 1.2rem; font-weight: 700; line-height: 1.35; }
+.also { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.also a { display: flex; min-height: 44px; align-items: center; padding: 8px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); font-weight: 600; }
+.also a:hover { border-color: var(--accent); }
+.foot { margin-top: 36px; color: var(--ink-2); font-size: 0.92rem; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+
+/* focus mode: only the question and its short answer */
+body.focus [data-nf] { display: none !important; }
+body.focus main { padding-top: 10vh; }
+body.focus .answer { border-width: 2px; }
+.focus-exit { display: none; }
+body.focus .focus-exit { display: inline-flex; margin-top: 20px; }
+
+/* disagreements */
+.conf { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: grid; gap: 14px; min-width: 0; }
+.conf h3 { font-size: 1.12rem; }
+.conf .claim { font-size: 1.02rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 0.82rem; padding: 3px 10px; border-radius: 999px; background: var(--sunk); color: var(--ink-2); font-weight: 600; }
+.sides { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.side { border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.side .who { font-family: var(--mono); font-size: 0.82rem; color: var(--ink-2); }
+.side ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.9rem; }
+.side li { overflow-wrap: anywhere; color: var(--ink-2); }
+.side li a { font-weight: 600; }
+.why { background: var(--sunk); border-radius: 10px; padding: 12px 14px; display: grid; gap: 4px; }
+.why b { font-size: 0.9rem; }
+.conf-page { display: grid; gap: 12px; padding-top: 28px; }
+.conf-page h2 { font-size: 1.15rem; }
+.intro { color: var(--ink-2); max-width: 38rem; }
+
+/* sheet dialog */
+dialog.sheet {
+  border: 1px solid var(--line-strong); border-radius: 16px; background: var(--surface); color: var(--ink);
+  padding: 0; width: min(40rem, calc(100vw - 32px)); max-height: min(80vh, 44rem);
+}
+dialog.sheet.wide { width: min(64rem, calc(100vw - 32px)); }
+dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
+.sheet-in { padding: 20px; display: grid; gap: 14px; }
+.sheet-head { display: flex; align-items: flex-start; gap: 12px; }
+.sheet-head h2 { font-size: 1.2rem; flex: 1; }
+.sheet .scroll { overflow-x: auto; }
+.sheet .scroll svg { display: block; width: 720px; max-width: none; height: auto; }
+.sheet dl { margin: 0; display: grid; gap: 12px; }
+.sheet dt { font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.sheet dd { margin: 2px 0 0 18px; }
+.sheet dt.here { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .cards { grid-template-columns: minmax(0, 1fr); }
+  .sides { grid-template-columns: minmax(0, 1fr); }
+  .card { min-height: 0; }
+  .tool .wide-only { display: none; }
+  .answer { padding: 18px 16px 14px; }
+  .sec > summary { padding: 14px; }
+  .sec-body { padding: 14px; }
+  .bar-in { gap: 6px; }
+  .tool { padding: 0 10px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+@media (forced-colors: active) {
+  .sw { forced-color-adjust: none; }
+}
+</style>
+
+<div class="bar" id="bar">
+  <div class="gutter">
+    <div class="col bar-in">
+      <a class="brand" href="#start" id="brand"><span id="brand-text">ADHD research, explained plainly</span></a>
+      <button type="button" class="tool" id="t-size" aria-label="Text size" title="Text size"><span aria-hidden="true">Aa</span><span class="wide-only">Text size</span></button>
+      <button type="button" class="tool" id="t-focus" aria-pressed="false" data-q-only hidden>Focus<span class="wide-only">&nbsp;mode</span></button>
+      <a class="tool" id="t-saved" href="#saved" style="text-decoration:none">Saved <span class="n" id="saved-n">0</span></a>
+    </div>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"><i id="progress-fill"></i></div>
+</div>
+
+<main class="gutter" id="main" tabindex="-1">
+  <div class="col" id="view"></div>
+</main>
+
+<div class="safety gutter" role="note">
+  <p class="col">Information, not medical advice. <a id="crisis" href="#" target="_blank" rel="noopener">If you need help now ↗</a></p>
+</div>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+  <div class="sheet-in">
+    <div class="sheet-head"><h2 id="sheet-title"></h2><button type="button" class="tool" id="sheet-close">Close</button></div>
+    <div id="sheet-body"></div>
+  </div>
+</dialog>
+
+<script id="reader-data" type="application/json">__READER_DATA__</script>
+<script id="chart-data" type="application/json">__CHART_DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("reader-data").textContent);
+  var CH = JSON.parse(document.getElementById("chart-data").textContent);
+  var root = document.documentElement;
+  var view = document.getElementById("view");
+  var PAGES = {}; D.pages.forEach(function (p) { PAGES[p.slug] = p; });
+  var FOLDERS = {}; D.folders.forEach(function (f) { FOLDERS[f.id] = f; });
+  var WORRY = {}; D.worries.forEach(function (w) { if (!WORRY[w.slug]) WORRY[w.slug] = w; });
+  var CONF = {}; D.conflicts.forEach(function (c) { if (c.page) (CONF[c.page] = CONF[c.page] || []).push(c); });
+  document.getElementById("crisis").href = D.crisis;
+
+  /* ---------- per-viewer state: works with or without storage */
+  var KEY = "adhd-reader-v2";
+  var state = { saved: [], visited: [], size: 1 };
+  try { var raw = localStorage.getItem(KEY); if (raw) { var s = JSON.parse(raw); if (s && typeof s === "object") Object.assign(state, s); } } catch (e) {}
+  function persist() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  state.saved = (state.saved || []).filter(function (s) { return PAGES[s]; });
+  state.visited = (state.visited || []).filter(function (s) { return PAGES[s]; });
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function txt(h) { var d = document.createElement("div"); d.innerHTML = h; return d.textContent; }
+  function mins(words) { return Math.max(1, Math.round(words / 200)); }
+  function minLabel(words) { return words < 120 ? "under 1 min" : "about " + mins(words) + " min"; }
+
+  /* ---------- text size */
+  var sizeBtn = document.getElementById("t-size");
+  var SIZES = ["Standard", "Larger", "Largest"];
+  function applySize() {
+    root.setAttribute("data-size", String(state.size));
+    sizeBtn.setAttribute("aria-label", "Text size: " + SIZES[state.size - 1] + ". Change text size");
+    sizeBtn.title = "Text size: " + SIZES[state.size - 1];
+  }
+  sizeBtn.addEventListener("click", function () { state.size = state.size % 3 + 1; applySize(); persist(); });
+  if (!(state.size >= 1 && state.size <= 3)) state.size = 1;
+  applySize();
+
+  /* ---------- saved list */
+  function isSaved(slug) { return state.saved.indexOf(slug) >= 0; }
+  function toggleSave(slug) {
+    if (isSaved(slug)) state.saved = state.saved.filter(function (s) { return s !== slug; });
+    else state.saved.push(slug);
+    persist(); updateSavedCount();
+  }
+  function updateSavedCount() { document.getElementById("saved-n").textContent = state.saved.length; }
+  updateSavedCount();
+
+  /* ---------- theme-aware charts */
+  function isDark() {
+    var t = root.getAttribute("data-theme");
+    if (t === "dark") return true;
+    if (t === "light") return false;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+  function svgFor(key) { var c = CH[key]; if (!c) return ""; return isDark() ? c.d : c.l; }
+  function paintCharts(scope) {
+    (scope || document).querySelectorAll("figure.chart[data-chart]").forEach(function (f) {
+      var box = f.querySelector(".chart-box");
+      if (!box) return;
+      var dark = isDark() ? "d" : "l";
+      if (box.getAttribute("data-mode") === dark) return;
+      box.innerHTML = svgFor(f.getAttribute("data-chart"));
+      box.setAttribute("data-mode", dark);
+      var svg = box.querySelector("svg"); if (svg) svg.setAttribute("aria-hidden", "true");
+    });
+  }
+  try { window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () { paintCharts(); }); } catch (e) {}
+  new MutationObserver(function () { paintCharts(); }).observe(root, { attributes: true, attributeFilter: ["data-theme"] });
+
+  /* ---------- sheet (badge meanings, citations, enlarged charts) */
+  var sheet = document.getElementById("sheet");
+  var lastFocus = null;
+  function openSheet(title, bodyHtml, wide) {
+    lastFocus = document.activeElement;
+    document.getElementById("sheet-title").innerHTML = title;
+    document.getElementById("sheet-body").innerHTML = bodyHtml;
+    sheet.classList.toggle("wide", !!wide);
+    if (sheet.showModal) { if (!sheet.open) sheet.showModal(); } else sheet.setAttribute("open", "");
+    document.getElementById("sheet-close").focus();
+  }
+  function closeSheet() { if (sheet.close) sheet.close(); else sheet.removeAttribute("open"); }
+  document.getElementById("sheet-close").addEventListener("click", closeSheet);
+  sheet.addEventListener("close", function () { if (lastFocus && lastFocus.focus) lastFocus.focus(); });
+  sheet.addEventListener("click", function (e) { if (e.target === sheet) closeSheet(); });
+
+  var GRADE_NAME = { Strong: "Strong", Moderate: "Moderate", Limited: "Limited", Range: "A range, such as Limited to moderate", Contested: "Contested", Guideline: "Guideline or consensus", Other: "Other labels" };
+  var GRADE_ORDER = ["Strong", "Moderate", "Range", "Limited", "Contested", "Guideline", "Other"];
+  function evidenceSheet(focusGrade) {
+    var g = D.evidence.grades || {};
+    var h = '<dl>';
+    ["Strong", "Moderate", "Limited", "Contested"].forEach(function (k) {
+      if (!g[k]) return;
+      h += '<div><dt class="' + (focusGrade === k ? "here" : "") + '"><span class="sw g-' + k + '"></span>' + k + '</dt><dd>' + g[k] + '</dd></div>';
+    });
+    h += '</dl>';
+    if (D.evidence.other) h += '<div style="display:grid;gap:10px;margin-top:14px">' + D.evidence.other + '</div>';
+    if (D.evidence.source) h += '<p style="margin-top:14px"><a href="#' + D.evidence.source + '" data-page="' + D.evidence.source + '" data-anchor="the-evidence-labels-used-on-every-page">From “How to read the evidence”</a></p>';
+    var t = focusGrade && GRADE_NAME[focusGrade] ? "What “" + esc(focusGrade === "Range" ? "Limited to moderate" : focusGrade === "Guideline" ? "Guideline" : focusGrade) + "” means" : "What the evidence labels mean";
+    if (focusGrade === "Other") t = "What the evidence labels mean";
+    openSheet(t, h);
+  }
+  function badge(grade, label, count) {
+    var name = label || GRADE_NAME[grade] || grade;
+    return '<button type="button" class="badge" data-grade="' + esc(grade) + '" aria-label="' + esc(name) + (count != null ? ", " + count + " sources" : "") + '. What does this mean?">' +
+      '<span class="sw g-' + esc(grade) + '" aria-hidden="true"></span>' + esc(name) + (count != null ? ' <span class="n">' + count + '</span>' : "") + '</button>';
+  }
+
+  /* ---------- routing */
+  var pendingAnchor = null, pendingFolder = null;
+  function route() {
+    var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    closeSheet();
+    document.body.classList.remove("focus");
+    var focusBtn = document.getElementById("t-focus");
+    focusBtn.setAttribute("aria-pressed", "false");
+    if (PAGES[h]) { renderPage(PAGES[h]); focusBtn.hidden = false; }
+    else {
+      focusBtn.hidden = true;
+      if (h === "saved") renderSaved();
+      else if (h === "disagree" && D.conflicts.length) renderDisagree();
+      else renderStart();
+    }
+    updateProgress();
+  }
+  window.addEventListener("hashchange", route);
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("a");
+    if (a && a.hasAttribute("data-page")) {
+      pendingAnchor = a.getAttribute("data-anchor");
+      var target = "#" + a.getAttribute("data-page");
+      if (location.hash === target) { e.preventDefault(); route(); }
+      return;
+    }
+    if (a && a.hasAttribute("data-folder")) {
+      pendingFolder = a.getAttribute("data-folder");
+      if (location.hash === "#start" || location.hash === "") { e.preventDefault(); route(); }
+      return;
+    }
+    if (a && a.classList.contains("cite")) { e.preventDefault(); showCite(a); return; }
+    var b = e.target.closest("button");
+    if (!b) return;
+    if (b.hasAttribute("data-grade")) { evidenceSheet(b.getAttribute("data-grade")); return; }
+    if (b.hasAttribute("data-enlarge")) {
+      var key = b.getAttribute("data-enlarge");
+      var fig = b.closest("figure");
+      var cap = fig && fig.querySelector("figcaption") ? fig.querySelector("figcaption").innerHTML : "";
+      openSheet("Chart at full size", '<div class="scroll" tabindex="0" aria-label="Chart, scroll sideways to see all of it">' + svgFor(key) + '</div>' + (cap ? '<p style="color:var(--ink-2);font-style:italic">' + cap + '</p>' : ""), true);
+      return;
+    }
+    if (b.hasAttribute("data-toggle-key")) {
+      var rest = document.getElementById(b.getAttribute("aria-controls"));
+      var open = b.getAttribute("aria-expanded") === "true";
+      rest.hidden = open; b.setAttribute("aria-expanded", String(!open));
+      b.textContent = open ? "Show the detail" : "Hide the detail";
+      return;
+    }
+    if (b.hasAttribute("data-save")) {
+      var slug = b.getAttribute("data-save");
+      toggleSave(slug);
+      var on = isSaved(slug);
+      b.setAttribute("aria-pressed", String(on));
+      b.textContent = on ? "Saved for later" : "Save for later";
+      if (b.hasAttribute("data-remove")) { renderSaved(); }
+      return;
+    }
+    if (b.hasAttribute("data-open-section")) { openSection(b.getAttribute("data-open-section")); return; }
+  });
+
+  function showCite(a) {
+    var page = PAGES[(location.hash || "").slice(1)];
+    if (!page) return;
+    var n = parseInt(a.getAttribute("data-cite"), 10);
+    var s = page.sources.filter(function (x) { return x.n === n; })[0];
+    if (!s) return;
+    openSheet("Source " + n, sourceHtml(s, true) + '<p style="margin-top:6px"><button type="button" class="link-btn" data-open-section="src-' + n + '">See all sources on this page</button></p>');
+  }
+  function sourceLinks(s) {
+    var h = "";
+    if (s.doi) h += '<a href="https://doi.org/' + esc(s.doi) + '" target="_blank" rel="noopener">DOI ↗</a>';
+    (s.pmids || (s.pmid ? [s.pmid] : [])).forEach(function (p, i, all) {
+      h += '<a href="https://pubmed.ncbi.nlm.nih.gov/' + esc(p) + '/" target="_blank" rel="noopener">PubMed' + (all.length > 1 ? " " + (i + 1) : "") + ' ↗</a>';
+    });
+    return h;
+  }
+  function sourceHtml(s, inSheet) {
+    return '<div class="src" id="' + (inSheet ? "" : "src-" + s.n) + '"><span class="num">' + s.n + '</span><div class="cit">' + s.html + '</div>' +
+      '<div class="row">' + badge(s.grade, s.label || "Not labelled") + sourceLinks(s) + '</div></div>';
+  }
+  function openSection(id) {
+    closeSheet();
+    var el = document.getElementById(id);
+    if (!el) return;
+    var d = el.closest("details");
+    while (d) { d.open = true; d = d.parentElement ? d.parentElement.closest("details") : null; }
+    el.scrollIntoView({ block: "start" });
+    if (el.classList.contains("src")) { el.classList.add("flash"); setTimeout(function () { el.classList.remove("flash"); }, 2500); }
+    var focusable = el.matches("summary, a, button") ? el : (el.querySelector("summary") || el);
+    if (!focusable.hasAttribute("tabindex") && !focusable.matches("summary, a, button")) focusable.setAttribute("tabindex", "-1");
+    focusable.focus({ preventScroll: true });
+  }
+
+  /* ---------- start screen */
+  function card(slug, q, note) {
+    var p = PAGES[slug];
+    var seen = state.visited.indexOf(slug) >= 0;
+    return '<a class="card" href="#' + slug + '"><div><div class="q">' + q + '</div>' + (note ? '<div class="note">' + note + '</div>' : "") + '</div>' +
+      '<div class="meta"><span class="seen">' + (isSaved(slug) ? "Saved" : "") + (isSaved(slug) && seen ? " · " : "") + (seen ? "Opened" : "") + '</span><span class="go">Short answer →</span></div></a>';
+  }
+  var searchTerm = "";
+  function renderStart() {
+    document.getElementById("brand-text").textContent = "ADHD research, explained plainly";
+    document.title = "ADHD Research Reader";
+    var h = '<section class="hello"><p class="kicker">ADHD research, explained plainly</p>' +
+      '<h1 id="h1" tabindex="-1">What’s on your mind?</h1>' +
+      '<p class="sub">Pick a worry. Each answer starts short, and you choose how far to go.</p>' +
+      '<div class="search" role="search"><label for="q">Search all ' + D.pages.length + ' questions</label>' +
+      '<input id="q" type="search" autocomplete="off" placeholder="For example: sleep, heart, dopamine" value="' + esc(searchTerm) + '">' +
+      '<p class="hint" id="q-hint">Press / to jump here.</p></div>' +
+      '<p class="tally" id="tally">' + tallyText() + '</p>' +
+      '<nav aria-label="Jump to a topic"><div class="chips">' + D.folders.map(function (f) {
+        return '<a class="chip" href="#start" data-folder="' + f.id + '"><span class="mono">' + f.id + '</span>' + esc(f.short) + '</a>';
+      }).join("") + '</div></nav></section>' +
+      '<div id="results" class="results" aria-live="polite"></div><div id="groups">';
+    D.folders.forEach(function (f) {
+      var ws = D.worries.filter(function (w) { return w.folder === f.id; });
+      var inCards = {}; ws.forEach(function (w) { inCards[w.slug] = 1; });
+      var others = f.pages.filter(function (p) { return PAGES[p.slug]; });
+      h += '<section class="group" id="f-' + f.id + '" aria-labelledby="fh-' + f.id + '"><div class="group-head"><h2 id="fh-' + f.id + '">' + (f.heading ? esc(f.heading) : f.title) + '</h2><p>' + f.covers + '</p></div>' +
+        '<div class="cards">' + ws.map(function (w) { return card(w.slug, w.q, w.note); }).join("") + '</div>';
+      h += '<details class="more"><summary>All ' + others.length + ' questions in this topic</summary><ul>' + others.map(function (o) {
+        return '<li><a href="#' + o.slug + '">' + PAGES[o.slug].q + '</a>' + (o.blurb ? '<p>' + o.blurb + '</p>' : "") + '</li>';
+      }).join("") + '</ul></details></section>';
+    });
+    h += '</div><section class="elsewhere" aria-labelledby="else-h"><h2 id="else-h">Also here</h2><div class="links">' +
+      '<a class="chip" href="#saved">Saved for later</a>' +
+      (D.conflicts.length ? '<a class="chip" href="#disagree">Where research disagrees <span class="mono" style="margin:0 0 0 8px">' + D.conflicts.length + '</span></a>' : "") +
+      '<button type="button" class="chip" data-grade="Other" style="cursor:pointer">What the evidence labels mean</button>' +
+      '<a class="chip" href="' + esc(D.gh.replace(/blob\/[^/]+\/$/, "")) + '" target="_blank" rel="noopener">The full site on GitHub ↗</a></div></section>';
+    view.innerHTML = h;
+    var input = document.getElementById("q");
+    input.addEventListener("input", function () { searchTerm = input.value; runSearch(); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape" && input.value) { input.value = ""; searchTerm = ""; runSearch(); } });
+    runSearch();
+    afterRender();
+    if (pendingFolder) {
+      var g = document.getElementById("f-" + pendingFolder); pendingFolder = null;
+      if (g) { g.scrollIntoView({ block: "start" }); var hd = g.querySelector("h2"); hd.setAttribute("tabindex", "-1"); hd.focus({ preventScroll: true }); }
+    }
+  }
+  function tallyText() {
+    var n = state.visited.length;
+    return n ? "You have opened " + n + " of " + D.pages.length + " questions." : D.pages.length + " questions, each with a short answer first.";
+  }
+  function norm(s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  var INDEX = D.pages.map(function (p) {
+    var w = D.worries.filter(function (x) { return x.slug === p.slug; }).map(function (x) { return x.q; }).join(" ");
+    return { slug: p.slug, title: norm(p.qtext + " " + txt(w)), short: norm(txt(p.short)), body: norm(p.text) };
+  });
+  function runSearch() {
+    var res = document.getElementById("results"), groups = document.getElementById("groups");
+    var terms = norm(searchTerm).split(/\s+/).filter(function (t) { return t.length > 1; });
+    if (!terms.length) { res.innerHTML = ""; groups.hidden = false; return; }
+    var hits = INDEX.map(function (ix) {
+      var score = 0;
+      for (var i = 0; i < terms.length; i++) {
+        var t = terms[i], s = 0;
+        if (ix.title.indexOf(t) >= 0) s += 6;
+        if (ix.short.indexOf(t) >= 0) s += 3;
+        if (ix.body.indexOf(t) >= 0) s += 1;
+        if (!s) return null;
+        score += s;
+      }
+      return { slug: ix.slug, score: score };
+    }).filter(Boolean).sort(function (a, b) { return b.score - a.score; }).slice(0, 12);
+    groups.hidden = true;
+    if (!hits.length) {
+      res.innerHTML = '<p class="empty">No question mentions “' + esc(searchTerm) + '”. Try a shorter or different word, or clear the search to see every topic.</p>';
+      return;
+    }
+    res.innerHTML = '<p class="tally">' + hits.length + (hits.length === 12 ? "+" : "") + ' matching question' + (hits.length === 1 ? "" : "s") + '</p>' + hits.map(function (h) {
+      var p = PAGES[h.slug];
+      return '<a class="card" href="#' + p.slug + '"><div><div class="q">' + p.q + '</div><p class="snip">' + esc(txt(p.short)) + '</p></div>' +
+        '<div class="meta"><span class="seen">' + esc(FOLDERS[p.folder] ? FOLDERS[p.folder].short : "") + '</span><span class="go">Short answer →</span></div></a>';
+    }).join("");
+  }
+
+  /* ---------- question screen */
+  function renderPage(p) {
+    if (state.visited.indexOf(p.slug) < 0) { state.visited.push(p.slug); persist(); }
+    var f = FOLDERS[p.folder] || { short: "", title: "" };
+    document.getElementById("brand-text").innerHTML = '<span class="back">← All questions</span>';
+    document.title = txt(p.q);
+    var counts = {};
+    p.sources.forEach(function (s) { counts[s.grade] = (counts[s.grade] || 0) + 1; });
+    var saved = isSaved(p.slug);
+    var h = '<article aria-labelledby="h1"><header class="qhead"><p class="eyebrow" data-nf><a href="#start" data-folder="' + p.folder + '">' + esc(f.short) + '</a></p>' +
+      '<h1 id="h1" tabindex="-1">' + p.q + '</h1></header>' +
+      '<section class="answer" aria-label="Short answer"><p class="label">Short answer</p><p class="text">' + p.short + '</p>' +
+      '<div class="answer-tools" data-nf><button type="button" class="tool" data-save="' + p.slug + '" aria-pressed="' + saved + '">' + (saved ? "Saved for later" : "Save for later") + '</button>' +
+      '<span class="mono">Whole page ' + minLabel(p.words) + '</span></div></section>' +
+      '<button type="button" class="tool focus-exit" id="focus-exit">Exit focus mode</button>';
+    if (p.preface) h += '<div class="preface" data-nf>' + p.preface + '</div>';
+    if (p.sources.length) {
+      h += '<div class="facts" data-nf><span class="lbl">' + p.sources.length + ' sources:</span>' + GRADE_ORDER.filter(function (g) { return counts[g]; }).map(function (g) {
+        return badge(g, g === "Range" ? "Range" : g === "Guideline" ? "Guideline" : g === "Other" ? "Other" : g, counts[g]);
+      }).join("") + '</div>';
+    }
+    if (p.keys.length) {
+      h += '<section class="block" data-nf aria-labelledby="kp-h"><h2 id="kp-h">Key points</h2><p class="hint">The opening line of ' + p.keys.length + ' findings from “What the evidence shows”.</p><div class="keys">' +
+        p.keys.map(function (k, i) {
+          return '<div class="key"><p class="lead">' + k.lead + '</p>' + (k.rest ? '<div class="rest" id="kr-' + i + '" hidden><p>' + k.rest + '</p></div>' +
+            '<button type="button" class="link-btn" data-toggle-key aria-expanded="false" aria-controls="kr-' + i + '">Show the detail</button>' : "") + '</div>';
+        }).join("") + '</div></section>';
+    }
+    if (p.chart && CH[p.chart]) {
+      h += '<section class="block" data-nf aria-labelledby="ch-h"><h2 id="ch-h">In one picture</h2>' +
+        '<figure class="chart" data-chart="' + p.chart + '"><div class="chart-box" role="img" aria-label="' + esc(p.chartAlt) + '"></div>' +
+        (p.chartCap ? '<figcaption>' + p.chartCap + '</figcaption>' : "") +
+        '<div class="chart-tools"><button type="button" class="link-btn" data-enlarge="' + p.chart + '">Enlarge chart</button>' +
+        '<details class="alt"><summary>Describe this chart in words</summary><p>' + esc(p.chartAlt) + '</p></details></div></figure></section>';
+    }
+    var conf = CONF[p.slug] || [];
+    if (conf.length) {
+      h += '<div class="block" data-nf><div class="disagree-note"><span>Research disagrees on ' + (conf.length === 1 ? "one point" : conf.length + " points") + ' behind this page.</span>' +
+        '<button type="button" class="link-btn" data-open-section="s-disagree">Read how and why</button></div></div>';
+    }
+    h += '<section class="block" data-nf aria-labelledby="deep-h"><h2 id="deep-h">Go deeper</h2><p class="hint">Open only what you want. Each part shows roughly how long it takes to read.</p><div class="deep">';
+    p.sections.forEach(function (s) {
+      if (s.kind === "related") return;
+      var body = s.html;
+      if (s.kind === "sources") body += '<ol class="sources">' + p.sources.map(function (x) { return '<li>' + sourceHtml(x) + '</li>'; }).join("") + '</ol>';
+      if (!txt(body).trim() && s.kind !== "sources") return;
+      h += '<details class="sec" id="' + s.id + '" data-kind="' + s.kind + '"><summary><span class="chev" aria-hidden="true">›</span><span class="t">' + s.title + '</span><span class="mono">' + minLabel(s.words) + '</span></summary><div class="sec-body">' + body + '</div></details>';
+    });
+    if (conf.length) {
+      var w = 0; conf.forEach(function (c) { w += (c.claim + c.why + c.positions.map(function (x) { return x.summary; }).join(" ")).split(/\s+/).length; });
+      h += '<details class="sec" id="s-disagree"><summary><span class="chev" aria-hidden="true">›</span><span class="t">Where research disagrees</span><span class="mono">' + minLabel(w) + '</span></summary><div class="sec-body">' +
+        '<p class="intro">' + registerNote() + ' <a href="#disagree">See every disagreement</a>.</p>' + conf.map(confCard).join("") + '</div></details>';
+    }
+    h += '</div></section>';
+    // next
+    var rel = p.related.filter(function (r) { return PAGES[r.slug] && r.slug !== p.slug; });
+    var nextR = rel.filter(function (r) { return state.visited.indexOf(r.slug) < 0; })[0] || rel[0];
+    var order = (FOLDERS[p.folder] || { pages: [] }).pages.map(function (x) { return x.slug; });
+    var nextF = order[order.indexOf(p.slug) + 1];
+    h += '<nav class="next" data-nf aria-labelledby="next-h"><h2 id="next-h">Where next?</h2>';
+    if (nextR) h += '<a class="next-card" href="#' + nextR.slug + '"><span class="k">Next related question</span><span class="q">' + PAGES[nextR.slug].q + '</span></a>';
+    var also = rel.filter(function (r) { return r !== nextR; });
+    if (nextF && nextF !== (nextR && nextR.slug) && !also.some(function (r) { return r.slug === nextF; })) also.push({ slug: nextF });
+    if (also.length) h += '<ul class="also">' + also.map(function (r) { return '<li><a href="#' + r.slug + '">' + PAGES[r.slug].q + '</a></li>'; }).join("") + '</ul>';
+    h += '<ul class="also"><li><a href="#start">← Back to all questions</a></li></ul></nav>';
+    h += '<p class="foot" data-nf>' + (p.reviewed ? '<span>Last reviewed: ' + esc(p.reviewed) + '</span>' : "") +
+      '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">Read the full page on GitHub ↗</a></p></article>';
+    view.innerHTML = h;
+    document.getElementById("focus-exit").addEventListener("click", function () { setFocus(false); });
+    afterRender();
+    if (pendingAnchor) {
+      var id = "s-" + pendingAnchor; pendingAnchor = null;
+      if (document.getElementById(id)) openSection(id);
+    }
+  }
+  function registerNote() {
+    return "These notes come from the project’s register of conflicting research, kept alongside the pages and still being written. Some sources they list are not yet cited on the pages.";
+  }
+  var HANDLING = { "reports both": "The page reports both sides.", "reports one side": "The page reports one side.", "not mentioned": "The page does not mention this yet." };
+  function confCard(c) {
+    var tags = [];
+    if (c.severity) tags.push(c.severity.charAt(0).toUpperCase() + c.severity.slice(1) + " disagreement");
+    if (c.type) tags.push(c.type.charAt(0).toUpperCase() + c.type.slice(1));
+    if (c.newResearch) tags.push("Includes sources not yet on the page");
+    var h = '<article class="conf"><div class="tags">' + tags.map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join("") + '</div>' +
+      '<h3>' + esc(c.topic || c.claim) + '</h3>' + (c.claim ? '<p class="claim">' + esc(c.claim) + '</p>' : "") + '<div class="sides">';
+    c.positions.forEach(function (pos) {
+      h += '<div class="side"><span class="who">Side ' + esc(pos.label) + '</span><p>' + esc(pos.summary) + '</p>';
+      if (pos.sources.length) h += '<ul>' + pos.sources.map(function (s) {
+        var bits = [];
+        if (s.design) bits.push(esc(s.design));
+        if (s.n) bits.push(esc(s.n));
+        if (s.cited_on_page === true) bits.push("cited on the page"); else if (s.cited_on_page === false) bits.push("not yet cited on the page");
+        return '<li>' + esc(s.citation || "") + (bits.length ? " <span>(" + bits.join("; ") + ")</span>" : "") + ' ' + sourceLinks({ doi: s.doi, pmids: s.pmid ? [s.pmid] : [] }).replace(/<\/a><a/g, "</a> <a") + '</li>';
+      }).join("") + '</ul>';
+      h += '</div>';
+    });
+    h += '</div>';
+    if (c.why) h += '<div class="why"><b>Why they may differ</b><p>' + esc(c.why) + '</p></div>';
+    var foot = [];
+    if (c.handling) foot.push(HANDLING[c.handling] || "On the page: " + esc(c.handling) + ".");
+    if (foot.length || c.next) h += '<p style="color:var(--ink-2);font-size:0.95rem">' + foot.join(" ") + (c.next ? ' <b>What would help settle it:</b> ' + esc(c.next) : "") + '</p>';
+    return h + '</article>';
+  }
+
+  /* ---------- saved and disagreements views */
+  function renderSaved() {
+    document.getElementById("brand-text").innerHTML = '<span class="back">← All questions</span>';
+    document.title = "Saved for later";
+    var h = '<section class="hello"><h1 id="h1" tabindex="-1">Saved for later</h1>';
+    if (!state.saved.length) {
+      h += '<p class="empty">Nothing saved yet. On any question, choose “Save for later” and it will wait here. Saved questions stay in this browser only.</p>';
+    } else {
+      h += '<p class="sub">' + state.saved.length + ' question' + (state.saved.length === 1 ? "" : "s") + ', kept in this browser only.</p><div class="results" style="padding-top:8px">' + state.saved.map(function (slug) {
+        var p = PAGES[slug];
+        return '<div class="card"><a href="#' + slug + '" class="q" style="color:var(--ink);text-decoration:none">' + p.q + '</a><p class="snip" style="color:var(--ink-2)">' + esc(txt(p.short)) + '</p>' +
+          '<div class="meta"><button type="button" class="link-btn" data-save="' + slug + '" data-remove aria-pressed="true">Remove</button><a class="go" href="#' + slug + '">Short answer →</a></div></div>';
+      }).join("") + '</div>';
+    }
+    h += '<p style="margin-top:10px"><a href="#start">← Back to all questions</a></p></section>';
+    view.innerHTML = h;
+    afterRender();
+  }
+  function renderDisagree() {
+    document.getElementById("brand-text").innerHTML = '<span class="back">← All questions</span>';
+    document.title = "Where research disagrees";
+    var byPage = {}, order = [];
+    D.conflicts.forEach(function (c) { var k = c.page || c.pagePath || "other"; if (!byPage[k]) { byPage[k] = []; order.push(k); } byPage[k].push(c); });
+    var h = '<section class="hello"><p class="kicker">' + D.conflicts.length + ' disagreements across ' + order.length + ' page' + (order.length === 1 ? "" : "s") + '</p><h1 id="h1" tabindex="-1">Where research disagrees</h1>' +
+      '<p class="sub">Good studies sometimes point different ways. Each card shows both sides and the likely reasons.</p><p class="intro">' + registerNote() + '</p></section>';
+    order.forEach(function (k) {
+      var p = PAGES[k];
+      h += '<section class="conf-page"><h2>' + (p ? '<a href="#' + p.slug + '">' + p.q + '</a>' : esc(k)) + '</h2>' + byPage[k].map(confCard).join("") + '</section>';
+    });
+    h += '<p style="margin-top:28px"><a href="#start">← Back to all questions</a></p>';
+    view.innerHTML = h;
+    afterRender();
+  }
+
+  function afterRender() {
+    paintCharts(view);
+    window.scrollTo(0, 0);
+    var h1 = document.getElementById("h1");
+    if (h1 && document.activeElement !== document.getElementById("q")) h1.focus({ preventScroll: true });
+  }
+
+  /* ---------- focus mode */
+  var focusBtn = document.getElementById("t-focus");
+  function setFocus(on) {
+    document.body.classList.toggle("focus", on);
+    focusBtn.setAttribute("aria-pressed", String(on));
+    window.scrollTo(0, 0);
+    if (on) document.getElementById("focus-exit").focus(); else focusBtn.focus();
+    updateProgress();
+  }
+  focusBtn.addEventListener("click", function () { setFocus(!document.body.classList.contains("focus")); });
+
+  /* ---------- reading progress */
+  var fill = document.getElementById("progress-fill");
+  function updateProgress() {
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    var onPage = !!PAGES[(location.hash || "").slice(1)];
+    fill.style.width = onPage && max > 0 ? Math.min(100, Math.max(0, window.scrollY / max * 100)) + "%" : "0";
+  }
+  window.addEventListener("scroll", updateProgress, { passive: true });
+  window.addEventListener("resize", updateProgress);
+  document.addEventListener("toggle", updateProgress, true);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && document.body.classList.contains("focus") && !(sheet.open)) { setFocus(false); return; }
+    var tag = (e.target.tagName || "").toLowerCase();
+    if (e.key === "/" && tag !== "input" && tag !== "textarea") {
+      var q = document.getElementById("q");
+      if (q) { e.preventDefault(); q.focus(); }
+    }
+  });
+
+  route();
+})();
+</script>

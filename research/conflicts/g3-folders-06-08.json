@@ -1,0 +1,216 @@
+[
+  {
+    "id": "C06-001",
+    "topic": "Certainty of methylphenidate evidence in children (Cochrane vs umbrella/network reviews)",
+    "page": "06-treatment-what-works/how-well-medication-works.md",
+    "claim": "Reviews agree on the short-term size of methylphenidate's effect in children (SMD about 0.74-0.78) but disagree on its certainty: Cochrane rates it very low, the 2025 BMJ umbrella review moderate or high.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Cochrane finds a teacher-rated SMD of 0.74 but judges almost every trial at high risk of bias (unblinding through side effects, industry funding), so rates all outcomes very low certainty. Its authors defended these judgements against critics.",
+        "sources": [
+          {
+            "citation": "Storebø OJ, et al. Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). Cochrane Database Syst Rev. 2025 (CD009885.pub4).",
+            "doi": "10.1002/14651858.CD009885.pub4",
+            "pmid": "41342306",
+            "year": 2025,
+            "design": "systematic review and meta-analysis (Cochrane)",
+            "n": "21 trials, 1,728 participants for teacher-rated symptoms",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Storebø OJ, et al. Response to \"Trust, but verify\" by Banaschewski et al. Z Kinder Jugendpsychiatr Psychother. 2016.",
+            "doi": "10.1024/1422-4917/a000472",
+            "pmid": "27658627",
+            "year": 2016,
+            "design": "reply to critique",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Network and umbrella reviews find the same or slightly larger effect and grade it moderate to high certainty; the European ADHD Guidelines Group argued Cochrane's risk-of-bias calls were too severe and that high- and low-risk trials gave similar results.",
+        "sources": [
+          {
+            "citation": "Gosling CJ, et al. Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making. BMJ. 2025;391:e085875.",
+            "doi": "10.1136/bmj-2025-085875",
+            "pmid": "41297970",
+            "year": 2025,
+            "design": "umbrella review",
+            "n": "221 treatment-comparison-outcome combinations",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Cortese S, et al. Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2018;5(9):727-38.",
+            "doi": "10.1016/S2215-0366(18)30269-4",
+            "pmid": "30097390",
+            "year": 2018,
+            "design": "network meta-analysis",
+            "n": "133 trials",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Banaschewski T, et al. Methylphenidate for ADHD in children and adolescents: throwing the baby out with the bathwater. Evid Based Ment Health. 2016.",
+            "doi": "10.1136/eb-2016-102461",
+            "pmid": "27935807",
+            "year": 2016,
+            "design": "expert commentary",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Both sides use GRADE, but GRADE needs judgement at the risk-of-bias step. Cochrane treats possible unblinding through side effects and industry funding as high risk and marks the whole body of evidence down; the other groups weigh the fact that high- and low-risk trials give similar results and do not mark down as far. The numbers barely differ; the confidence label does.",
+    "page_handling": "reports both",
+    "severity": "major",
+    "next_step": "Cite the Cochrane authors' 2016 reply (PMID 27658627) so both sides are represented by primary text, and tabulate the risk-of-bias decisions of each review side by side for the same trials, including any sensitivity analysis restricted to low-risk trials in the 2025 Cochrane update.",
+    "new_research": true
+  },
+  {
+    "id": "C06-002",
+    "topic": "How often psychosis or mania follows stimulant treatment",
+    "page": "06-treatment-what-works/medication-safety.md",
+    "claim": "Psychosis is rare: about 1 in 660 young people starting a stimulant (0.10% methylphenidate, 0.21% amphetamine) developed new psychosis treated with an antipsychotic.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "US insurance and hospital case-control data put new psychosis at about 1 to 2 per 1,000 starters, higher with amphetamine and with high amphetamine doses; methylphenidate was not linked in the case-control study.",
+        "sources": [
+          {
+            "citation": "Moran LV, et al. Psychosis with methylphenidate or amphetamine in patients with ADHD. N Engl J Med. 2019;380:1128-38.",
+            "doi": "10.1056/NEJMoa1813751",
+            "pmid": "30893533",
+            "year": 2019,
+            "design": "cohort (two US insurance databases)",
+            "n": "221,846",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Moran LV, et al. Risk of incident psychosis and mania with prescription amphetamines. Am J Psychiatry. 2024;181(10):901-9.",
+            "doi": "10.1176/appi.ajp.20230329",
+            "pmid": "39262211",
+            "year": 2024,
+            "design": "case-control (single hospital)",
+            "n": "1,374 cases, 2,748 controls",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2025 meta-analysis of 16 studies (391,043 people) found 2.3% of stimulant-treated people developed a psychotic disorder, 2.8% psychotic symptoms and 3.7% bipolar disorder, about ten times the page's headline rate, with amphetamines worse than methylphenidate (OR 1.57).",
+        "sources": [
+          {
+            "citation": "Salazar de Pablo G, et al. Occurrence of psychosis and bipolar disorder in individuals with ADHD treated with stimulants: a systematic review and meta-analysis. JAMA Psychiatry. 2025.",
+            "doi": "10.1001/jamapsychiatry.2025.2311",
+            "pmid": "40900605",
+            "year": 2025,
+            "design": "systematic review and meta-analysis (proportions)",
+            "n": "16 studies, 391,043",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "summary": "Within-person register studies find no rise in psychotic events after starting methylphenidate (IRR 1.04, even in people with past psychosis), and no rise in mania when methylphenidate is taken with a mood stabiliser, though mania rose sharply with methylphenidate alone in bipolar disorder (HR 6.7).",
+        "sources": [
+          {
+            "citation": "Hollis C, et al. Methylphenidate and the risk of psychosis in adolescents and young adults: a population-based cohort study. Lancet Psychiatry. 2019.",
+            "doi": "10.1016/S2215-0366(19)30189-0",
+            "pmid": "31221557",
+            "year": 2019,
+            "design": "registry, within-individual",
+            "n": "23,898",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Viktorin A, et al. The risk of treatment-emergent mania with methylphenidate in bipolar disorder. Am J Psychiatry. 2017.",
+            "doi": "10.1176/appi.ajp.2016.16040467",
+            "pmid": "27690517",
+            "year": 2017,
+            "design": "registry, within-individual",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "They measure different things. The US cohort counts new psychosis serious enough for antipsychotic treatment in a fixed window; the meta-analysis pools any psychotic symptoms over long and variable follow-up, has no unexposed comparison group, and is very heterogeneous (I2 above 95%), with higher rates in small, North American and long-follow-up studies. Within-person designs ask whether risk rises after starting compared with before, which removes background risk that people with ADHD already carry.",
+    "page_handling": "reports one side",
+    "severity": "major",
+    "next_step": "Add the 2025 meta-analysis and the Swedish within-person studies, separate 'how many treated people ever develop psychosis' (prevalence, no comparator) from 'does starting medication raise risk' (comparative), and state that the 1-in-660 figure is a short-window incidence in US 13-25-year-olds. Mention the bipolar/mood-stabiliser finding as a reported study result, without advice.",
+    "new_research": true
+  },
+  {
+    "id": "C06-003",
+    "topic": "Long-term cardiovascular risk: registry signal vs pooled observational studies",
+    "page": "06-treatment-what-works/medication-safety.md",
+    "claim": "Long-term use is linked to modestly higher odds of cardiovascular disease (about 4% per year of use; hypertension and arterial disease clearest).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A Swedish nested case-control study found cumulative use linked to higher odds of cardiovascular disease, mainly hypertension and arterial disease, and trials show small average rises in blood pressure and pulse.",
+        "sources": [
+          {
+            "citation": "Zhang L, et al. ADHD medications and long-term risk of cardiovascular diseases. JAMA Psychiatry. 2024;81(2):178-87.",
+            "doi": "10.1001/jamapsychiatry.2023.4294",
+            "pmid": "37991787",
+            "year": 2024,
+            "design": "registry, nested case-control",
+            "n": "278,027 cohort; 10,388 cases",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          },
+          {
+            "citation": "Farhat LC, et al. Comparative cardiovascular safety of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2025;12(5):355-65.",
+            "doi": "10.1016/S2215-0366(25)00062-8",
+            "pmid": "40203844",
+            "year": 2025,
+            "design": "network meta-analysis of RCTs",
+            "n": "102 trials, >22,700",
+            "cited_on_page": true,
+            "verified": "PubMed record"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2022 meta-analysis of 19 observational studies (3.9 million people) by the same research group found no statistically significant link between ADHD medication and any cardiovascular disease in children (RR 1.18), younger adults (1.04) or older adults (1.59), while saying a modest rise, especially in arrhythmia or cardiac arrest, could not be ruled out.",
+        "sources": [
+          {
+            "citation": "Zhang L, et al. Risk of cardiovascular diseases associated with medications used in ADHD: a systematic review and meta-analysis. JAMA Netw Open. 2022.",
+            "doi": "10.1001/jamanetworkopen.2022.43597",
+            "pmid": "36416824",
+            "year": 2022,
+            "design": "meta-analysis of observational studies",
+            "n": "19 studies, 3,931,532",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "The meta-analysis pools mostly short follow-up studies (median 1.5 years) with wide, heterogeneous estimates, so it has little power to see a slow, dose-accumulating effect; the 2024 study looks specifically at cumulative years of use over up to 14 years. The two are not strictly contradictory (no significant pooled effect vs a small duration-dependent effect), but they lead to different headlines. Both are observational and exposed to confounding by smoking, weight and stress.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add the 2022 meta-analysis and explain that 'no significant association over short follow-up' and 'small rise with many years of use' can both be true. Look for absolute risk differences by duration in the 2024 paper's full text or supplement.",
+    "new_research": true
+  }
+]
