@@ -10,6 +10,13 @@
 
 **The two groups still overlap a lot.** At *g* = 1.17, the groups overlap by about 56% (this page's own calculation from the published effect size, not a figure from the paper). So many adults without ADHD score as high as many with it.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/03/emotion-dysregulation-overlap-dark.svg">
+  <img src="../assets/charts/03/emotion-dysregulation-overlap.svg" alt="Two bell curves for emotion dysregulation scores, adults without ADHD on the left and adults with ADHD on the right, set 1.17 standard deviations apart to match the meta-analysis effect size of g = 1.17. The shaded area shared by both curves is about 56%, this page's calculation." width="720">
+</picture>
+
+*An illustration of what g = 1.17 looks like, not real questionnaire data; it assumes bell-shaped scores with equal spread, and the effect size itself is uncertain because it rests on 13 mostly self-report studies.*
+
 **A systematic review supports the same picture.** A 2023 review of 22 studies in adults with a clinical ADHD diagnosis found they used unhelpful emotion-regulation strategies more often than people without ADHD [3]. Emotion dysregulation was linked to symptom severity, executive difficulties and other psychiatric conditions. The authors described the evidence as scarce and heterogeneous [3].
 
 **ADHD medicines reduce emotional lability, but less than core symptoms.** A meta-analysis of 9 placebo-controlled trials in adults found stimulants and atomoxetine reduced emotional lability by a moderate amount (SMD −0.41; a standardised mean difference, the gap between groups measured in units of how spread out people's scores are), about half the effect on core ADHD symptoms (SMD −0.8) [4]. The trials were not designed around emotional problems, and the authors called for studies that are [4]. Decisions about medication belong with a prescriber; more is on [how well medication works](../06-treatment-what-works/how-well-medication-works.md).

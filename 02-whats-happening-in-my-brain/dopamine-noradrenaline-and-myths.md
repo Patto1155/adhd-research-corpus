@@ -18,6 +18,13 @@ This page is the home for scans of brain **chemistry** and brain **activity**, c
 
 **Even that medication explanation is disputed.** In a published letter, Spencer and colleagues argued that the meta-analysis classified studies inconsistently as medication-free or previously medicated, and that one study it relied on actually showed *lower* transporter binding in previously medicated adults [4]. The journal record shows that the meta-analysis authors published a reply alongside it [4]; its content was not checked for this page. Either way, a finding that can go in both directions cannot support the claim that ADHD is a dopamine deficiency.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/02/dopamine-transporter-direction-dark.svg">
+  <img src="../assets/charts/02/dopamine-transporter-direction.svg" alt="Diverging bar chart of dopamine transporter levels in ADHD compared with people without ADHD. One PET study of 53 never-medicated adults with ADHD and 44 without found about 11% lower levels in the nucleus accumbens (this page's calculation from 0.63 vs 0.71). A meta-analysis of 9 PET and SPECT studies, 169 with ADHD and 173 without, found striatal levels 14% higher on average." width="720">
+</picture>
+
+*Two dopamine transporter findings pointing in opposite directions; they measured slightly different areas and groups, and the 14% average hides large differences between studies.*
+
 ### Brain activity during tasks: less activity in attention and control networks
 
 **Task fMRI compares brain activity while people do a test.** Functional MRI (fMRI) tracks changes in blood oxygen, a stand-in for how hard a brain area is working. The meta-analyses below report *where* differences turn up consistently across studies, not how large they are for individuals.

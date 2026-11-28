@@ -1,0 +1,32 @@
+{
+ "site-map": {
+  "title": "8 folders, 45 pages, 397 cited sources",
+  "subtitle": "Each bar shows how many sources a page lists",
+  "alt": "Map of the site. 8 folders hold 45 pages with 397 source entries in total. 01 Is ADHD real?: 6 pages, 51 sources; 02 My brain: 4 pages, 70 sources; 03 How I think and feel: 5 pages, 41 sources; 04 Causes and outlook: 4 pages, 40 sources; 05 What comes with it: 5 pages, 31 sources; 06 Treatment: 9 pages, 78 sources; 07 Family, work, others: 6 pages, 50 sources; 08 Reading this well: 6 pages, 36 sources. The page with the most sources is Brain structure with 26.",
+  "caption": "*The 8 folders and their pages. Longer bars mean more sources listed, not more reliable answers.*"
+ },
+ "evidence-by-folder": {
+  "title": "69% of cited sources are labelled Strong or Moderate",
+  "subtitle": "Sources cited in each folder, by the evidence label given on the page",
+  "alt": "Stacked bar chart of 397 source entries by folder and evidence label. Overall: 108 strong, 165 moderate, 77 limited, 10 contested, 20 guideline or consensus, 17 commentary or not graded. By folder: 01 Is ADHD real?: 51 sources (14 strong, 21 moderate, 10 limited, 5 guideline or consensus, 1 commentary or not graded); 02 My brain: 70 sources (17 strong, 29 moderate, 12 limited, 5 contested, 4 guideline or consensus, 3 commentary or not graded); 03 How I think and feel: 41 sources (10 strong, 16 moderate, 11 limited, 1 contested, 1 guideline or consensus, 2 commentary or not graded); 04 Causes and outlook: 40 sources (8 strong, 19 moderate, 11 limited, 1 guideline or consensus, 1 commentary or not graded); 05 What comes with it: 31 sources (10 strong, 18 moderate, 2 limited, 1 guideline or consensus); 06 Treatment: 78 sources (20 strong, 37 moderate, 15 limited, 3 contested, 2 guideline or consensus, 1 commentary or not graded); 07 Family, work, others: 50 sources (12 strong, 24 moderate, 12 limited, 1 contested, 1 guideline or consensus); 08 Reading this well: 36 sources (17 strong, 1 moderate, 4 limited, 5 guideline or consensus, 9 commentary or not graded). Causes and outlook has the largest share labelled Limited (28%).",
+  "caption": "*Evidence labels as written on each page. In-between grades such as \"Limited to moderate\" count toward the lower grade. Causes and outlook leans most on Limited evidence; What comes with it has the highest share of Strong or Moderate.*"
+ },
+ "study-types": {
+  "title": "Over half are meta-analyses or registry and cohort studies",
+  "subtitle": "The 312 different sources, each counted once, by kind of study",
+  "alt": "Bar chart of 312 unique sources by study type: meta-analysis 92 (29%), registry, cohort or large dataset 83 (27%), other 76 (24%), systematic or umbrella review 31 (10%), guideline or consensus 16 (5%), trial 14 (4%). Study types were guessed from words in each citation.",
+  "caption": "*Kinds of study, guessed from each citation's title and notes, so some will be misfiled. \"Other\" includes narrative reviews, commentaries, single surveys and service pages.*"
+ },
+ "publication-years": {
+  "title": "Half the sources were published in 2019 or later",
+  "subtitle": "Publication year of the 304 sources with a year, each counted once",
+  "alt": "Column chart of publication years from 1978 to 2026. The median year is 2019. 135 of 304 sources (44%) are from 2020 or later, and 28 (9%) are from before 2010.",
+  "caption": "*44% of sources are from 2020 or later. Older papers mostly appear where they are the original study behind an idea.*"
+ },
+ "most-reused": {
+  "title": "Gosling CJ 2025 (BMJ) is cited on the most pages: 6",
+  "subtitle": "Sources cited on more than one page (top 10)",
+  "alt": "Bar chart of the ten sources cited on the most pages: Gosling CJ 2025 (BMJ), 6 pages; Demontis D 2023 (Nature Genetics), 4 pages; APA 2022 (no journal), 4 pages; NICE 2018 (no journal), 4 pages; Polanczyk GV 2014 (International Journal of Epidemiology), 4 pages; Sonuga-Barke EJS 2013 (Am J Psychiatry), 4 pages; Norman LJ 2023 (EClinicalMedicine), 3 pages; Hartman CA 2023 (Neurosci Biobehav Rev), 3 pages; Sibley MH 2022 (American Journal of Psychiatry), 3 pages; Sonuga-Barke E 2021 (Lancet Psychiatry), 3 pages. 57 sources in all appear on two or more pages.",
+  "caption": "*57 sources appear on two or more pages. Being cited often makes a source central to these pages, not more likely to be right.*"
+ }
+}

@@ -14,6 +14,13 @@ The Nordic data gave the same heart-defect estimate (1.28, again not statistical
 
 The figure of heart defects rising "from about 10 to about 13 per 1,000" came from the lead author in press coverage. It applies the adjusted relative risk to a general-population rate of about 10 per 1,000, which works out to about 3 extra babies with a heart defect per 1,000 women taking methylphenidate in early pregnancy. That is an illustration, not a rate measured in the study.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/06/heart-defects-per-1000-dark.svg">
+  <img src="../assets/charts/06/heart-defects-per-1000.svg" alt="Three grids of 1,000 dots, one per group of births in US Medicaid data, with filled dots for babies with heart defects. Unadjusted rates: 12.7 per 1,000 with no stimulant exposure, 18.8 per 1,000 with methylphenidate and 15.4 per 1,000 with amphetamines. A panel below gives the adjusted results: methylphenidate relative risk 1.28 (range 1.00 to 1.64), a possible small increase; amphetamines relative risk 0.96 in the US data, not linked to more heart defects." width="720">
+</picture>
+
+*Raw heart-defect rates per 1,000 births, which do not account for differences between the women, shown beside the adjusted relative risks that the study's conclusion rests on.*
+
 **Meta-analyses agree on the overall picture.** A 2024 meta-analysis of 10 studies covering about 16.6 million pregnancies found no significant link between methylphenidate or atomoxetine and congenital anomalies or miscarriage [2]. In April 2025 the journal published a correction: events from one included study had been misclassified, and after reanalysis the effect sizes and their ranges were adjusted, but the overall findings did not change. The corrected estimates were not available to this page, so its pooled odds ratios are not quoted here.
 
 A 2026 meta-analysis of 25 studies found no higher risk, after adjustment, of major malformations, miscarriage, preterm birth, low birth weight, small size for gestational age or neonatal intensive care admission [3]. It also found no higher risk of autism or ADHD in children [3]. Before adjustment, malformations looked about 25% more common, which the authors read as a sign that differences between the women, not the medicines, drove the raw gap [3].

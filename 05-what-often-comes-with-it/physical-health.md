@@ -16,6 +16,13 @@ Whether ADHD medicines affect blood pressure and heart risk is a separate questi
 
 **Obesity is moderately more common, more so in adults.** A meta-analysis of 42 studies (48,161 people with ADHD) found adults with ADHD had about 1.55 times the odds of obesity [3]. In absolute terms, the pooled share with obesity was 28.2% of adults with ADHD against 16.4% without; in children it was 10.3% against 7.4% (odds ratio 1.20) [3]. The association remained in studies that adjusted for other factors, used direct diagnostic interviews, or measured height and weight directly [3].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/05/physical-health-absolute-dark.svg">
+  <img src="../assets/charts/05/physical-health-absolute.svg" alt="Paired horizontal bars, people with ADHD against people without. Obesity in adults 28.2% against 16.4%; obesity in children 10.3% against 7.4% (meta-analysis of 42 studies). In Swedish adults aged 18 to 64: high blood pressure 8.5% against 4.5%, type 2 diabetes 3.9% against 1.6%." width="720">
+</picture>
+
+*The only conditions on this page with absolute figures, from two different studies; these are observational and cannot show which came first.*
+
 **Reviews agree on some links and differ on others.** An earlier systematic review of 126 mostly small studies rated obesity, sleep disorders and asthma as well documented in adult ADHD, and migraine and coeliac disease as tentative [4]. It noted that one large registry study had found no link with cardiovascular disease [4], whereas the later Swedish sibling study found modestly raised odds for heart and circulation conditions [1].
 
 **Injuries are more common, especially in young people.** Across 28 studies, children and teenagers with ADHD had about 1.5 times the odds of unintentional injuries (odds ratio 1.53) [5]. Studies that compared the same children on and off ADHD medication found about 12% lower injury risk during medicated periods, at least in the short term [5]. Road crash figures and their context are on [the hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md).
@@ -24,7 +31,7 @@ Whether ADHD medicines affect blood pressure and heart risk is a separate questi
 
 - **Cause and direction.** These are observational studies. Poor sleep, smoking, alcohol, diet, inactivity, stress, poverty and side effects of other treatments could each sit between ADHD and illness. Some physical conditions may also make attention worse.
 - **Diagnosed cases only.** Registry studies count people who reached health services, who may be more severely affected or more often checked for other conditions.
-- **Absolute risks are mostly missing.** The largest registry study reports relative figures. Absolute figures were found only for obesity, type 2 diabetes and high blood pressure [2][3]; for most other conditions, how many extra people per thousand are affected was not available in the sources checked.
+- **Absolute risks are mostly missing.** The largest registry study reports relative figures. Absolute figures were found only for obesity, type 2 diabetes and high blood pressure [2, 3]; for most other conditions, how many extra people per thousand are affected was not available in the sources checked.
 - **Which links can be changed.** Few studies test whether treating ADHD, or helping with sleep, activity or smoking, changes physical health outcomes in people with ADHD.
 
 ## What this means for you

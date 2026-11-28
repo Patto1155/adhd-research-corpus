@@ -12,7 +12,11 @@ What ADHD treatments do, how well they work, what the safety data show, and what
 - [Therapy, coaching and skills training: do they work for ADHD?](therapy-and-skills.md): CBT, parent training, brain training, coaching.
 - [Neurofeedback, diet, supplements, exercise: do they help ADHD?](lifestyle-and-other-approaches.md): what is left once raters are blinded.
 
-[Back to all worries](../README.md#find-your-worry)
+<!-- corpus:folder-stats -->
+**In this folder:** 9 pages · 78 sources · 73% labelled Strong or Moderate · 19% Limited. [Compare the folders](../08-reading-this-well/the-evidence-at-a-glance.md#how-strong-is-the-evidence-folder-by-folder)
+<!-- /corpus:folder-stats -->
+
+Previous: [05 What else often comes with ADHD?](../05-what-often-comes-with-it/README.md) · [Back to all worries](../README.md#find-your-worry) · Next: [07 ADHD and other people](../07-family-work-and-other-people/README.md)
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

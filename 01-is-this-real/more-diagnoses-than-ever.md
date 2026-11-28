@@ -1,6 +1,6 @@
 # Why are ADHD diagnoses rising, and is it a fad?
 
-> **Short answer:** Studies over three decades found no rise in the share of children who meet ADHD criteria, while diagnoses rose sharply, in England especially since 2020, and recorded rates there are still below expected levels. Some of the rise reflects people once missed. Some is noise: the youngest in a class are diagnosed more often, and milder cases seem to be added.
+> **Short answer:** Studies over three decades found no rise in the share of children meeting ADHD criteria, while diagnoses rose sharply, in England especially since 2020, and recorded rates there are still below expected levels. Some of the rise reflects people once missed. Some is noise: the youngest in a class are diagnosed more often, and milder cases seem to be added.
 
 ## What the evidence shows
 

@@ -22,7 +22,7 @@
 
 ## What is uncertain or debated
 
-**Bias and access are hard to separate.** The US studies cannot fully tell whether lower diagnosis rates come from less access to care, family reluctance shaped by fear of stigma or discrimination, clinicians interpreting the same behaviour differently, or real differences in rates. The Cénat review's high prevalence estimate and the Shi cohort's lower diagnosis rates also measure different things: symptoms in surveys versus diagnoses in insurance claims [6][8].
+**Bias and access are hard to separate.** The US studies cannot fully tell whether lower diagnosis rates come from less access to care, family reluctance shaped by fear of stigma or discrimination, clinicians interpreting the same behaviour differently, or real differences in rates. The Cénat review's high prevalence estimate and the Shi cohort's lower diagnosis rates also measure different things: symptoms in surveys versus diagnoses in insurance claims [6, 8].
 
 **Evidence outside the US is thin.** No comparable large studies of ethnic-minority diagnosis rates in the UK, Australia or Europe were found for this page. Treat the US findings as a reason to ask questions, not as figures that transfer.
 

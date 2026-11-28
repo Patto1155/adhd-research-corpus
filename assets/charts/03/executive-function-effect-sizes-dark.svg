@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" width="720" height="640" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, sans-serif">
+<title id="t">Executive-function gaps are medium-sized in children and adults</title>
+<desc id="d">Dot plot of effect sizes (d) for ADHD vs comparison groups: children 0.43 to 1.06, adults 0.57 to 0.89.</desc>
+<rect x="0.5" y="0.5" width="719" height="639" rx="8" fill="#191919" stroke="rgba(255,255,255,0.10)"/>
+<text x="24.0" y="34.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">On average, executive gaps are medium-sized,</text>
+<text x="24.0" y="58.0" font-size="18" fill="#efefef" text-anchor="start" font-weight="600">in children and in adults</text>
+<text x="24.0" y="84.0" font-size="14" fill="#9c9c9c" text-anchor="start" font-weight="400">Effect size (d): how far apart the group averages are, in standard deviations.</text>
+<text x="24.0" y="104.0" font-size="14" fill="#9c9c9c" text-anchor="start" font-weight="400">Further right = weaker average performance in the ADHD group.</text>
+<line x1="375.0" y1="140.0" x2="375.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="420.0" y1="140.0" x2="420.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="465.0" y1="140.0" x2="465.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="510.0" y1="140.0" x2="510.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="555.0" y1="140.0" x2="555.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="600.0" y1="140.0" x2="600.0" y2="542.0" stroke="#303030" stroke-width="1" stroke-linecap="butt"/>
+<line x1="375.0" y1="140.0" x2="375.0" y2="542.0" stroke="#474747" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="330.0" y1="140.0" x2="330.0" y2="542.0" stroke="#474747" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="330.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0</text>
+<text x="375.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.2</text>
+<text x="420.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.4</text>
+<text x="465.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.6</text>
+<text x="510.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">0.8</text>
+<text x="555.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">1.0</text>
+<text x="600.0" y="562.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">1.2</text>
+<text x="375.0" y="134.0" font-size="13" fill="#9c9c9c" text-anchor="middle" font-weight="400">small</text>
+<text x="24.0" y="167.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">Mostly children and teenagers</text>
+<text x="24.0" y="195.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Executive tasks, 83 studies</text>
+<text x="24.0" y="212.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">3,734 with ADHD vs 2,969 without</text>
+<line x1="330.0" y1="197.0" x2="433.5" y2="197.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<rect x="433.5" y="191.0" width="51.8" height="12" rx="6.0" fill="#338ced" fill-opacity="1.0"/>
+<text x="497.2" y="202.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.46–0.69</text>
+<text x="24.0" y="237.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Visual–spatial working memory</text>
+<text x="24.0" y="254.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">26 studies, two measures</text>
+<line x1="330.0" y1="239.0" x2="568.5" y2="239.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="521.2" cy="239.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<circle cx="568.5" cy="239.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="580.5" y="244.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.85 and 1.06</text>
+<text x="24.0" y="279.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Verbal working memory</text>
+<text x="24.0" y="296.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">words and numbers, two measures</text>
+<line x1="330.0" y1="281.0" x2="435.8" y2="281.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="426.8" cy="281.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<circle cx="435.8" cy="281.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="447.8" y="286.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.43 and 0.47</text>
+<text x="24.0" y="323.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="600">Adults (13 studies)</text>
+<text x="24.0" y="358.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Verbal fluency</text>
+<line x1="330.0" y1="353.0" x2="469.5" y2="353.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="469.5" cy="353.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="481.5" y="358.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.62</text>
+<text x="24.0" y="393.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Inhibition</text>
+<text x="24.0" y="410.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">two measures</text>
+<line x1="330.0" y1="395.0" x2="530.2" y2="395.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="474.0" cy="395.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<circle cx="530.2" cy="395.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="542.2" y="400.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.64 and 0.89</text>
+<text x="24.0" y="435.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Set shifting</text>
+<text x="24.0" y="452.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">switching tasks or rules</text>
+<line x1="330.0" y1="437.0" x2="476.2" y2="437.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="476.2" cy="437.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="488.2" y="442.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.65</text>
+<text x="24.0" y="477.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Consistency of responding</text>
+<text x="24.0" y="494.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">not an executive measure</text>
+<line x1="330.0" y1="479.0" x2="458.2" y2="479.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="458.2" cy="479.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="470.2" y="484.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.57</text>
+<text x="24.0" y="519.0" font-size="14" fill="#efefef" text-anchor="start" font-weight="400">Speed of naming colours</text>
+<text x="24.0" y="536.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">not an executive measure</text>
+<line x1="330.0" y1="521.0" x2="469.5" y2="521.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
+<circle cx="469.5" cy="521.0" r="6" fill="#338ced" stroke="#191919" stroke-width="2"/>
+<text x="481.5" y="526.0" font-size="13" fill="#efefef" text-anchor="start" font-weight="400">0.62</text>
+<text x="24.0" y="604.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">Sources: Willcutt et al. 2005 (source 1), Martinussen et al. 2005 (3), Boonstra et al. 2005 (4),</text>
+<text x="24.0" y="622.0" font-size="13" fill="#9c9c9c" text-anchor="start" font-weight="400">see this page. Even at 0.69 the groups’ scores overlap by about 73% (this page’s calculation).</text>
+</svg>

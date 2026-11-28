@@ -16,7 +16,7 @@ Parents of children with ADHD report more parenting stress than other parents, a
 
 In the US MTA study, which followed 558 children into their mid-20s, most did not follow a straight line: symptoms waxed and waned, and many who reached full remission later had symptoms return [7]. The full numbers are on [how ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md).
 
-**Girls are often recognised later.** In Denmark, new diagnoses peaked at age 8 in boys and 17 in girls [8], and in Stockholm County, Sweden, females were diagnosed about four years later than males on average [11]. More is on [women and girls](../01-is-this-real/women-and-girls.md).
+**Girls are often recognised later.** In Denmark, new diagnoses peaked at age 8 in boys and 17 in girls [8], and in Stockholm County, Sweden, females were diagnosed about four years later than males on average [9]. More is on [women and girls](../01-is-this-real/women-and-girls.md).
 
 **The teenage years bring new risks.** On average, adolescents and young adults with ADHD have higher rates of injuries, road crashes and substance use than their peers. These are group averages with absolute risks that are smaller than headlines suggest; see [the hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md).
 
@@ -24,13 +24,13 @@ Several of these risks are lower during periods on medication in registry studie
 
 ## What is uncertain or debated
 
-**Predicting one child's course.** No test or score predicts whether a particular child's ADHD will persist. In the MTA, how symptoms changed in the first few years was a better guide to later functioning than which treatment a child had received [9].
+**Predicting one child's course.** No test or score predicts whether a particular child's ADHD will persist. In the MTA, how symptoms changed in the first few years was a better guide to later functioning than which treatment a child had received [10].
 
 **Diagnosis in the youngest children.** Children who are young for their school year are diagnosed more often, which suggests some normal immaturity is labelled ADHD. More is on [more diagnoses than ever](../01-is-this-real/more-diagnoses-than-ever.md).
 
 Diagnosis before school age is harder still, and guidelines are more cautious with treatment at that age. More is on [ADHD medication for children: is it safe and worthwhile?](children-and-medication.md)
 
-**Whether "fluctuating" is the norm.** A study of three other US cohorts, counting a course as fluctuating after two or more switches in and out of diagnosis, found it in 17–29% of young people with ADHD, fewer than in the MTA, and never as the largest group [10]. How common the in-and-out pattern is therefore remains debated.
+**Whether "fluctuating" is the norm.** A study of three other US cohorts, counting a course as fluctuating after two or more switches in and out of diagnosis, found it in 17–29% of young people with ADHD, fewer than in the MTA, and never as the largest group [11]. How common the in-and-out pattern is therefore remains debated.
 
 **Inheritance in the family.** Because ADHD is highly heritable, a parent may recognise their own traits in their child. There is no genetic test, and no checked figure was found for the chance that a sibling or child of someone with ADHD will have it; see [genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md).
 
@@ -56,9 +56,9 @@ The research does not support the idea that you caused your child's ADHD. It doe
 6. Faraone SV, et al. The age-dependent decline of attention deficit hyperactivity disorder: a meta-analysis of follow-up studies. *Psychological Medicine*. 2006;36(2):159–65. DOI 10.1017/S003329170500471X. PMID 16420712. — **Evidence: Strong**, meta-analysis; older studies; 15% and 65% confirmed against the PubMed abstract.
 7. Sibley MH, et al. Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD. *American Journal of Psychiatry*. 2022. DOI 10.1176/appi.ajp.2021.21010032. PMID 34384227. — **Evidence: Strong**, 558 participants, eight assessments.
 8. Dalsgaard S, et al. Incidence rates and cumulative incidences of the full spectrum of diagnosed mental disorders in childhood and adolescence. *JAMA Psychiatry*. 2020. PMID 31746968. — **Evidence: Strong**, nationwide birth cohort.
-9. Molina BSG, et al. The MTA at 8 years: prospective follow-up of children treated for combined-type ADHD in a multisite study. *Journal of the American Academy of Child and Adolescent Psychiatry*. 2009;48(5):484–500. DOI 10.1097/CHI.0b013e31819c23d0. — **Evidence: Moderate**, follow-up of an RCT after randomisation ended.
-10. Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. *EClinicalMedicine*. 2023;60:102021. PMID 37333663. — **Evidence: Moderate**, three US cohorts (ABCD, NCR, NKI-Rockland), more than 10,000 young people; fluctuating defined as two or more switches in and out of diagnosis.
-11. Skoglund C, et al. Time after time: failure to identify and support females with ADHD – a Swedish population register study. *Journal of Child Psychology and Psychiatry*. 2024. DOI 10.1111/jcpp.13920. — **Evidence: Strong** for the diagnostic delay, regional register of 85,330 people; misses people never seen by services.
+9. Skoglund C, et al. Time after time: failure to identify and support females with ADHD – a Swedish population register study. *Journal of Child Psychology and Psychiatry*. 2024. DOI 10.1111/jcpp.13920. — **Evidence: Strong** for the diagnostic delay, regional register of 85,330 people; misses people never seen by services.
+10. Molina BSG, et al. The MTA at 8 years: prospective follow-up of children treated for combined-type ADHD in a multisite study. *Journal of the American Academy of Child and Adolescent Psychiatry*. 2009;48(5):484–500. DOI 10.1097/CHI.0b013e31819c23d0. — **Evidence: Moderate**, follow-up of an RCT after randomisation ended.
+11. Norman LJ, et al. Longitudinal trajectories of childhood and adolescent attention deficit hyperactivity disorder diagnoses in three cohorts. *EClinicalMedicine*. 2023;60:102021. PMID 37333663. — **Evidence: Moderate**, three US cohorts (ABCD, NCR, NKI-Rockland), more than 10,000 young people; fluctuating defined as two or more switches in and out of diagnosis.
 
 ---
 Last reviewed: November 2026 · [How these pages are made](../08-reading-this-well/sources-and-guidelines.md) · [Not medical advice](../08-reading-this-well/not-medical-advice.md)

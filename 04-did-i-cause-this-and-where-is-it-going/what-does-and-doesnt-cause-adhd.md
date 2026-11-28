@@ -23,6 +23,13 @@ That pattern, strongest in unrelated people and weakest in siblings, is what sha
 
 **Paracetamol in pregnancy: no link once families are accounted for.** Among 2.48 million Swedish children, 2.87% of those exposed to paracetamol before birth had an ADHD diagnosis by age 10, against 2.46% of those not exposed [3]. In sibling comparisons the hazard ratio was 0.98, meaning no difference [3].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/04/paracetamol-siblings-dark.svg">
+  <img src="../assets/charts/04/paracetamol-siblings.svg" alt="Two bars for 2.48 million Swedish children: 2.87% of those exposed to paracetamol before birth had an ADHD diagnosis by age 10, against 2.46% of those not exposed. A panel below notes that comparing siblings gave a hazard ratio of 0.98, meaning no difference." width="720">
+</picture>
+
+*The share of Swedish children diagnosed with ADHD by age 10 by paracetamol exposure before birth, with the sibling comparison beside it; the raw percentages do not account for family factors, which is why the sibling result matters.*
+
 A 2025 umbrella review in the *BMJ* found that earlier reviews reporting a link were of low to critically low quality, and that in the two sibling-controlled studies included, the small raised risk of ADHD seen in whole groups disappeared [4]. A 2026 meta-analysis using only sibling-comparison studies found no association (odds ratio 0.95) [5]. <!-- CHECK: OR 0.95 and '17 of 43 studies' not visible in any index record reached (no abstract in PubMed/Crossref/Europe PMC); confirm from the paper -->
 
 **The US label process, as of late 2026.** In September 2025 the US Food and Drug Administration (FDA) wrote to doctors and said it had started the process of changing paracetamol's label to mention a possible association between use in pregnancy and autism and ADHD; in the same notice it said a causal relationship had not been established [6]. As of late 2026, news reports said the label had not yet changed and the FDA had not given an update; this may change after this page was checked. The two reviews above were published after that announcement.

@@ -10,9 +10,18 @@
 
 **This variability is not a fingerprint of ADHD.** Children with ADHD were only slightly more variable than children with *other* clinical conditions (*g* = 0.25), and teenagers and adults with ADHD could not be told apart from other clinical groups on this measure [1]. So it is a feature of many conditions, not a test for ADHD.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/03/reaction-time-variability-dark.svg">
+  <img src="../assets/charts/03/reaction-time-variability.svg" alt="Dot plot of effect sizes (g) for trial-to-trial reaction-time variability from a meta-analysis of 319 studies. Compared with typically developing peers: children and teenagers with ADHD g = 0.76, adults g = 0.46. Compared with other clinical conditions: children with ADHD g = 0.25, and teenagers and adults with ADHD could not be told apart." width="720">
+</picture>
+
+*Reaction-time variability effect sizes from source 1; the comparison with other clinical conditions is why this measure cannot work as a test for ADHD.*
+
 **Vigilance is one of the clearer test weaknesses.** In the large executive-function meta-analysis, vigilance, meaning keeping attention on a long, unrewarding task, was among the most consistent differences [3]. A meta-analysis of 47 studies of children on continuous performance tests (long, repetitive computer tasks) found large differences in overall performance [4]. But the few studies that tracked performance *over time* found only small-to-moderate declines, so "attention fades faster as the task goes on" is less clearly shown than "attention is less steady overall" [4].
 
-**Interest and reward change performance.** People with ADHD tend to discount delayed rewards more steeply, and rewards improve task performance in children with ADHD, somewhat more than in other children [5]. This fits attention holding on immediately rewarding tasks and failing on tasks whose pay-off is distant. This page's reading, which no study here tested directly, is that "you can focus when you want to" misses this: what changes is the task, not the willingness. See [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
+**Interest and reward change performance.** People with ADHD tend to discount delayed rewards more steeply, and rewards improve task performance in children with ADHD, somewhat more than in other children [5]. This fits attention holding on immediately rewarding tasks and failing on tasks whose pay-off is distant.
+
+This page's reading, which no study here tested directly, is that "you can focus when you want to" misses this: what changes is the task, not the willingness. See [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
 
 **Hyperfocus research is a questionnaire literature.** Hyperfocus means intense, absorbed concentration in which a person loses awareness of time and surroundings and finds it hard to stop. A 2019 study developed an Adult Hyperfocus Questionnaire and tested a preregistered prediction in a pilot sample (*n* = 251) and a replication sample (*n* = 372) of adults with and without ADHD [6]. People with more ADHD symptoms reported hyperfocus more often, in each of the three settings asked about (school, hobbies and screen time) [6].
 

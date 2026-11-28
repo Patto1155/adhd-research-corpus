@@ -23,7 +23,21 @@ Every finding below is a group average. The comparison group (often called "cont
 
 The effect sizes are from the paper [1]. The overlap column is this page's own calculation from each effect size, not a figure from the paper; the method is in the box at the end of this section.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/02/enigma-subcortical-effect-sizes-dark.svg">
+  <img src="../assets/charts/02/enigma-subcortical-effect-sizes.svg" alt="Dot plot of effect sizes from the ENIGMA-ADHD study of 1,713 people with ADHD and 1,529 without. All six deep brain measures were slightly smaller on average in the ADHD group, and all sit inside the conventional small threshold of 0.2: amygdala d = −0.19 (about 92% overlap), nucleus accumbens −0.15 (about 94%), putamen −0.14 (about 94%), caudate −0.11 (about 96%), hippocampus −0.11 (about 96%) and whole-skull volume −0.10 (about 96%). Overlap figures are this page's calculation." width="720">
+</picture>
+
+*The ENIGMA effect sizes from the table above, plotted against the conventional "small" mark of 0.2; these are group averages across all ages, and the differences were mainly in children.*
+
 **The two groups are almost completely mixed together.** An overlap of 92–96% means that if you lined up everyone's amygdala size, people with and without ADHD would be almost completely mixed. The pallidum and thalamus showed no difference [1].
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/02/amygdala-overlap-dark.svg">
+  <img src="../assets/charts/02/amygdala-overlap.svg" alt="Two almost identical bell curves, one for people with ADHD and one for people without, set 0.19 standard deviations apart to match the amygdala effect size of −0.19. The ADHD curve sits very slightly to the left (smaller volume), and the shaded area shared by both curves is about 92% of each, this page's calculation." width="720">
+</picture>
+
+*An illustration of what d = −0.19 looks like, not real scan data; it assumes bell-shaped distributions with equal spread, which brain volumes only roughly follow.*
 
 **The differences were in children, not adults.** Effect sizes were larger in children under 15 than in adults over 21; for the accumbens, for example, *d* was −0.19 in children and −0.10 in adults [1]. In adults, none of the differences was statistically significant [1].
 
@@ -99,6 +113,13 @@ Overlap figures are this page's calculation from the published effect sizes.
 **Computer classifiers work less well than early studies claimed.** Machine-learning programs can be trained to sort scans into "ADHD" and "no ADHD". A review of 69 such studies found that high reported accuracies were inflated by small samples and by testing programs on data used to build them; studies that kept these separate mostly reported 60–80% accuracy [19]. In the public ADHD-200 dataset, correcting for differences between scanning sites caused a large drop in accuracy [20].
 
 **Large-sample classifiers are only a little better than chance.** One measure of accuracy, the AUROC, runs from 0.5 (a coin toss) to 1.0 (perfect). In 6,916 children from the ABCD Study, the best structural-scan model reached 0.567 for ADHD, which its authors said does not warrant clinical use [21]. A model trained on ENIGMA scans separated ADHD from controls better than chance in both children and adults, and better in children [22].
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/02/scan-classifiers-vs-chance-dark.svg">
+  <img src="../assets/charts/02/scan-classifiers-vs-chance.svg" alt="Two scales. Top: accuracy of scan-based classifiers in studies that tested on separate data was mostly 60–80%, compared with 50% for a coin toss and an 80% sensitivity-and-specificity bar proposed by an American Psychiatric Association work group for a diagnostic imaging test. Bottom: the best structural-scan model in 6,916 children from the ABCD Study reached an AUROC of 0.567, where 0.5 is a coin toss and 1.0 is perfect." width="720">
+</picture>
+
+*Classifier results from sources 19, 21 and 24 on one picture; the 80% bar is for sensitivity and specificity, which is related to, but not the same as, overall accuracy.*
 
 **Scans cannot diagnose ADHD.** Because the groups overlap so heavily, a scan cannot tell whether an individual has ADHD. The UK NICE guideline says diagnosis should be made only by a specialist psychiatrist, paediatrician or other appropriately qualified professional, after a full clinical and psychosocial assessment, and not on the basis of rating scales or observation alone [23]. Brain scans are not part of the assessment it describes.
 

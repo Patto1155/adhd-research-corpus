@@ -15,6 +15,13 @@ In a randomised discontinuation trial (also called a randomised withdrawal trial
 
 **Adults: a large difference in one trial.** In an adult trial, people who had been stable on lisdexamfetamine for at least six months were randomised to continue or switch to placebo. Symptoms relapsed in 8.9% of those who continued and 75.0% of those on placebo, with relapse defined as a 50% or greater rise in symptom score plus worsening on a clinician rating [2]. A similar design in children and adolescents also found more treatment failure after switching to placebo [3].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/06/withdrawal-trials-dark.svg">
+  <img src="../assets/charts/06/withdrawal-trials.svg" alt="Paired horizontal bars from two randomised withdrawal trials. Children and adolescents who had taken methylphenidate for more than two years: 40.4% of those switched to placebo were rated worse, against 15.9% who continued. Adults stable on lisdexamfetamine: 75.0% of those on placebo relapsed, against 8.9% who continued." width="720">
+</picture>
+
+*Worsening or relapse after switching to placebo in two separate trials with different definitions, both enrolling people who had already responded to the medicine; the numbers should not be compared directly between the two.*
+
 **Quality of life dipped slightly after stopping, in children only.** A meta-analysis of five withdrawal trials (1,463 people) found that switching to placebo was associated with a small drop in quality of life in children and adolescents (SMD 0.19), but not in adults [4].
 
 **In the long-term MTA follow-up, early differences faded.** The MTA study randomised 579 children to different treatments for 14 months, then followed them for years while families chose their own treatment. By eight years, the original groups no longer differed, and medication use in the previous year was not linked to better functioning [5]. At 16 years, extended medication use was associated with shorter adult height but not with fewer adult symptoms [6].

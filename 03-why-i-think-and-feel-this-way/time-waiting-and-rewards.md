@@ -14,6 +14,13 @@
 
 **A second meta-analysis in children agrees.** Across 26 studies of 4,320 children and teenagers, those with ADHD made more "now rather than later" choices, again by a medium amount (*g* = 0.47) [4]. Effects were larger in studies that diagnosed ADHD from a single informant and in studies that left out girls, which may mean some published figures are inflated [4].
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/03/time-and-reward-effect-sizes-dark.svg">
+  <img src="../assets/charts/03/time-and-reward-effect-sizes.svg" alt="Dot plot of effect sizes for ADHD compared with people without ADHD. Time perception in young people across 27 studies: less precise, g = 0.66; less accurate, g above 0.40. Preferring now over later: delay discounting across all ages in 21 studies of 3,913 participants, d = 0.43; now-rather-than-later choices in 26 studies of 4,320 children and teenagers, g = 0.47." width="720">
+</picture>
+
+*Medium-sized average differences from sources 2, 3 and 4; the delay-discounting studies used money choices in the lab, and the time-perception results are from young people only.*
+
 **That matches distant deadlines feeling unreal.** In practice, steeper discounting fits the experience of a deadline seeming unreal until it is very close. This is an interpretation; the studies above used money choices in the lab, not real deadlines.
 
 **Waiting itself can be aversive.** The "delay aversion" theory proposes that some people with ADHD find waiting unpleasant and act to escape it, for example by choosing the immediate option, or by filling the wait with other activity that looks like distractibility [5]. This is one of the two routes in the "dual pathway" model, the other being executive difficulties, which proposes they are separate routes into ADHD with different brain circuits [5]. More is on [why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md).

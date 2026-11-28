@@ -1,6 +1,6 @@
 # Autism and ADHD: can you have both?
 
-> **Short answer:** Yes. Current diagnostic manuals allow both diagnoses, and the two often occur together: about one in five children with ADHD meet criteria for autism, and between about one in four and two in five autistic people have ADHD, depending on the study. They run in the same families and share genetic influences. Because some traits overlap, recognising both takes a careful assessment.
+> **Short answer:** Yes. Current diagnostic manuals allow both diagnoses, and the two often occur together: about one in five children with ADHD meet criteria for autism, and about one in four to two in five autistic people have ADHD, depending on the study. They run in the same families and share genetic influences. Because some traits overlap, recognising both takes careful assessment.
 
 ## What the evidence shows
 
@@ -14,7 +14,14 @@ The World Health Organization's ICD-11 also allows autism and ADHD to be diagnos
 
 **Between about one in four and two in five autistic people have ADHD.** A 2021 meta-analysis of 63 articles estimated that 38.5% of autistic people currently have ADHD, and 40.2% have had it at some point [4]. Estimates varied widely, and depended on age, intellectual disability, how people were recruited and which diagnostic criteria were used [4].
 
-A 2019 meta-analysis that counted only confirmed clinical diagnoses found a lower pooled figure: 28% of autistic people had ADHD [5]. The difference is probably about method (what counts as having ADHD, and who was sampled) rather than one estimate being wrong. Both found ADHD to be the most common, or among the most common, co-occurring diagnoses in autism [4][5].
+A 2019 meta-analysis that counted only confirmed clinical diagnoses found a lower pooled figure: 28% of autistic people had ADHD [5]. The difference is probably about method (what counts as having ADHD, and who was sampled) rather than one estimate being wrong. Both found ADHD to be the most common, or among the most common, co-occurring diagnoses in autism [4, 5].
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/charts/05/autism-adhd-overlap-dark.svg">
+  <img src="../assets/charts/05/autism-adhd-overlap.svg" alt="Dot plot of pooled estimates. Children and adolescents with ADHD who meet the threshold for autism: 21% in all samples, 19% in community samples, 24% in clinic samples. Autistic people who have ADHD: 28% counting only confirmed clinical diagnoses, 38.5% currently have ADHD, and 40.2% have had it at some point. A bracket joins the 28% and 38.5% estimates, which differ by about ten percentage points." width="720">
+</picture>
+
+*Pooled estimates of how often autism and ADHD occur together from three meta-analyses; each figure hides wide variation between studies, and the child figures come from children only.*
 
 **They run together in families.** In Swedish national registers covering about 1.9 million people born from 1987 to 2006, autistic people had about 22 times the odds of also having an ADHD diagnosis [6]. Their relatives also had raised odds of ADHD, and more so the more genes they shared: about 18 times for identical twins, against about 4.3 for non-identical twins and 4.6 for full siblings [6].
 
@@ -28,7 +35,7 @@ A careful assessment looks at whether ADHD-like traits are better explained by a
 
 ## What is uncertain or debated
 
-- **Prevalence figures vary a lot** with how samples were found, which assessment was used, and age. The two main meta-analyses of ADHD in autism differ by about ten percentage points (28% and 38.5%) [4][5], and each pooled estimate hides wide ranges.
+- **Prevalence figures vary a lot** with how samples were found, which assessment was used, and age. The two main meta-analyses of ADHD in autism differ by about ten percentage points (28% and 38.5%) [4, 5], and each pooled estimate hides wide ranges.
 - **Adults, especially women, are under-studied.** Most data are from children. Adults diagnosed late with either condition may be missed for the other.
 - **Overlap or one combined condition?** Some researchers see autism and ADHD as distinct conditions that often co-occur; others see them as overlapping parts of a broader neurodevelopmental spectrum. Current evidence does not settle this.
 - **Treatment in people with both** has fewer trials than treatment of ADHD alone. Medication response may differ, and these decisions are for a prescriber.

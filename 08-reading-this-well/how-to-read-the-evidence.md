@@ -117,6 +117,7 @@ No group statistic on these pages can tell you about your own brain, genes or fu
 
 - [ADHD myths: which popular claims are wrong or half right?](myths-and-corrections.md)
 - [Where does the information on these pages come from?](sources-and-guidelines.md)
+- [What evidence do these pages rest on, taken as a whole?](the-evidence-at-a-glance.md)
 - [ADHD terms explained: what do the technical words mean?](glossary.md)
 - [The hard statistics in context](../04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md)
 - [Back to all worries](../README.md#find-your-worry)
