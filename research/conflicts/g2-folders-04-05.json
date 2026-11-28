@@ -714,5 +714,462 @@
     "severity": "minor",
     "next_step": "Optionally add Wootton 2022 as general-population evidence that average trait decline is real, independent of diagnosis rates, and note that symptom scales in older people overlap with ageing-related problems.",
     "new_research": true
+  },
+  {
+    "id": "C04-012",
+    "topic": "Do menopausal symptoms differ in women with ADHD?",
+    "page": "04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md",
+    "claim": "Two 2025 menopause studies comparing women with and without ADHD disagreed: Iceland found more perimenopausal symptoms, a UK survey found no difference by diagnosis.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Women with ADHD report more menopausal symptoms: in Iceland, severe perimenopausal symptoms in 54% with ADHD against 30% without; an Irish 2026 survey of 602 women (377 with self-reported ADHD) also found greater menopausal symptom severity.",
+        "sources": [
+          {
+            "citation": "Jakobsdóttir Smári U, et al. Perimenopausal symptoms in women with and without ADHD: a population-based cohort study. Eur Psychiatry. 2025.",
+            "doi": "10.1192/j.eurpsy.2025.10101",
+            "pmid": "40903825",
+            "year": 2025,
+            "design": "population cohort, cross-sectional self-report (SAGA)",
+            "n": "5,392 women (535 with ADHD)",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Boyd C, et al. ADHD and the female reproductive stages: menstruation, perinatal and menopause. Arch Womens Ment Health. 2026.",
+            "doi": "10.1007/s00737-026-01718-x",
+            "pmid": "42207323",
+            "year": 2026,
+            "design": "cross-sectional online survey with comparison group",
+            "n": "602 (377 with self-reported ADHD, 225 without)",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In 656 UK women aged 45-60, a diagnosis of ADHD was not linked to worse menopausal symptoms at any stage, although more ADHD traits were linked to more complaints.",
+        "sources": [
+          {
+            "citation": "Chapman L, et al. Examining the link between ADHD symptoms and menopausal experiences. J Atten Disord. 2025.",
+            "doi": "10.1177/10870547251355006",
+            "pmid": "40738484",
+            "year": 2025,
+            "design": "cross-sectional survey",
+            "n": "656 (245 with ADHD)",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "All are cross-sectional self-report studies with self-reported diagnosis. The UK study excluded hormone-therapy and pill users (who may be the most symptomatic) and recruited women 45-60; Iceland's sample was younger (35-55) and found the largest gap at 35-39, before most women's transition; the Irish survey recruited partly via ADHD support groups, which may select more symptomatic women. Trait-based analyses in the UK study point the same direction as the other two, so the disagreement may be about diagnosis versus traits more than about whether a link exists.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Add Boyd 2026 as a third comparison study (noting its support-group recruitment), so the balance is visible as two-to-one on diagnosis with all three agreeing on traits. Watch for any longitudinal study through the menopause transition, which would settle whether symptoms change rather than differ.",
+    "new_research": true
+  },
+  {
+    "id": "C04-013",
+    "topic": "After giving birth: is the evidence only two uncontrolled surveys?",
+    "page": "04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md",
+    "claim": "After giving birth the evidence is two surveys of women with ADHD, neither with a comparison group.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "The page's sources: a Dutch clinic survey (57.6% above a postnatal depression cut-off) and a 2026 online survey (70% reported worsening), both without comparison groups and both relying on recall.",
+        "sources": [
+          {
+            "citation": "Dorani F, et al. Prevalence of hormone-related mood disorder symptoms in women with ADHD. J Psychiatr Res. 2021.",
+            "doi": "10.1016/j.jpsychires.2020.12.005",
+            "pmid": "33302160",
+            "year": 2021,
+            "design": "clinic survey, no control",
+            "n": "209",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Osianlis E, et al. ADHD in females: survey findings on symptoms across hormonal life stages. J Psychiatr Res. 2026.",
+            "doi": "10.1016/j.jpsychires.2025.11.035",
+            "pmid": "41330200",
+            "year": 2026,
+            "design": "online survey, no control",
+            "n": "600",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Controlled studies now exist. In Ontario health records (about 1.05 million pregnancies), perinatal mental illness was diagnosed in 50.2% of those with ADHD against 24.0% without (adjusted relative risk 1.35; perinatal depression 14.4% against 5.0%). A Canadian national survey found mothers with possible ADHD had about 1.7 times the odds of postpartum depression and anxiety.",
+        "sources": [
+          {
+            "citation": "Vigod SN, et al. Attention-deficit hyperactivity disorder and perinatal mental illness: a population-based study. Soc Psychiatry Psychiatr Epidemiol. 2026.",
+            "doi": "10.1007/s00127-026-03206-0",
+            "pmid": "42663665",
+            "year": 2026,
+            "design": "population health-records cohort",
+            "n": "22,995 with ADHD; 1,028,038 without",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Johnson D, et al. Associations between self-reported ADHD symptoms and depression and anxiety in mothers and fathers during the postpartum period: A Canadian nationwide longitudinal study. J Affect Disord. 2025.",
+            "doi": "10.1016/j.jad.2025.02.113",
+            "pmid": "40044079",
+            "year": 2025,
+            "design": "national longitudinal survey",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "The page's statement reflects its own source set, not the field. The newer studies measure perinatal mental illness (largely depression and anxiety) rather than whether ADHD symptoms themselves worsen, so they answer a related but different question. Health-record diagnoses miss untreated cases but avoid recall bias; women with ADHD may also be more often in contact with services and so more often diagnosed.",
+    "page_handling": "not mentioned",
+    "severity": "major",
+    "next_step": "Update the 'After giving birth' bullet and short answer: large controlled data (Vigod 2026, with absolute figures) show raised perinatal depression and anxiety in women with ADHD, while whether ADHD symptoms themselves worsen still rests on uncontrolled surveys. Keep the help-now link next to the perinatal depression figures. Cross-check with 06-treatment-what-works/pregnancy-and-breastfeeding.md.",
+    "new_research": true
+  },
+  {
+    "id": "C04-014",
+    "topic": "Hormonal contraception and mood in ADHD",
+    "page": "04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md",
+    "claim": "The effects of hormonal contraception and hormone therapy on ADHD have not been studied well enough to summarise.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "The page treats hormonal contraception as unstudied in ADHD.",
+        "sources": []
+      },
+      {
+        "label": "B",
+        "summary": "A Swedish register study of 29,767 young women with ADHD aged 15-24 and 763,146 without found women with ADHD had higher depression risk overall, and a larger excess when using oral hormonal contraception (combined pill hazard ratio 5.19 against non-users without ADHD).",
+        "sources": [
+          {
+            "citation": "Lundin C, et al. Hormonal Contraceptive Use and Risk of Depression Among Young Women With Attention-Deficit/Hyperactivity Disorder. J Am Acad Child Adolesc Psychiatry. 2023.",
+            "doi": "10.1016/j.jaac.2022.07.847",
+            "pmid": "36332846",
+            "year": 2023,
+            "design": "national register cohort",
+            "n": "29,767 with ADHD; 763,146 without",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "The page's statement is about effects on ADHD symptoms, which remain unstudied; the registry addresses depression during contraceptive use. It is observational, so women prescribed the pill may differ from non-users, and depression diagnoses in records may reflect contact with services. Relative figures need absolute rates added.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Revise the bullet to say that effects on ADHD symptoms are unstudied, but a large Swedish registry found higher depression risk in young women with ADHD using oral contraception; obtain absolute depression rates from the full text before quoting, and frame contraception choices as decisions with a clinician.",
+    "new_research": true
+  },
+  {
+    "id": "C04-015",
+    "topic": "Recalled versus measured symptom change across hormonal stages; strength of expert claims",
+    "page": "04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md",
+    "claim": "An expert review states hormonal transitions worsen ADHD symptoms and mood; the systematic review calls evidence 'largely suggestive'; a 2026 survey found large recalled worsening but similar measured severity across stages.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Hormonal transitions worsen ADHD: the Eunethydis expert review states this, and most women in surveys recall worsening (98% around menopause, 89% across the cycle). A 2026 three-group study found women with ADHD more often screened positive for PMDD than women without ADHD.",
+        "sources": [
+          {
+            "citation": "Kooij JJS, et al. Research advances and future directions in female ADHD: the lifelong interplay of hormonal fluctuations with mood, cognition, and disease. Front Glob Womens Health. 2025.",
+            "doi": "10.3389/fgwh.2025.1613628",
+            "pmid": "40692967",
+            "year": 2025,
+            "design": "expert review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Groenman AP, et al. The monthly spectrum: Premenstrual symptoms across ADHD and autism. Womens Health (Lond). 2026.",
+            "doi": "10.1177/17455057261476912",
+            "pmid": "42617113",
+            "year": 2026,
+            "design": "cross-sectional survey with comparison group",
+            "n": "199 (89 ADHD, 39 autism, 71 neither)",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "The best syntheses and measured data are weaker: the systematic review found 11 mostly small studies and 'largely suggestive' evidence, and when current symptoms were scored with a standard questionnaire, severity was similar across life stages despite recalled worsening.",
+        "sources": [
+          {
+            "citation": "Osianlis E, et al. ADHD and sex hormones in females: a systematic review. J Atten Disord. 2025.",
+            "doi": "10.1177/10870547251332319",
+            "pmid": "40251875",
+            "year": 2025,
+            "design": "systematic review",
+            "n": "11 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Osianlis E, et al. ADHD in females: survey findings on symptoms across hormonal life stages. J Psychiatr Res. 2026.",
+            "doi": "10.1016/j.jpsychires.2025.11.035",
+            "pmid": "41330200",
+            "year": 2026,
+            "design": "online survey",
+            "n": "600",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Recall of change is shaped by expectation and by the worst periods, while a single current-symptom score cannot capture within-person change across stages; neither design follows the same women through a transition. The expert review draws on clinical experience and women's accounts, which are valuable for generating hypotheses but go beyond the systematic evidence. The PMDD finding concerns premenstrual mood, not ADHD core symptoms.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Page handles this well. Optionally add Groenman 2026 as the first PMDD study with a non-ADHD comparison group (strengthening the cycle-mood point while noting small numbers). Prioritise any prospective daily-tracking study when it appears.",
+    "new_research": true
+  },
+  {
+    "id": "C04-016",
+    "topic": "Life expectancy: counted versus modelled",
+    "page": "04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md",
+    "claim": "The '13 years' figure is a calculator estimate; a UK study that counted deaths found life expectancy 6.8 (men) and 8.6 (women) years shorter in diagnosed adults, probably more than for everyone with ADHD.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Counted from deaths in UK primary-care records of 30,039 diagnosed adults: 6.8 and 8.6 years less life expectancy, which the authors say probably overstates the gap for all people with ADHD.",
+        "sources": [
+          {
+            "citation": "O'Nions E, et al. Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study. Br J Psychiatry. 2025.",
+            "doi": "10.1192/bjp.2024.199",
+            "pmid": "39844532",
+            "year": 2025,
+            "design": "matched primary-care cohort",
+            "n": "30,039 with ADHD",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Modelled with an actuarial calculator from risk-factor answers in a Milwaukee clinical cohort, with no deaths counted: 8.4 fewer total years for the childhood group and about 12.7 years (healthy life) for those whose ADHD persisted.",
+        "sources": [
+          {
+            "citation": "Barkley RA, et al. Hyperactive child syndrome and estimated life expectancy at young adult follow-up: the role of ADHD persistence and other potential predictors. J Atten Disord. 2019.",
+            "doi": "10.1177/1087054718816164",
+            "pmid": "30526189",
+            "year": 2019,
+            "design": "clinical cohort with actuarial estimate",
+            "n": "131 cases, 71 controls",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "One counts actual deaths in diagnosed adults (who are more severely affected than the wider ADHD population, and whose deaths may reflect co-occurring conditions); the other predicts lifespan from present-day risk factors in a small, severe, mostly male clinic sample. Calculators assume risk factors persist and add up, which may not hold. Neither represents undiagnosed adults. Several published commentaries on the UK paper and an author reply exist (Br J Psychiatry 2025-26, e.g. PMIDs 40685928, 40904184, 40910173, 41178080) but have no abstracts, so their arguments were not checked.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Page handles this carefully and follows safe messaging. Read the UK commentaries and author reply in full; if they raise substantive critiques (for example about matching, coding of ADHD in GP records, or life-table methods), add one line to the 'what is uncertain' section.",
+    "new_research": false
+  },
+  {
+    "id": "C04-017",
+    "topic": "Size of the raised risk of suicide death",
+    "page": "04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md",
+    "claim": "Suicide deaths: odds ratio 6.7 in a 2019 meta-analysis (four datasets, interval 3.24-17.39); the 2026 meta-analysis found death from suicide about 90% higher.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A 2019 meta-analysis pooled four datasets and found about 6.7 times the odds of suicide death, with very wide uncertainty.",
+        "sources": [
+          {
+            "citation": "Septier M, et al. Association between suicidal spectrum behaviors and attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. Neurosci Biobehav Rev. 2019.",
+            "doi": "10.1016/j.neubiorev.2019.05.022",
+            "pmid": "31129238",
+            "year": 2019,
+            "design": "meta-analysis",
+            "n": "4 datasets for suicide death",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2026 meta-analysis of 19 studies (about 16 million people) found a hazard ratio of roughly 1.9 for suicide death, a much smaller relative increase.",
+        "sources": [
+          {
+            "citation": "Corrigan L, et al. Mortality among people with attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. JAMA Netw Open. 2026.",
+            "doi": "10.1001/jamanetworkopen.2026.39448",
+            "pmid": "42895743",
+            "year": 2026,
+            "design": "meta-analysis",
+            "n": "19 studies, about 16 million people",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "The 2019 estimate rests on four datasets and mixes odds ratios from case-control and cohort designs, which inflate when outcomes are rare and samples are selected; the 2026 estimate pools more and larger cohort studies with hazard ratios and is more precise. Different adjustment for co-occurring depression and substance use, and different eras, also matter. The page gives both numbers in separate paragraphs without saying they disagree or which is more reliable.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "In the suicide paragraph, state that the larger, newer meta-analysis gives a smaller relative increase (about 1.9) and that the 6.7 figure rests on four datasets; lead with the more reliable figure. Keep absolute framing ('raised, and still uncommon') and the crisis-contacts link; avoid any method detail, per safe-messaging guidance. Seek an absolute suicide-death rate per 10,000 from a registry source (for example the Danish cohort's cause-specific data).",
+    "new_research": false
+  },
+  {
+    "id": "C04-018",
+    "topic": "How much is all-cause mortality raised, and how much is due to co-occurring conditions",
+    "page": "04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md",
+    "claim": "Death rates are about twice as high (Danish rate ratio 2.07; 2022 meta-analysis 2.13), about 70% higher in the 2026 meta-analysis (1.71), and fall to 1.50 once conduct and substance use disorders are excluded.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "About double: Danish registry rate ratio 2.07 and a 2022 meta-analysis relative risk of 2.13 (8 studies, interval 1.13-4.02).",
+        "sources": [
+          {
+            "citation": "Dalsgaard S, et al. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. Lancet. 2015.",
+            "doi": "10.1016/S0140-6736(14)61684-6",
+            "pmid": "25726514",
+            "year": 2015,
+            "design": "national registry cohort",
+            "n": "1.92 million (32,061 with ADHD)",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Catalá-López F, et al. Mortality in persons with autism spectrum disorder or attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. JAMA Pediatr. 2022.",
+            "doi": "10.1001/jamapediatrics.2021.6401",
+            "pmid": "35157020",
+            "year": 2022,
+            "design": "meta-analysis",
+            "n": "8 studies for ADHD",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Smaller once more studies are pooled or co-occurring conditions removed: 1.71 across 19 studies, and 1.50 in Denmark after excluding conduct and substance use disorders, with the male estimate (1.27) not distinguishable from no difference.",
+        "sources": [
+          {
+            "citation": "Corrigan L, et al. Mortality among people with attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. JAMA Netw Open. 2026.",
+            "doi": "10.1001/jamanetworkopen.2026.39448",
+            "pmid": "42895743",
+            "year": 2026,
+            "design": "meta-analysis",
+            "n": "19 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Estimates differ by age of cohort (Danish cohort aged 32 or under, where accidents dominate), by adjustment for co-occurring conditions, and by which studies are pooled. Whether to adjust for conduct and substance disorders is itself debated: they may be pathways from ADHD rather than confounders, so the 1.50 figure may understate ADHD-related risk.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Consider adding a sentence that excluding co-occurring conditions can remove part of ADHD's own effect if ADHD leads to them, so 1.50 and 2.07 bracket the plausible range rather than one being 'true'. The short answer's 'about 6 in 10,000 against 2' is consistent with the sources.",
+    "new_research": false
+  },
+  {
+    "id": "C04-019",
+    "topic": "Dementia risk",
+    "page": "04-did-i-cause-this-and-where-is-it-going/the-hard-statistics-in-context.md",
+    "claim": "Dementia: a real registry link, much weaker than headlines suggest; it weakens considerably after accounting for other psychiatric conditions (Swedish HR 2.92 to 1.62), and a 2023 review judged evidence too varied to combine.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Weaker or confounded: in 3.6 million Swedes, the hazard ratio fell from 2.92 to 1.62 after accounting for depression, anxiety, substance use and bipolar disorder; part of the link runs in families; reverse causation (early dementia mislabelled as ADHD) is possible; a 2023 systematic review could not pool studies.",
+        "sources": [
+          {
+            "citation": "Dobrosavljevic M, et al. Attention-deficit/hyperactivity disorder as a risk factor for dementia and mild cognitive impairment: a population-based register study. Eur Psychiatry. 2022.",
+            "doi": null,
+            "pmid": "34924079",
+            "year": 2022,
+            "design": "national registry",
+            "n": "3.6 million",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Becker S, et al. Risk of neurodegenerative disease or dementia in adults with attention-deficit/hyperactivity disorder: a systematic review. Front Psychiatry. 2023.",
+            "doi": "10.3389/fpsyt.2023.1158546",
+            "pmid": "37663597",
+            "year": 2023,
+            "design": "systematic review",
+            "n": "7 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Newer evidence points to a sizeable, partly genetic link: a 2026 meta-analysis of five studies pooled a hazard ratio of 2.52 for all-cause dementia; in 187,341 US adults aged 50+ (All of Us), cognitive impairment developed in 6.7% with ADHD against 3.4% without (HR 4.60, attenuated but not removed by adjustment), and a higher ADHD polygenic score also predicted impairment (HR 1.35), as it did in a separate multicohort study (10-year incidence 33.8% against 23.4% by score tertile).",
+        "sources": [
+          {
+            "citation": "Levine SZ, et al. Adult attention-deficit/hyperactivity disorder and the risk of dementia. JAMA Netw Open. 2023.",
+            "doi": "10.1001/jamanetworkopen.2023.38088",
+            "pmid": "37847497",
+            "year": 2023,
+            "design": "health-insurance cohort",
+            "n": "109,218 (730 with adult ADHD)",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Baiamonte L, et al. Attention Deficit/Hyperactivity Disorder and Risk of Dementia: A Systematic Review and Meta-Analysis. Brain Sci. 2026.",
+            "doi": "10.3390/brainsci16060646",
+            "pmid": "42352655",
+            "year": 2026,
+            "design": "meta-analysis",
+            "n": "4 cohorts (3,703,877) and 1 case-control (400)",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Bauer-Negrini G, et al. Attention-Deficit/Hyperactivity Disorder and Late-Life Cognitive Impairment. JAMA Psychiatry. 2026.",
+            "doi": "10.1001/jamapsychiatry.2026.3165",
+            "pmid": "42842281",
+            "year": 2026,
+            "design": "cohort with EHR and polygenic scores (All of Us)",
+            "n": "187,341 (3,026 with ADHD)",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Leffa DT, et al. Attention-deficit/hyperactivity disorder polygenic risk score and incidence of cognitive impairment in older adults: A prospective multicohort study. Alzheimers Dement. 2026.",
+            "doi": "10.1002/alz.71770",
+            "pmid": "42878194",
+            "year": 2026,
+            "design": "prospective multicohort, polygenic score",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Studies differ in whether they adjust for psychiatric conditions that may lie on the pathway, in the outcome (dementia versus the broader 'cognitive impairment'), and in how ADHD is identified late in life, where new attention complaints can be early dementia (reverse causation). Polygenic-score links are less prone to reverse causation but can reflect shared genetics with education, vascular risk or psychiatric illness; the meta-analysis pooled only five studies, likely including the Swedish and Israeli ones already cited, so it does not add independent data so much as summarise them.",
+    "page_handling": "reports both",
+    "severity": "major",
+    "next_step": "Revisit the heading 'much weaker than headlines suggest': it remains fair for the Swedish adjusted estimate but sits awkwardly beside a 2026 pooled HR of 2.52 and the All of Us HR of 4.60 with genetic support. Add the 2026 meta-analysis and All of Us study with absolute figures (6.7% against 3.4% over about 10 years), keep the reverse-causation and confounding caveats, and note that 'cognitive impairment' includes mild cognitive impairment, not only dementia. Check overlap of studies in the meta-analysis before treating it as independent.",
+    "new_research": true
   }
 ]

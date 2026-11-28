@@ -89,7 +89,7 @@
       },
       {
         "label": "B",
-        "summary": "Recorded ADHD in England in 2025 (1.19% of patients) was still well below expected prevalence in every age group, from about 29% shortfall in young men to about 94% in people over 65, read by the authors as continued under-recognition.",
+        "summary": "Recorded ADHD in England in 2025 (1.19% of patients) was still well below expected prevalence in every age group, from about 29% shortfall in young men to about 94% in people over 65, read by the authors as continued under-recognition. A 2026 multi-author UK commentary concluded there is no evidence of UK overdiagnosis (while noting rigorous post-pandemic data are lacking and some low-quality assessments may misdiagnose), and an editorial by the chair of the NHS-England ADHD taskforce noted UK administrative prevalence is below population rates.",
         "sources": [
           {
             "citation": "John A, et al. Attention-deficit/hyperactivity disorder in children and adults in England, 2000-2025: recorded prevalence and diagnostic trends. Lancet Reg Health Eur. 2026.",
@@ -100,6 +100,26 @@
             "n": "3.5 million",
             "cited_on_page": true,
             "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Cortese S, et al. ADHD (over) diagnosis: fiction, fashion and failure. Br J Psychiatry. 2026.",
+            "doi": "10.1192/bjp.2026.10546",
+            "pmid": "41787830",
+            "year": 2026,
+            "design": "expert commentary (multi-author)",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Thapar A. Editorial Perspective: Overdiagnosis of ADHD? Here we go again. Child Adolesc Ment Health. 2026.",
+            "doi": "10.1111/camh.70075",
+            "pmid": "41725142",
+            "year": 2026,
+            "design": "editorial",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
           }
         ]
       }
@@ -108,8 +128,8 @@
     "why_they_may_differ": "Kazda's evidence is mostly from children and from high-diagnosing systems (US, Australia) before 2020; John compares coded GP diagnoses in England against prevalence benchmarks from other studies, and GP coding may miss specialist or private diagnoses (understating recorded prevalence). 'Milder' new cases can be read either as overdiagnosis or as legitimate diagnoses of a dimensional condition. Both may be true in different groups.",
     "page_handling": "reports both",
     "severity": "major",
-    "next_step": "Weigh against direct outcome evidence: find studies comparing outcomes (benefit and harm) of diagnosis/treatment in near-threshold cases; check whether John et al. adjust for private-sector diagnoses not coded in GP records; add any newer overdiagnosis/underdiagnosis estimates for adults.",
-    "new_research": false
+    "next_step": "Add the 2026 UK commentaries (Cortese; Thapar) so the page shows the current UK expert position as well as Kazda; weigh against direct outcome evidence: find studies comparing outcomes (benefit and harm) of diagnosis/treatment in near-threshold cases; check whether John et al. adjust for private-sector diagnoses not coded in GP records; add any newer overdiagnosis/underdiagnosis estimates for adults.",
+    "new_research": true
   },
   {
     "id": "C01-003",
@@ -760,5 +780,371 @@
     "severity": "moderate",
     "next_step": "Add Itagaki 2024 as a further drug-naive data point; note tracer differences in the table; search for any post-2012 DAT meta-analysis or longitudinal PET before/after stimulant exposure to test the adaptation hypothesis directly.",
     "new_research": true
+  },
+  {
+    "id": "C01-009",
+    "topic": "How common is ADHD in children: 5-8% or about 2.7%?",
+    "page": "01-is-this-real/what-adhd-is.md",
+    "claim": "Pooled studies put ADHD in roughly 5-8% of children and adolescents (WFADHD 5.9%; Salari 7.6% for ages 3-12 and 5.6% for 12-18).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Meta-analyses of community studies give child/adolescent prevalence around 5-8%; Cortese's re-analysis of the GBD's own input data (pre-2013) gave 5.41%.",
+        "sources": [
+          {
+            "citation": "Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. Neurosci Biobehav Rev. 2021.",
+            "doi": "10.1016/j.neubiorev.2021.01.022",
+            "pmid": "33549739",
+            "year": 2021,
+            "design": "consensus statement",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Salari N, et al. The global prevalence of ADHD in children and adolescents: a systematic review and meta-analysis. Ital J Pediatr. 2023.",
+            "doi": "10.1186/s13052-023-01456-1",
+            "pmid": "37081447",
+            "year": 2023,
+            "design": "meta-analysis",
+            "n": "61 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Cortese S, et al. Incidence, prevalence, and global burden of ADHD from 1990 to 2019 across 204 countries: data, with critical re-analysis, from the Global Burden of Disease study. Mol Psychiatry. 2023.",
+            "doi": "10.1038/s41380-023-02228-3",
+            "pmid": "37684322",
+            "year": 2023,
+            "design": "re-analysis of GBD data",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "The Global Burden of Disease study, widely used in policy, modelled child/adolescent prevalence at 2.68% and lifespan prevalence at 1.13% in 2019, with a slight fall (-8.75%) in age-standardised prevalence since 1990.",
+        "sources": [
+          {
+            "citation": "Cortese S, et al. Incidence, prevalence, and global burden of ADHD from 1990 to 2019 across 204 countries: data, with critical re-analysis, from the Global Burden of Disease study. Mol Psychiatry. 2023.",
+            "doi": "10.1038/s41380-023-02228-3",
+            "pmid": "37684322",
+            "year": 2023,
+            "design": "GBD modelled estimates (reported)",
+            "n": "204 countries",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "GBD imputes prevalence for countries with no data and applies its own case definitions, which Cortese et al. argue underestimate ADHD; meta-analyses pool heterogeneous surveys, often with screening tools that can overestimate (Salari's 7.6% is high). Readers will meet the GBD figure in news and policy documents, so the gap needs explaining.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add one sentence on what-adhd-is.md noting the much lower GBD modelled estimate and why it differs; check whether GBD 2023 (Lancet 2026, PMID 42167272) revised the ADHD figure.",
+    "new_research": true
+  },
+  {
+    "id": "C02-005",
+    "topic": "Population (ABCD) versus clinic (ENIGMA) brain differences",
+    "page": "02-whats-happening-in-my-brain/brain-structure-and-development.md",
+    "claim": "Population samples such as ABCD found smaller structural differences (d -0.06 to -0.11) than clinic samples (ENIGMA d up to -0.19 in children).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "ENIGMA mega-analyses of mostly clinic-recruited samples: subcortical d -0.11 to -0.19 and total surface area d -0.21 in children.",
+        "sources": [
+          {
+            "citation": "Hoogman M, et al. Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. Lancet Psychiatry. 2017.",
+            "doi": "10.1016/S2215-0366(17)30049-4",
+            "pmid": "28219628",
+            "year": 2017,
+            "design": "mega-analysis",
+            "n": "3,242",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Hoogman M, et al. Brain imaging of the cortex in ADHD: a coordinated analysis of large-scale clinical and population-based samples. Am J Psychiatry. 2019.",
+            "doi": "10.1176/appi.ajp.2019.18091033",
+            "pmid": "31014101",
+            "year": 2019,
+            "design": "mega-analysis",
+            "n": "4,180",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In about 10,700 ABCD 9-10-year-olds only 11 of 79 measures differed, with d -0.06 to -0.11; an ABCD brain-age study likewise found d -0.08 to -0.12.",
+        "sources": [
+          {
+            "citation": "Bernanke J, et al. Structural brain measures among children with and without ADHD in the Adolescent Brain and Cognitive Development Study cohort: a cross-sectional US population-based study. Lancet Psychiatry. 2022.",
+            "doi": "10.1016/S2215-0366(21)00505-8",
+            "pmid": "35143759",
+            "year": 2022,
+            "design": "population cohort",
+            "n": "10,736",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Gagnon A, et al. Regional brain age deviations reveal divergent developmental pathways in youth. Biol Psychiatry Cogn Neurosci Neuroimaging. 2026.",
+            "doi": "10.1016/j.bpsc.2026.03.010",
+            "pmid": "41905477",
+            "year": 2026,
+            "design": "population cohort (ABCD)",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "ABCD identifies ADHD by parent-report questionnaires in a general-population sample (milder, more misclassification, narrow age band); ENIGMA pools clinic cases across ages and sites with harmonised processing but site and selection heterogeneity. Small effects in big samples are more precise, so the true clinical-population effect is probably at the low end of ENIGMA's range.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Keep both; consider stating in the short answer that the largest and most population-representative sample found the smallest differences.",
+    "new_research": true
+  },
+  {
+    "id": "C02-006",
+    "topic": "White-matter (DTI) differences: robust or fragile?",
+    "page": "02-whats-happening-in-my-brain/brain-structure-and-development.md",
+    "claim": "Lower FA in the corpus callosum in pooled studies is fragile: not in children analysed alone, null in high-quality studies, and possibly due to head motion.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "The largest review (129 studies) found the high-quality-only analysis null and no effect in children; a meta-analysis showed most motion-matched studies found no FA difference.",
+        "sources": [
+          {
+            "citation": "Parlatini V, et al. White matter alterations in attention-deficit/hyperactivity disorder (ADHD): a systematic review of 129 diffusion imaging studies with meta-analysis. Mol Psychiatry. 2023.",
+            "doi": "10.1038/s41380-023-02173-1",
+            "pmid": "37479785",
+            "year": 2023,
+            "design": "systematic review and meta-analysis",
+            "n": "6,739 + 6,476",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Aoki Y, et al. Research Review: Diffusion tensor imaging studies of attention-deficit/hyperactivity disorder: meta-analyses and reflections on head motion. J Child Psychol Psychiatry. 2018.",
+            "doi": "10.1111/jcpp.12778",
+            "pmid": "28671333",
+            "year": 2018,
+            "design": "meta-analysis",
+            "n": "27 datasets",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A mega-analysis of raw DTI from 6,993 youths aged 6-18 in five cohorts found ADHD associated with lower FA in the inferior longitudinal and left uncinate fasciculi (largest d -0.3), specific to ADHD versus mood/anxiety/externalising problems, and holding after matching on in-scanner motion.",
+        "sources": [
+          {
+            "citation": "Sudre G, et al. A mega-analytic study of white matter microstructural differences across 5 cohorts of youths with attention-deficit/hyperactivity disorder. Biol Psychiatry. 2023.",
+            "doi": "10.1016/j.biopsych.2022.09.021",
+            "pmid": "36609028",
+            "year": 2023,
+            "design": "mega-analysis",
+            "n": "6,993",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "Literature meta-analyses pool small studies with varied scanners and tract definitions; the mega-analysis harmonised raw data and controlled motion, giving power to detect small effects. The tracts also differ (corpus callosum in meta-analyses versus inferior longitudinal/uncinate in the mega-analysis), so 'fragile' may apply to the callosal finding but not to white-matter differences in children generally.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add Sudre 2023 to the white-matter section and the summary table; revise 'not robust in children' to say a motion-matched mega-analysis in children found small differences in different tracts.",
+    "new_research": true
+  },
+  {
+    "id": "C02-007",
+    "topic": "Resting-state connectivity: any consistent pattern?",
+    "page": "02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md",
+    "claim": "Meta-analyses disagree (null convergence versus reduced default-mode connectivity versus frontoparietal-default over-connection); the largest mega-analysis found tiny striato-cortical differences.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A preregistered meta-analysis of 30 studies found no location where connectivity differences converged.",
+        "sources": [
+          {
+            "citation": "Cortese S, et al. Systematic review and meta-analysis: resting-state functional magnetic resonance imaging studies of attention-deficit/hyperactivity disorder. J Am Acad Child Adolesc Psychiatry. 2021.",
+            "doi": "10.1016/j.jaac.2020.08.014",
+            "pmid": "32946973",
+            "year": 2021,
+            "design": "meta-analysis (preregistered)",
+            "n": "30 studies; 1,094 + 884",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Two other meta-analyses reported (different) network-level patterns; a 2024 voxel-wise mega-analysis of 8,433 youths found stronger striatum-cortex connectivity in ADHD (largest d 0.15).",
+        "sources": [
+          {
+            "citation": "Sutcubasi B, et al. Resting-state network dysconnectivity in ADHD: a system-neuroscience-based meta-analysis. World J Biol Psychiatry. 2020.",
+            "doi": "10.1080/15622975.2020.1775889",
+            "pmid": "32468880",
+            "year": 2020,
+            "design": "meta-analysis",
+            "n": "20 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Gao Y, et al. Impairments of large-scale functional networks in attention-deficit/hyperactivity disorder: a meta-analysis of resting-state functional connectivity. Psychol Med. 2019.",
+            "doi": "10.1017/S003329171900237X",
+            "pmid": "31500674",
+            "year": 2019,
+            "design": "meta-analysis",
+            "n": "21 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Norman LJ, et al. Subcortico-cortical dysconnectivity in ADHD: a voxel-wise mega-analysis across multiple cohorts. Am J Psychiatry. 2024.",
+            "doi": "10.1176/appi.ajp.20230026",
+            "pmid": "38476041",
+            "year": 2024,
+            "design": "mega-analysis",
+            "n": "1,696 + 6,737",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Coordinate-based meta-analysis of seed-based studies depends on which seeds authors chose and on reporting; network-level meta-analyses aggregate differently; mega-analysis of raw data can detect tiny but consistent effects. Motion and global-signal handling differ across studies.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "No action beyond keeping both; a later analysis could check whether any resting-state mega-analysis has replicated the striatal finding in an independent cohort.",
+    "new_research": false
+  },
+  {
+    "id": "C02-008",
+    "topic": "EEG theta/beta ratio as an ADHD marker",
+    "page": "02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md",
+    "claim": "The theta/beta ratio difference has shrunk and is not a reliable diagnostic measure, though the FDA cleared one device (NEBA) as an aid.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Regulator: the FDA cleared the NEBA theta/beta-based system in 2013 as an aid to clinical evaluation in 6-17-year-olds.",
+        "sources": [
+          {
+            "citation": "US Food and Drug Administration. De novo classification of the Neuropsychiatric EEG-Based ADHD Assessment Aid (NEBA) System, DEN110019. 2013.",
+            "doi": null,
+            "pmid": null,
+            "year": 2013,
+            "design": "regulatory decision",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "search result only"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Meta-analysis found the pooled effect an overestimate that shrank over time and judged the ratio not a reliable diagnostic measure; a large sample found no difference in youth and a lower ratio in adults with ADHD.",
+        "sources": [
+          {
+            "citation": "Arns M, et al. A decade of EEG theta/beta ratio research in ADHD: a meta-analysis. J Atten Disord. 2013.",
+            "doi": "10.1177/1087054712460087",
+            "pmid": "23086616",
+            "year": 2013,
+            "design": "meta-analysis",
+            "n": "9 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Loo SK, et al. Characterization of the theta to beta ratio in ADHD: identifying potential sources of heterogeneity. J Atten Disord. 2013.",
+            "doi": "10.1177/1087054712468050",
+            "pmid": "23264365",
+            "year": 2013,
+            "design": "case-control",
+            "n": "871",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "guideline disagreement",
+    "why_they_may_differ": "Regulatory clearance under the de novo pathway assesses safety and a narrow intended use (adjunct), not diagnostic validity in general; later research found the effect declining, possibly due to changes in control-group sleep/age and publication bias in early studies.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "None needed beyond confirming the FDA record directly (only search summaries were seen).",
+    "new_research": false
+  },
+  {
+    "id": "C02-009",
+    "topic": "Do brain differences fade in adults?",
+    "page": "02-whats-happening-in-my-brain/brain-structure-and-development.md",
+    "claim": "Structural differences were in children, not adults (no significant adult differences in ENIGMA); a machine-learning study found features shared by children and adults.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "ENIGMA found subcortical and cortical differences only in children; none significant in adults.",
+        "sources": [
+          {
+            "citation": "Hoogman M, et al. Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. Lancet Psychiatry. 2017.",
+            "doi": "10.1016/S2215-0366(17)30049-4",
+            "pmid": "28219628",
+            "year": 2017,
+            "design": "mega-analysis",
+            "n": "3,242",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Hoogman M, et al. Brain imaging of the cortex in ADHD: a coordinated analysis of large-scale clinical and population-based samples. Am J Psychiatry. 2019.",
+            "doi": "10.1176/appi.ajp.2019.18091033",
+            "pmid": "31014101",
+            "year": 2019,
+            "design": "mega-analysis",
+            "n": "4,180",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A classifier trained on ENIGMA scans separated ADHD from controls above chance in adults as well as children, and found similar structural anomalies across ages.",
+        "sources": [
+          {
+            "citation": "Zhang-James Y, et al. Evidence for similar structural brain anomalies in youth and adult attention-deficit/hyperactivity disorder: a machine learning analysis. Transl Psychiatry. 2021.",
+            "doi": "10.1038/s41398-021-01201-4",
+            "pmid": "33526765",
+            "year": 2021,
+            "design": "machine-learning analysis of ENIGMA data",
+            "n": "about 4,000",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Univariate region-by-region tests can be null in adults while a multivariate pattern remains detectable; adult samples are smaller and adults who still meet criteria are a selected group. Cross-sectional data cannot show convergence within people.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Check the Zhang-James full text for adult AUC to say how far above chance; the page's 'What this means for you' ('the largest adult scan comparisons found no reliable differences') should mention the multivariate result.",
+    "new_research": false
   }
 ]

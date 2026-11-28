@@ -51,6 +51,8 @@ html { font-size: 100%; }
 html[data-size="2"] { font-size: 112.5%; }
 html[data-size="3"] { font-size: 125%; }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
+[tabindex="-1"]:focus { outline: none; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font-family: var(--font); font-size: var(--text); line-height: 1.6;
@@ -88,11 +90,12 @@ button { font: inherit; color: inherit; }
 .brand .back { font-weight: 600; color: var(--accent); }
 .tool {
   display: inline-flex; align-items: center; gap: 6px; min-height: 44px; min-width: 44px; justify-content: center;
-  padding: 0 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface);
+  padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface);
   font-size: 0.95rem; cursor: pointer; white-space: nowrap;
 }
 .tool:hover { border-color: var(--accent); }
 .tool[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.tool .narrow-only { display: none; }
 .tool .n { font-family: var(--mono); font-size: 0.85rem; }
 .progress { height: 3px; background: transparent; }
 .progress i { display: block; height: 100%; width: 0; background: var(--accent); }
@@ -123,7 +126,7 @@ main { padding-block: 28px 120px; }
 .search .hint { font-size: 0.85rem; color: var(--ink-2); margin-top: 6px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
 .chip {
-  display: inline-flex; align-items: center; min-height: 40px; padding: 4px 14px; border-radius: 999px;
+  display: inline-flex; align-items: center; min-height: 40px; padding: 8px 14px; border-radius: 999px;
   background: var(--sunk); color: var(--ink); text-decoration: none; font-size: 0.95rem; border: 1px solid transparent;
 }
 .chip:hover { border-color: var(--line-strong); }
@@ -178,7 +181,7 @@ main { padding-block: 28px 120px; }
 .facts { margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
 .facts .lbl { font-size: 0.95rem; color: var(--ink-2); margin-right: 2px; }
 .badge {
-  display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 2px 12px; border-radius: 999px;
+  display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 6px 12px; border-radius: 999px;
   background: var(--surface); border: 1px solid var(--line-strong); font-size: 0.9rem; cursor: pointer; color: var(--ink);
 }
 .badge:hover { border-color: var(--accent); }
@@ -215,7 +218,7 @@ main { padding-block: 28px 120px; }
 
 /* go deeper */
 .deep { display: grid; gap: 10px; }
-.sec { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.sec { scroll-margin-top: 80px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .sec > summary {
   list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 16px 18px; min-height: 60px; border-radius: var(--radius);
 }
@@ -272,9 +275,10 @@ body.focus .focus-exit { display: inline-flex; margin-top: 20px; }
 .conf h3 { font-size: 1.12rem; }
 .conf .claim { font-size: 1.02rem; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.tag { font-size: 0.82rem; padding: 3px 10px; border-radius: 999px; background: var(--sunk); color: var(--ink-2); font-weight: 600; }
+.tag { font-size: 0.82rem; padding: 4px 10px; border-radius: 999px; background: var(--sunk); color: var(--ink-2); font-weight: 600; }
 .sides { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .side { border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.side p { font-size: 1rem; }
 .side .who { font-family: var(--mono); font-size: 0.82rem; color: var(--ink-2); }
 .side ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.9rem; }
 .side li { overflow-wrap: anywhere; color: var(--ink-2); }
@@ -288,7 +292,7 @@ body.focus .focus-exit { display: inline-flex; margin-top: 20px; }
 /* sheet dialog */
 dialog.sheet {
   border: 1px solid var(--line-strong); border-radius: 16px; background: var(--surface); color: var(--ink);
-  padding: 0; width: min(40rem, calc(100vw - 32px)); max-height: min(80vh, 44rem);
+  padding: 0; width: min(40rem, calc(100vw - 32px)); max-height: min(80vh, 44rem); overflow-y: auto;
 }
 dialog.sheet.wide { width: min(64rem, calc(100vw - 32px)); }
 dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
@@ -307,14 +311,12 @@ dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
   .sides { grid-template-columns: minmax(0, 1fr); }
   .card { min-height: 0; }
   .tool .wide-only { display: none; }
+  .tool .narrow-only { display: inline; }
   .answer { padding: 18px 16px 14px; }
   .sec > summary { padding: 14px; }
   .sec-body { padding: 14px; }
   .bar-in { gap: 6px; }
-  .tool { padding: 0 10px; }
-}
-@media (prefers-reduced-motion: no-preference) {
-  html { scroll-behavior: smooth; }
+  .tool { padding: 8px 10px; }
 }
 @media (forced-colors: active) {
   .sw { forced-color-adjust: none; }
@@ -326,7 +328,7 @@ dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
     <div class="col bar-in">
       <a class="brand" href="#start" id="brand"><span id="brand-text">ADHD research, explained plainly</span></a>
       <button type="button" class="tool" id="t-size" aria-label="Text size" title="Text size"><span aria-hidden="true">Aa</span><span class="wide-only">Text size</span></button>
-      <button type="button" class="tool" id="t-focus" aria-pressed="false" data-q-only hidden>Focus<span class="wide-only">&nbsp;mode</span></button>
+      <button type="button" class="tool" id="t-focus" aria-pressed="false" hidden><span class="wide-only">Focus mode</span><span class="narrow-only">Focus</span></button>
       <a class="tool" id="t-saved" href="#saved" style="text-decoration:none">Saved <span class="n" id="saved-n">0</span></a>
     </div>
   </div>
@@ -553,17 +555,16 @@ dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
   }
 
   /* ---------- start screen */
-  function card(slug, q, note) {
-    var p = PAGES[slug];
+  function card(slug, q, note, anchor) {
     var seen = state.visited.indexOf(slug) >= 0;
-    return '<a class="card" href="#' + slug + '"><div><div class="q">' + q + '</div>' + (note ? '<div class="note">' + note + '</div>' : "") + '</div>' +
+    return '<a class="card" href="#' + slug + '"' + (anchor ? ' data-page="' + slug + '" data-anchor="' + esc(anchor) + '"' : "") + '><div><div class="q">' + q + '</div>' + (note ? '<div class="note">' + note + '</div>' : "") + '</div>' +
       '<div class="meta"><span class="seen">' + (isSaved(slug) ? "Saved" : "") + (isSaved(slug) && seen ? " · " : "") + (seen ? "Opened" : "") + '</span><span class="go">Short answer →</span></div></a>';
   }
   var searchTerm = "";
   function renderStart() {
     document.getElementById("brand-text").textContent = "ADHD research, explained plainly";
     document.title = "ADHD Research Reader";
-    var h = '<section class="hello"><p class="kicker">ADHD research, explained plainly</p>' +
+    var h = '<section class="hello">' +
       '<h1 id="h1" tabindex="-1">What’s on your mind?</h1>' +
       '<p class="sub">Pick a worry. Each answer starts short, and you choose how far to go.</p>' +
       '<div class="search" role="search"><label for="q">Search all ' + D.pages.length + ' questions</label>' +
@@ -579,7 +580,7 @@ dialog.sheet::backdrop { background: rgba(10, 14, 18, 0.45); }
       var inCards = {}; ws.forEach(function (w) { inCards[w.slug] = 1; });
       var others = f.pages.filter(function (p) { return PAGES[p.slug]; });
       h += '<section class="group" id="f-' + f.id + '" aria-labelledby="fh-' + f.id + '"><div class="group-head"><h2 id="fh-' + f.id + '">' + (f.heading ? esc(f.heading) : f.title) + '</h2><p>' + f.covers + '</p></div>' +
-        '<div class="cards">' + ws.map(function (w) { return card(w.slug, w.q, w.note); }).join("") + '</div>';
+        '<div class="cards">' + ws.map(function (w) { return card(w.slug, w.q, w.note, w.anchor); }).join("") + '</div>';
       h += '<details class="more"><summary>All ' + others.length + ' questions in this topic</summary><ul>' + others.map(function (o) {
         return '<li><a href="#' + o.slug + '">' + PAGES[o.slug].q + '</a>' + (o.blurb ? '<p>' + o.blurb + '</p>' : "") + '</li>';
       }).join("") + '</ul></details></section>';
