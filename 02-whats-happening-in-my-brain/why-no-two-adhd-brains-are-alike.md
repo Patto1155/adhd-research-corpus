@@ -49,9 +49,9 @@ If your ADHD does not look like a friend's, or like the descriptions you have re
 
 - [Does ADHD mean my brain is damaged or "three years behind"?](brain-structure-and-development.md)
 - [Is ADHD caused by low dopamine?](dopamine-noradrenaline-and-myths.md)
-- [Executive function and working memory](../03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
+- [Executive function and ADHD: why can't I plan or get started?](../03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md)
 - [What is ADHD, actually?](../01-is-this-real/what-adhd-is.md)
-- [ADHD or something else](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [Is it ADHD, or could it be something else?](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
 - [Is ADHD genetic, and will my children have it?](genes-and-inheritance.md)
 - [Back to all worries](../README.md#find-your-worry)
 

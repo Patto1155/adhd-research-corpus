@@ -54,10 +54,10 @@ If your symptoms seem to shift with your cycle, after pregnancy or in midlife, t
 
 ## Related pages
 
-- [Women and girls with ADHD](../01-is-this-real/women-and-girls.md)
-- [Pregnancy and breastfeeding](../06-treatment-what-works/pregnancy-and-breastfeeding.md)
+- [Why are girls and women with ADHD so often missed?](../01-is-this-real/women-and-girls.md)
+- [Pregnancy, breastfeeding and ADHD medication: is it safe?](../06-treatment-what-works/pregnancy-and-breastfeeding.md)
 - [ADHD over a lifetime: will it get better or worse as I age?](how-adhd-changes-over-life.md)
-- [Anxiety and depression](../05-what-often-comes-with-it/anxiety-and-depression.md)
+- [Anxiety and depression with ADHD: why are they so common?](../05-what-often-comes-with-it/anxiety-and-depression.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

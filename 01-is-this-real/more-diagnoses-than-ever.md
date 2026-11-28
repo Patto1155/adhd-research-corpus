@@ -49,7 +49,7 @@ If you are sceptical of the trend, the stable prevalence data are the best answe
 - [What is ADHD, actually?](what-adhd-is.md)
 - [How is ADHD diagnosed, and why is there no test?](how-diagnosis-works.md)
 - [Diagnosed as an adult: how was my ADHD missed, and is it the same?](diagnosed-as-an-adult.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

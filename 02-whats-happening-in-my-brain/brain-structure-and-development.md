@@ -168,7 +168,7 @@ ADHD is real for other reasons: the genetic, cognitive and outcome evidence on t
 - [Why is my ADHD so different from someone else's?](why-no-two-adhd-brains-are-alike.md)
 - [Is ADHD genetic, and will my children have it?](genes-and-inheritance.md)
 - [How is ADHD diagnosed, and why is there no test?](../01-is-this-real/how-diagnosis-works.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

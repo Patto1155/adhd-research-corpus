@@ -51,9 +51,9 @@ How you come to describe ADHD to yourself, as a condition, a difference or both,
 ## Related pages
 
 - [Diagnosed as an adult: how was my ADHD missed, and is it the same?](diagnosed-as-an-adult.md)
-- [Stigma and telling people](../07-family-work-and-other-people/stigma-and-telling-people.md)
-- [Whether medication changes who you are](../06-treatment-what-works/will-medication-change-me.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
+- [ADHD stigma and shame: should I tell people?](../07-family-work-and-other-people/stigma-and-telling-people.md)
+- [Will ADHD medication change my personality or make me a zombie?](../06-treatment-what-works/will-medication-change-me.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

@@ -112,12 +112,12 @@ You do not have a measured chemical shortage, because nobody can measure one. Th
 
 ## Related pages
 
-- [How ADHD medicines work](../06-treatment-what-works/how-adhd-medicines-work.md)
+- [How do ADHD medicines work?](../06-treatment-what-works/how-adhd-medicines-work.md)
 - [Does ADHD mean my brain is damaged or "three years behind"?](brain-structure-and-development.md)
 - [Why is my ADHD so different from someone else's?](why-no-two-adhd-brains-are-alike.md)
 - [Is ADHD genetic, and will my children have it?](genes-and-inheritance.md)
-- [Time, waiting and rewards](../03-why-i-think-and-feel-this-way/time-waiting-and-rewards.md)
-- [Myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Time and waiting in ADHD: why do I lose track and hate waiting?](../03-why-i-think-and-feel-this-way/time-waiting-and-rewards.md)
+- [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

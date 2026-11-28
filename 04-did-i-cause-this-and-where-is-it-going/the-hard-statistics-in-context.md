@@ -94,10 +94,10 @@ These are averages across thousands of people, and they cannot predict any one p
 
 ## Related pages
 
-- [What registries show about medication](../06-treatment-what-works/what-registries-show.md)
-- [Alcohol, drugs and addiction](../05-what-often-comes-with-it/alcohol-drugs-and-addiction.md)
+- [Real-life outcomes on ADHD medication: what do registries show?](../06-treatment-what-works/what-registries-show.md)
+- [Addiction and ADHD: is risk higher, and do medicines raise it?](../05-what-often-comes-with-it/alcohol-drugs-and-addiction.md)
 - [ADHD over a lifetime: will it get better or worse as I age?](how-adhd-changes-over-life.md)
-- [Not medical advice, and where to get help now](../08-reading-this-well/not-medical-advice.md)
+- [Can these pages tell me what to do about my ADHD?](../08-reading-this-well/not-medical-advice.md) (includes where to get help now)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

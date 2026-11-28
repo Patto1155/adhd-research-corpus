@@ -47,8 +47,8 @@ External cues, such as visible clocks, timers and broken-down deadlines, are oft
 
 - [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md)
 - [ADHD and hyperfocus: why can I focus for hours on some things?](attention-regulation-and-hyperfocus.md)
-- [Dopamine, noradrenaline and the myths](../02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md)
-- [ADHD myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Is ADHD caused by low dopamine?](../02-whats-happening-in-my-brain/dopamine-noradrenaline-and-myths.md)
+- [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

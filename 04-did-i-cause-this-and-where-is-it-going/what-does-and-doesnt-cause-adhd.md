@@ -74,10 +74,10 @@ The evidence does not support the idea that a parent caused ADHD through how the
 
 ## Related pages
 
-- [Genes and inheritance](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
-- [How to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md)
-- [Parenting and what helps](../07-family-work-and-other-people/parenting-and-what-helps.md)
-- [Pregnancy and breastfeeding](../06-treatment-what-works/pregnancy-and-breastfeeding.md)
+- [Is ADHD genetic, and will my children have it?](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
+- [Reading ADHD research: what do the numbers really mean?](../08-reading-this-well/how-to-read-the-evidence.md)
+- [Parent training and school support for ADHD: do they help?](../07-family-work-and-other-people/parenting-and-what-helps.md)
+- [Pregnancy, breastfeeding and ADHD medication: is it safe?](../06-treatment-what-works/pregnancy-and-breastfeeding.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

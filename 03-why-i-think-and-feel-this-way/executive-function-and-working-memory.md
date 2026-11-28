@@ -50,10 +50,10 @@ If you struggle to start, organise and finish, that is consistent with what ADHD
 
 ## Related pages
 
-- [Why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
+- [Why is my ADHD so different from someone else's?](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
 - [ADHD and hyperfocus: why can I focus for hours on some things?](attention-regulation-and-hyperfocus.md)
 - [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
-- [Therapy and skills](../06-treatment-what-works/therapy-and-skills.md)
+- [Therapy, coaching and skills training: do they work for ADHD?](../06-treatment-what-works/therapy-and-skills.md)
 - [Emotions and rejection in ADHD: why do they hit so hard?](emotions-and-rejection.md)
 - [Back to all worries](../README.md#find-your-worry)
 

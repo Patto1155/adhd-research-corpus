@@ -32,10 +32,10 @@ If you lie awake for a long time and feel most alert late at night, that fits a 
 
 ## Related pages
 
-- [Is it ADHD or something else?](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
-- [Physical health](../05-what-often-comes-with-it/physical-health.md)
-- [Medication safety](../06-treatment-what-works/medication-safety.md)
-- [Lifestyle and other approaches](../06-treatment-what-works/lifestyle-and-other-approaches.md)
+- [Is it ADHD, or could it be something else?](../05-what-often-comes-with-it/is-it-adhd-or-something-else.md)
+- [Physical health problems and ADHD: is there a link?](../05-what-often-comes-with-it/physical-health.md)
+- [Is ADHD medication safe? Heart, growth, psychosis and misuse](../06-treatment-what-works/medication-safety.md)
+- [Neurofeedback, diet, supplements, exercise: do they help ADHD?](../06-treatment-what-works/lifestyle-and-other-approaches.md)
 - [ADHD and hyperfocus: why can I focus for hours on some things?](attention-regulation-and-hyperfocus.md)
 - [Back to all worries](../README.md#find-your-worry)
 

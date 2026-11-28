@@ -39,8 +39,8 @@ If you are a woman diagnosed in adulthood after years of being treated for anxie
 ## Related pages
 
 - [Diagnosed as an adult: how was my ADHD missed, and is it the same?](diagnosed-as-an-adult.md)
-- [Hormones, cycles and menopause](../04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
-- [Anxiety and depression](../05-what-often-comes-with-it/anxiety-and-depression.md)
+- [Do periods, pregnancy and menopause make ADHD worse?](../04-did-i-cause-this-and-where-is-it-going/hormones-cycles-and-menopause.md)
+- [Anxiety and depression with ADHD: why are they so common?](../05-what-often-comes-with-it/anxiety-and-depression.md)
 - [How is ADHD diagnosed, and why is there no test?](how-diagnosis-works.md)
 - [Back to all worries](../README.md#find-your-worry)
 

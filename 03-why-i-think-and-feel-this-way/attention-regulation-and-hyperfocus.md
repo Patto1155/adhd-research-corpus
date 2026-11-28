@@ -47,8 +47,8 @@ Focusing deeply on what interests you while drifting on what does not fits how r
 
 - [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md)
 - [Time and waiting in ADHD: why do I lose track and hate waiting?](time-waiting-and-rewards.md)
-- [Why no two ADHD brains are alike](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
-- [Autism and ADHD](../05-what-often-comes-with-it/autism-and-adhd.md)
+- [Why is my ADHD so different from someone else's?](../02-whats-happening-in-my-brain/why-no-two-adhd-brains-are-alike.md)
+- [Autism and ADHD: can you have both?](../05-what-often-comes-with-it/autism-and-adhd.md)
 - [Sleep and ADHD: why can't I fall asleep, and is sleep the cause?](sleep-and-the-body-clock.md)
 - [Back to all worries](../README.md#find-your-worry)
 

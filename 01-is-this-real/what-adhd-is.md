@@ -37,7 +37,7 @@ If you or someone close to you has ADHD, the research supports treating it as a 
 - [How is ADHD diagnosed, and why is there no test?](how-diagnosis-works.md)
 - [Why are ADHD diagnoses rising, and is it a fad?](more-diagnoses-than-ever.md)
 - [Is ADHD genetic, and will my children have it?](../02-whats-happening-in-my-brain/genes-and-inheritance.md)
-- [Myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources

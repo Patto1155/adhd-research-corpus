@@ -45,10 +45,10 @@ If emotional pain becomes overwhelming, help is available now; contacts are list
 
 ## Related pages
 
-- [Anxiety and depression](../05-what-often-comes-with-it/anxiety-and-depression.md)
-- [Will medication change me?](../06-treatment-what-works/will-medication-change-me.md)
-- [When your partner has ADHD](../07-family-work-and-other-people/when-your-partner-has-adhd.md)
-- [ADHD myths and corrections](../08-reading-this-well/myths-and-corrections.md)
+- [Anxiety and depression with ADHD: why are they so common?](../05-what-often-comes-with-it/anxiety-and-depression.md)
+- [Will ADHD medication change my personality or make me a zombie?](../06-treatment-what-works/will-medication-change-me.md)
+- [Partner with ADHD: what does research say about relationships?](../07-family-work-and-other-people/when-your-partner-has-adhd.md)
+- [ADHD myths: which popular claims are wrong or half right?](../08-reading-this-well/myths-and-corrections.md)
 - [Executive function and ADHD: why can't I plan or get started?](executive-function-and-working-memory.md)
 - [Back to all worries](../README.md#find-your-worry)
 

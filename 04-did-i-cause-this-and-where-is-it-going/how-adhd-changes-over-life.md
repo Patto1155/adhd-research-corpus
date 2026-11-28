@@ -44,10 +44,10 @@ At group level, ADHD tends to ease with age, and a stretch of good months or yea
 
 ## Related pages
 
-- [Diagnosis as an adult](../01-is-this-real/diagnosed-as-an-adult.md)
+- [Diagnosed as an adult: how was my ADHD missed, and is it the same?](../01-is-this-real/diagnosed-as-an-adult.md)
 - [Do periods, pregnancy and menopause make ADHD worse?](hormones-cycles-and-menopause.md)
 - [Will ADHD shorten my life? The hard statistics in context](the-hard-statistics-in-context.md)
-- [Staying on or stopping medication](../06-treatment-what-works/staying-on-or-stopping-medication.md)
+- [Stopping ADHD medication: do benefits fade, and is it for life?](../06-treatment-what-works/staying-on-or-stopping-medication.md)
 - [Back to all worries](../README.md#find-your-worry)
 
 ## Sources
