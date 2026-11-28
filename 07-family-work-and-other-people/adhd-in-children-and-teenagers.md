@@ -14,7 +14,7 @@ Parents of children with ADHD report more parenting stress than other parents, a
 
 **Symptoms usually lessen, but often do not disappear.** In a meta-analysis of follow-up studies, about 15% of children with ADHD still met full criteria at 25; about 65% did if people with continuing impairing symptoms below the full threshold were counted [6]. Hyperactivity is often described as fading first and inattention as lasting longer, though that pattern was not checked against a source for this page.
 
-In the US MTA study, which followed 558 children into their mid-20s, most did not follow a straight line: symptoms waxed and waned, and many who reached full remission later had symptoms return [7]. The full numbers are on [how ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md).
+In the US Multimodal Treatment Study of ADHD (MTA), whose remission analysis followed 558 children into their mid-20s (the trial originally enrolled slightly more; see [ADHD medication for children: is it safe and worthwhile?](children-and-medication.md)), most did not follow a straight line: symptoms waxed and waned, and many who reached full remission later had symptoms return [7]. The full numbers are on [how ADHD changes over life](../04-did-i-cause-this-and-where-is-it-going/how-adhd-changes-over-life.md).
 
 **Girls are often recognised later.** In Denmark, new diagnoses peaked at age 8 in boys and 17 in girls [8], and in Stockholm County, Sweden, females were diagnosed about four years later than males on average [9]. More is on [women and girls](../01-is-this-real/women-and-girls.md).
 

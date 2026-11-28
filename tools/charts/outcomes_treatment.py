@@ -478,13 +478,13 @@ def effect_sizes(theme):
         ("Children and teenagers", [
             ("Amphetamines, clinician-rated [1]", 1.02, "1.02"),
             ("Methylphenidate, clinician-rated [1]", 0.78, "0.78"),
-            ("Methylphenidate, teacher-rated, Cochrane [3]", 0.74, "0.74")]),
+            ("Methylphenidate, teacher-rated, Cochrane [4]", 0.74, "0.74")]),
         ("Adults", [
             ("Stimulants, clinician-rated [2]", 0.6, "about 0.6"),
             ("Atomoxetine, clinician-rated [2]", 0.5, "about 0.5"),
             ("Stimulants, self-rated [2]", 0.4, "about 0.4"),
             ("Atomoxetine, self-rated [2]", 0.4, "about 0.4"),
-            ("Emotional lability, both [6]", 0.41, "0.41")]),
+            ("Emotional lability, both [8]", 0.41, "0.41")]),
     ]
     rh = 28
     y_top = s.y + 24
@@ -526,7 +526,7 @@ def effect_sizes(theme):
     s.y = y_bot + 46
     s.footer("Values marked “about” are rounded on the page. "
              "Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli et al., Lancet Psychiatry 2025 [2]; "
-             "Storebø et al., Cochrane 2023/2025 [3]; Moukhtarian et al., Eur Psychiatry 2017 [6]. "
+             "Storebø et al., Cochrane 2023/2025 [4]; Moukhtarian et al., Eur Psychiatry 2017 [8]. "
              "Short-term symptom ratings only, not quality of life or long-term outcomes.")
     return s
 
@@ -574,7 +574,7 @@ def heart_defects(theme):
 
 
 def psychosis(theme):
-    title = "New psychosis after starting a stimulant was rare: about 2 in 1,000 with amphetamine"
+    title = "New psychosis needing treatment was uncommon in short-term US data: about 2 in 1,000 with amphetamine"
     desc = ("Two grids of 1,000 dots for 13- to 25-year-olds starting a stimulant in US insurance data. "
             "New psychosis treated with an antipsychotic occurred in 0.10% of those starting methylphenidate "
             "(1 dot in 1,000) and 0.21% of those starting amphetamine (just over 2 dots in 1,000); hazard ratio "
@@ -598,7 +598,7 @@ def psychosis(theme):
     s.para(PAD, "A case is new psychosis treated with an antipsychotic, in US insurance data. "
                 "In relative terms: hazard ratio 1.65 for amphetamine compared with methylphenidate. "
                 "About 1 in 660 people overall.", 14, t["ink"], lh=1.4)
-    s.footer("Source: Moran et al., N Engl J Med 2019 [8]. Two US insurance cohorts, 221,846 people aged "
+    s.footer("Source: Moran et al., N Engl J Med 2019 [10]. Two US insurance cohorts, 221,846 people aged "
              "13 to 25. Young people only; may not apply to older adults.")
     return s
 

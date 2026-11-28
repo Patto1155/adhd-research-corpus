@@ -66,7 +66,7 @@ Stimulants sharpen attention in many people without ADHD too, so a good response
 
 **"Rejection sensitive dysphoria is a core ADHD symptom."**
 
-Strong emotional reactions are common in ADHD and well documented. "Rejection sensitive dysphoria" (RSD) is a term from clinical practice that is not in any diagnostic manual, and no validated questionnaire and no systematic review of RSD in ADHD was found (a 2026 scoping review covers RSD in autistic adults). The experience it names is real for many people, but whether it is part of ADHD itself is unknown.
+Strong emotional reactions are common in ADHD and well documented. "Rejection sensitive dysphoria" (RSD) is a term that arose in clinical practice; it is not in the main diagnostic manuals, and research using the term is new and small. The experience it names is real for many people, but whether it is part of ADHD itself is unknown; where the term came from and what studies exist are on the linked page.
 
 → [Emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md)
 

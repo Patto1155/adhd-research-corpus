@@ -7,7 +7,7 @@
 <details>
 <summary>How to read the effect sizes on this page (1 min)</summary>
 
-Most results are given as a standardised mean difference (SMD), which expresses the gap between the medicine and placebo groups in units of how spread out people's scores are. An SMD of 0.8 means that the average person on medication ends up with fewer symptoms than about 79% of people on placebo, but the two groups still overlap by roughly 69%. An SMD of 0.6 means the groups overlap by about 76%.
+Most results are given as a standardised mean difference (SMD), which expresses the gap between the medicine and placebo groups in units of how spread out people's scores are. This page writes every SMD as a positive number meaning improvement on the medicine; some papers print the same result with a minus sign because lower scores mean fewer symptoms. An SMD of 0.8 means that the average person on medication ends up with fewer symptoms than about 79% of people on placebo, but the two groups still overlap by roughly 69%. An SMD of 0.6 means the groups overlap by about 76%.
 
 These percentages are this page's own calculations from the standard formulas for effect sizes (assuming normally distributed scores), not figures from any study. Effect sizes are explained in more detail on [how to read the evidence](../08-reading-this-well/how-to-read-the-evidence.md).
 
@@ -40,7 +40,7 @@ Critics, including the European ADHD Guidelines Group, argued that these choices
 
 Both sides are using the same rules; they apply judgement differently at the steps where judgement is required.
 
-**Emotional symptoms improve, but less than core symptoms.** In adults, stimulants and atomoxetine reduced emotional lability (quick, intense mood shifts) with an SMD of about 0.41, about half the effect on core symptoms in the same trials [8].
+**Emotional symptoms improve, but less than core symptoms.** In adults, stimulants and atomoxetine reduced emotional lability (quick, intense mood shifts) with an SMD of about 0.41 (printed as −0.41 in the paper, where lower scores mean fewer symptoms), about half the effect on core symptoms in the same trials (0.8) [8].
 
 ## What is uncertain or debated
 

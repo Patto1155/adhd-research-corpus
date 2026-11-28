@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Emotional swings get smaller on average.** In adults, stimulants and atomoxetine reduced emotional lability (rapid, intense shifts of mood) compared with placebo, with a standardised mean difference (SMD, how far apart two group averages are, in units of how spread out people's scores are) of about 0.41 [1]. That is a small-to-moderate effect, roughly half the size of the effect on core ADHD symptoms in the same trials. It is an average across groups, and the trials measured mood swings, not blunting, so they cannot show whether some people also felt less.
+**Emotional swings get smaller on average.** In adults, stimulants and atomoxetine reduced emotional lability (rapid, intense shifts of mood) compared with placebo, with a standardised mean difference (SMD, how far apart two group averages are, in units of how spread out people's scores are) of about 0.41, written here as a positive number for improvement; the paper prints it as −0.41 because lower scores mean fewer symptoms [1]. That is a small-to-moderate effect, roughly half the size of the effect on core ADHD symptoms in the same trials. It is an average across groups, and the trials measured mood swings, not blunting, so they cannot show whether some people also felt less.
 
 The background on emotion and ADHD is on [emotions and rejection](../03-why-i-think-and-feel-this-way/emotions-and-rejection.md).
 

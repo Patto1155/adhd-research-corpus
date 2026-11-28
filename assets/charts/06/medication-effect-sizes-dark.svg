@@ -35,7 +35,7 @@
 <line x1="354.0" x2="569.8" y1="210.0" y2="210.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
 <circle cx="569.8" cy="210.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
 <text x="581.8" y="215.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.78</text>
-<text x="36.0" y="243.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Methylphenidate, teacher-rated, Cochrane [3]</text>
+<text x="36.0" y="243.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Methylphenidate, teacher-rated, Cochrane [4]</text>
 <line x1="354.0" x2="558.7" y1="238.0" y2="238.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
 <circle cx="558.7" cy="238.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
 <text x="570.7" y="243.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.74</text>
@@ -56,12 +56,12 @@
 <line x1="354.0" x2="464.7" y1="388.0" y2="388.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
 <circle cx="464.7" cy="388.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
 <text x="476.7" y="393.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">about 0.4</text>
-<text x="36.0" y="421.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Emotional lability, both [6]</text>
+<text x="36.0" y="421.0" font-size="14" font-weight="400" fill="#e8edf0" text-anchor="start">Emotional lability, both [8]</text>
 <line x1="354.0" x2="467.4" y1="416.0" y2="416.0" stroke="#338ced" stroke-width="2" stroke-linecap="round"/>
 <circle cx="467.4" cy="416.0" r="6" fill="#338ced" stroke="#171c20" stroke-width="2"/>
 <text x="479.4" y="421.0" font-size="14" font-weight="600" fill="#e8edf0" text-anchor="start">0.41</text>
 <line x1="24" x2="696" y1="496.0" y2="496.0" stroke="#283037" stroke-width="1"/>
 <text x="24.0" y="520.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">Values marked “about” are rounded on the page. Sources: Cortese et al., Lancet Psychiatry 2018 [1]; Ostinelli</text>
-<text x="24.0" y="538.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">et al., Lancet Psychiatry 2025 [2]; Storebø et al., Cochrane 2023/2025 [3]; Moukhtarian et al., Eur Psychiatry</text>
-<text x="24.0" y="556.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">2017 [6]. Short-term symptom ratings only, not quality of life or long-term outcomes.</text>
+<text x="24.0" y="538.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">et al., Lancet Psychiatry 2025 [2]; Storebø et al., Cochrane 2023/2025 [4]; Moukhtarian et al., Eur Psychiatry</text>
+<text x="24.0" y="556.0" font-size="13" font-weight="400" fill="#a3aeb7" text-anchor="start">2017 [8]. Short-term symptom ratings only, not quality of life or long-term outcomes.</text>
 </svg>

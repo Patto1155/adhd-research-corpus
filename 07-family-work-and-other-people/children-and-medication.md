@@ -6,7 +6,7 @@
 
 **Short-term effects in children are well established.** Network meta-analyses and an umbrella review covering 221 treatment–comparison–outcome combinations find medium-to-large short-term symptom reductions for ADHD medicines in children and adolescents, with methylphenidate preferred as a first choice in children [1, 2]. Reviews disagree about how certain this evidence is, not about its size. The general figures and the disagreement are on [how well medication works](../06-treatment-what-works/how-well-medication-works.md).
 
-**The MTA trial: medication beat behaviour therapy at 14 months.** The US Multimodal Treatment Study randomly assigned 579 children aged 7 to 9 to carefully managed medication, intensive behavioural treatment, both combined, or usual community care [3]. At 14 months, medication alone and combined treatment reduced core ADHD symptoms more than behavioural treatment or community care [3].
+**The MTA trial: medication beat behaviour therapy at 14 months.** The US Multimodal Treatment Study of ADHD (MTA) randomly assigned 579 children aged 7 to 9 to carefully managed medication, intensive behavioural treatment, both combined, or usual community care [3]. At 14 months, medication alone and combined treatment reduced core ADHD symptoms more than behavioural treatment or community care [3].
 
 <details>
 <summary>More on the MTA results at 14 months (1 min)</summary>
@@ -15,7 +15,7 @@ Combined treatment was not clearly better than medication alone on core symptoms
 
 </details>
 
-**After the trial, the groups converged.** Once the trial ended, families chose their own treatment. By three years the differences between the original groups were no longer significant, and at eight years the original treatment group did not predict how teenagers were doing; how their symptoms had changed early on did [4].
+**After the trial, the groups converged.** Once the trial ended, families chose their own treatment, and later follow-up papers report on slightly smaller numbers of the original children, depending on who was assessed. By three years the differences between the original groups were no longer significant, and at eight years the original treatment group did not predict how teenagers were doing; how their symptoms had changed early on did [4].
 
 Teenagers no longer taking medication at eight years were, as a group, doing about as well as those still on it [4]. Because treatment was no longer randomised, these follow-ups cannot show whether medication works long term; children who did worse may have been more likely to stay on it.
 
