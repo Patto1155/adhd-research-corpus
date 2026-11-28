@@ -10,7 +10,7 @@
 
 **Children and teenagers perceive time less accurately and less precisely.** A meta-analysis of 27 studies in young people found time perception was less accurate (*g* above 0.40) and less precise (*g* = 0.66), with a tendency to overestimate how much time has passed [2]. By this page's own calculation (not a figure from the paper), a *g* of 0.66 means the two groups' scores overlap by about 74%. These are findings in young people; fewer studies exist in adults.
 
-**Preferring "now" over "later" is reliably stronger.** Delay discounting is the tendency to value a reward less the longer you have to wait for it. A meta-analysis of 21 studies (3,913 participants) found people with ADHD discounted delayed money more steeply than controls, by a medium amount (*d* = 0.43), with no difference between young people and adults [3]. The authors described the evidence as robust [3].
+**Preferring "now" over "later" is reliably stronger.** Delay discounting is the tendency to value a reward less the longer you have to wait for it. A meta-analysis of 21 studies (3,913 participants) found people with ADHD discounted delayed money more steeply than people without ADHD, by a medium amount (*d* = 0.43), with no difference between young people and adults [3]. The authors described the evidence as robust [3].
 
 **A second meta-analysis in children agrees.** Across 26 studies of 4,320 children and teenagers, those with ADHD made more "now rather than later" choices, again by a medium amount (*g* = 0.47) [4]. Effects were larger in studies that diagnosed ADHD from a single informant and in studies that left out girls, which may mean some published figures are inflated [4].
 

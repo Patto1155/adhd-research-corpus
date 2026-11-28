@@ -4,7 +4,7 @@
 
 ## What the evidence shows
 
-**Attention is more variable, moment to moment.** One of the most consistent lab findings in ADHD is that reaction times vary more from trial to trial: some responses are quick, and others much slower, as if attention briefly lapsed. A meta-analysis of 319 studies found this variability was greater in children and teenagers with ADHD than in typically developing peers (*g* = 0.76, a medium-to-large difference) and, to a lesser degree, in adults (*g* = 0.46) [1]. Here *g* is an effect size: the gap between group averages in standard deviations.
+**Attention is more variable, moment to moment.** One of the most consistent lab findings in ADHD is that reaction times vary more from trial to trial: some responses are quick, and others much slower, as if attention briefly lapsed. A meta-analysis of 319 studies found this variability was greater in children and teenagers with ADHD than in peers without ADHD (*g* = 0.76, a medium-to-large difference) and, to a lesser degree, in adults (*g* = 0.46) [1]. Here *g* is an effect size: the gap between group averages in standard deviations.
 
 **Stimulant medicine reduced it; other treatments did not.** The same meta-analysis found variability was reduced by stimulant treatment, but not by non-stimulant medicines or psychological treatments [1]. People with ADHD were not slower on average once this variability was taken into account [1]. A review of 34 meta-analyses ranked reaction-time variability among the largest and most consistent test differences in ADHD [2].
 

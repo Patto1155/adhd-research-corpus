@@ -34,7 +34,7 @@ An earlier genome-wide study of 20,183 people with ADHD, the first to find clear
 
 **Measured DNA captures less than twin studies.** The 2019 genome-wide study estimated that common variants together account for about 22% of the variation in liability to ADHD (a "SNP heritability" of 0.216, assuming 5% of people have ADHD) [5]. A 2019 review described this as about a third of the twin-study heritability [1]. <!-- CHECK: the SNP heritability in the full text of source 4 (2023) was not seen; update if it differs -->
 
-**Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 controls (0.156 vs 0.075 per person) [6]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
+**Rare genetic changes play a smaller part.** Large, rare deletions or duplications of DNA (copy number variants, CNVs) were about twice as common in 366 children with ADHD as in 1,047 without ADHD (0.156 vs 0.075 per person) [6]. These overlapped with regions linked to autism and schizophrenia. They are found in only a minority of people with ADHD.
 
 **The old "dopamine genes" have small effects.** Before GWAS, research focused on single candidate genes such as the dopamine transporter gene (DAT1, also called SLC6A3) and the dopamine D4 receptor gene (DRD4). A 2009 meta-analysis found associations for these and several other genes, with significant variation between studies [7]. A checked figure for the size of each association was not found for this page, and these genes are not tests and do not explain ADHD on their own.
 

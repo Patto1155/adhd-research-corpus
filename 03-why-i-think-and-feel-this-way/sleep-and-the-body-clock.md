@@ -10,7 +10,7 @@
 
 **Body clocks run later, on average.** A systematic review of 62 studies (4,462 patients with ADHD) found ADHD was consistently associated with a later chronotype ("night owl" preference) and a later dim-light melatonin onset [3]. Dim-light melatonin onset (DLMO) is the evening time at which melatonin starts to rise; it is the standard marker of the body clock.
 
-**Adults who struggle to fall asleep showed the clearest delay.** In one study of 40 adults with ADHD, 31 reported chronic difficulty falling asleep (sleep-onset insomnia) [4]. Those 31 had a later start and end to their sleep and later melatonin onset than both the other adults with ADHD and healthy controls [4]. How large the delay was is not given in the abstract, and a clinic sample this small cannot say how common the pattern is among adults with ADHD generally.
+**Adults who struggle to fall asleep showed the clearest delay.** In one study of 40 adults with ADHD, 31 reported chronic difficulty falling asleep (sleep-onset insomnia) [4]. Those 31 had a later start and end to their sleep and later melatonin onset than both the other adults with ADHD and a comparison group without ADHD [4]. How large the delay was is not given in the abstract, and a clinic sample this small cannot say how common the pattern is among adults with ADHD generally.
 
 **Only a small number of studies link body-clock genes to ADHD.** The same systematic review found a handful of genetic association studies linking variants in circadian clock genes with ADHD symptoms [3]. This is early evidence.
 

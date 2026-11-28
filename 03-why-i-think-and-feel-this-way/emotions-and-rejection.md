@@ -6,7 +6,7 @@
 
 **Emotion dysregulation is common in children with ADHD.** Emotion dysregulation means difficulty controlling how quickly, how strongly and for how long emotions are felt and expressed. An authoritative review reported that clinic-based studies estimate it affects 24–50% of children and teenagers with ADHD [1]. <!-- CHECK: 24–50% not in the PubMed abstract of Shaw 2014; confirm from the full text --> The authors argued it is best treated as a dimension, from mild to severe, and set out three competing explanations: that it is a core part of ADHD, a separate but related problem, or the mark of a distinct subgroup [1].
 
-**Adults with ADHD report much more emotion dysregulation.** A meta-analysis of studies in adults found large differences from controls in emotion dysregulation overall (Hedges' *g* = 1.17) and emotional lability, meaning rapid shifts in mood (*g* = 1.20) [2]. The 13 studies were few and mostly used self-report questionnaires, so the size of the effect is uncertain [2].
+**Adults with ADHD report much more emotion dysregulation.** A meta-analysis of studies in adults found large differences from people without ADHD in emotion dysregulation overall (Hedges' *g* = 1.17) and emotional lability, meaning rapid shifts in mood (*g* = 1.20) [2]. The 13 studies were few and mostly used self-report questionnaires, so the size of the effect is uncertain [2].
 
 **The two groups still overlap a lot.** At *g* = 1.17, the groups overlap by about 56% (this page's own calculation from the published effect size, not a figure from the paper). So many adults without ADHD score as high as many with it.
 

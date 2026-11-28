@@ -31,7 +31,7 @@ A 2022 meta-analysis found a similar result (a relative risk of 2.13, 8 studies)
 
 The authors say the gap probably overstates the gap for everyone with ADHD, because most adults with ADHD in the UK are undiagnosed, and the people who do get a diagnosis may not be typical of everyone with ADHD. They also say the gap is unlikely to be caused by ADHD itself [4].
 
-**The "13 years" figure is modelled, not measured.** It is a calculator estimate from a Milwaukee cohort of children diagnosed with hyperactivity in 1978–80, of whom 131 (with 71 controls) were reassessed at an average age of 27; no deaths were counted [5]. The paper's abstract gives an estimated 9.5 fewer years of healthy life and 8.4 fewer years of total life for the childhood group, and a 12.7-year reduction for those whose ADHD persisted into adulthood [5]. The lead author's summaries describe the persistent group's figures as 12.7 healthy and 11.1 total years; the 11.1 figure is not in the abstract.
+**The "13 years" figure is modelled, not measured.** It is a calculator estimate from a Milwaukee cohort of children diagnosed with hyperactivity in 1978–80, of whom 131 (with 71 people without ADHD for comparison) were reassessed at an average age of 27; no deaths were counted [5]. The paper's abstract gives an estimated 9.5 fewer years of healthy life and 8.4 fewer years of total life for the childhood group, and a 12.7-year reduction for those whose ADHD persisted into adulthood [5]. The lead author's summaries describe the persistent group's figures as 12.7 healthy and 11.1 total years; the 11.1 figure is not in the abstract.
 
 It is a clinical sample of mostly boys, more severe than ADHD in the community, and it measures risk factors, which can change.
 
