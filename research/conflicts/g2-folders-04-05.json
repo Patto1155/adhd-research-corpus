@@ -1171,5 +1171,137 @@
     "severity": "major",
     "next_step": "Revisit the heading 'much weaker than headlines suggest': it remains fair for the Swedish adjusted estimate but sits awkwardly beside a 2026 pooled HR of 2.52 and the All of Us HR of 4.60 with genetic support. Add the 2026 meta-analysis and All of Us study with absolute figures (6.7% against 3.4% over about 10 years), keep the reverse-causation and confounding caveats, and note that 'cognitive impairment' includes mild cognitive impairment, not only dementia. Check overlap of studies in the meta-analysis before treating it as independent.",
     "new_research": true
+  },
+  {
+    "id": "C05-001",
+    "topic": "Does childhood ADHD medication protect against later substance problems?",
+    "page": "05-what-often-comes-with-it/alcohol-drugs-and-addiction.md",
+    "claim": "Prescribed medication has not been found to raise later addiction risk; in observational studies medicated periods had fewer substance-related problems ('if anything, medicated periods are associated with fewer substance problems').",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Protective association: within-person US insurance data found 31-35% lower odds of substance-related events in medicated months; a Swedish registry found 31% lower substance-related outcomes after stimulant use; a 2025 target-trial emulation found 15% lower substance misuse over two years.",
+        "sources": [
+          {
+            "citation": "Quinn PD, et al. ADHD medication and substance-related problems. Am J Psychiatry. 2017.",
+            "doi": null,
+            "pmid": "28659039",
+            "year": 2017,
+            "design": "within-person insurance-claims cohort",
+            "n": "about 3 million",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Chang Z, et al. Stimulant ADHD medication and risk for substance abuse. J Child Psychol Psychiatry. 2014.",
+            "doi": null,
+            "pmid": "25158998",
+            "year": 2014,
+            "design": "national registry",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          },
+          {
+            "citation": "Zhang L, et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. BMJ. 2025.",
+            "doi": "10.1136/bmj-2024-083658",
+            "pmid": "40803836",
+            "year": 2025,
+            "design": "target-trial emulation, national registry",
+            "n": "148,581",
+            "cited_on_page": true,
+            "verified": "PubMed record (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Neutral in the long run: a meta-analysis of 15 studies found childhood stimulant treatment neither raised nor lowered later substance outcomes, and the MTA's 16-year follow-up of 579 children, using models that adjust for changing confounders, found no evidence that current, prior, longer or continuous stimulant treatment was linked to adult substance use or substance use disorder in either direction.",
+        "sources": [
+          {
+            "citation": "Humphreys KL, et al. Stimulant medication and substance use outcomes: a meta-analysis. JAMA Psychiatry. 2013.",
+            "doi": "10.1001/jamapsychiatry.2013.1273",
+            "pmid": null,
+            "year": 2013,
+            "design": "meta-analysis of observational studies",
+            "n": "15 studies",
+            "cited_on_page": true,
+            "verified": "Crossref record (DOI as cited on page)"
+          },
+          {
+            "citation": "Molina BSG, et al. Association Between Stimulant Treatment and Substance Use Through Adolescence Into Early Adulthood. JAMA Psychiatry. 2023.",
+            "doi": "10.1001/jamapsychiatry.2023.2157",
+            "pmid": "37405756",
+            "year": 2023,
+            "design": "clinical cohort with marginal structural models (MTA)",
+            "n": "579",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "The protective findings are short-term (month-by-month or two-year windows) and concern acute substance-related events such as emergency visits, which medication might reduce through less impulsive behaviour while it is being taken; the neutral findings concern long-term use patterns years later. Registry estimates may also reflect healthy-adherer effects (people stable enough to take medication regularly). The two sides agree that medication does not raise risk.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Add Molina 2023 as the best long-term evidence that childhood stimulant treatment neither increases nor prevents adult substance use, and qualify 'if anything, medicated periods are associated with fewer substance problems' as a short-term finding about acute events. Mirror on 06-treatment-what-works/what-registries-show.md if it makes the same claim. Confirm PMID for Humphreys 2013 from PubMed.",
+    "new_research": true
+  },
+  {
+    "id": "C05-002",
+    "topic": "Does ADHD itself lead to substance use, or is the link confounded?",
+    "page": "05-what-often-comes-with-it/alcohol-drugs-and-addiction.md",
+    "claim": "Shared genetic influences, impulsivity, reward differences and social factors probably all contribute; the self-medication idea is a hypothesis with no good test found.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Prospective cohorts and meta-analyses show children with ADHD go on to higher nicotine use (odds ratio 2.36) and alcohol use disorder (1.35), and the page treats mechanism as open.",
+        "sources": [
+          {
+            "citation": "Charach A, et al. Childhood attention-deficit/hyperactivity disorder and future substance use disorders: comparative meta-analyses. J Am Acad Child Adolesc Psychiatry. 2011.",
+            "doi": "10.1016/j.jaac.2010.09.019",
+            "pmid": "21156266",
+            "year": 2011,
+            "design": "meta-analysis of prospective cohorts",
+            "n": "13 cohorts",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract (as cited on page)"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Mendelian randomisation suggests genetic liability to ADHD has a causal effect on starting and continuing smoking (and on smoking heaviness), and on cannabis initiation, with weaker evidence for alcohol dependence; a second study also supported a causal effect of ADHD liability on substance use disorder alongside a shared genetic background.",
+        "sources": [
+          {
+            "citation": "Treur JL, et al. Investigating causality between liability to ADHD and substance use, and liability to substance use and ADHD risk, using Mendelian randomization. Addict Biol. 2021.",
+            "doi": "10.1111/adb.12849",
+            "pmid": "31733098",
+            "year": 2021,
+            "design": "bidirectional two-sample Mendelian randomisation",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Vilar-Ribó L, et al. Genetic overlap and causality between substance use disorder and attention-deficit and hyperactivity disorder. Am J Med Genet B Neuropsychiatr Genet. 2021.",
+            "doi": "10.1002/ajmg.b.32827",
+            "pmid": "33244849",
+            "year": 2021,
+            "design": "genetic correlation and Mendelian randomisation",
+            "n": "989 clinical sample plus GWAS summary data",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Not a contradiction but a gap: the page presents causation as unknown, while genetic causal-inference studies offer moderate support for a path from ADHD liability to smoking and cannabis. MR assumes the variants affect substance use only through ADHD; ADHD variants overlap with education and risk-taking, so pleiotropy could inflate estimates. MR also cannot say whether the path runs through self-medication, impulsivity or social disadvantage.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add a sentence in 'Why the link exists' that genetic (Mendelian randomisation) studies support ADHD liability raising smoking and cannabis initiation, with the usual MR caveats; it still does not test self-medication specifically. Consider linking to genes-and-inheritance for shared genetics.",
+    "new_research": true
   }
 ]

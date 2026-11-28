@@ -1146,5 +1146,407 @@
     "severity": "minor",
     "next_step": "Check the Zhang-James full text for adult AUC to say how far above chance; the page's 'What this means for you' ('the largest adult scan comparisons found no reliable differences') should mention the multivariate result.",
     "new_research": false
+  },
+  {
+    "id": "C03-001",
+    "topic": "Executive deficits: a subgroup or nearly everyone?",
+    "page": "03-why-i-think-and-feel-this-way/executive-function-and-working-memory.md",
+    "claim": "Executive weaknesses are 'neither necessary nor sufficient'; older estimates put executive impairment at a third to a half of children with ADHD, while one study found 89%.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Medium average effects with heavy overlap mean many people with ADHD test in the normal range; executive deficit may mark only a subgroup (roughly a third to a half).",
+        "sources": [
+          {
+            "citation": "Willcutt EG, et al. Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biol Psychiatry. 2005.",
+            "doi": "10.1016/j.biopsych.2005.02.006",
+            "pmid": "15950006",
+            "year": 2005,
+            "design": "meta-analysis",
+            "n": "83 studies; 3,734 + 2,969",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Nigg JT, et al. Causal heterogeneity in attention-deficit/hyperactivity disorder: do we need neuropsychologically impaired subtypes? Biol Psychiatry. 2005.",
+            "doi": "10.1016/j.biopsych.2004.08.025",
+            "pmid": "15949992",
+            "year": 2005,
+            "design": "review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Using several tests per skill and latent modelling to remove test unreliability, 89% of children with ADHD were impaired on at least one executive domain (working memory 62%).",
+        "sources": [
+          {
+            "citation": "Kofler MJ, et al. Executive functioning heterogeneity in pediatric ADHD. J Abnorm Child Psychol. 2019.",
+            "doi": "10.1007/s10802-018-0438-2",
+            "pmid": "29705926",
+            "year": 2019,
+            "design": "case-control",
+            "n": "136",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "method/measurement",
+    "why_they_may_differ": "Single tests are unreliable and capture one skill, so they under-detect impairment; aggregating multiple tests raises detection but also the chance of finding 'impairment' in one of several domains (the 89% is 'any of three'), and the comparison-group impairment rate matters. The cut-off for 'impaired' varies.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Find the comparison-group rate of 'impaired on at least one domain' in Kofler 2019 so the 89% can be read against a baseline; look for a replication of multi-indicator estimates in a larger or adult sample.",
+    "new_research": false
+  },
+  {
+    "id": "C03-002",
+    "topic": "Is emotion dysregulation a core part of ADHD?",
+    "page": "03-why-i-think-and-feel-this-way/emotions-and-rejection.md",
+    "claim": "Emotion dysregulation is common but not a listed symptom; experts disagree whether it should be (core, separate-but-related, or a subgroup).",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Emotional impulsivity and deficient emotional self-regulation may be specific enough to ADHD to serve as diagnostic criteria; a 2026 meta-analysis of 75 studies (63 on ADHD) found emotion dysregulation correlated with externalising symptoms (r = 0.35; lability r = 0.47) regardless of age, sex, informant, subtype, comorbidity or medication.",
+        "sources": [
+          {
+            "citation": "Faraone SV, et al. Practitioner Review: Emotional dysregulation in attention-deficit/hyperactivity disorder - implications for clinical recognition and intervention. J Child Psychol Psychiatry. 2019.",
+            "doi": "10.1111/jcpp.12899",
+            "pmid": "29624671",
+            "year": 2019,
+            "design": "practitioner review",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Njardvik U, et al. Emotion dysregulation in children and adolescents with externalizing disorders: a systematic review and meta-analysis. Eur Child Adolesc Psychiatry. 2026.",
+            "doi": "10.1007/s00787-026-03090-8",
+            "pmid": "42301280",
+            "year": 2026,
+            "design": "meta-analysis",
+            "n": "75 studies; 11,913",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Soler-Gutiérrez AM, et al. Evidence of emotion dysregulation as a core symptom of adult ADHD: a systematic review. PLoS One. 2023.",
+            "doi": "10.1371/journal.pone.0280131",
+            "pmid": "36608036",
+            "year": 2023,
+            "design": "systematic review",
+            "n": "22 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Emotion dysregulation affects only a portion of children with ADHD in clinic studies and is best seen as a dimension; competing models treat it as a separate correlated problem or the mark of a subgroup; emotional symptoms are non-specific across disorders and there is no agreed definition.",
+        "sources": [
+          {
+            "citation": "Shaw P, et al. Emotion dysregulation in attention deficit hyperactivity disorder. Am J Psychiatry. 2014.",
+            "doi": "10.1176/appi.ajp.2013.13070966",
+            "pmid": "24480998",
+            "year": 2014,
+            "design": "review",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "A moderate correlation (r about 0.35) means emotion dysregulation travels with ADHD symptoms but is far from identical to them, which each camp reads differently. Much of the adult evidence is self-report, and overlap with mood, anxiety and trauma conditions makes specificity hard to test. The definitional problem (lability, irritability, emotional impulsivity) is acknowledged by both sides.",
+    "page_handling": "reports both",
+    "severity": "moderate",
+    "next_step": "Add the 2026 meta-analysis (r = 0.35, lability 0.47) as the best current estimate of strength of association in young people; note Faraone 2019 as the 'core symptom' side so the debate has a named source on each side.",
+    "new_research": true
+  },
+  {
+    "id": "C03-003",
+    "topic": "Rejection sensitive dysphoria (RSD) as a concept",
+    "page": "03-why-i-think-and-feel-this-way/emotions-and-rejection.md",
+    "claim": "RSD is not established as a condition; where the term came from was not checked for this page.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Lived-experience research describes intense, embodied responses to rejection that people with ADHD name as RSD; rejection sensitivity is associated with ADHD symptoms in adolescents.",
+        "sources": [
+          {
+            "citation": "Rowney-Smith A, et al. The lived experience of rejection sensitivity in ADHD - a qualitative exploration. PLoS One. 2026.",
+            "doi": "10.1371/journal.pone.0314669",
+            "pmid": "41564005",
+            "year": 2026,
+            "design": "qualitative",
+            "n": "5",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Babinski DE, et al. Sensitivity to peer feedback in young adolescents with symptoms of ADHD: examination of neurophysiological and self-report measures. J Abnorm Child Psychol. 2019.",
+            "doi": "10.1007/s10802-018-0470-2",
+            "pmid": "30155685",
+            "year": 2019,
+            "design": "correlational",
+            "n": null,
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "A 2026 critical reflection traces RSD to the US psychiatrist William Dodson's clinical experience and spread via social media, and argues its use in professional communication is problematic (terminological fragmentation, environmental factors under-emphasised, limited evidence), recommending the established rejection-sensitivity construct instead.",
+        "sources": [
+          {
+            "citation": "van Asselt A. [Rejection sensitivity dysphoria: a critical reflection]. Tijdschr Psychiatr. 2026.",
+            "doi": null,
+            "pmid": "41944472",
+            "year": 2026,
+            "design": "expert commentary (Dutch)",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "The sides largely agree on the experience but differ on whether a new label adds anything beyond rejection sensitivity and emotion dysregulation. Neither side has a validated RSD measure, so the dispute is conceptual rather than empirical.",
+    "page_handling": "reports both",
+    "severity": "minor",
+    "next_step": "Fill the page's 'where the term first came from was not checked' using van Asselt 2026 (confirm in the full text that Dodson is named as originator); recheck for any RSD questionnaire validation in 2026.",
+    "new_research": true
+  },
+  {
+    "id": "C03-004",
+    "topic": "Is hyperfocus more common in diagnosed ADHD?",
+    "page": "03-why-i-think-and-feel-this-way/attention-regulation-and-hyperfocus.md",
+    "claim": "People with more ADHD symptoms report hyperfocus more often; there are 'no studies of how common it is in diagnosed adults'.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "In online adult samples (pilot n = 251, replication n = 372), higher ADHD symptoms went with more frequent hyperfocus in school, hobbies and screen time; a 12-item dispositional scale correlated r = 0.53 with an ADHD rating scale.",
+        "sources": [
+          {
+            "citation": "Hupfeld KE, et al. Living \"in the zone\": hyperfocus in adult ADHD. Atten Defic Hyperact Disord. 2019.",
+            "doi": "10.1007/s12402-018-0272-y",
+            "pmid": "30267329",
+            "year": 2019,
+            "design": "cross-sectional survey",
+            "n": "251 + 372",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Hupfeld KE, et al. Validation of the dispositional adult hyperfocus questionnaire (AHQ-D). Sci Rep. 2024.",
+            "doi": "10.1038/s41598-024-70028-y",
+            "pmid": "39169147",
+            "year": 2024,
+            "design": "psychometric validation",
+            "n": "347",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In a study that included 78 diagnosed adults compared with matched controls, patients and controls did not differ in occurrence, frequency, duration or pervasiveness of hyperfocus (hyperfocus was less likely in educational and social settings in ADHD), although ADHD traits correlated with hyperfocus frequency in 1,124 healthy adults. The authors concluded hyperfocus is not specific to ADHD patients.",
+        "sources": [
+          {
+            "citation": "Groen Y, et al. Testing the relation between ADHD and hyperfocus experiences. Res Dev Disabil. 2020.",
+            "doi": "10.1016/j.ridd.2020.103789",
+            "pmid": "33126147",
+            "year": 2020,
+            "design": "case-control + population survey",
+            "n": "78 patients; 1,124 healthy adults",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "population/age",
+    "why_they_may_differ": "Trait correlations in online community samples can arise from shared self-report style (people endorsing many experiences), while a diagnosed clinical group compared with matched controls tests the clinical claim directly. Questionnaires differ, and 'hyperfocus' has no agreed definition.",
+    "page_handling": "reports one side",
+    "severity": "moderate",
+    "next_step": "Add Groen 2020 to the page and remove or revise 'no studies of how common it is in diagnosed adults'; the page already says hyperfocus is not unique to ADHD, which Groen supports more strongly than the current sources.",
+    "new_research": true
+  },
+  {
+    "id": "C03-005",
+    "topic": "Does poor sleep cause ADHD, or the reverse?",
+    "page": "03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md",
+    "claim": "Which causes which is not settled; research is mostly cross-sectional and cannot tell the directions apart.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A bidirectional Mendelian randomisation study (genetic variants as natural experiments) estimated that genetically predicted insomnia raised ADHD risk (OR 1.33, 95% CI 1.22-1.45), with a suggestive link from ADHD to shorter sleep.",
+        "sources": [
+          {
+            "citation": "Sun X, et al. Sleep disturbance and psychiatric disorders: a bidirectional Mendelian randomisation study. Epidemiol Psychiatr Sci. 2022.",
+            "doi": "10.1017/S2045796021000810",
+            "pmid": "35465862",
+            "year": 2022,
+            "design": "Mendelian randomisation",
+            "n": "GWAS summary data",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "An earlier Mendelian randomisation study found insomnia causally linked to autism and bipolar disorder, but no significant causal estimate in either direction for ADHD.",
+        "sources": [
+          {
+            "citation": "Gao X, et al. The bidirectional causal relationships of insomnia with five major psychiatric disorders: a Mendelian randomization study. Eur Psychiatry. 2019.",
+            "doi": "10.1016/j.eurpsy.2019.05.004",
+            "pmid": "31234011",
+            "year": 2019,
+            "design": "Mendelian randomisation",
+            "n": "GWAS summary data",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "direct contradiction",
+    "why_they_may_differ": "Different insomnia GWAS instruments, different (older versus newer) ADHD GWAS, and different pleiotropy filters (HEIDI versus multiple robust estimators). Insomnia variants overlap with general psychiatric liability, which can mimic causation. MR estimates lifelong genetic tendency, not the effect of a bad night or of treating sleep.",
+    "page_handling": "not mentioned",
+    "severity": "moderate",
+    "next_step": "Add a sentence that genetic (Mendelian randomisation) studies exist and disagree; check for newer MR using the 2023 ADHD GWAS and for prospective cohort studies testing whether early sleep problems predict later ADHD symptoms.",
+    "new_research": true
+  },
+  {
+    "id": "C03-006",
+    "topic": "Does shifting the body clock improve ADHD symptoms?",
+    "page": "03-why-i-think-and-feel-this-way/sleep-and-the-body-clock.md",
+    "claim": "Whether shifting the body clock also improves daytime ADHD symptoms 'has hardly been tested'.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "A three-arm RCT in 51 adults with ADHD and delayed sleep phase found low-dose melatonin advanced melatonin onset by about 1.5 hours and reduced self-rated ADHD symptoms by 14%; a pilot found that correcting delayed phase with bright light predicted ADHD symptom improvement.",
+        "sources": [
+          {
+            "citation": "van Andel E, et al. Effects of chronotherapy on circadian rhythm and ADHD symptoms in adults with attention-deficit/hyperactivity disorder and delayed sleep phase syndrome: a randomized clinical trial. Chronobiol Int. 2021.",
+            "doi": "10.1080/07420528.2020.1835943",
+            "pmid": "33121289",
+            "year": 2021,
+            "design": "RCT",
+            "n": "51",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Fargason RE, et al. Correcting delayed circadian phase with bright light therapy predicts improvement in ADHD symptoms: a pilot study. J Psychiatr Res. 2017.",
+            "doi": "10.1016/j.jpsychires.2017.03.004",
+            "pmid": "28327443",
+            "year": 2017,
+            "design": "pilot study",
+            "n": null,
+            "cited_on_page": false,
+            "verified": "PubMed record only"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "In the same RCT, melatonin plus bright light advanced the clock more but did not change ADHD symptoms, and both clock and symptom changes were gone two weeks after treatment; the earlier systematic review found few treatment trials.",
+        "sources": [
+          {
+            "citation": "van Andel E, et al. Effects of chronotherapy on circadian rhythm and ADHD symptoms in adults with attention-deficit/hyperactivity disorder and delayed sleep phase syndrome: a randomized clinical trial. Chronobiol Int. 2021.",
+            "doi": "10.1080/07420528.2020.1835943",
+            "pmid": "33121289",
+            "year": 2021,
+            "design": "RCT",
+            "n": "51",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Coogan AN, et al. A systematic review of circadian function, chronotype and chronotherapy in attention deficit hyperactivity disorder. Atten Defic Hyperact Disord. 2017.",
+            "doi": "10.1007/s12402-016-0214-5",
+            "pmid": "28064405",
+            "year": 2017,
+            "design": "systematic review",
+            "n": "62 studies",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "size of effect",
+    "why_they_may_differ": "Small, short trials with self-rated outcomes; the arm that shifted the clock most did not improve symptoms, so the link between phase shift and symptom change is unclear. The reviews that say 'hardly tested' predate the RCT.",
+    "page_handling": "not mentioned",
+    "severity": "minor",
+    "next_step": "Revise 'has hardly been tested' to describe the one small RCT and its mixed result; report findings only, consistent with the no-advice rule.",
+    "new_research": true
+  },
+  {
+    "id": "C03-007",
+    "topic": "Why people with ADHD choose 'now' over 'later'",
+    "page": "03-why-i-think-and-feel-this-way/time-waiting-and-rewards.md",
+    "claim": "Steeper delay discounting is robust (d = 0.43) and the same in young people and adults; delay aversion is one route in the dual pathway model.",
+    "positions": [
+      {
+        "label": "A",
+        "summary": "Meta-analyses find medium effects for monetary delay discounting with minimal heterogeneity and no age moderation; in children, choice impulsivity g = 0.47.",
+        "sources": [
+          {
+            "citation": "Jackson JN, MacKillop J. Attention-deficit/hyperactivity disorder and monetary delay discounting: a meta-analysis of case-control studies. Biol Psychiatry Cogn Neurosci Neuroimaging. 2016.",
+            "doi": "10.1016/j.bpsc.2016.01.007",
+            "pmid": "27722208",
+            "year": 2016,
+            "design": "meta-analysis",
+            "n": "21 studies; 3,913",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          },
+          {
+            "citation": "Patros CH, et al. Choice-impulsivity in children and adolescents with attention-deficit/hyperactivity disorder (ADHD): a meta-analytic review. Clin Psychol Rev. 2016.",
+            "doi": "10.1016/j.cpr.2015.11.001",
+            "pmid": "26602954",
+            "year": 2016,
+            "design": "meta-analysis",
+            "n": "26 studies; 4,320",
+            "cited_on_page": true,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "summary": "Effects are only small-to-medium, inflated in single-informant studies and those excluding girls; in a comparative meta-analysis, offering real rather than hypothetical rewards almost doubled the odds of impulsive choice in ADHD, which the authors read as delay aversion interacting with demotivation by hypothetical rewards rather than a pure discounting trait.",
+        "sources": [
+          {
+            "citation": "Marx I, et al. ADHD and the choice of small immediate over larger delayed rewards: a comparative meta-analysis of performance on simple choice-delay and temporal discounting paradigms. J Atten Disord. 2021.",
+            "doi": "10.1177/1087054718772138",
+            "pmid": "29806533",
+            "year": 2021,
+            "design": "meta-analysis",
+            "n": "37 comparisons; 3,763",
+            "cited_on_page": false,
+            "verified": "PubMed record + abstract"
+          }
+        ]
+      }
+    ],
+    "conflict_type": "causal interpretation",
+    "why_they_may_differ": "Temporal-discounting questionnaires with hypothetical money and choice-delay tasks with real waits measure different things; real waits engage delay aversion, hypothetical tasks engage valuation and motivation. Diagnostic rigour and sex composition shift effect sizes.",
+    "page_handling": "reports one side",
+    "severity": "minor",
+    "next_step": "Add Marx 2021 to show that task type (real waits versus hypothetical money) changes the effect, which bears on the page's interpretation of deadlines; align the evidence grade for Sonuga-Barke 2003 across pages ('Expert review' here, 'Moderate' on why-no-two-adhd-brains-are-alike.md).",
+    "new_research": true
   }
 ]
